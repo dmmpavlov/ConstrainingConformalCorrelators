@@ -1,0 +1,254 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      8358,        244]
+NotebookOptionsPosition[      7912,        229]
+NotebookOutlinePosition[      8304,        245]
+CellTagsIndexPosition[      8261,        242]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "Define", " ", "the", " ", "variables", " ", "H", " ", "and", " ", "V"}], 
+   "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"ClearAll", "[", 
+     RowBox[{"H", ",", "V"}], "]"}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"H", "[", 
+       RowBox[{"i", ",", "j"}], "]"}], " ", "with", " ", "1"}], "<=", "i", "<",
+      "j", "<=", "n"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Hvars", "[", "n_", "]"}], ":=", 
+     RowBox[{"Flatten", "@", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"H", "[", 
+         RowBox[{"i", ",", "j"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "1", ",", "n"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"j", ",", 
+          RowBox[{"i", "+", "1"}], ",", "n"}], "}"}]}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"V", "[", 
+        RowBox[{"i", ",", "j"}], "]"}], " ", "with", " ", "j"}], "!=", "i"}], 
+     ",", 
+     RowBox[{"i", "+", 
+      RowBox[{"1", " ", 
+       RowBox[{"(", "cyclic", ")"}]}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Vvars", "[", "n_", "]"}], ":=", 
+     RowBox[{"Flatten", "@", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"j", "!=", "i"}], "&&", 
+           RowBox[{"j", "!=", 
+            RowBox[{
+             RowBox[{"Mod", "[", 
+              RowBox[{"i", ",", "n"}], "]"}], "+", "1"}]}]}], ",", 
+          RowBox[{"V", "[", 
+           RowBox[{"i", ",", "j"}], "]"}], ",", "Nothing"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "1", ",", "n"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"j", ",", "1", ",", "n"}], "}"}]}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Define", " ", "the", " ", "multidegrees"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"degH", "[", 
+      RowBox[{"i_", ",", "j_", ",", "n_"}], "]"}], ":=", 
+     RowBox[{
+      RowBox[{"UnitVector", "[", 
+       RowBox[{"n", ",", "i"}], "]"}], "+", 
+      RowBox[{"UnitVector", "[", 
+       RowBox[{"n", ",", "j"}], "]"}]}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"degV", "[", 
+      RowBox[{"i_", ",", "j_", ",", "n_"}], "]"}], ":=", 
+     RowBox[{"UnitVector", "[", 
+      RowBox[{"n", ",", "i"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"The", " ", "degree", " ", "map"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"varDegrees", "[", "n_", "]"}], ":=", 
+     RowBox[{"Association", "[", 
+      RowBox[{"Join", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"H", "[", 
+             RowBox[{"i", ",", "j"}], "]"}], "->", 
+            RowBox[{"degH", "[", 
+             RowBox[{"i", ",", "j", ",", "n"}], "]"}]}], ",", 
+           RowBox[{"{", 
+            RowBox[{"i", ",", "1", ",", "n"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"j", ",", 
+             RowBox[{"i", "+", "1"}], ",", "n"}], "}"}]}], "]"}], "//", 
+         "Flatten"}], ",", 
+        RowBox[{
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"j", "!=", "i"}], "&&", 
+              RowBox[{"j", "!=", 
+               RowBox[{
+                RowBox[{"Mod", "[", 
+                 RowBox[{"i", ",", "n"}], "]"}], "+", "1"}]}]}], ",", 
+             RowBox[{
+              RowBox[{"V", "[", 
+               RowBox[{"i", ",", "j"}], "]"}], "->", 
+              RowBox[{"degV", "[", 
+               RowBox[{"i", ",", "j", ",", "n"}], "]"}]}], ",", "Nothing"}], 
+            "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"i", ",", "1", ",", "n"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"j", ",", "1", ",", "n"}], "}"}]}], "]"}], "//", 
+         "Flatten"}]}], "]"}], "]"}]}], ";"}]}]}]], "Input",
+ CellChangeTimes->{{3.988092027332931*^9, 
+  3.988092062537016*^9}},ExpressionUUID->"bf363d65-326d-4ee0-b9d4-\
+294d4041d08f"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Create", " ", "a", " ", "basis", " ", "of", " ", "mononials"}], 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"basisMonomials", "[", 
+      RowBox[{"n_", ",", "s_List"}], "]"}], ":=", 
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"vars", ",", "degs", ",", "exps", ",", "eqns", ",", "sol"}], 
+        "}"}], ",", 
+       RowBox[{
+        RowBox[{"vars", "=", 
+         RowBox[{"Join", "[", 
+          RowBox[{
+           RowBox[{"Hvars", "[", "n", "]"}], ",", 
+           RowBox[{"Vvars", "[", "n", "]"}]}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"degs", "=", 
+         RowBox[{
+          RowBox[{"varDegrees", "[", "n", "]"}], "/@", "vars"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"exps", "=", 
+         RowBox[{"Array", "[", 
+          RowBox[{"e", ",", 
+           RowBox[{"Length", "[", "vars", "]"}]}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{
+          RowBox[{"vector", " ", "equation"}], "\[RightArrow]", 
+          RowBox[{"list", " ", "of", " ", "scalar", " ", "equations"}]}], 
+         "*)"}], 
+        RowBox[{"eqns", "=", 
+         RowBox[{"Thread", "[", 
+          RowBox[{
+           RowBox[{"Total", "[", 
+            RowBox[{"MapThread", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"#1", " ", "#2"}], "&"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"exps", ",", "degs"}], "}"}]}], "]"}], "]"}], "==", 
+           "s"}], "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"sol", "=", 
+         RowBox[{"Solve", "[", 
+          RowBox[{
+           RowBox[{"Join", "[", 
+            RowBox[{"eqns", ",", 
+             RowBox[{"Thread", "[", 
+              RowBox[{"exps", ">=", "0"}], "]"}]}], "]"}], ",", "exps", ",", 
+           "Integers"}], "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{"build", " ", "monomials"}], "*)"}], 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Times", "@@", 
+             RowBox[{"(", 
+              RowBox[{"vars", "^", "exps"}], ")"}]}], "/.", " ", "#"}], ")"}],
+           "&"}], "/@", "sol"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Count", " ", "the", " ", "number", " ", "of", " ", "monomials", " ", 
+     "for", " ", "given", " ", "n", " ", "and", " ", "spin", " ", "values"}], 
+    "*)"}], "\n", 
+   RowBox[{"Length", "[", 
+    RowBox[{"basisMonomials", "[", 
+     RowBox[{"4", ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "2", ",", "2", ",", "2"}], "}"}]}], "]"}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.9880920680585318`*^9, 
+  3.9880921040016336`*^9}},ExpressionUUID->"3ae85287-ef7f-4ebe-a460-\
+c5895504e6b2"]
+},
+WindowSize->{808, 762},
+WindowMargins->{{245, Automatic}, {0, Automatic}},
+FrontEndVersion->"14.3 for Mac OS X ARM (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f4823712-6b5f-4f69-874b-1fb4638f0cdc"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 4428, 126, 417, "Input",ExpressionUUID->"bf363d65-326d-4ee0-b9d4-294d4041d08f"],
+Cell[4985, 148, 2923, 79, 274, "Input",ExpressionUUID->"3ae85287-ef7f-4ebe-a460-c5895504e6b2"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
