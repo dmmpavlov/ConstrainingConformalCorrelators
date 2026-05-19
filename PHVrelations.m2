@@ -241,7 +241,7 @@ findGramRelations = (n, d, maxTotalDeg) -> (
 
     for totalDeg from 2 to maxTotalDeg do (
         << "-- total multidegree " << totalDeg << " --" << endl;
-        for deg in compositions(n, totalDeg) do (
+        for deg in compositions(2*n, totalDeg) do (
             rels := rationalInterpolateComponent(deg, A, phi);
             if #rels > 0 then (
                 newRels := select(rels, f -> f % idealSoFar != 0);
@@ -258,7 +258,7 @@ findGramRelations = (n, d, maxTotalDeg) -> (
     (idealSoFar, allGens))
 
 -- Example 
-(I, gen) = findGramRelations(4, 2, 4)
+(I, gen) = findGramRelations(4, 2, 10)
 
 -- =================================================================
 -- 2. INTRINSIC TORUS CROSS-RATIOS u_{ijkl}
@@ -416,14 +416,6 @@ hilbertGramQuotient = (n, d, s) -> (
 
         evalMap := map(KK, S, hVals | vVals);
 
-        if n == 3 then (
-            rv := evalMap rel3;
-            if rv != 0 then (
-                badRelCount = badRelCount + 1;
-                << "bad relation value at row " << kEval << " : " << rv << endl;
-            );
-        );
-
         first entries evalMap(monBasis)
     );
 
@@ -440,7 +432,7 @@ hilbertGramQuotient = (n, d, s) -> (
 displayCrossRatios 4;
 displayCrossRatios 5;
 
-print hilbertGramQuotient(3, 3, {1, 1, 1});  -- no Gram constraints
+print hilbertGramQuotient(3, 3, {1, 1, 2});  -- no Gram constraints
 print hilbertGramQuotient(3, 3, {2, 2, 2});
 
 print hilbertGramQuotient(4, 3, {2, 2, 2, 2});
