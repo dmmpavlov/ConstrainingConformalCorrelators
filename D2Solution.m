@@ -1,0 +1,9237 @@
+D2Solution = {a[1] -> 0, a[2] -> 0, a[3] -> 0, a[4] -> 0, a[5] -> 0, 
+     b[1, 1] -> (-1 + \[CapitalDelta]2^2 - 2*\[CapitalDelta]2*
+         \[CapitalDelta]3 + \[CapitalDelta]3^2)/2, b[1, 2] -> 0, 
+     b[1, 3] -> 0, b[1, 4] -> 3*V2*\[CapitalDelta]2 - V2*\[CapitalDelta]2^2 - 
+       3*V2*\[CapitalDelta]3 + 2*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+       V2*\[CapitalDelta]3^2, b[1, 5] -> -3*V3*\[CapitalDelta]2 - 
+       V3*\[CapitalDelta]2^2 + 3*V3*\[CapitalDelta]3 + 
+       2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - V3*\[CapitalDelta]3^2, 
+     b[2, 2] -> 0, b[2, 3] -> 0, b[2, 4] -> 0, b[2, 5] -> 0, b[3, 3] -> 0, 
+     b[3, 4] -> 0, b[3, 5] -> 0, b[4, 4] -> 
+      (3*(8*V2^2 - 6*V2^2*\[CapitalDelta]2 + V2^2*\[CapitalDelta]2^2 + 
+         6*V2^2*\[CapitalDelta]3 - 2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         V2^2*\[CapitalDelta]3^2))/4, b[4, 5] -> 
+      (-4*H23 - 16*V2*V3 - H23*\[CapitalDelta]2^2 + 
+        V2*V3*\[CapitalDelta]2^2 + 2*H23*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - H23*\[CapitalDelta]3^2 + 
+        V2*V3*\[CapitalDelta]3^2)/2, b[5, 5] -> 
+      (3*(8*V3^2 + 6*V3^2*\[CapitalDelta]2 + V3^2*\[CapitalDelta]2^2 - 
+         6*V3^2*\[CapitalDelta]3 - 2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         V3^2*\[CapitalDelta]3^2))/4, c[1, 1, 1] -> 
+      -V1 + V1*\[CapitalDelta]2^2 - 2*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+       V1*\[CapitalDelta]3^2, c[1, 1, 2] -> V2/2, c[1, 1, 3] -> V3/2, 
+     c[1, 1, 4] -> (H12 - 9*H12*\[CapitalDelta]2 + 9*V1*V2*\[CapitalDelta]2 + 
+        5*H12*\[CapitalDelta]2^2 - V1*V2*\[CapitalDelta]2^2 + 
+        9*H12*\[CapitalDelta]3 - 9*V1*V2*\[CapitalDelta]3 - 
+        10*H12*\[CapitalDelta]2*\[CapitalDelta]3 + 2*V1*V2*\[CapitalDelta]2*
+         \[CapitalDelta]3 + 5*H12*\[CapitalDelta]3^2 - 
+        V1*V2*\[CapitalDelta]3^2)/2, c[1, 1, 5] -> 
+      (H31 + 9*H31*\[CapitalDelta]2 - 9*V1*V3*\[CapitalDelta]2 + 
+        5*H31*\[CapitalDelta]2^2 - V1*V3*\[CapitalDelta]2^2 - 
+        9*H31*\[CapitalDelta]3 + 9*V1*V3*\[CapitalDelta]3 - 
+        10*H31*\[CapitalDelta]2*\[CapitalDelta]3 + 2*V1*V3*\[CapitalDelta]2*
+         \[CapitalDelta]3 + 5*H31*\[CapitalDelta]3^2 - 
+        V1*V3*\[CapitalDelta]3^2)/2, c[1, 2, 2] -> 0, c[1, 2, 3] -> 0, 
+     c[1, 2, 4] -> (-4*V2^2 + 3*V2^2*\[CapitalDelta]2 - 
+        3*V2^2*\[CapitalDelta]3)/2, c[1, 2, 5] -> 
+      (-2*H23 - 4*V2*V3 - 3*H23*\[CapitalDelta]2 - 3*V2*V3*\[CapitalDelta]2 + 
+        3*H23*\[CapitalDelta]3 + 3*V2*V3*\[CapitalDelta]3)/2, 
+     c[1, 3, 3] -> (15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+          2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+       (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1), 
+     c[1, 3, 4] -> (-2*H23 - 4*V2*V3 + 3*H23*\[CapitalDelta]2 + 
+        3*V2*V3*\[CapitalDelta]2 - 3*H23*\[CapitalDelta]3 - 
+        3*V2*V3*\[CapitalDelta]3)/2, c[1, 3, 5] -> 
+      (-4*V3^2 - 3*V3^2*\[CapitalDelta]2 + 3*V3^2*\[CapitalDelta]3)/2, 
+     c[1, 4, 4] -> (-36*H12*V2 + 24*V1*V2^2 + 51*H12*V2*\[CapitalDelta]2 - 
+        6*V1*V2^2*\[CapitalDelta]2 - 10*H12*V2*\[CapitalDelta]2^2 - 
+        51*H12*V2*\[CapitalDelta]3 + 6*V1*V2^2*\[CapitalDelta]3 + 
+        20*H12*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        10*H12*V2*\[CapitalDelta]3^2)/2, c[1, 4, 5] -> 
+      (-8*H23*V1 + 12*H31*V2 + 12*H12*V3 - 32*V1*V2*V3 + 
+        15*H31*V2*\[CapitalDelta]2 - 15*H12*V3*\[CapitalDelta]2 - 
+        8*H23*V1*\[CapitalDelta]2^2 - 10*H31*V2*\[CapitalDelta]2^2 - 
+        10*H12*V3*\[CapitalDelta]2^2 - 16*V1*V2*V3*\[CapitalDelta]2^2 - 
+        15*H31*V2*\[CapitalDelta]3 + 15*H12*V3*\[CapitalDelta]3 + 
+        16*H23*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        20*H31*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        20*H12*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        32*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        8*H23*V1*\[CapitalDelta]3^2 - 10*H31*V2*\[CapitalDelta]3^2 - 
+        10*H12*V3*\[CapitalDelta]3^2 - 16*V1*V2*V3*\[CapitalDelta]3^2)/2, 
+     c[1, 5, 5] -> (-36*H31*V3 + 24*V1*V3^2 - 51*H31*V3*\[CapitalDelta]2 + 
+        6*V1*V3^2*\[CapitalDelta]2 - 10*H31*V3*\[CapitalDelta]2^2 + 
+        51*H31*V3*\[CapitalDelta]3 - 6*V1*V3^2*\[CapitalDelta]3 + 
+        20*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        10*H31*V3*\[CapitalDelta]3^2)/2, c[2, 2, 2] -> 0, c[2, 2, 3] -> 0, 
+     c[2, 2, 4] -> 0, c[2, 2, 5] -> 0, c[2, 3, 3] -> 0, c[2, 3, 4] -> 0, 
+     c[2, 3, 5] -> 0, c[2, 4, 4] -> (-3*(-7*V2^3 + 2*V2^3*\[CapitalDelta]2 - 
+         2*V2^3*\[CapitalDelta]3))/4, c[2, 4, 5] -> 
+      (3*(-2*H23*V2 - 3*V2^2*V3 + H23*V2*\[CapitalDelta]2 - 
+         H23*V2*\[CapitalDelta]3))/2, c[2, 5, 5] -> 
+      (3*(6*H23*V3 + 7*V2*V3^2 + 2*H23*V3*\[CapitalDelta]2 + 
+         2*V2*V3^2*\[CapitalDelta]2 - 2*H23*V3*\[CapitalDelta]3 - 
+         2*V2*V3^2*\[CapitalDelta]3))/4, c[3, 3, 3] -> 0, c[3, 3, 4] -> 0, 
+     c[3, 3, 5] -> 0, c[3, 4, 4] -> 
+      (-3*(-6*H23*V2 - 7*V2^2*V3 + 2*H23*V2*\[CapitalDelta]2 + 
+         2*V2^2*V3*\[CapitalDelta]2 - 2*H23*V2*\[CapitalDelta]3 - 
+         2*V2^2*V3*\[CapitalDelta]3))/4, c[3, 4, 5] -> 
+      (-3*(2*H23*V3 + 3*V2*V3^2 + H23*V3*\[CapitalDelta]2 - 
+         H23*V3*\[CapitalDelta]3))/2, c[3, 5, 5] -> 
+      (3*(7*V3^3 + 2*V3^3*\[CapitalDelta]2 - 2*V3^3*\[CapitalDelta]3))/4, 
+     c[4, 4, 4] -> (3*(67*H12*V2^2 - 34*H12*V2^2*\[CapitalDelta]2 + 
+         4*H12*V2^2*\[CapitalDelta]2^2 + 34*H12*V2^2*\[CapitalDelta]3 - 
+         8*H12*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H12*V2^2*\[CapitalDelta]3^2))/4, c[4, 4, 5] -> 
+      (-34*H12*H23 + 81*H31*V2^2 - 178*H12*V2*V3 - 
+        12*H12*H23*\[CapitalDelta]2 - 60*H23*V1*V2*\[CapitalDelta]2 - 
+        78*H31*V2^2*\[CapitalDelta]2 - 48*H12*V2*V3*\[CapitalDelta]2 - 
+        120*V1*V2^2*V3*\[CapitalDelta]2 - 4*H12*H23*\[CapitalDelta]2^2 + 
+        12*H23*V1*V2*\[CapitalDelta]2^2 + 12*H31*V2^2*\[CapitalDelta]2^2 + 
+        16*H12*V2*V3*\[CapitalDelta]2^2 + 24*V1*V2^2*V3*\[CapitalDelta]2^2 + 
+        12*H12*H23*\[CapitalDelta]3 + 60*H23*V1*V2*\[CapitalDelta]3 + 
+        78*H31*V2^2*\[CapitalDelta]3 + 48*H12*V2*V3*\[CapitalDelta]3 + 
+        120*V1*V2^2*V3*\[CapitalDelta]3 + 8*H12*H23*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 24*H23*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        24*H31*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        32*H12*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        48*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        4*H12*H23*\[CapitalDelta]3^2 + 12*H23*V1*V2*\[CapitalDelta]3^2 + 
+        12*H31*V2^2*\[CapitalDelta]3^2 + 16*H12*V2*V3*\[CapitalDelta]3^2 + 
+        24*V1*V2^2*V3*\[CapitalDelta]3^2)/4, c[4, 5, 5] -> 
+      (-34*H23*H31 - 178*H31*V2*V3 + 81*H12*V3^2 + 
+        12*H23*H31*\[CapitalDelta]2 + 60*H23*V1*V3*\[CapitalDelta]2 + 
+        48*H31*V2*V3*\[CapitalDelta]2 + 78*H12*V3^2*\[CapitalDelta]2 + 
+        120*V1*V2*V3^2*\[CapitalDelta]2 - 4*H23*H31*\[CapitalDelta]2^2 + 
+        12*H23*V1*V3*\[CapitalDelta]2^2 + 16*H31*V2*V3*\[CapitalDelta]2^2 + 
+        12*H12*V3^2*\[CapitalDelta]2^2 + 24*V1*V2*V3^2*\[CapitalDelta]2^2 - 
+        12*H23*H31*\[CapitalDelta]3 - 60*H23*V1*V3*\[CapitalDelta]3 - 
+        48*H31*V2*V3*\[CapitalDelta]3 - 78*H12*V3^2*\[CapitalDelta]3 - 
+        120*V1*V2*V3^2*\[CapitalDelta]3 + 8*H23*H31*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 24*H23*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        32*H31*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        24*H12*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        48*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        4*H23*H31*\[CapitalDelta]3^2 + 12*H23*V1*V3*\[CapitalDelta]3^2 + 
+        16*H31*V2*V3*\[CapitalDelta]3^2 + 12*H12*V3^2*\[CapitalDelta]3^2 + 
+        24*V1*V2*V3^2*\[CapitalDelta]3^2)/4, c[5, 5, 5] -> 
+      (3*(67*H31*V3^2 + 34*H31*V3^2*\[CapitalDelta]2 + 
+         4*H31*V3^2*\[CapitalDelta]2^2 - 34*H31*V3^2*\[CapitalDelta]3 - 
+         8*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H31*V3^2*\[CapitalDelta]3^2))/4, d[1, 1, 1, 1] -> 
+      (-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+         \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2)/4, 
+     d[1, 1, 1, 2] -> (2*V1*V2 + 3*H12*\[CapitalDelta]2 + 
+        3*V1*V2*\[CapitalDelta]2 - 3*H12*\[CapitalDelta]3 - 
+        3*V1*V2*\[CapitalDelta]3)/2, d[1, 1, 1, 3] -> 
+      (2*V1*V3 - 3*H31*\[CapitalDelta]2 - 3*V1*V3*\[CapitalDelta]2 + 
+        3*H31*\[CapitalDelta]3 + 3*V1*V3*\[CapitalDelta]3)/2, 
+     d[1, 1, 1, 4] -> (2*H12*V1 - 7*H12*V1*\[CapitalDelta]2 + 
+        2*V1^2*V2*\[CapitalDelta]2 + 2*H12*V1*\[CapitalDelta]2^2 + 
+        7*H12*V1*\[CapitalDelta]3 - 2*V1^2*V2*\[CapitalDelta]3 - 
+        4*H12*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        2*H12*V1*\[CapitalDelta]3^2)/2, d[1, 1, 1, 5] -> 
+      (2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 2*V1^2*V3*\[CapitalDelta]2 + 
+        2*H31*V1*\[CapitalDelta]2^2 - 7*H31*V1*\[CapitalDelta]3 + 
+        2*V1^2*V3*\[CapitalDelta]3 - 4*H31*V1*\[CapitalDelta]2*
+         \[CapitalDelta]3 + 2*H31*V1*\[CapitalDelta]3^2)/2, 
+     d[1, 1, 2, 2] -> V2^2/4, d[1, 1, 2, 3] -> (H23 + V2*V3)/2, 
+     d[1, 1, 2, 4] -> (17*H12*V2 + 4*V1*V2^2 - 9*H12*V2*\[CapitalDelta]2 + 
+        9*H12*V2*\[CapitalDelta]3)/2, d[1, 1, 2, 5] -> 
+      (-7*H23*V1 + 5*H31*V2 - 12*H12*V3 - 20*V1*V2*V3 - 
+        9*H23*V1*\[CapitalDelta]2 - 9*H12*V3*\[CapitalDelta]2 - 
+        18*V1*V2*V3*\[CapitalDelta]2 + 9*H23*V1*\[CapitalDelta]3 + 
+        9*H12*V3*\[CapitalDelta]3 + 18*V1*V2*V3*\[CapitalDelta]3)/2, 
+     d[1, 1, 3, 3] -> V3^2/4 - 
+       V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+            2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+            V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+         (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)), 
+     d[1, 1, 3, 4] -> (-7*H23*V1 - 12*H31*V2 + 5*H12*V3 - 20*V1*V2*V3 + 
+        9*H23*V1*\[CapitalDelta]2 + 9*H31*V2*\[CapitalDelta]2 + 
+        18*V1*V2*V3*\[CapitalDelta]2 - 9*H23*V1*\[CapitalDelta]3 - 
+        9*H31*V2*\[CapitalDelta]3 - 18*V1*V2*V3*\[CapitalDelta]3)/2, 
+     d[1, 1, 3, 5] -> (17*H31*V3 + 4*V1*V3^2 + 9*H31*V3*\[CapitalDelta]2 - 
+        9*H31*V3*\[CapitalDelta]3)/2, d[1, 1, 4, 4] -> 
+      (17*H12^2 - 72*H12*V1*V2 + 12*V1^2*V2^2 - 12*H12^2*\[CapitalDelta]2 + 
+        72*H12*V1*V2*\[CapitalDelta]2 + 4*H12^2*\[CapitalDelta]2^2 - 
+        4*H12*V1*V2*\[CapitalDelta]2^2 + 12*H12^2*\[CapitalDelta]3 - 
+        72*H12*V1*V2*\[CapitalDelta]3 - 8*H12^2*\[CapitalDelta]2*
+         \[CapitalDelta]3 + 8*H12*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H12^2*\[CapitalDelta]3^2 - 4*H12*V1*V2*\[CapitalDelta]3^2)/4, 
+     d[1, 1, 4, 5] -> (-7*H12*H31 - 2*H23*V1^2 + 12*H31*V1*V2 + 
+        12*H12*V1*V3 - 8*V1^2*V2*V3 + 6*H31*V1*V2*\[CapitalDelta]2 - 
+        6*H12*V1*V3*\[CapitalDelta]2 + 4*H12*H31*\[CapitalDelta]2^2 - 
+        2*H23*V1^2*\[CapitalDelta]2^2 - 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+        2*H12*V1*V3*\[CapitalDelta]2^2 - 4*V1^2*V2*V3*\[CapitalDelta]2^2 - 
+        6*H31*V1*V2*\[CapitalDelta]3 + 6*H12*V1*V3*\[CapitalDelta]3 - 
+        8*H12*H31*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H23*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H31*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H12*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        8*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H12*H31*\[CapitalDelta]3^2 - 2*H23*V1^2*\[CapitalDelta]3^2 - 
+        2*H31*V1*V2*\[CapitalDelta]3^2 - 2*H12*V1*V3*\[CapitalDelta]3^2 - 
+        4*V1^2*V2*V3*\[CapitalDelta]3^2)/2, d[1, 1, 5, 5] -> 
+      (17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 12*H31^2*\[CapitalDelta]2 - 
+        72*H31*V1*V3*\[CapitalDelta]2 + 4*H31^2*\[CapitalDelta]2^2 - 
+        4*H31*V1*V3*\[CapitalDelta]2^2 - 12*H31^2*\[CapitalDelta]3 + 
+        72*H31*V1*V3*\[CapitalDelta]3 - 8*H31^2*\[CapitalDelta]2*
+         \[CapitalDelta]3 + 8*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H31^2*\[CapitalDelta]3^2 - 4*H31*V1*V3*\[CapitalDelta]3^2)/4, 
+     d[1, 2, 2, 2] -> 0, d[1, 2, 2, 3] -> 0, d[1, 2, 2, 4] -> -1/2*V2^3, 
+     d[1, 2, 2, 5] -> -1/2*(V2^2*V3), d[1, 2, 3, 3] -> 0, 
+     d[1, 2, 3, 4] -> -(H23*V2) - V2^2*V3, d[1, 2, 3, 5] -> 
+      -(H23*V3) - V2*V3^2, d[1, 2, 4, 4] -> -25*H12*V2^2 + 3*V1*V2^3 + 
+       9*H12*V2^2*\[CapitalDelta]2 - 9*H12*V2^2*\[CapitalDelta]3, 
+     d[1, 2, 4, 5] -> H12*H23 - 12*H23*V1*V2 - 4*H31*V2^2 - 4*H12*V2*V3 - 
+       24*V1*V2^2*V3 - 3*H12*H23*\[CapitalDelta]2 + 
+       6*H23*V1*V2*\[CapitalDelta]2 + 6*H31*V2^2*\[CapitalDelta]2 + 
+       6*H12*V2*V3*\[CapitalDelta]2 + 12*V1*V2^2*V3*\[CapitalDelta]2 + 
+       3*H12*H23*\[CapitalDelta]3 - 6*H23*V1*V2*\[CapitalDelta]3 - 
+       6*H31*V2^2*\[CapitalDelta]3 - 6*H12*V2*V3*\[CapitalDelta]3 - 
+       12*V1*V2^2*V3*\[CapitalDelta]3, d[1, 2, 5, 5] -> 
+      -5*H23*H31 + 18*H23*V1*V3 - 10*H31*V2*V3 + 15*H12*V3^2 + 
+       33*V1*V2*V3^2 - 6*H23*H31*\[CapitalDelta]2 + 
+       3*H23*V1*V3*\[CapitalDelta]2 - 6*H31*V2*V3*\[CapitalDelta]2 + 
+       3*H12*V3^2*\[CapitalDelta]2 + 6*V1*V2*V3^2*\[CapitalDelta]2 + 
+       6*H23*H31*\[CapitalDelta]3 - 3*H23*V1*V3*\[CapitalDelta]3 + 
+       6*H31*V2*V3*\[CapitalDelta]3 - 3*H12*V3^2*\[CapitalDelta]3 - 
+       6*V1*V2*V3^2*\[CapitalDelta]3, d[1, 3, 3, 3] -> 0, 
+     d[1, 3, 3, 4] -> -1/2*(V2*V3^2) - 
+       H12*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+            2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+            V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+         (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)), 
+     d[1, 3, 3, 5] -> -1/2*V3^3 - 
+       H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+            2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+            V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+         (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)), 
+     d[1, 3, 4, 4] -> -5*H12*H23 + 18*H23*V1*V2 + 15*H31*V2^2 - 
+       10*H12*V2*V3 + 33*V1*V2^2*V3 + 6*H12*H23*\[CapitalDelta]2 - 
+       3*H23*V1*V2*\[CapitalDelta]2 - 3*H31*V2^2*\[CapitalDelta]2 + 
+       6*H12*V2*V3*\[CapitalDelta]2 - 6*V1*V2^2*V3*\[CapitalDelta]2 - 
+       6*H12*H23*\[CapitalDelta]3 + 3*H23*V1*V2*\[CapitalDelta]3 + 
+       3*H31*V2^2*\[CapitalDelta]3 - 6*H12*V2*V3*\[CapitalDelta]3 + 
+       6*V1*V2^2*V3*\[CapitalDelta]3, d[1, 3, 4, 5] -> 
+      H23*H31 - 12*H23*V1*V3 - 4*H31*V2*V3 - 4*H12*V3^2 - 24*V1*V2*V3^2 + 
+       3*H23*H31*\[CapitalDelta]2 - 6*H23*V1*V3*\[CapitalDelta]2 - 
+       6*H31*V2*V3*\[CapitalDelta]2 - 6*H12*V3^2*\[CapitalDelta]2 - 
+       12*V1*V2*V3^2*\[CapitalDelta]2 - 3*H23*H31*\[CapitalDelta]3 + 
+       6*H23*V1*V3*\[CapitalDelta]3 + 6*H31*V2*V3*\[CapitalDelta]3 + 
+       6*H12*V3^2*\[CapitalDelta]3 + 12*V1*V2*V3^2*\[CapitalDelta]3, 
+     d[1, 3, 5, 5] -> -25*H31*V3^2 + 3*V1*V3^3 - 
+       9*H31*V3^2*\[CapitalDelta]2 + 9*H31*V3^2*\[CapitalDelta]3, 
+     d[1, 4, 4, 4] -> (-39*H12^2*V2 + 126*H12*V1*V2^2 + 
+        36*H12^2*V2*\[CapitalDelta]2 - 24*H12*V1*V2^2*\[CapitalDelta]2 - 
+        4*H12^2*V2*\[CapitalDelta]2^2 - 36*H12^2*V2*\[CapitalDelta]3 + 
+        24*H12*V1*V2^2*\[CapitalDelta]3 + 8*H12^2*V2*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 4*H12^2*V2*\[CapitalDelta]3^2)/2, 
+     d[1, 4, 4, 5] -> (-16*H12*H23*V1 + 6*H12*H31*V2 + 18*H31*V1*V2^2 - 
+        3*H12^2*V3 - 88*H12*V1*V2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 + 
+        48*H12*H31*V2*\[CapitalDelta]2 - 12*H23*V1^2*V2*\[CapitalDelta]2 - 
+        12*H31*V1*V2^2*\[CapitalDelta]2 - 12*H12^2*V3*\[CapitalDelta]2 - 
+        24*H12*V1*V2*V3*\[CapitalDelta]2 - 24*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+        4*H12*H23*V1*\[CapitalDelta]2^2 - 8*H12*H31*V2*\[CapitalDelta]2^2 - 
+        4*H12^2*V3*\[CapitalDelta]2^2 - 8*H12*V1*V2*V3*\[CapitalDelta]2^2 + 
+        6*H12*H23*V1*\[CapitalDelta]3 - 48*H12*H31*V2*\[CapitalDelta]3 + 
+        12*H23*V1^2*V2*\[CapitalDelta]3 + 12*H31*V1*V2^2*\[CapitalDelta]3 + 
+        12*H12^2*V3*\[CapitalDelta]3 + 24*H12*V1*V2*V3*\[CapitalDelta]3 + 
+        24*V1^2*V2^2*V3*\[CapitalDelta]3 + 8*H12*H23*V1*\[CapitalDelta]2*
+         \[CapitalDelta]3 + 16*H12*H31*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        8*H12^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        16*H12*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        4*H12*H23*V1*\[CapitalDelta]3^2 - 8*H12*H31*V2*\[CapitalDelta]3^2 - 
+        4*H12^2*V3*\[CapitalDelta]3^2 - 8*H12*V1*V2*V3*\[CapitalDelta]3^2)/2, 
+     d[1, 4, 5, 5] -> (-16*H23*H31*V1 - 3*H31^2*V2 + 6*H12*H31*V3 - 
+        88*H31*V1*V2*V3 + 18*H12*V1*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+        12*H31^2*V2*\[CapitalDelta]2 - 48*H12*H31*V3*\[CapitalDelta]2 + 
+        12*H23*V1^2*V3*\[CapitalDelta]2 + 24*H31*V1*V2*V3*\[CapitalDelta]2 + 
+        12*H12*V1*V3^2*\[CapitalDelta]2 + 24*V1^2*V2*V3^2*\[CapitalDelta]2 - 
+        4*H23*H31*V1*\[CapitalDelta]2^2 - 4*H31^2*V2*\[CapitalDelta]2^2 - 
+        8*H12*H31*V3*\[CapitalDelta]2^2 - 8*H31*V1*V2*V3*\[CapitalDelta]2^2 - 
+        6*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+        48*H12*H31*V3*\[CapitalDelta]3 - 12*H23*V1^2*V3*\[CapitalDelta]3 - 
+        24*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V3^2*\[CapitalDelta]3 - 
+        24*V1^2*V2*V3^2*\[CapitalDelta]3 + 8*H23*H31*V1*\[CapitalDelta]2*
+         \[CapitalDelta]3 + 8*H31^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        16*H12*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        16*H31*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        4*H23*H31*V1*\[CapitalDelta]3^2 - 4*H31^2*V2*\[CapitalDelta]3^2 - 
+        8*H12*H31*V3*\[CapitalDelta]3^2 - 8*H31*V1*V2*V3*\[CapitalDelta]3^2)/
+       2, d[1, 5, 5, 5] -> (-39*H31^2*V3 + 126*H31*V1*V3^2 - 
+        36*H31^2*V3*\[CapitalDelta]2 + 24*H31*V1*V3^2*\[CapitalDelta]2 - 
+        4*H31^2*V3*\[CapitalDelta]2^2 + 36*H31^2*V3*\[CapitalDelta]3 - 
+        24*H31*V1*V3^2*\[CapitalDelta]3 + 8*H31^2*V3*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 4*H31^2*V3*\[CapitalDelta]3^2)/2, 
+     d[2, 2, 2, 2] -> 0, d[2, 2, 2, 3] -> 0, d[2, 2, 2, 4] -> 0, 
+     d[2, 2, 2, 5] -> 0, d[2, 2, 3, 3] -> 0, d[2, 2, 3, 4] -> 0, 
+     d[2, 2, 3, 5] -> 0, d[2, 2, 4, 4] -> (3*V2^4)/4, 
+     d[2, 2, 4, 5] -> (-2*H23*V2^2 - V2^3*V3)/2, d[2, 2, 5, 5] -> 
+      (3*(H23^2 + 2*H23*V2*V3 + V2^2*V3^2))/4, d[2, 3, 3, 3] -> 0, 
+     d[2, 3, 3, 4] -> 0, d[2, 3, 3, 5] -> 0, d[2, 3, 4, 4] -> 
+      (3*(H23*V2^2 + V2^3*V3))/2, d[2, 3, 4, 5] -> (-H23^2 - 2*V2^2*V3^2)/2, 
+     d[2, 3, 5, 5] -> (3*(H23*V3^2 + V2*V3^3))/2, 
+     d[2, 4, 4, 4] -> (-3*(-19*H12*V2^3 + 4*H12*V2^3*\[CapitalDelta]2 - 
+         4*H12*V2^3*\[CapitalDelta]3))/2, d[2, 4, 4, 5] -> 
+      (3*(-3*H12*H23*V2 + 12*H23*V1*V2^2 + 15*H31*V2^3 + 2*H12*V2^2*V3 + 
+         24*V1*V2^3*V3 + 2*H12*H23*V2*\[CapitalDelta]2 - 
+         4*H23*V1*V2^2*\[CapitalDelta]2 - 4*H31*V2^3*\[CapitalDelta]2 - 
+         4*H12*V2^2*V3*\[CapitalDelta]2 - 8*V1*V2^3*V3*\[CapitalDelta]2 - 
+         2*H12*H23*V2*\[CapitalDelta]3 + 4*H23*V1*V2^2*\[CapitalDelta]3 + 
+         4*H31*V2^3*\[CapitalDelta]3 + 4*H12*V2^2*V3*\[CapitalDelta]3 + 
+         8*V1*V2^3*V3*\[CapitalDelta]3))/2, d[2, 4, 5, 5] -> 
+      (3*(-2*H23^2*V1 - 11*H23*H31*V2 + H12*H23*V3 - 16*H23*V1*V2*V3 - 
+         22*H31*V2^2*V3 - 9*H12*V2*V3^2 - 24*V1*V2^2*V3^2 + 
+         2*H23^2*V1*\[CapitalDelta]2 + 4*H23*H31*V2*\[CapitalDelta]2 + 
+         2*H12*H23*V3*\[CapitalDelta]2 + 4*H23*V1*V2*V3*\[CapitalDelta]2 - 
+         2*H23^2*V1*\[CapitalDelta]3 - 4*H23*H31*V2*\[CapitalDelta]3 - 
+         2*H12*H23*V3*\[CapitalDelta]3 - 4*H23*V1*V2*V3*\[CapitalDelta]3))/2, 
+     d[2, 5, 5, 5] -> (3*(17*H23*H31*V3 + 19*H31*V2*V3^2 + 
+         4*H23*H31*V3*\[CapitalDelta]2 + 4*H31*V2*V3^2*\[CapitalDelta]2 - 
+         4*H23*H31*V3*\[CapitalDelta]3 - 4*H31*V2*V3^2*\[CapitalDelta]3))/2, 
+     d[3, 3, 3, 3] -> 0, d[3, 3, 3, 4] -> 0, d[3, 3, 3, 5] -> 0, 
+     d[3, 3, 4, 4] -> (3*(H23^2 + 2*H23*V2*V3 + V2^2*V3^2))/4, 
+     d[3, 3, 4, 5] -> (-2*H23*V3^2 - V2*V3^3)/2, d[3, 3, 5, 5] -> (3*V3^4)/4, 
+     d[3, 4, 4, 4] -> (-3*(-17*H12*H23*V2 - 19*H12*V2^2*V3 + 
+         4*H12*H23*V2*\[CapitalDelta]2 + 4*H12*V2^2*V3*\[CapitalDelta]2 - 
+         4*H12*H23*V2*\[CapitalDelta]3 - 4*H12*V2^2*V3*\[CapitalDelta]3))/2, 
+     d[3, 4, 4, 5] -> (-3*(2*H23^2*V1 - H23*H31*V2 + 11*H12*H23*V3 + 
+         16*H23*V1*V2*V3 + 9*H31*V2^2*V3 + 22*H12*V2*V3^2 + 24*V1*V2^2*V3^2 + 
+         2*H23^2*V1*\[CapitalDelta]2 + 2*H23*H31*V2*\[CapitalDelta]2 + 
+         4*H12*H23*V3*\[CapitalDelta]2 + 4*H23*V1*V2*V3*\[CapitalDelta]2 - 
+         2*H23^2*V1*\[CapitalDelta]3 - 2*H23*H31*V2*\[CapitalDelta]3 - 
+         4*H12*H23*V3*\[CapitalDelta]3 - 4*H23*V1*V2*V3*\[CapitalDelta]3))/2, 
+     d[3, 4, 5, 5] -> (-3*(3*H23*H31*V3 - 12*H23*V1*V3^2 - 2*H31*V2*V3^2 - 
+         15*H12*V3^3 - 24*V1*V2*V3^3 + 2*H23*H31*V3*\[CapitalDelta]2 - 
+         4*H23*V1*V3^2*\[CapitalDelta]2 - 4*H31*V2*V3^2*\[CapitalDelta]2 - 
+         4*H12*V3^3*\[CapitalDelta]2 - 8*V1*V2*V3^3*\[CapitalDelta]2 - 
+         2*H23*H31*V3*\[CapitalDelta]3 + 4*H23*V1*V3^2*\[CapitalDelta]3 + 
+         4*H31*V2*V3^2*\[CapitalDelta]3 + 4*H12*V3^3*\[CapitalDelta]3 + 
+         8*V1*V2*V3^3*\[CapitalDelta]3))/2, d[3, 5, 5, 5] -> 
+      (3*(19*H31*V3^3 + 4*H31*V3^3*\[CapitalDelta]2 - 
+         4*H31*V3^3*\[CapitalDelta]3))/2, d[4, 4, 4, 4] -> 
+      (207*H12^2*V2^2 - 64*H12^2*V2^2*\[CapitalDelta]2 + 
+        4*H12^2*V2^2*\[CapitalDelta]2^2 + 64*H12^2*V2^2*\[CapitalDelta]3 - 
+        8*H12^2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H12^2*V2^2*\[CapitalDelta]3^2)/4, d[4, 4, 4, 5] -> 
+      (-11*H12^2*H23 - 60*H12*H23*V1*V2 + 147*H12*H31*V2^2 - 
+        113*H12^2*V2*V3 - 120*H12*V1*V2^2*V3 - 4*H12^2*H23*\[CapitalDelta]2 - 
+        20*H12*H23*V1*V2*\[CapitalDelta]2 - 56*H12*H31*V2^2*
+         \[CapitalDelta]2 - 16*H12^2*V2*V3*\[CapitalDelta]2 - 
+        40*H12*V1*V2^2*V3*\[CapitalDelta]2 + 4*H12*H23*V1*V2*
+         \[CapitalDelta]2^2 + 4*H12*H31*V2^2*\[CapitalDelta]2^2 + 
+        4*H12^2*V2*V3*\[CapitalDelta]2^2 + 8*H12*V1*V2^2*V3*
+         \[CapitalDelta]2^2 + 4*H12^2*H23*\[CapitalDelta]3 + 
+        20*H12*H23*V1*V2*\[CapitalDelta]3 + 56*H12*H31*V2^2*
+         \[CapitalDelta]3 + 16*H12^2*V2*V3*\[CapitalDelta]3 + 
+        40*H12*V1*V2^2*V3*\[CapitalDelta]3 - 8*H12*H23*V1*V2*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 8*H12*H31*V2^2*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 8*H12^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        16*H12*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H12*H23*V1*V2*\[CapitalDelta]3^2 + 4*H12*H31*V2^2*
+         \[CapitalDelta]3^2 + 4*H12^2*V2*V3*\[CapitalDelta]3^2 + 
+        8*H12*V1*V2^2*V3*\[CapitalDelta]3^2)/2, d[4, 4, 5, 5] -> 
+      (-76*H12*H23*H31 - 4*H23^2*V1^2 + 88*H23*H31*V1*V2 + 119*H31^2*V2^2 + 
+        88*H12*H23*V1*V3 - 580*H12*H31*V2*V3 - 16*H23*V1^2*V2*V3 + 
+        176*H31*V1*V2^2*V3 + 119*H12^2*V3^2 + 176*H12*V1*V2*V3^2 - 
+        16*V1^2*V2^2*V3^2 - 48*H23*H31*V1*V2*\[CapitalDelta]2 - 
+        48*H31^2*V2^2*\[CapitalDelta]2 + 48*H12*H23*V1*V3*\[CapitalDelta]2 - 
+        96*H31*V1*V2^2*V3*\[CapitalDelta]2 + 48*H12^2*V3^2*\[CapitalDelta]2 + 
+        96*H12*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23^2*V1^2*
+         \[CapitalDelta]2^2 + 8*H23*H31*V1*V2*\[CapitalDelta]2^2 + 
+        4*H31^2*V2^2*\[CapitalDelta]2^2 + 8*H12*H23*V1*V3*
+         \[CapitalDelta]2^2 + 16*H12*H31*V2*V3*\[CapitalDelta]2^2 + 
+        16*H23*V1^2*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1*V2^2*V3*
+         \[CapitalDelta]2^2 + 4*H12^2*V3^2*\[CapitalDelta]2^2 + 
+        16*H12*V1*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^2*V2^2*V3^2*
+         \[CapitalDelta]2^2 + 48*H23*H31*V1*V2*\[CapitalDelta]3 + 
+        48*H31^2*V2^2*\[CapitalDelta]3 - 48*H12*H23*V1*V3*\[CapitalDelta]3 + 
+        96*H31*V1*V2^2*V3*\[CapitalDelta]3 - 48*H12^2*V3^2*\[CapitalDelta]3 - 
+        96*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*H23^2*V1^2*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 16*H23*H31*V1*V2*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 8*H31^2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        16*H12*H23*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        32*H12*H31*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        32*H23*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        32*H31*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        8*H12^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        32*H12*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        32*V1^2*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H23^2*V1^2*\[CapitalDelta]3^2 + 8*H23*H31*V1*V2*
+         \[CapitalDelta]3^2 + 4*H31^2*V2^2*\[CapitalDelta]3^2 + 
+        8*H12*H23*V1*V3*\[CapitalDelta]3^2 + 16*H12*H31*V2*V3*
+         \[CapitalDelta]3^2 + 16*H23*V1^2*V2*V3*\[CapitalDelta]3^2 + 
+        16*H31*V1*V2^2*V3*\[CapitalDelta]3^2 + 4*H12^2*V3^2*
+         \[CapitalDelta]3^2 + 16*H12*V1*V2*V3^2*\[CapitalDelta]3^2 + 
+        16*V1^2*V2^2*V3^2*\[CapitalDelta]3^2)/4, d[4, 5, 5, 5] -> 
+      (-11*H23*H31^2 - 60*H23*H31*V1*V3 - 113*H31^2*V2*V3 + 
+        147*H12*H31*V3^2 - 120*H31*V1*V2*V3^2 + 4*H23*H31^2*
+         \[CapitalDelta]2 + 20*H23*H31*V1*V3*\[CapitalDelta]2 + 
+        16*H31^2*V2*V3*\[CapitalDelta]2 + 56*H12*H31*V3^2*\[CapitalDelta]2 + 
+        40*H31*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23*H31*V1*V3*
+         \[CapitalDelta]2^2 + 4*H31^2*V2*V3*\[CapitalDelta]2^2 + 
+        4*H12*H31*V3^2*\[CapitalDelta]2^2 + 8*H31*V1*V2*V3^2*
+         \[CapitalDelta]2^2 - 4*H23*H31^2*\[CapitalDelta]3 - 
+        20*H23*H31*V1*V3*\[CapitalDelta]3 - 16*H31^2*V2*V3*\[CapitalDelta]3 - 
+        56*H12*H31*V3^2*\[CapitalDelta]3 - 40*H31*V1*V2*V3^2*
+         \[CapitalDelta]3 - 8*H23*H31*V1*V3*\[CapitalDelta]2*
+         \[CapitalDelta]3 - 8*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        8*H12*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+        16*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H23*H31*V1*V3*\[CapitalDelta]3^2 + 4*H31^2*V2*V3*
+         \[CapitalDelta]3^2 + 4*H12*H31*V3^2*\[CapitalDelta]3^2 + 
+        8*H31*V1*V2*V3^2*\[CapitalDelta]3^2)/2, d[5, 5, 5, 5] -> 
+      (207*H31^2*V3^2 + 64*H31^2*V3^2*\[CapitalDelta]2 + 
+        4*H31^2*V3^2*\[CapitalDelta]2^2 - 64*H31^2*V3^2*\[CapitalDelta]3 - 
+        8*H31^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+        4*H31^2*V3^2*\[CapitalDelta]3^2)/4, e[1, 1, 1, 1, 1] -> 0, 
+     e[1, 1, 1, 1, 2] -> (V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+        2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+        2*V1^2*V2*\[CapitalDelta]3)/4, e[1, 1, 1, 1, 3] -> 
+      -1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+           2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+           2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+       (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+       (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 
+         2*H12*V1*V3*\[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 
+         2*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+         2*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         V1^2*V2*V3*\[CapitalDelta]3^2)/(4*V2), e[1, 1, 1, 1, 4] -> 
+      (H12*V1^2 - 2*H12*V1^2*\[CapitalDelta]2 + 2*H12*V1^2*\[CapitalDelta]3)/
+       4, e[1, 1, 1, 1, 5] -> (H31*V1^2 + 2*H31*V1^2*\[CapitalDelta]2 - 
+        2*H31*V1^2*\[CapitalDelta]3)/4, e[1, 1, 1, 2, 2] -> (V1*V2^2)/2, 
+     e[1, 1, 1, 2, 3] -> H23*V1 + V1*V2*V3, e[1, 1, 1, 2, 4] -> 
+      -2*H12^2 + H12*V1*V2 + V1^2*V2^2 + H12^2*\[CapitalDelta]2 - 
+       H12^2*\[CapitalDelta]3, e[1, 1, 1, 2, 5] -> 
+      -1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 
+         8*H31*V1*V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 
+         2*H12*H31*\[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 
+         9*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 
+         6*V1^2*V2*V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+         2*H12*H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 
+         9*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+         6*V1^2*V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2, 
+     e[1, 1, 1, 3, 3] -> (V1*V3^2)/2 + 
+       (V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/2, 
+     e[1, 1, 1, 3, 4] -> 2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+       3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + H23*V1^2*\[CapitalDelta]2 + 
+       H31*V1*V2*\[CapitalDelta]2 - H12*V1*V3*\[CapitalDelta]2 + 
+       2*V1^2*V2*V3*\[CapitalDelta]2 + H12*H31*\[CapitalDelta]3 - 
+       H23*V1^2*\[CapitalDelta]3 - H31*V1*V2*\[CapitalDelta]3 + 
+       H12*V1*V3*\[CapitalDelta]3 - 2*V1^2*V2*V3*\[CapitalDelta]3, 
+     e[1, 1, 1, 3, 5] -> (V3*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2))/2 + (-4*H31^2 + 2*V1^2*V3^2 - 
+         2*H31^2*\[CapitalDelta]2 - 7*H31*V1*V3*\[CapitalDelta]2 + 
+         2*V1^2*V3^2*\[CapitalDelta]2 - 2*H31*V1*V3*\[CapitalDelta]2^2 + 
+         2*H31^2*\[CapitalDelta]3 + 7*H31*V1*V3*\[CapitalDelta]3 - 
+         2*V1^2*V3^2*\[CapitalDelta]3 + 4*H31*V1*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 2*H31*V1*V3*\[CapitalDelta]3^2)/2, 
+     e[1, 1, 1, 4, 4] -> (5*H12^2*V1 - 6*H12*V1^2*V2 - 
+        2*H12^2*V1*\[CapitalDelta]2 + 4*H12*V1^2*V2*\[CapitalDelta]2 + 
+        2*H12^2*V1*\[CapitalDelta]3 - 4*H12*V1^2*V2*\[CapitalDelta]3)/2, 
+     e[1, 1, 1, 4, 5] -> -3*H12*H31*V1 + H31*V1^2*V2 + H12*V1^2*V3, 
+     e[1, 1, 1, 5, 5] -> (5*H31^2*V1 - 6*H31*V1^2*V3 + 
+        2*H31^2*V1*\[CapitalDelta]2 - 4*H31*V1^2*V3*\[CapitalDelta]2 - 
+        2*H31^2*V1*\[CapitalDelta]3 + 4*H31*V1^2*V3*\[CapitalDelta]3)/2, 
+     e[1, 1, 2, 2, 2] -> 0, e[1, 1, 2, 2, 3] -> 0, 
+     e[1, 1, 2, 2, 4] -> (4*H12*V2^2 + V1*V2^3)/2, 
+     e[1, 1, 2, 2, 5] -> (-3*H12*H23 - 3*H23*V1*V2 + H31*V2^2 - 3*H12*V2*V3 - 
+        5*V1*V2^2*V3)/2, e[1, 1, 2, 3, 3] -> 0, e[1, 1, 2, 3, 4] -> 
+      (5*H12*H23 - H23*V1*V2 - 3*H31*V2^2 + 5*H12*V2*V3 - 4*V1*V2^2*V3)/2, 
+     e[1, 1, 2, 3, 5] -> (5*H23*H31 - H23*V1*V3 + 5*H31*V2*V3 - 3*H12*V3^2 - 
+        4*V1*V2*V3^2)/2, e[1, 1, 2, 4, 4] -> 
+      (23*H12^2*V2 - 4*H12*V1*V2^2 - 6*H12^2*V2*\[CapitalDelta]2 + 
+        6*H12^2*V2*\[CapitalDelta]3)/2, e[1, 1, 2, 4, 5] -> 
+      (7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+        3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+        6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+        6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+        6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+        6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3)/2, 
+     e[1, 1, 2, 5, 5] -> -1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+          12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+          4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+          12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+          8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+          4*H31*V1*V3*\[CapitalDelta]3^2)) + (-44*H23*H31*V1 + 25*H31^2*V2 - 
+         84*H12*H31*V3 + 48*H23*V1^2*V3 - 208*H31*V1*V2*V3 + 48*H12*V1*V3^2 + 
+         108*V1^2*V2*V3^2 - 24*H23*H31*V1*\[CapitalDelta]2 + 
+         12*H31^2*V2*\[CapitalDelta]2 - 24*H12*H31*V3*\[CapitalDelta]2 - 
+         120*H31*V1*V2*V3*\[CapitalDelta]2 + 4*H31^2*V2*\[CapitalDelta]2^2 - 
+         4*H31*V1*V2*V3*\[CapitalDelta]2^2 + 24*H23*H31*V1*\[CapitalDelta]3 - 
+         12*H31^2*V2*\[CapitalDelta]3 + 24*H12*H31*V3*\[CapitalDelta]3 + 
+         120*H31*V1*V2*V3*\[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 
+         4*H31*V1*V2*V3*\[CapitalDelta]3^2)/8, e[1, 1, 3, 3, 3] -> 0, 
+     e[1, 1, 3, 3, 4] -> (-3*H23*H31 - 3*H23*V1*V3 - 3*H31*V2*V3 + H12*V3^2 - 
+         5*V1*V2*V3^2)/2 + H12*V1*
+        ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+         (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)), 
+     e[1, 1, 3, 3, 5] -> (4*H31*V3^2 + V1*V3^3)/2 + 
+       H31*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+            2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+            V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+         (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)), 
+     e[1, 1, 3, 4, 4] -> (-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+        12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+        6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+        12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+        6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3)/2, 
+     e[1, 1, 3, 4, 5] -> (7*H23*H31*V1 + 3*H31^2*V2 + H12*H31*V3 - 
+        6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 12*V1^2*V2*V3^2 + 
+        6*H23*H31*V1*\[CapitalDelta]2 + 6*H31^2*V2*\[CapitalDelta]2 + 
+        6*H12*H31*V3*\[CapitalDelta]2 + 12*H31*V1*V2*V3*\[CapitalDelta]2 - 
+        6*H23*H31*V1*\[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+        6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*\[CapitalDelta]3)/2, 
+     e[1, 1, 3, 5, 5] -> (23*H31^2*V3 - 4*H31*V1*V3^2 + 
+        6*H31^2*V3*\[CapitalDelta]2 - 6*H31^2*V3*\[CapitalDelta]3)/2, 
+     e[1, 1, 4, 4, 4] -> (H12^3 - 29*H12^2*V1*V2 + 24*H12*V1^2*V2^2 + 
+        12*H12^2*V1*V2*\[CapitalDelta]2 - 12*H12^2*V1*V2*\[CapitalDelta]3)/2, 
+     e[1, 1, 4, 4, 5] -> (3*H12^2*H31 - 2*H12*H23*V1^2 + 20*H12*H31*V1*V2 + 
+        H12^2*V1*V3 - 12*H12*V1^2*V2*V3 + 12*H12*H31*V1*V2*\[CapitalDelta]2 - 
+        12*H12*H31*V1*V2*\[CapitalDelta]3)/2, e[1, 1, 4, 5, 5] -> 
+      (3*H12*H31^2 - 2*H23*H31*V1^2 + H31^2*V1*V2 + 20*H12*H31*V1*V3 - 
+        12*H31*V1^2*V2*V3 - 12*H12*H31*V1*V3*\[CapitalDelta]2 + 
+        12*H12*H31*V1*V3*\[CapitalDelta]3)/2, e[1, 1, 5, 5, 5] -> 
+      (H31^3 - 29*H31^2*V1*V3 + 24*H31*V1^2*V3^2 - 12*H31^2*V1*V3*
+         \[CapitalDelta]2 + 12*H31^2*V1*V3*\[CapitalDelta]3)/2, 
+     e[1, 2, 2, 2, 2] -> 0, e[1, 2, 2, 2, 3] -> 0, e[1, 2, 2, 2, 4] -> 0, 
+     e[1, 2, 2, 2, 5] -> 0, e[1, 2, 2, 3, 3] -> 0, e[1, 2, 2, 3, 4] -> 0, 
+     e[1, 2, 2, 3, 5] -> 0, e[1, 2, 2, 4, 4] -> (-3*V1*V2^4)/4 + 
+       (-16*H12*V2^3 + 3*V1*V2^4)/4, e[1, 2, 2, 4, 5] -> 
+      3*H12*H23*V2 - 2*H23*V1*V2^2 - H31*V2^3 - H12*V2^2*V3 - 4*V1*V2^3*V3, 
+     e[1, 2, 2, 5, 5] -> 3*H23^2*V1 + 3*H12*H23*V3 + 9*H23*V1*V2*V3 - 
+       H31*V2^2*V3 + 3*H12*V2*V3^2 + 6*V1*V2^2*V3^2, e[1, 2, 3, 3, 3] -> 0, 
+     e[1, 2, 3, 3, 4] -> 0, e[1, 2, 3, 3, 5] -> 0, 
+     e[1, 2, 3, 4, 4] -> -5*H12*H23*V2 + 3*H23*V1*V2^2 + 3*H31*V2^3 - 
+       5*H12*V2^2*V3 + 6*V1*V2^3*V3, e[1, 2, 3, 4, 5] -> 
+      -4*H23^2*V1 - 5*H23*H31*V2 - 5*H12*H23*V3 - 12*H23*V1*V2*V3 - 
+       2*H31*V2^2*V3 - 2*H12*V2*V3^2 - 8*V1*V2^2*V3^2, 
+     e[1, 2, 3, 5, 5] -> -5*H23*H31*V3 + 3*H23*V1*V3^2 - 5*H31*V2*V3^2 + 
+       3*H12*V3^3 + 6*V1*V2*V3^3, e[1, 2, 4, 4, 4] -> 
+      -19*H12^2*V2^2 + 12*H12*V1*V2^3 + 4*H12^2*V2^2*\[CapitalDelta]2 - 
+       4*H12^2*V2^2*\[CapitalDelta]3, e[1, 2, 4, 4, 5] -> 
+      -2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 6*H23*V1^2*V2^2 + 
+       6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 
+       6*H12*H23*V1*V2*\[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+       6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*\[CapitalDelta]2 - 
+       6*H12*H23*V1*V2*\[CapitalDelta]3 - 6*H12*H31*V2^2*\[CapitalDelta]3 - 
+       6*H12^2*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V2^2*V3*\[CapitalDelta]3, 
+     e[1, 2, 4, 5, 5] -> 4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+       5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+       20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+       20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+       2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+       2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+       4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*\[CapitalDelta]2 + 
+       8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*V3^2*\[CapitalDelta]2 + 
+       8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*
+        \[CapitalDelta]2 + 2*H12*H23*H31*\[CapitalDelta]3 - 
+       2*H23^2*V1^2*\[CapitalDelta]3 - 4*H23*H31*V1*V2*\[CapitalDelta]3 - 
+       2*H31^2*V2^2*\[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+       4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+       8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+       8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3, 
+     e[1, 2, 5, 5, 5] -> -2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+       15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*\[CapitalDelta]2 + 
+       2*H23*H31*V1*V3*\[CapitalDelta]2 - 2*H31^2*V2*V3*\[CapitalDelta]2 + 
+       2*H12*H31*V3^2*\[CapitalDelta]2 + 4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+       2*H23*H31^2*\[CapitalDelta]3 - 2*H23*H31*V1*V3*\[CapitalDelta]3 + 
+       2*H31^2*V2*V3*\[CapitalDelta]3 - 2*H12*H31*V3^2*\[CapitalDelta]3 - 
+       4*H31*V1*V2*V3^2*\[CapitalDelta]3, e[1, 3, 3, 3, 3] -> 0, 
+     e[1, 3, 3, 3, 4] -> 0, e[1, 3, 3, 3, 5] -> 0, 
+     e[1, 3, 3, 4, 4] -> 3*H23^2*V1 + 3*H23*H31*V2 + 9*H23*V1*V2*V3 + 
+       3*H31*V2^2*V3 - H12*V2*V3^2 + 6*V1*V2^2*V3^2 + 
+       (H12^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/2, 
+     e[1, 3, 3, 4, 5] -> 3*H23*H31*V3 - 2*H23*V1*V3^2 - H31*V2*V3^2 - 
+       H12*V3^3 - 4*V1*V2*V3^3 + H12*H31*
+        ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+         (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)), 
+     e[1, 3, 3, 5, 5] -> (-3*V1*V3^4)/4 + (-16*H31*V3^3 + 3*V1*V3^4)/4 + 
+       (H31^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/2, 
+     e[1, 3, 4, 4, 4] -> -2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+       4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+       2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+       2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 
+       2*H12^2*H23*\[CapitalDelta]3 + 2*H12*H23*V1*V2*\[CapitalDelta]3 + 
+       2*H12*H31*V2^2*\[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+       4*H12*V1*V2^2*V3*\[CapitalDelta]3, e[1, 3, 4, 4, 5] -> 
+      4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 
+       7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 
+       4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 
+       2*H12*H23*H31*\[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+       4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+       4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*\[CapitalDelta]2 - 
+       8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 8*H31*V1*V2^2*V3*
+        \[CapitalDelta]2 - 2*H12^2*V3^2*\[CapitalDelta]2 - 
+       8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*
+        \[CapitalDelta]2 - 2*H12*H23*H31*\[CapitalDelta]3 + 
+       2*H23^2*V1^2*\[CapitalDelta]3 + 4*H23*H31*V1*V2*\[CapitalDelta]3 + 
+       2*H31^2*V2^2*\[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+       4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*\[CapitalDelta]3 + 
+       8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 2*H12^2*V3^2*\[CapitalDelta]3 + 
+       8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3, 
+     e[1, 3, 4, 5, 5] -> -2*H23*H31^2 - 21*H23*H31*V1*V3 - 16*H31^2*V2*V3 - 
+       11*H12*H31*V3^2 + 6*H23*V1^2*V3^2 - 36*H31*V1*V2*V3^2 + 
+       6*H12*V1*V3^3 + 12*V1^2*V2*V3^3 - 6*H23*H31*V1*V3*\[CapitalDelta]2 - 
+       6*H31^2*V2*V3*\[CapitalDelta]2 - 6*H12*H31*V3^2*\[CapitalDelta]2 - 
+       12*H31*V1*V2*V3^2*\[CapitalDelta]2 + 6*H23*H31*V1*V3*
+        \[CapitalDelta]3 + 6*H31^2*V2*V3*\[CapitalDelta]3 + 
+       6*H12*H31*V3^2*\[CapitalDelta]3 + 12*H31*V1*V2*V3^2*\[CapitalDelta]3, 
+     e[1, 3, 5, 5, 5] -> -19*H31^2*V3^2 + 12*H31*V1*V3^3 - 
+       4*H31^2*V3^2*\[CapitalDelta]2 + 4*H31^2*V3^2*\[CapitalDelta]3, 
+     e[1, 4, 4, 4, 4] -> -3*H12^3*V2 + 36*H12^2*V1*V2^2 + 
+       2*H12^3*V2*\[CapitalDelta]2 - 4*H12^2*V1*V2^2*\[CapitalDelta]2 - 
+       2*H12^3*V2*\[CapitalDelta]3 + 4*H12^2*V1*V2^2*\[CapitalDelta]3, 
+     e[1, 4, 4, 4, 5] -> H12^2*H23*V1 - 5*H12^2*H31*V2 - 10*H12*H23*V1^2*V2 + 
+       26*H12*H31*V1*V2^2 + H12^3*V3 - 16*H12^2*V1*V2*V3 - 
+       20*H12*V1^2*V2^2*V3 - 2*H12^2*H23*V1*\[CapitalDelta]2 + 
+       6*H12^2*H31*V2*\[CapitalDelta]2 - 4*H12*H23*V1^2*V2*\[CapitalDelta]2 - 
+       4*H12*H31*V1*V2^2*\[CapitalDelta]2 - 2*H12^3*V3*\[CapitalDelta]2 - 
+       8*H12^2*V1*V2*V3*\[CapitalDelta]2 - 8*H12*V1^2*V2^2*V3*
+        \[CapitalDelta]2 + 2*H12^2*H23*V1*\[CapitalDelta]3 - 
+       6*H12^2*H31*V2*\[CapitalDelta]3 + 4*H12*H23*V1^2*V2*\[CapitalDelta]3 + 
+       4*H12*H31*V1*V2^2*\[CapitalDelta]3 + 2*H12^3*V3*\[CapitalDelta]3 + 
+       8*H12^2*V1*V2*V3*\[CapitalDelta]3 + 8*H12*V1^2*V2^2*V3*
+        \[CapitalDelta]3, e[1, 4, 4, 5, 5] -> -14*H12*H23*H31*V1 - 
+       H12*H31^2*V2 + 6*H23*H31*V1^2*V2 + 6*H31^2*V1*V2^2 - H12^2*H31*V3 + 
+       6*H12*H23*V1^2*V3 - 96*H12*H31*V1*V2*V3 + 12*H31*V1^2*V2^2*V3 + 
+       6*H12^2*V1*V3^2 + 12*H12*V1^2*V2*V3^2 + 6*H12*H31^2*V2*
+        \[CapitalDelta]2 - 6*H12^2*H31*V3*\[CapitalDelta]2 - 
+       6*H12*H31^2*V2*\[CapitalDelta]3 + 6*H12^2*H31*V3*\[CapitalDelta]3, 
+     e[1, 4, 5, 5, 5] -> H23*H31^2*V1 + H31^3*V2 - 5*H12*H31^2*V3 - 
+       10*H23*H31*V1^2*V3 - 16*H31^2*V1*V2*V3 + 26*H12*H31*V1*V3^2 - 
+       20*H31*V1^2*V2*V3^2 + 2*H23*H31^2*V1*\[CapitalDelta]2 + 
+       2*H31^3*V2*\[CapitalDelta]2 - 6*H12*H31^2*V3*\[CapitalDelta]2 + 
+       4*H23*H31*V1^2*V3*\[CapitalDelta]2 + 8*H31^2*V1*V2*V3*
+        \[CapitalDelta]2 + 4*H12*H31*V1*V3^2*\[CapitalDelta]2 + 
+       8*H31*V1^2*V2*V3^2*\[CapitalDelta]2 - 2*H23*H31^2*V1*
+        \[CapitalDelta]3 - 2*H31^3*V2*\[CapitalDelta]3 + 
+       6*H12*H31^2*V3*\[CapitalDelta]3 - 4*H23*H31*V1^2*V3*\[CapitalDelta]3 - 
+       8*H31^2*V1*V2*V3*\[CapitalDelta]3 - 4*H12*H31*V1*V3^2*
+        \[CapitalDelta]3 - 8*H31*V1^2*V2*V3^2*\[CapitalDelta]3, 
+     e[1, 5, 5, 5, 5] -> -3*H31^3*V3 + 36*H31^2*V1*V3^2 - 
+       2*H31^3*V3*\[CapitalDelta]2 + 4*H31^2*V1*V3^2*\[CapitalDelta]2 + 
+       2*H31^3*V3*\[CapitalDelta]3 - 4*H31^2*V1*V3^2*\[CapitalDelta]3, 
+     e[2, 2, 2, 2, 2] -> 0, e[2, 2, 2, 2, 3] -> 0, e[2, 2, 2, 2, 4] -> 0, 
+     e[2, 2, 2, 2, 5] -> 0, e[2, 2, 2, 3, 3] -> 0, e[2, 2, 2, 3, 4] -> 0, 
+     e[2, 2, 2, 3, 5] -> 0, e[2, 2, 2, 4, 4] -> 0, e[2, 2, 2, 4, 5] -> 0, 
+     e[2, 2, 2, 5, 5] -> 0, e[2, 2, 3, 3, 3] -> 0, e[2, 2, 3, 3, 4] -> 0, 
+     e[2, 2, 3, 3, 5] -> 0, e[2, 2, 3, 4, 4] -> 0, e[2, 2, 3, 4, 5] -> 0, 
+     e[2, 2, 3, 5, 5] -> 0, e[2, 2, 4, 4, 4] -> 3*H12*V2^4, 
+     e[2, 2, 4, 4, 5] -> (-3*H31*V2^4)/4 + 
+       (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 
+         24*V1*V2^4*V3)/4, e[2, 2, 4, 5, 5] -> -3*H23^2*V1*V2 - 
+       5*H23*H31*V2^2 - 3*H12*H23*V2*V3 - 9*H23*V1*V2^2*V3 - 4*H31*V2^3*V3 - 
+       3*H12*V2^2*V3^2 - 6*V1*V2^3*V3^2, e[2, 2, 5, 5, 5] -> 
+      3*(H23^2*H31 + 2*H23*H31*V2*V3 + H31*V2^2*V3^2), e[2, 3, 3, 3, 3] -> 0, 
+     e[2, 3, 3, 3, 4] -> 0, e[2, 3, 3, 3, 5] -> 0, e[2, 3, 3, 4, 4] -> 0, 
+     e[2, 3, 3, 4, 5] -> 0, e[2, 3, 3, 5, 5] -> 0, 
+     e[2, 3, 4, 4, 4] -> 6*(H12*H23*V2^2 + H12*V2^3*V3), 
+     e[2, 3, 4, 4, 5] -> -(H12*H23^2) + 3*H23^2*V1*V2 + 3*H23*H31*V2^2 + 
+       3*H12*H23*V2*V3 + 6*H23*V1*V2^2*V3 - 2*H12*V2^2*V3^2, 
+     e[2, 3, 4, 5, 5] -> -(H23^2*H31) + 3*H23^2*V1*V3 + 3*H23*H31*V2*V3 + 
+       3*H12*H23*V3^2 + 6*H23*V1*V2*V3^2 - 2*H31*V2^2*V3^2, 
+     e[2, 3, 5, 5, 5] -> 6*(H23*H31*V3^2 + H31*V2*V3^3), 
+     e[2, 4, 4, 4, 4] -> 17*H12^2*V2^3 - 2*H12^2*V2^3*\[CapitalDelta]2 + 
+       2*H12^2*V2^3*\[CapitalDelta]3, e[2, 4, 4, 4, 5] -> 
+      H12^2*H23*V2 + 12*H12*H23*V1*V2^2 + 30*H12*H31*V2^3 + 8*H12^2*V2^2*V3 + 
+       24*H12*V1*V2^3*V3 - 4*H12*H23*V1*V2^2*\[CapitalDelta]2 - 
+       4*H12*H31*V2^3*\[CapitalDelta]2 - 4*H12^2*V2^2*V3*\[CapitalDelta]2 - 
+       8*H12*V1*V2^3*V3*\[CapitalDelta]2 + 4*H12*H23*V1*V2^2*
+        \[CapitalDelta]3 + 4*H12*H31*V2^3*\[CapitalDelta]3 + 
+       4*H12^2*V2^2*V3*\[CapitalDelta]3 + 8*H12*V1*V2^3*V3*\[CapitalDelta]3, 
+     e[2, 4, 4, 5, 5] -> 3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+       14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+       2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+       28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+       4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+       2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+        \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+       4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+        \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+       8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*\[CapitalDelta]2 - 
+       8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^3*V3^2*
+        \[CapitalDelta]2 - 2*H12*H23*H31*V2*\[CapitalDelta]3 + 
+       2*H23^2*V1^2*V2*\[CapitalDelta]3 + 4*H23*H31*V1*V2^2*
+        \[CapitalDelta]3 + 2*H31^2*V2^3*\[CapitalDelta]3 + 
+       4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 4*H12*H31*V2^2*V3*
+        \[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*\[CapitalDelta]3 + 
+       8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 2*H12^2*V2*V3^2*\[CapitalDelta]3 + 
+       8*H12*V1*V2^2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*
+        \[CapitalDelta]3, e[2, 4, 5, 5, 5] -> -7*H23^2*H31*V1 - 
+       12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 
+       26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 
+       2*H23^2*H31*V1*\[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+       2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+        \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+       2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*\[CapitalDelta]3 - 
+       4*H23*H31*V1*V2*V3*\[CapitalDelta]3, e[2, 5, 5, 5, 5] -> 
+      16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*\[CapitalDelta]2 + 
+       2*H31^2*V2*V3^2*\[CapitalDelta]2 - 2*H23*H31^2*V3*\[CapitalDelta]3 - 
+       2*H31^2*V2*V3^2*\[CapitalDelta]3, e[3, 3, 3, 3, 3] -> 0, 
+     e[3, 3, 3, 3, 4] -> 0, e[3, 3, 3, 3, 5] -> 0, e[3, 3, 3, 4, 4] -> 0, 
+     e[3, 3, 3, 4, 5] -> 0, e[3, 3, 3, 5, 5] -> 0, 
+     e[3, 3, 4, 4, 4] -> 3*(H12*H23^2 + 2*H12*H23*V2*V3 + H12*V2^2*V3^2), 
+     e[3, 3, 4, 4, 5] -> -3*H23^2*V1*V3 - 3*H23*H31*V2*V3 - 5*H12*H23*V3^2 - 
+       9*H23*V1*V2*V3^2 - 3*H31*V2^2*V3^2 - 4*H12*V2*V3^3 - 6*V1*V2^2*V3^3, 
+     e[3, 3, 4, 5, 5] -> (-3*H12*V3^4)/4 + 
+       (-8*H23*H31*V3^2 + 12*H23*V1*V3^3 + 8*H31*V2*V3^3 + 15*H12*V3^4 + 
+         24*V1*V2*V3^4)/4, e[3, 3, 5, 5, 5] -> 3*H31*V3^4, 
+     e[3, 4, 4, 4, 4] -> 16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 
+       2*H12^2*H23*V2*\[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+       2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*\[CapitalDelta]3, 
+     e[3, 4, 4, 4, 5] -> -7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 
+       12*H12^2*H23*V3 - 36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 
+       26*H12^2*V2*V3^2 - 44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*
+        \[CapitalDelta]2 - 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+       2*H12^2*H23*V3*\[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*
+        \[CapitalDelta]2 + 2*H12*H23^2*V1*\[CapitalDelta]3 + 
+       2*H12*H23*H31*V2*\[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+       4*H12*H23*V1*V2*V3*\[CapitalDelta]3, e[3, 4, 4, 5, 5] -> 
+      3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + H23^2*V1^2*V3 + 
+       2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 14*H12*H23*V1*V3^2 - 
+       34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 8*H31*V1*V2^2*V3^2 + 
+       13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 4*V1^2*V2^2*V3^3 - 
+       2*H12*H23*H31*V3*\[CapitalDelta]2 + 2*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+       4*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 2*H31^2*V2^2*V3*
+        \[CapitalDelta]2 + 4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 
+       4*H12*H31*V2*V3^2*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*
+        \[CapitalDelta]2 + 8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+       2*H12^2*V3^3*\[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+       8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+        \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+       4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+        \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+       4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+        \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+       2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*\[CapitalDelta]3 - 
+       8*V1^2*V2^2*V3^3*\[CapitalDelta]3, e[3, 4, 5, 5, 5] -> 
+      H23*H31^2*V3 + 12*H23*H31*V1*V3^2 + 8*H31^2*V2*V3^2 + 30*H12*H31*V3^3 + 
+       24*H31*V1*V2*V3^3 + 4*H23*H31*V1*V3^2*\[CapitalDelta]2 + 
+       4*H31^2*V2*V3^2*\[CapitalDelta]2 + 4*H12*H31*V3^3*\[CapitalDelta]2 + 
+       8*H31*V1*V2*V3^3*\[CapitalDelta]2 - 4*H23*H31*V1*V3^2*
+        \[CapitalDelta]3 - 4*H31^2*V2*V3^2*\[CapitalDelta]3 - 
+       4*H12*H31*V3^3*\[CapitalDelta]3 - 8*H31*V1*V2*V3^3*\[CapitalDelta]3, 
+     e[3, 5, 5, 5, 5] -> 17*H31^2*V3^3 + 2*H31^2*V3^3*\[CapitalDelta]2 - 
+       2*H31^2*V3^3*\[CapitalDelta]3, e[4, 4, 4, 4, 4] -> 
+      -2*(-7*H12^3*V2^2 + H12^3*V2^2*\[CapitalDelta]2 - 
+        H12^3*V2^2*\[CapitalDelta]3), e[4, 4, 4, 4, 5] -> 
+      -(H12^3*H23) - 19*H12^2*H23*V1*V2 + 38*H12^2*H31*V2^2 - 
+       22*H12^3*V2*V3 - 38*H12^2*V1*V2^2*V3 - 6*H12^2*H31*V2^2*
+        \[CapitalDelta]2 + 6*H12^2*H31*V2^2*\[CapitalDelta]3, 
+     e[4, 4, 4, 5, 5] -> -3*H12^2*H23*H31 + H12*H23^2*V1^2 + 
+       8*H12*H23*H31*V1*V2 + 34*H12*H31^2*V2^2 + 11*H12^2*H23*V1*V3 - 
+       66*H12^2*H31*V2*V3 + 4*H12*H23*V1^2*V2*V3 + 16*H12*H31*V1*V2^2*V3 + 
+       10*H12^3*V3^2 + 22*H12^2*V1*V2*V3^2 + 4*H12*V1^2*V2^2*V3^2 + 
+       2*H12*H23^2*V1^2*\[CapitalDelta]2 - 4*H12*H23*H31*V1*V2*
+        \[CapitalDelta]2 - 6*H12*H31^2*V2^2*\[CapitalDelta]2 + 
+       4*H12^2*H23*V1*V3*\[CapitalDelta]2 + 8*H12*H23*V1^2*V2*V3*
+        \[CapitalDelta]2 - 8*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+       2*H12^3*V3^2*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 
+       8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23^2*V1^2*
+        \[CapitalDelta]3 + 4*H12*H23*H31*V1*V2*\[CapitalDelta]3 + 
+       6*H12*H31^2*V2^2*\[CapitalDelta]3 - 4*H12^2*H23*V1*V3*
+        \[CapitalDelta]3 - 8*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 + 
+       8*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^3*V3^2*
+        \[CapitalDelta]3 - 8*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 
+       8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3, e[4, 4, 5, 5, 5] -> 
+      -3*H12*H23*H31^2 + H23^2*H31*V1^2 + 11*H23*H31^2*V1*V2 + 
+       10*H31^3*V2^2 + 8*H12*H23*H31*V1*V3 - 66*H12*H31^2*V2*V3 + 
+       4*H23*H31*V1^2*V2*V3 + 22*H31^2*V1*V2^2*V3 + 34*H12^2*H31*V3^2 + 
+       16*H12*H31*V1*V2*V3^2 + 4*H31*V1^2*V2^2*V3^2 - 
+       2*H23^2*H31*V1^2*\[CapitalDelta]2 - 4*H23*H31^2*V1*V2*
+        \[CapitalDelta]2 - 2*H31^3*V2^2*\[CapitalDelta]2 + 
+       4*H12*H23*H31*V1*V3*\[CapitalDelta]2 - 8*H23*H31*V1^2*V2*V3*
+        \[CapitalDelta]2 - 8*H31^2*V1*V2^2*V3*\[CapitalDelta]2 + 
+       6*H12^2*H31*V3^2*\[CapitalDelta]2 + 8*H12*H31*V1*V2*V3^2*
+        \[CapitalDelta]2 - 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+       2*H23^2*H31*V1^2*\[CapitalDelta]3 + 4*H23*H31^2*V1*V2*
+        \[CapitalDelta]3 + 2*H31^3*V2^2*\[CapitalDelta]3 - 
+       4*H12*H23*H31*V1*V3*\[CapitalDelta]3 + 8*H23*H31*V1^2*V2*V3*
+        \[CapitalDelta]3 + 8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 
+       6*H12^2*H31*V3^2*\[CapitalDelta]3 - 8*H12*H31*V1*V2*V3^2*
+        \[CapitalDelta]3 + 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3, 
+     e[4, 5, 5, 5, 5] -> -(H23*H31^3) - 19*H23*H31^2*V1*V3 - 22*H31^3*V2*V3 + 
+       38*H12*H31^2*V3^2 - 38*H31^2*V1*V2*V3^2 + 6*H12*H31^2*V3^2*
+        \[CapitalDelta]2 - 6*H12*H31^2*V3^2*\[CapitalDelta]3, 
+     e[5, 5, 5, 5, 5] -> 2*(7*H31^3*V3^2 + H31^3*V3^2*\[CapitalDelta]2 - 
+        H31^3*V3^2*\[CapitalDelta]3), f[1, 1, 1, 1, 1, 1] -> 
+      -1/8*(V1^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2)) + 
+       (-V1^4 + V1^4*\[CapitalDelta]2^2 - 2*V1^4*\[CapitalDelta]2*
+          \[CapitalDelta]3 + V1^4*\[CapitalDelta]3^2)/8, 
+     f[1, 1, 1, 1, 1, 2] -> -1/2*(V1*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/V2 - 
+       (3*V1*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/(4*V3) - 
+       (V1*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 2*V1^2*V2*
+           \[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+          2*V1^2*V2*\[CapitalDelta]3))/8 - 
+       (6*H12*H31*V1*V2 + 6*H31*V1^2*V2^2 - 4*H12^2*V1*V3 - 
+         2*H12*V1^2*V2*V3 + V1^3*V2^2*V3 - 2*H12*V1^2*V2*V3*
+          \[CapitalDelta]2 - 2*V1^3*V2^2*V3*\[CapitalDelta]2 + 
+         2*H12*V1^2*V2*V3*\[CapitalDelta]3 + 2*V1^3*V2^2*V3*\[CapitalDelta]3)/
+        (8*V2*V3), f[1, 1, 1, 1, 1, 3] -> 
+      (V1*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3)/(2*V2^2) + 
+       (V1*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/(2*V2) - 
+       (-4*H12*H31*V1*V2 - 4*H31*V1^2*V2^2 + 4*H12^2*V1*V3 + 
+         4*H12*V1^2*V2*V3 - V1^3*V2^2*V3 + 2*H31*V1^2*V2^2*\[CapitalDelta]2 + 
+         2*V1^3*V2^2*V3*\[CapitalDelta]2 - 2*H31*V1^2*V2^2*\[CapitalDelta]3 - 
+         2*V1^3*V2^2*V3*\[CapitalDelta]3)/(8*V2^2) - 
+       (V1*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+              2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+              2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+          (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+          (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 
+            2*H12*V1*V3*\[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 
+            2*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            2*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+            V1^2*V2*V3*\[CapitalDelta]3^2)/(4*V2)))/2, 
+     f[1, 1, 1, 1, 1, 4] -> -1/2*(H12*V1*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/
+         V2^2 - (H12*V1*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V2*V3) - (V1*(H12*V1^2 - 2*H12*V1^2*\[CapitalDelta]2 + 
+          2*H12*V1^2*\[CapitalDelta]3))/4 - 
+       (V1^2*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+          3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (V1^2*(2*H12*V1 - 7*H12*V1*\[CapitalDelta]2 + 
+          2*V1^2*V2*\[CapitalDelta]2 + 2*H12*V1*\[CapitalDelta]2^2 + 
+          7*H12*V1*\[CapitalDelta]3 - 2*V1^2*V2*\[CapitalDelta]3 - 
+          4*H12*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H12*V1*\[CapitalDelta]3^2))/4 - 
+       (H12*V1*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+       (4*H12^2*H31*V1*V2 - 8*H12*H31*V1^2*V2^2 + 4*H23*V1^4*V2^2 + 
+         8*H31*V1^3*V2^3 - 4*H12^3*V1*V3 - 4*H12^2*V1^2*V2*V3 - 
+         21*H12*V1^3*V2^2*V3 + 12*V1^4*V2^3*V3 + 6*H12*H31*V1^2*V2^2*
+          \[CapitalDelta]2 - 4*H23*V1^4*V2^2*\[CapitalDelta]2 - 
+         4*H31*V1^3*V2^3*\[CapitalDelta]2 + 24*H12*V1^3*V2^2*V3*
+          \[CapitalDelta]2 - 12*V1^4*V2^3*V3*\[CapitalDelta]2 - 
+         6*H12*V1^3*V2^2*V3*\[CapitalDelta]2^2 - 6*H12*H31*V1^2*V2^2*
+          \[CapitalDelta]3 + 4*H23*V1^4*V2^2*\[CapitalDelta]3 + 
+         4*H31*V1^3*V2^3*\[CapitalDelta]3 - 24*H12*V1^3*V2^2*V3*
+          \[CapitalDelta]3 + 12*V1^4*V2^3*V3*\[CapitalDelta]3 + 
+         12*H12*V1^3*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         6*H12*V1^3*V2^2*V3*\[CapitalDelta]3^2)/(8*V2^2*V3) - 
+       (H12*V1*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+              2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+              2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+          (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+          (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 
+            2*H12*V1*V3*\[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 
+            2*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            2*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+            V1^2*V2*V3*\[CapitalDelta]3^2)/(4*V2)))/(2*V3) - 
+       (V1*(-1/2*(V1*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+             3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + H23*V1^2*
+              \[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+             H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+             H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+             H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+             2*V1^2*V2*V3*\[CapitalDelta]3)) + (12*H12*H31*V1 - 4*H23*V1^3 - 
+            8*H31*V1^2*V2 + 17*H12*V1^2*V3 - 12*V1^3*V2*V3 - 
+            6*H12*H31*V1*\[CapitalDelta]2 + 4*H23*V1^3*\[CapitalDelta]2 + 
+            4*H31*V1^2*V2*\[CapitalDelta]2 - 6*H12*V1^2*V3*\[CapitalDelta]2 + 
+            8*V1^3*V2*V3*\[CapitalDelta]2 + 6*H12*H31*V1*\[CapitalDelta]3 - 
+            4*H23*V1^3*\[CapitalDelta]3 - 4*H31*V1^2*V2*\[CapitalDelta]3 + 
+            6*H12*V1^2*V3*\[CapitalDelta]3 - 8*V1^3*V2*V3*\[CapitalDelta]3)/
+           8 - (H12*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+                 2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+                 2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+             (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+             (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*
+                \[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 2*H31*V1*
+                V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 2*V1^2*
+                V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - V1^2*V2*V3*
+                \[CapitalDelta]3^2)/(4*V2)))/2))/V3, 
+     f[1, 1, 1, 1, 1, 5] -> (H31*V1*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/V2^2 + 
+       (H31*V1*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/(V2*V3) + 
+       (2*V1^2*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/V2^2 + (V1^2*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/
+        (V2*V3) - (V1*(H31*V1^2 + 2*H31*V1^2*\[CapitalDelta]2 - 
+          2*H31*V1^2*\[CapitalDelta]3))/4 - 
+       (V1^2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2))/4 - 
+       (H31*V1*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+       (-4*H12*H31^2*V1*V2 + 4*H23*H31*V1^3*V2 - 4*H31^2*V1^2*V2^2 + 
+         4*H12^2*H31*V1*V3 - 8*H12*H23*V1^3*V3 + 12*H12*H31*V1^2*V2*V3 - 
+         4*H23*V1^4*V2*V3 + 10*H31*V1^3*V2^2*V3 - 8*H12^2*V1^2*V3^2 - 
+         20*H12*V1^3*V2*V3^2 - 8*V1^4*V2^2*V3^2 - 9*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]2 + 2*V1^4*V2^2*V3^2*\[CapitalDelta]2 - 
+         3*H31*V1^3*V2^2*V3*\[CapitalDelta]2^2 + 9*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]3 - 2*V1^4*V2^2*V3^2*\[CapitalDelta]3 + 
+         6*H31*V1^3*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         3*H31*V1^3*V2^2*V3*\[CapitalDelta]3^2)/(4*V2^2*V3), 
+     f[1, 1, 1, 1, 2, 2] -> (H12^2 + 2*H12*V1*V2 + V1^2*V2^2)/4, 
+     f[1, 1, 1, 1, 2, 3] -> (-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3)/
+       2, f[1, 1, 1, 1, 2, 4] -> (H12*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/
+        (2*V2) + (H12*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (4*V3) - (V1*(H12*H23*V1 + 2*H12*H31*V2 + H23*V1^2*V2 + H31*V1*V2^2 + 
+          3*H12*V1*V2*V3 + 2*V1^2*V2^2*V3))/V3 - 
+       (V1*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + H12^2*\[CapitalDelta]2 - 
+          H12^2*\[CapitalDelta]3))/2 - 
+       (H12*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 2*V1^2*V2*
+           \[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+          2*V1^2*V2*\[CapitalDelta]3))/8 - 
+       (V1*V2*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+          3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (4*H23*H31*V1^2*V2^2 + 4*H31^2*V1*V2^3 - H12^2*H31*V2*V3 - 
+         4*H12*H23*V1^2*V2*V3 - 15*H12*H31*V1*V2^2*V3 + 2*H23*V1^3*V2^2*V3 + 
+         12*H31*V1^2*V2^3*V3 + 2*H12^3*V3^2 + 9*H12^2*V1*V2*V3^2 - 
+         20*H12*V1^2*V2^2*V3^2 + 4*V1^3*V2^3*V3^2 + 3*H12*H31*V1*V2^2*V3*
+          \[CapitalDelta]2 - 2*H23*V1^3*V2^2*V3*\[CapitalDelta]2 - 
+         2*H31*V1^2*V2^3*V3*\[CapitalDelta]2 - 3*H12^2*V1*V2*V3^2*
+          \[CapitalDelta]2 + 2*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+         4*V1^3*V2^3*V3^2*\[CapitalDelta]2 - 3*H12*H31*V1*V2^2*V3*
+          \[CapitalDelta]3 + 2*H23*V1^3*V2^2*V3*\[CapitalDelta]3 + 
+         2*H31*V1^2*V2^3*V3*\[CapitalDelta]3 + 3*H12^2*V1*V2*V3^2*
+          \[CapitalDelta]3 - 2*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3 + 
+         4*V1^3*V2^3*V3^2*\[CapitalDelta]3)/(4*V2*V3^2) - 
+       (H12*V2*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+              2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+              2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+          (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+          (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 
+            2*H12*V1*V3*\[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 
+            2*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            2*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+            V1^2*V2*V3*\[CapitalDelta]3^2)/(4*V2)))/(2*V3) - 
+       (3*H12*V1^3*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (V2*(-1/2*(V1*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+             3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+             H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+             H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+             H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+             H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+             2*V1^2*V2*V3*\[CapitalDelta]3)) + (12*H12*H31*V1 - 4*H23*V1^3 - 
+            8*H31*V1^2*V2 + 17*H12*V1^2*V3 - 12*V1^3*V2*V3 - 
+            6*H12*H31*V1*\[CapitalDelta]2 + 4*H23*V1^3*\[CapitalDelta]2 + 
+            4*H31*V1^2*V2*\[CapitalDelta]2 - 6*H12*V1^2*V3*\[CapitalDelta]2 + 
+            8*V1^3*V2*V3*\[CapitalDelta]2 + 6*H12*H31*V1*\[CapitalDelta]3 - 
+            4*H23*V1^3*\[CapitalDelta]3 - 4*H31*V1^2*V2*\[CapitalDelta]3 + 
+            6*H12*V1^2*V3*\[CapitalDelta]3 - 8*V1^3*V2*V3*\[CapitalDelta]3)/
+           8 - (H12*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+                 2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+                 2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+             (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+             (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*
+                \[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 2*H31*V1*
+                V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 2*V1^2*
+                V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - V1^2*V2*V3*
+                \[CapitalDelta]3^2)/(4*V2)))/2))/V3 - 
+       (V1*V2*(-(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 3*H31*V1*V2*V3 - 
+          2*V1^2*V2*V3^2 - (3*H12*V1^2*((15*V3^2*(-V1^2 + V1^2*
+                 \[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2, f[1, 1, 1, 1, 2, 5] -> 
+      -1/2*(H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/V2 - 
+       (H31*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/(4*V3) - 
+       (2*V1*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/V2 - (V1*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/V3 - 
+       (H31*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 2*V1^2*V2*
+           \[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+          2*V1^2*V2*\[CapitalDelta]3))/8 - 
+       (2*H12*H31^2*V2 - 8*H23*H31*V1^2*V2 + 2*H31^2*V1*V2^2 - 
+         4*H12^2*H31*V3 + 16*H12*H23*V1^2*V3 - 34*H12*H31*V1*V2*V3 + 
+         12*H23*V1^3*V2*V3 - 43*H31*V1^2*V2^2*V3 + 16*H12^2*V1*V3^2 + 
+         48*H12*V1^2*V2*V3^2 + 28*V1^3*V2^2*V3^2 - 6*H12*H31*V1*V2*V3*
+          \[CapitalDelta]2 + 4*H23*V1^3*V2*V3*\[CapitalDelta]2 - 
+         6*H31*V1^2*V2^2*V3*\[CapitalDelta]2 + 4*H12*V1^2*V2*V3^2*
+          \[CapitalDelta]2 + 8*V1^3*V2^2*V3^2*\[CapitalDelta]2 + 
+         6*H12*H31*V1*V2*V3*\[CapitalDelta]3 - 4*H23*V1^3*V2*V3*
+          \[CapitalDelta]3 + 6*H31*V1^2*V2^2*V3*\[CapitalDelta]3 - 
+         4*H12*V1^2*V2*V3^2*\[CapitalDelta]3 - 8*V1^3*V2^2*V3^2*
+          \[CapitalDelta]3)/(8*V2*V3) - 
+       (V1*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 
+            8*H31*V1*V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+             \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 
+            9*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 
+            6*V1^2*V2*V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+            2*H12*H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 
+            9*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            6*V1^2*V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/2, 
+     f[1, 1, 1, 1, 3, 3] -> -1/4*((H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^2)/
+         V2^2 - (V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V2) - (-(H31^2*V2^2) + 2*H12*H31*V2*V3 - H12^2*V3^2)/(4*V2^2) - 
+       (V1^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10, 
+     f[1, 1, 1, 1, 3, 4] -> -1/2*(V1*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+          3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3)) + (12*H12*H31*V1 - 4*H23*V1^3 - 
+         8*H31*V1^2*V2 + 17*H12*V1^2*V3 - 12*V1^3*V2*V3 - 
+         6*H12*H31*V1*\[CapitalDelta]2 + 4*H23*V1^3*\[CapitalDelta]2 + 
+         4*H31*V1^2*V2*\[CapitalDelta]2 - 6*H12*V1^2*V3*\[CapitalDelta]2 + 
+         8*V1^3*V2*V3*\[CapitalDelta]2 + 6*H12*H31*V1*\[CapitalDelta]3 - 
+         4*H23*V1^3*\[CapitalDelta]3 - 4*H31*V1^2*V2*\[CapitalDelta]3 + 
+         6*H12*V1^2*V3*\[CapitalDelta]3 - 8*V1^3*V2*V3*\[CapitalDelta]3)/8 - 
+       (H12*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+              2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+              2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+          (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+          (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 
+            2*H12*V1*V3*\[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 
+            2*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            2*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+            V1^2*V2*V3*\[CapitalDelta]3^2)/(4*V2)))/2, 
+     f[1, 1, 1, 1, 3, 5] -> 
+      -1/2*(H31*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/V2 + 
+       (V1*V3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/V2^2 - (4*H12*H31^2*V2 + 16*H31^2*V1*V2^2 - 
+         8*H12*H23*V1^2*V3 + 4*H12*H31*V1*V2*V3 - 8*H23*V1^3*V2*V3 + 
+         3*H31*V1^2*V2^2*V3 - 8*H12^2*V1*V3^2 - 24*H12*V1^2*V2*V3^2 - 
+         20*V1^3*V2^2*V3^2 + 6*H31^2*V1*V2^2*\[CapitalDelta]2 + 
+         2*H31*V1^2*V2^2*V3*\[CapitalDelta]2 - 6*H31^2*V1*V2^2*
+          \[CapitalDelta]3 - 2*H31*V1^2*V2^2*V3*\[CapitalDelta]3)/(8*V2^2) - 
+       (V1*((V3*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 2*V1^2*V3*
+              \[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2))/2 + (-4*H31^2 + 2*V1^2*V3^2 - 
+            2*H31^2*\[CapitalDelta]2 - 7*H31*V1*V3*\[CapitalDelta]2 + 
+            2*V1^2*V3^2*\[CapitalDelta]2 - 2*H31*V1*V3*\[CapitalDelta]2^2 + 
+            2*H31^2*\[CapitalDelta]3 + 7*H31*V1*V3*\[CapitalDelta]3 - 
+            2*V1^2*V3^2*\[CapitalDelta]3 + 4*H31*V1*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 - 2*H31*V1*V3*\[CapitalDelta]3^2)/2))/2 - 
+       (H31*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+              2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+              2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+          (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+          (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 
+            2*H12*V1*V3*\[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 
+            2*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            2*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+            V1^2*V2*V3*\[CapitalDelta]3^2)/(4*V2)))/2, 
+     f[1, 1, 1, 1, 4, 4] -> (H12^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/
+        (4*V2^2) + (H12^2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V2*V3) + (H12^2*(-(H31^2*V2^2) + 2*H12*H31*V2*V3 - H12^2*V3^2))/
+        (4*V2^2*V3^2) - (H12*(H12*V1^2 - 2*H12*V1^2*\[CapitalDelta]2 + 
+          2*H12*V1^2*\[CapitalDelta]3))/4 - 
+       (V1*(5*H12^2*V1 - 6*H12*V1^2*V2 - 2*H12^2*V1*\[CapitalDelta]2 + 
+          4*H12*V1^2*V2*\[CapitalDelta]2 + 2*H12^2*V1*\[CapitalDelta]3 - 
+          4*H12*V1^2*V2*\[CapitalDelta]3))/2 - 
+       (V1^2*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (2*V3) - (2*H12*V1*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+          3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/V3 - 
+       (H12*V1*(2*H12*V1 - 7*H12*V1*\[CapitalDelta]2 + 
+          2*V1^2*V2*\[CapitalDelta]2 + 2*H12*V1*\[CapitalDelta]2^2 + 
+          7*H12*V1*\[CapitalDelta]3 - 2*V1^2*V2*\[CapitalDelta]3 - 
+          4*H12*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H12*V1*\[CapitalDelta]3^2))/2 - 
+       (H12^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/8 - 
+       (V1^2*(17*H12^2 - 72*H12*V1*V2 + 12*V1^2*V2^2 - 
+          12*H12^2*\[CapitalDelta]2 + 72*H12*V1*V2*\[CapitalDelta]2 + 
+          4*H12^2*\[CapitalDelta]2^2 - 4*H12*V1*V2*\[CapitalDelta]2^2 + 
+          12*H12^2*\[CapitalDelta]3 - 72*H12*V1*V2*\[CapitalDelta]3 - 
+          8*H12^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H12*V1*V2*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H12^2*\[CapitalDelta]3^2 - 
+          4*H12*V1*V2*\[CapitalDelta]3^2))/8 - 
+       (-2*H12^2*H31^2 + 24*H12*H23*H31*V1^2 - 8*H23^2*V1^4 + 
+         16*H12*H31^2*V1*V2 - 16*H23*H31*V1^3*V2 - 8*H31^2*V1^2*V2^2 - 
+         44*H12^2*H31*V1*V3 + 100*H12*H23*V1^3*V3 + 220*H12*H31*V1^2*V2*V3 - 
+         80*H23*V1^4*V2*V3 - 80*H31*V1^3*V2^2*V3 - 116*H12^2*V1^2*V3^2 + 
+         384*H12*V1^3*V2*V3^2 - 140*V1^4*V2^2*V3^2 + 20*H12^2*H31*V1*V3*
+          \[CapitalDelta]2 - 40*H12*H23*V1^3*V3*\[CapitalDelta]2 - 
+         40*H12*H31*V1^2*V2*V3*\[CapitalDelta]2 + 72*H12^2*V1^2*V3^2*
+          \[CapitalDelta]2 - 176*H12*V1^3*V2*V3^2*\[CapitalDelta]2 - 
+         13*H12^2*V1^2*V3^2*\[CapitalDelta]2^2 + 4*H12*V1^3*V2*V3^2*
+          \[CapitalDelta]2^2 - 20*H12^2*H31*V1*V3*\[CapitalDelta]3 + 
+         40*H12*H23*V1^3*V3*\[CapitalDelta]3 + 40*H12*H31*V1^2*V2*V3*
+          \[CapitalDelta]3 - 72*H12^2*V1^2*V3^2*\[CapitalDelta]3 + 
+         176*H12*V1^3*V2*V3^2*\[CapitalDelta]3 + 26*H12^2*V1^2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 8*H12*V1^3*V2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 13*H12^2*V1^2*V3^2*
+          \[CapitalDelta]3^2 + 4*H12*V1^3*V2*V3^2*\[CapitalDelta]3^2)/
+        (8*V3^2) - (H12^2*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+              2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+              2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+          (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+          (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 
+            2*H12*V1*V3*\[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 
+            2*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            2*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+            V1^2*V2*V3*\[CapitalDelta]3^2)/(4*V2)))/V3 - 
+       (9*H12^2*V1^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (2*H12*(-1/2*(V1*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+             3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+             H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+             H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+             H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+             H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+             2*V1^2*V2*V3*\[CapitalDelta]3)) + (12*H12*H31*V1 - 4*H23*V1^3 - 
+            8*H31*V1^2*V2 + 17*H12*V1^2*V3 - 12*V1^3*V2*V3 - 
+            6*H12*H31*V1*\[CapitalDelta]2 + 4*H23*V1^3*\[CapitalDelta]2 + 
+            4*H31*V1^2*V2*\[CapitalDelta]2 - 6*H12*V1^2*V3*\[CapitalDelta]2 + 
+            8*V1^3*V2*V3*\[CapitalDelta]2 + 6*H12*H31*V1*\[CapitalDelta]3 - 
+            4*H23*V1^3*\[CapitalDelta]3 - 4*H31*V1^2*V2*\[CapitalDelta]3 + 
+            6*H12*V1^2*V3*\[CapitalDelta]3 - 8*V1^3*V2*V3*\[CapitalDelta]3)/
+           8 - (H12*(-1/4*(V3*(V1^2*V2 + 2*H12*V1*\[CapitalDelta]2 + 
+                 2*V1^2*V2*\[CapitalDelta]2 - 2*H12*V1*\[CapitalDelta]3 - 
+                 2*V1^2*V2*\[CapitalDelta]3))/V2 - 
+             (V3*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+             (-(V1^2*V2*V3) + 2*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*
+                \[CapitalDelta]2 - V1^2*V2*V3*\[CapitalDelta]2^2 - 2*H31*V1*
+                V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 2*V1^2*
+                V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - V1^2*V2*V3*
+                \[CapitalDelta]3^2)/(4*V2)))/2))/V3 - 
+       (V1^2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + H31^2*V2^2 - 
+          H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (2*H12*V1*(-(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 
+          3*H31*V1*V2*V3 - 2*V1^2*V2*V3^2 - 
+          (3*H12*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (2*V1*(-1/4*(V1*(-11*H12*H23*V1 - 21*H12*H31*V2 + 
+             12*H23*V1^2*V2 + 12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (H12*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+             3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+             H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+             H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+             H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+             H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+             2*V1^2*V2*V3*\[CapitalDelta]3))/2 - 
+          (8*H12*H23*H31*V1 - 8*H23^2*V1^3 - 16*H23*H31*V1^2*V2 - 
+            8*H31^2*V1*V2^2 - 4*H12^2*H31*V3 + 25*H12*H23*V1^2*V3 + 
+            45*H12*H31*V1*V2*V3 - 44*H23*V1^3*V2*V3 - 44*H31*V1^2*V2^2*V3 - 
+            8*H12^2*V1*V3^2 + 64*H12*V1^2*V2*V3^2 - 56*V1^3*V2^2*V3^2 + 
+            2*H12^2*H31*V3*\[CapitalDelta]2 - 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]2 - 8*H12*H31*V1*V2*V3*\[CapitalDelta]2 + 
+            2*H12^2*V1*V3^2*\[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*
+             \[CapitalDelta]2 - 2*H12^2*H31*V3*\[CapitalDelta]3 + 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]3 + 8*H12*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 2*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^2*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V1*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 1, 1, 1, 4, 5] -> 
+      -(V1*(-3*H12*H31*V1 + H31*V1^2*V2 + H12*V1^2*V3)) - 
+       (H31*(H12*V1^2 - 2*H12*V1^2*\[CapitalDelta]2 + 
+          2*H12*V1^2*\[CapitalDelta]3))/4 - 
+       (H12*(H31*V1^2 + 2*H31*V1^2*\[CapitalDelta]2 - 
+          2*H31*V1^2*\[CapitalDelta]3))/4 - 
+       (H31*V1*(2*H12*V1 - 7*H12*V1*\[CapitalDelta]2 + 
+          2*V1^2*V2*\[CapitalDelta]2 + 2*H12*V1*\[CapitalDelta]2^2 + 
+          7*H12*V1*\[CapitalDelta]3 - 2*V1^2*V2*\[CapitalDelta]3 - 
+          4*H12*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H12*V1*\[CapitalDelta]3^2))/2 - 
+       (H12*V1*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2))/2 - 
+       (H12*H31*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/4 - 
+       (V1^2*(-7*H12*H31 - 2*H23*V1^2 + 12*H31*V1*V2 + 12*H12*V1*V3 - 
+          8*V1^2*V2*V3 + 6*H31*V1*V2*\[CapitalDelta]2 - 
+          6*H12*V1*V3*\[CapitalDelta]2 + 4*H12*H31*\[CapitalDelta]2^2 - 
+          2*H23*V1^2*\[CapitalDelta]2^2 - 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+          2*H12*V1*V3*\[CapitalDelta]2^2 - 4*V1^2*V2*V3*\[CapitalDelta]2^2 - 
+          6*H31*V1*V2*\[CapitalDelta]3 + 6*H12*V1*V3*\[CapitalDelta]3 - 
+          8*H12*H31*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H31*\[CapitalDelta]3^2 - 2*H23*V1^2*\[CapitalDelta]3^2 - 
+          2*H31*V1*V2*\[CapitalDelta]3^2 - 2*H12*V1*V3*\[CapitalDelta]3^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]3^2))/4 + 
+       (-12*H12*H31*V1^2 - 2*H23*V1^4 + 16*H31*V1^3*V2 + 16*H12*V1^3*V3 - 
+         8*V1^4*V2*V3 + 10*H31*V1^3*V2*\[CapitalDelta]2 - 
+         10*H12*V1^3*V3*\[CapitalDelta]2 + 13*H12*H31*V1^2*
+          \[CapitalDelta]2^2 - 2*H23*V1^4*\[CapitalDelta]2^2 - 
+         2*H31*V1^3*V2*\[CapitalDelta]2^2 - 2*H12*V1^3*V3*
+          \[CapitalDelta]2^2 - 4*V1^4*V2*V3*\[CapitalDelta]2^2 - 
+         10*H31*V1^3*V2*\[CapitalDelta]3 + 10*H12*V1^3*V3*\[CapitalDelta]3 - 
+         26*H12*H31*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H23*V1^4*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H31*V1^3*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H12*V1^3*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         8*V1^4*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         13*H12*H31*V1^2*\[CapitalDelta]3^2 - 2*H23*V1^4*\[CapitalDelta]3^2 - 
+         2*H31*V1^3*V2*\[CapitalDelta]3^2 - 2*H12*V1^3*V3*
+          \[CapitalDelta]3^2 - 4*V1^4*V2*V3*\[CapitalDelta]3^2)/4, 
+     f[1, 1, 1, 1, 5, 5] -> (3*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/
+        (4*V2^2) + (H31^2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V2*V3) + (6*H31*V1*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/V2^2 + 
+       (V1^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(V2*V3) + 
+       (2*H31*V1*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V2*V3) + 
+       (3*V1^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        V2^2 - (H31*(H31*V1^2 + 2*H31*V1^2*\[CapitalDelta]2 - 
+          2*H31*V1^2*\[CapitalDelta]3))/4 - 
+       (V1*(5*H31^2*V1 - 6*H31*V1^2*V3 + 2*H31^2*V1*\[CapitalDelta]2 - 
+          4*H31*V1^2*V3*\[CapitalDelta]2 - 2*H31^2*V1*\[CapitalDelta]3 + 
+          4*H31*V1^2*V3*\[CapitalDelta]3))/2 - 
+       (H31*V1*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2))/2 - 
+       (H31^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/8 - 
+       (V1^2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+          12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+          4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+          12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+          8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+          4*H31*V1*V3*\[CapitalDelta]3^2))/8 - 
+       (-4*H12*H31^3*V2 + 24*H23*H31^2*V1^2*V2 - 4*H31^3*V1*V2^2 + 
+         6*H12^2*H31^2*V3 - 72*H12*H23*H31*V1^2*V3 + 24*H23^2*V1^4*V3 + 
+         40*H12*H31^2*V1*V2*V3 - 64*H23*H31*V1^3*V2*V3 + 
+         10*H31^2*V1^2*V2^2*V3 - 48*H12^2*H31*V1*V3^2 + 
+         48*H12*H23*V1^3*V3^2 - 176*H12*H31*V1^2*V2*V3^2 + 
+         96*H23*V1^4*V2*V3^2 - 24*H31*V1^3*V2^2*V3^2 + 24*H12^2*V1^2*V3^3 + 
+         96*H12*V1^3*V2*V3^3 + 84*V1^4*V2^2*V3^3 - 52*H31^2*V1^2*V2^2*V3*
+          \[CapitalDelta]2 + 96*H31*V1^3*V2^2*V3^2*\[CapitalDelta]2 - 
+         13*H31^2*V1^2*V2^2*V3*\[CapitalDelta]2^2 + 4*H31*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2^2 + 52*H31^2*V1^2*V2^2*V3*\[CapitalDelta]3 - 
+         96*H31*V1^3*V2^2*V3^2*\[CapitalDelta]3 + 26*H31^2*V1^2*V2^2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 8*H31*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 13*H31^2*V1^2*V2^2*V3*
+          \[CapitalDelta]3^2 + 4*H31*V1^3*V2^2*V3^2*\[CapitalDelta]3^2)/
+        (8*V2^2*V3), f[1, 1, 1, 2, 2, 2] -> 0, f[1, 1, 1, 2, 2, 3] -> 0, 
+     f[1, 1, 1, 2, 2, 4] -> 
+      -((V2*(H12*H23*V1 + 2*H12*H31*V2 + H23*V1^2*V2 + H31*V1*V2^2 + 
+           3*H12*V1*V2*V3 + 2*V1^2*V2^2*V3))/V3) - 
+       (H23*H31*V1*V2^2 + H31^2*V2^3 - H12*H23*V1*V2*V3 - 2*H12*H31*V2^2*V3 + 
+         2*H31*V1*V2^3*V3 + H12^2*V2*V3^2 - 2*H12*V1*V2^2*V3^2)/V3^2 - 
+       (3*H12*V1^2*V2^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (V2^2*(-(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 
+          3*H31*V1*V2*V3 - 2*V1^2*V2*V3^2 - 
+          (3*H12*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2, f[1, 1, 1, 2, 2, 5] -> -(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+       3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3, f[1, 1, 1, 2, 3, 3] -> 0, 
+     f[1, 1, 1, 2, 3, 4] -> H12*H23*V1 + 2*H12*H31*V2 + H23*V1^2*V2 + 
+       H31*V1*V2^2 + 3*H12*V1*V2*V3 + 2*V1^2*V2^2*V3, 
+     f[1, 1, 1, 2, 3, 5] -> H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+       3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2, 
+     f[1, 1, 1, 2, 4, 4] -> (-2*H12*(H12*H23*V1 + 2*H12*H31*V2 + 
+          H23*V1^2*V2 + H31*V1*V2^2 + 3*H12*V1*V2*V3 + 2*V1^2*V2^2*V3))/V3 - 
+       (H12*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + H12^2*\[CapitalDelta]2 - 
+          H12^2*\[CapitalDelta]3))/2 - 
+       (V1*(23*H12^2*V2 - 4*H12*V1*V2^2 - 6*H12^2*V2*\[CapitalDelta]2 + 
+          6*H12^2*V2*\[CapitalDelta]3))/4 - 
+       (V1*V2*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V3) - (H12*V2*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+          3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (20*H12*H23*H31*V1*V2 - 8*H23^2*V1^3*V2 + 12*H12*H31^2*V2^2 - 
+         16*H23*H31*V1^2*V2^2 - 8*H31^2*V1*V2^3 - 14*H12^2*H23*V1*V3 - 
+         20*H12^2*H31*V2*V3 + 35*H12*H23*V1^2*V2*V3 + 91*H12*H31*V1*V2^2*V3 - 
+         44*H23*V1^3*V2^2*V3 - 44*H31*V1^2*V2^3*V3 + 4*H12^3*V3^2 - 
+         75*H12^2*V1*V2*V3^2 + 90*H12*V1^2*V2^2*V3^2 - 56*V1^3*V2^3*V3^2 + 
+         2*H12^2*H31*V2*V3*\[CapitalDelta]2 - 8*H12*H23*V1^2*V2*V3*
+          \[CapitalDelta]2 - 8*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+         2*H12^3*V3^2*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^2*
+          \[CapitalDelta]2 - 16*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+         2*H12^2*H31*V2*V3*\[CapitalDelta]3 + 8*H12*H23*V1^2*V2*V3*
+          \[CapitalDelta]3 + 8*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+         2*H12^3*V3^2*\[CapitalDelta]3 - 8*H12^2*V1*V2*V3^2*
+          \[CapitalDelta]3 + 16*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3)/
+        (4*V3^2) - (3*H12^2*V1^2*V2*
+         ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (2*V3^2) - (2*V1*V2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+          H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (3*H12*V2*(-(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 
+          3*H31*V1*V2*V3 - 2*V1^2*V2*V3^2 - 
+          (3*H12*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (V2*(-1/4*(V1*(-11*H12*H23*V1 - 21*H12*H31*V2 + 
+             12*H23*V1^2*V2 + 12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (H12*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+             3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+             H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+             H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+             H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+             H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+             2*V1^2*V2*V3*\[CapitalDelta]3))/2 - 
+          (8*H12*H23*H31*V1 - 8*H23^2*V1^3 - 16*H23*H31*V1^2*V2 - 
+            8*H31^2*V1*V2^2 - 4*H12^2*H31*V3 + 25*H12*H23*V1^2*V3 + 
+            45*H12*H31*V1*V2*V3 - 44*H23*V1^3*V2*V3 - 44*H31*V1^2*V2^2*V3 - 
+            8*H12^2*V1*V3^2 + 64*H12*V1^2*V2*V3^2 - 56*V1^3*V2^2*V3^2 + 
+            2*H12^2*H31*V3*\[CapitalDelta]2 - 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]2 - 8*H12*H31*V1*V2*V3*\[CapitalDelta]2 + 
+            2*H12^2*V1*V3^2*\[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*
+             \[CapitalDelta]2 - 2*H12^2*H31*V3*\[CapitalDelta]3 + 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]3 + 8*H12*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 2*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^2*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V1*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - 
+       (3*V1*(-((2*H12*H23*H31*V2 - 2*H23^2*V1^2*V2 - 4*H23*H31*V1*V2^2 - 
+             2*H31^2*V2^3 - H12^2*H23*V3 + 3*H12*H23*V1*V2*V3 + 
+             5*H12*H31*V2^2*V3 - 8*H23*V1^2*V2^2*V3 - 8*H31*V1*V2^3*V3 - 
+             H12^2*V2*V3^2 + 6*H12*V1*V2^2*V3^2 - 8*V1^2*V2^3*V3^2)/V3) - 
+          (3*H12^2*V1*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/(2*V3), f[1, 1, 1, 2, 4, 5] -> 
+      -1/2*(H31*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + H12^2*\[CapitalDelta]2 - 
+          H12^2*\[CapitalDelta]3)) - (V1*(7*H12*H23*V1 + H12*H31*V2 - 
+          6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 3*H12^2*V3 + 8*H12*V1*V2*V3 - 
+          12*V1^2*V2^2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 - 
+          6*H12*H31*V2*\[CapitalDelta]2 - 6*H12^2*V3*\[CapitalDelta]2 - 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 + 6*H12*H23*V1*\[CapitalDelta]3 + 
+          6*H12*H31*V2*\[CapitalDelta]3 + 6*H12^2*V3*\[CapitalDelta]3 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]3))/4 + 
+       (9*H12*H23*V1^2 + 5*H12*H31*V1*V2 - 6*H23*V1^3*V2 + 4*H31*V1^2*V2^2 + 
+         3*H12^2*V1*V3 + 10*H12*V1^2*V2*V3 - 12*V1^3*V2^2*V3 + 
+         4*H12^2*H31*\[CapitalDelta]2 - 8*H12*H23*V1^2*\[CapitalDelta]2 - 
+         4*H12*H31*V1*V2*\[CapitalDelta]2 - 8*H12^2*V1*V3*\[CapitalDelta]2 - 
+         16*H12*V1^2*V2*V3*\[CapitalDelta]2 - 4*H12^2*H31*\[CapitalDelta]3 + 
+         8*H12*H23*V1^2*\[CapitalDelta]3 + 4*H12*H31*V1*V2*\[CapitalDelta]3 + 
+         8*H12^2*V1*V3*\[CapitalDelta]3 + 16*H12*V1^2*V2*V3*\[CapitalDelta]3)/
+        4 - (H12*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 
+            8*H31*V1*V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+             \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 
+            9*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 
+            6*V1^2*V2*V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+            2*H12*H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 
+            9*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            6*V1^2*V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/2, 
+     f[1, 1, 1, 2, 5, 5] -> (-2*H31*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/V2 - 
+       (V1*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(2*V3) - (2*V1*(-(H12*H23*H31) + H23^2*V1^2 - 
+          H23*H31*V1*V2 + 2*H12*H23*V1*V3 - H12*H31*V2*V3 + 
+          4*H23*V1^2*V2*V3 - H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 
+          4*V1^2*V2^2*V3^2))/V2 - (-2*H23*H31^2*V1*V2 + 
+         16*H12*H23*H31*V1*V3 - 8*H23^2*V1^3*V3 - 4*H12*H31^2*V2*V3 + 
+         35*H23*H31*V1^2*V2*V3 - 10*H31^2*V1*V2^2*V3 + 8*H12^2*H31*V3^2 - 
+         16*H12*H23*V1^2*V3^2 + 75*H12*H31*V1*V2*V3^2 - 44*H23*V1^3*V2*V3^2 + 
+         88*H31*V1^2*V2^2*V3^2 - 8*H12^2*V1*V3^3 - 44*H12*V1^2*V2*V3^3 - 
+         56*V1^3*V2^2*V3^3 - 2*H12*H31^2*V2*V3*\[CapitalDelta]2 + 
+         8*H23*H31*V1^2*V2*V3*\[CapitalDelta]2 - 2*H31^2*V1*V2^2*V3*
+          \[CapitalDelta]2 + 8*H12*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+         16*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H31^2*V2*V3*
+          \[CapitalDelta]3 - 8*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 + 
+         2*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 8*H12*H31*V1*V2*V3^2*
+          \[CapitalDelta]3 - 16*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3)/
+        (4*V2*V3) - (H31*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 
+            8*H31*V1*V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+             \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 
+            9*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 
+            6*V1^2*V2*V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+            2*H12*H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 
+            9*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            6*V1^2*V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/2 - 
+       (V1*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+             12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+             4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+             12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+             8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+              \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^
+               2 - 4*H31*V1*V3*\[CapitalDelta]3^2)) + 
+          (-44*H23*H31*V1 + 25*H31^2*V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 
+            208*H31*V1*V2*V3 + 48*H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 
+            24*H23*H31*V1*\[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 
+            24*H12*H31*V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 4*H31^2*V2*\[CapitalDelta]2^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]2^2 + 24*H23*H31*V1*
+             \[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+            24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]3^2)/8))/2, 
+     f[1, 1, 1, 3, 3, 3] -> 0, f[1, 1, 1, 3, 3, 4] -> 
+      -(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 3*H31*V1*V2*V3 - 
+       2*V1^2*V2*V3^2 - (3*H12*V1^2*
+         ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10, 
+     f[1, 1, 1, 3, 3, 5] -> 
+      -((V3^2*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+           2*V1^2*V2^2*V3))/V2^2) - (V3*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/V2 - 
+       (-(H23*H31*V1*V2*V3) + H31^2*V2^2*V3 + H12*H23*V1*V3^2 - 
+         2*H12*H31*V2*V3^2 - 2*H31*V1*V2^2*V3^2 + H12^2*V3^3 + 
+         2*H12*V1*V2*V3^3)/V2^2 - 
+       (3*H31*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10, 
+     f[1, 1, 1, 3, 4, 4] -> -1/4*(V1*(-11*H12*H23*V1 - 21*H12*H31*V2 + 
+          12*H23*V1^2*V2 + 12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+          24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+          6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*\[CapitalDelta]2 - 
+          6*H12*H23*V1*\[CapitalDelta]3 - 6*H12*H31*V2*\[CapitalDelta]3 - 
+          12*H12*V1*V2*V3*\[CapitalDelta]3)) - 
+       (H12*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+          3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/2 - 
+       (8*H12*H23*H31*V1 - 8*H23^2*V1^3 - 16*H23*H31*V1^2*V2 - 
+         8*H31^2*V1*V2^2 - 4*H12^2*H31*V3 + 25*H12*H23*V1^2*V3 + 
+         45*H12*H31*V1*V2*V3 - 44*H23*V1^3*V2*V3 - 44*H31*V1^2*V2^2*V3 - 
+         8*H12^2*V1*V3^2 + 64*H12*V1^2*V2*V3^2 - 56*V1^3*V2^2*V3^2 + 
+         2*H12^2*H31*V3*\[CapitalDelta]2 - 8*H12*H23*V1^2*V3*
+          \[CapitalDelta]2 - 8*H12*H31*V1*V2*V3*\[CapitalDelta]2 + 
+         2*H12^2*V1*V3^2*\[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*
+          \[CapitalDelta]2 - 2*H12^2*H31*V3*\[CapitalDelta]3 + 
+         8*H12*H23*V1^2*V3*\[CapitalDelta]3 + 8*H12*H31*V1*V2*V3*
+          \[CapitalDelta]3 - 2*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+         16*H12*V1^2*V2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+       (3*H12^2*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(5*V3) - 
+       (2*V1*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + H31^2*V2^2 - 
+          H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 1, 1, 3, 4, 5] -> 
+      (H12*V3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/V2^2 - (V1*(-2*H23^2*V1^2 - 3*H23*H31*V1*V2 - 
+          H31^2*V2^2 - 3*H12*H23*V1*V3 - 6*H12*H31*V2*V3 - 
+          10*H23*V1^2*V2*V3 - 8*H31*V1*V2^2*V3 - H12^2*V3^2 - 
+          8*H12*V1*V2*V3^2 - 12*V1^2*V2^2*V3^2))/(2*V2) - 
+       (H31*V3*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + H12^2*\[CapitalDelta]2 - 
+          H12^2*\[CapitalDelta]3))/(2*V2) - 
+       (V1*V3*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+          3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+          6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+          6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+          6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+          6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V2) - (V1*(7*H23*H31*V1 + 3*H31^2*V2 + H12*H31*V3 - 
+          6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 12*V1^2*V2*V3^2 + 
+          6*H23*H31*V1*\[CapitalDelta]2 + 6*H31^2*V2*\[CapitalDelta]2 + 
+          6*H12*H31*V3*\[CapitalDelta]2 + 12*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*\[CapitalDelta]3))/
+        4 - (H31*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+          3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/2 - 
+       (-4*H23*H31^2*V1*V2^2 - 4*H31^3*V2^3 + 4*H23^2*V1^3*V2*V3 - 
+         7*H23*H31*V1^2*V2^2*V3 - 13*H31^2*V1*V2^3*V3 - 4*H12^2*H23*V1*V3^2 - 
+         7*H12*H23*V1^2*V2*V3^2 + 2*H12*H31*V1*V2^2*V3^2 + 
+         32*H23*V1^3*V2^2*V3^2 - 6*H31*V1^2*V2^3*V3^2 - 4*H12^3*V3^3 - 
+         13*H12^2*V1*V2*V3^3 - 6*H12*V1^2*V2^2*V3^3 + 48*V1^3*V2^3*V3^3 + 
+         4*H12*H31^2*V2^2*V3*\[CapitalDelta]2 - 8*H23*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]2 - 8*H31^2*V1*V2^3*V3*\[CapitalDelta]2 - 
+         4*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 8*H12*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]2 - 16*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2 + 
+         8*H12^2*V1*V2*V3^3*\[CapitalDelta]2 + 16*H12*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2 - 4*H12*H31^2*V2^2*V3*\[CapitalDelta]3 + 
+         8*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]3 + 8*H31^2*V1*V2^3*V3*
+          \[CapitalDelta]3 + 4*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 
+         8*H12*H23*V1^2*V2*V3^2*\[CapitalDelta]3 + 16*H31*V1^2*V2^3*V3^2*
+          \[CapitalDelta]3 - 8*H12^2*V1*V2*V3^3*\[CapitalDelta]3 - 
+         16*H12*V1^2*V2^2*V3^3*\[CapitalDelta]3)/(4*V2^2*V3) - 
+       (H12*V3*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 
+            8*H31*V1*V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+             \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 
+            9*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 
+            6*V1^2*V2*V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+            2*H12*H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 
+            9*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            6*V1^2*V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/(2*V2) - 
+       (H12*((V3*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2))/2 + (-4*H31^2 + 2*V1^2*V3^2 - 
+            2*H31^2*\[CapitalDelta]2 - 7*H31*V1*V3*\[CapitalDelta]2 + 
+            2*V1^2*V3^2*\[CapitalDelta]2 - 2*H31*V1*V3*\[CapitalDelta]2^2 + 
+            2*H31^2*\[CapitalDelta]3 + 7*H31*V1*V3*\[CapitalDelta]3 - 
+            2*V1^2*V3^2*\[CapitalDelta]3 + 4*H31*V1*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 - 2*H31*V1*V3*\[CapitalDelta]3^2)/2))/2 + 
+       (3*H12*H31*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(10*V3) - 
+       (V3*(-1/2*(H31*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + 
+             H12^2*\[CapitalDelta]2 - H12^2*\[CapitalDelta]3)) - 
+          (V1*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+             3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+             6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+             6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+             6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+             6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+           4 + (9*H12*H23*V1^2 + 5*H12*H31*V1*V2 - 6*H23*V1^3*V2 + 
+            4*H31*V1^2*V2^2 + 3*H12^2*V1*V3 + 10*H12*V1^2*V2*V3 - 
+            12*V1^3*V2^2*V3 + 4*H12^2*H31*\[CapitalDelta]2 - 
+            8*H12*H23*V1^2*\[CapitalDelta]2 - 4*H12*H31*V1*V2*
+             \[CapitalDelta]2 - 8*H12^2*V1*V3*\[CapitalDelta]2 - 
+            16*H12*V1^2*V2*V3*\[CapitalDelta]2 - 4*H12^2*H31*
+             \[CapitalDelta]3 + 8*H12*H23*V1^2*\[CapitalDelta]3 + 
+            4*H12*H31*V1*V2*\[CapitalDelta]3 + 8*H12^2*V1*V3*
+             \[CapitalDelta]3 + 16*H12*V1^2*V2*V3*\[CapitalDelta]3)/4 - 
+          (H12*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+                2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+                7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+                4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 2*H31*V1*
+                 \[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 8*H31*V1*
+                V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+                \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 9*H31*V1*V2*
+                \[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 6*V1^2*V2*
+                V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 2*H12*
+                H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 9*H31*V1*
+                V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 6*V1^2*
+                V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/2))/
+        V2 + (H31*(-(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 3*H31*V1*V2*V3 - 
+          2*V1^2*V2*V3^2 - (3*H12*V1^2*((15*V3^2*(-V1^2 + V1^2*
+                 \[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 1, 1, 3, 5, 5] -> 
+      -((H31*V3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+           2*V1^2*V2^2*V3))/V2^2) - (V1*(H23*H31^2 - H23*H31*V1*V3 + 
+          H31^2*V2*V3 - 3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/V2 - 
+       (2*H31*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/V2 - 
+       (V1*(23*H31^2*V3 - 4*H31*V1*V3^2 + 6*H31^2*V3*\[CapitalDelta]2 - 
+          6*H31^2*V3*\[CapitalDelta]3))/4 - 
+       (-12*H23*H31^2*V1*V2 + 4*H31^3*V2^2 + 4*H12*H23*H31*V1*V3 - 
+         16*H12*H31^2*V2*V3 - 65*H31^2*V1*V2^2*V3 + 4*H12^2*H31*V3^2 + 
+         16*H12*H31*V1*V2*V3^2 + 2*H31*V1^2*V2^2*V3^2 + 
+         2*H31^3*V2^2*\[CapitalDelta]2 - 6*H31^2*V1*V2^2*V3*
+          \[CapitalDelta]2 - 2*H31^3*V2^2*\[CapitalDelta]3 + 
+         6*H31^2*V1*V2^2*V3*\[CapitalDelta]3)/(4*V2^2) - 
+       (H31*((V3*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2))/2 + (-4*H31^2 + 2*V1^2*V3^2 - 
+            2*H31^2*\[CapitalDelta]2 - 7*H31*V1*V3*\[CapitalDelta]2 + 
+            2*V1^2*V3^2*\[CapitalDelta]2 - 2*H31*V1*V3*\[CapitalDelta]2^2 + 
+            2*H31^2*\[CapitalDelta]3 + 7*H31*V1*V3*\[CapitalDelta]3 - 
+            2*V1^2*V3^2*\[CapitalDelta]3 + 4*H31*V1*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 - 2*H31*V1*V3*\[CapitalDelta]3^2)/2))/2, 
+     f[1, 1, 1, 4, 4, 4] -> -1/2*(V1*(H12^3 - 29*H12^2*V1*V2 + 
+          24*H12*V1^2*V2^2 + 12*H12^2*V1*V2*\[CapitalDelta]2 - 
+          12*H12^2*V1*V2*\[CapitalDelta]3)) - 
+       (H12*(5*H12^2*V1 - 6*H12*V1^2*V2 - 2*H12^2*V1*\[CapitalDelta]2 + 
+          4*H12*V1^2*V2*\[CapitalDelta]2 + 2*H12^2*V1*\[CapitalDelta]3 - 
+          4*H12*V1^2*V2*\[CapitalDelta]3))/2 - 
+       (3*H12*V1*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (2*V3) - (3*H12^2*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+          3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (3*V1^2*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (H12^2*(2*H12*V1 - 7*H12*V1*\[CapitalDelta]2 + 
+          2*V1^2*V2*\[CapitalDelta]2 + 2*H12*V1*\[CapitalDelta]2^2 + 
+          7*H12*V1*\[CapitalDelta]3 - 2*V1^2*V2*\[CapitalDelta]3 - 
+          4*H12*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H12*V1*\[CapitalDelta]3^2))/4 - 
+       (V1^2*(-39*H12^2*V2 + 126*H12*V1*V2^2 + 36*H12^2*V2*\[CapitalDelta]2 - 
+          24*H12*V1*V2^2*\[CapitalDelta]2 - 4*H12^2*V2*\[CapitalDelta]2^2 - 
+          36*H12^2*V2*\[CapitalDelta]3 + 24*H12*V1*V2^2*\[CapitalDelta]3 + 
+          8*H12^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H12^2*V2*\[CapitalDelta]3^2))/4 - 
+       (H12*V1*(17*H12^2 - 72*H12*V1*V2 + 12*V1^2*V2^2 - 
+          12*H12^2*\[CapitalDelta]2 + 72*H12*V1*V2*\[CapitalDelta]2 + 
+          4*H12^2*\[CapitalDelta]2^2 - 4*H12*V1*V2*\[CapitalDelta]2^2 + 
+          12*H12^2*\[CapitalDelta]3 - 72*H12*V1*V2*\[CapitalDelta]3 - 
+          8*H12^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H12*V1*V2*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H12^2*\[CapitalDelta]3^2 - 
+          4*H12*V1*V2*\[CapitalDelta]3^2))/4 - 
+       (36*H12^2*H23*H31*V1 - 48*H12*H23^2*V1^3 + 12*H12^2*H31^2*V2 - 
+         72*H12*H23*H31*V1^2*V2 - 24*H12*H31^2*V1*V2^2 - 12*H12^3*H31*V3 + 
+         144*H12^2*H23*V1^2*V3 + 246*H12^2*H31*V1*V2*V3 - 
+         450*H12*H23*V1^3*V2*V3 - 330*H12*H31*V1^2*V2^2*V3 - 
+         61*H12^3*V1*V3^2 + 555*H12^2*V1^2*V2*V3^2 - 822*H12*V1^3*V2^2*V3^2 + 
+         6*H12^3*H31*V3*\[CapitalDelta]2 - 54*H12^2*H23*V1^2*V3*
+          \[CapitalDelta]2 - 42*H12^2*H31*V1*V2*V3*\[CapitalDelta]2 + 
+         12*H12*H23*V1^3*V2*V3*\[CapitalDelta]2 + 12*H12*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]2 + 29*H12^3*V1*V3^2*\[CapitalDelta]2 - 
+         238*H12^2*V1^2*V2*V3^2*\[CapitalDelta]2 + 48*H12*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2 - 6*H12^3*V1*V3^2*\[CapitalDelta]2^2 + 
+         8*H12^2*V1^2*V2*V3^2*\[CapitalDelta]2^2 - 6*H12^3*H31*V3*
+          \[CapitalDelta]3 + 54*H12^2*H23*V1^2*V3*\[CapitalDelta]3 + 
+         42*H12^2*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*H23*V1^3*V2*V3*
+          \[CapitalDelta]3 - 12*H12*H31*V1^2*V2^2*V3*\[CapitalDelta]3 - 
+         29*H12^3*V1*V3^2*\[CapitalDelta]3 + 238*H12^2*V1^2*V2*V3^2*
+          \[CapitalDelta]3 - 48*H12*V1^3*V2^2*V3^2*\[CapitalDelta]3 + 
+         12*H12^3*V1*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         16*H12^2*V1^2*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         6*H12^3*V1*V3^2*\[CapitalDelta]3^2 + 8*H12^2*V1^2*V2*V3^2*
+          \[CapitalDelta]3^2)/(4*V3^2) - 
+       (3*H12^3*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3^2 - 
+       (3*V1^2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (6*H12*V1*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+          H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (3*H12^2*(-(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 
+          3*H31*V1*V2*V3 - 2*V1^2*V2*V3^2 - 
+          (3*H12*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (3*V1*(-1/4*(H12*(-11*H12*H23*V1 - 21*H12*H31*V2 + 
+             12*H23*V1^2*V2 + 12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (V1*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (16*H12^2*H23*H31 - 40*H12*H23^2*V1^2 - 56*H12*H23*H31*V1*V2 - 
+            16*H12*H31^2*V2^2 + 35*H12^2*H23*V1*V3 + 41*H12^2*H31*V2*V3 - 
+            218*H12*H23*V1^2*V2*V3 - 146*H12*H31*V1*V2^2*V3 - 2*H12^3*V3^2 + 
+            66*H12^2*V1*V2*V3^2 - 252*H12*V1^2*V2^2*V3^2 - 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]2 - 6*H12^2*H31*V2*V3*\[CapitalDelta]2 + 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]2 + 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]2 - 16*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]3 + 6*H12^2*H31*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]3 + 16*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^3*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (2*V3) - (3*V1*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (4*H12*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - 
+       (3*H12*(-1/4*(V1*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+             12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (H12*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+             3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+             H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+             H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+             H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+             H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+             2*V1^2*V2*V3*\[CapitalDelta]3))/2 - 
+          (8*H12*H23*H31*V1 - 8*H23^2*V1^3 - 16*H23*H31*V1^2*V2 - 
+            8*H31^2*V1*V2^2 - 4*H12^2*H31*V3 + 25*H12*H23*V1^2*V3 + 
+            45*H12*H31*V1*V2*V3 - 44*H23*V1^3*V2*V3 - 44*H31*V1^2*V2^2*V3 - 
+            8*H12^2*V1*V3^2 + 64*H12*V1^2*V2*V3^2 - 56*V1^3*V2^2*V3^2 + 
+            2*H12^2*H31*V3*\[CapitalDelta]2 - 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]2 - 8*H12*H31*V1*V2*V3*\[CapitalDelta]2 + 
+            2*H12^2*V1*V3^2*\[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*
+             \[CapitalDelta]2 - 2*H12^2*H31*V3*\[CapitalDelta]3 + 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]3 + 8*H12*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 2*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^2*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V1*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 1, 1, 4, 4, 5] -> 
+      -(H12*(-3*H12*H31*V1 + H31*V1^2*V2 + H12*V1^2*V3)) - 
+       (H12^2*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/V2^2 + (H12*V1*(-2*H23^2*V1^2 - 3*H23*H31*V1*V2 - 
+          H31^2*V2^2 - 3*H12*H23*V1*V3 - 6*H12*H31*V2*V3 - 
+          10*H23*V1^2*V2*V3 - 8*H31*V1*V2^2*V3 - H12^2*V3^2 - 
+          8*H12*V1*V2*V3^2 - 12*V1^2*V2^2*V3^2))/(2*V2*V3) + 
+       (H12*H31*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + H12^2*\[CapitalDelta]2 - 
+          H12^2*\[CapitalDelta]3))/(2*V2) - 
+       (V1*(3*H12^2*H31 - 2*H12*H23*V1^2 + 20*H12*H31*V1*V2 + H12^2*V1*V3 - 
+          12*H12*V1^2*V2*V3 + 12*H12*H31*V1*V2*\[CapitalDelta]2 - 
+          12*H12*H31*V1*V2*\[CapitalDelta]3))/2 - 
+       (H31*(5*H12^2*V1 - 6*H12*V1^2*V2 - 2*H12^2*V1*\[CapitalDelta]2 + 
+          4*H12*V1^2*V2*\[CapitalDelta]2 + 2*H12^2*V1*\[CapitalDelta]3 - 
+          4*H12*V1^2*V2*\[CapitalDelta]3))/2 - 
+       (H31*V1*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (2*V3) + (H12*V1*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 
+          2*H31*V1*V2^2 + 3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+          6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+          6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+          6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+          6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V2) - (H12*V1*(7*H23*H31*V1 + 3*H31^2*V2 + H12*H31*V3 - 
+          6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 12*V1^2*V2*V3^2 + 
+          6*H23*H31*V1*\[CapitalDelta]2 + 6*H31^2*V2*\[CapitalDelta]2 + 
+          6*H12*H31*V3*\[CapitalDelta]2 + 12*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V3) - (H12*H31*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 3*H12*V1*V3 - 
+          3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+          H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+          H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+          H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+          H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+          2*V1^2*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (V1^2*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 
+          7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 
+          2*H12*H23*H31*\[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*\[CapitalDelta]2 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 - 2*H12*H23*H31*\[CapitalDelta]3 + 
+          2*H23^2*V1^2*\[CapitalDelta]3 + 4*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          2*H31^2*V2^2*\[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+          2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/(2*V3) - 
+       (H12*H31*(2*H12*V1 - 7*H12*V1*\[CapitalDelta]2 + 
+          2*V1^2*V2*\[CapitalDelta]2 + 2*H12*V1*\[CapitalDelta]2^2 + 
+          7*H12*V1*\[CapitalDelta]3 - 2*V1^2*V2*\[CapitalDelta]3 - 
+          4*H12*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H12*V1*\[CapitalDelta]3^2))/2 - 
+       (H12^2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2))/4 - 
+       (H31*V1*(17*H12^2 - 72*H12*V1*V2 + 12*V1^2*V2^2 - 
+          12*H12^2*\[CapitalDelta]2 + 72*H12*V1*V2*\[CapitalDelta]2 + 
+          4*H12^2*\[CapitalDelta]2^2 - 4*H12*V1*V2*\[CapitalDelta]2^2 + 
+          12*H12^2*\[CapitalDelta]3 - 72*H12*V1*V2*\[CapitalDelta]3 - 
+          8*H12^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H12*V1*V2*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H12^2*\[CapitalDelta]3^2 - 
+          4*H12*V1*V2*\[CapitalDelta]3^2))/4 - 
+       (V1^2*(-16*H12*H23*V1 + 6*H12*H31*V2 + 18*H31*V1*V2^2 - 3*H12^2*V3 - 
+          88*H12*V1*V2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 + 
+          48*H12*H31*V2*\[CapitalDelta]2 - 12*H23*V1^2*V2*\[CapitalDelta]2 - 
+          12*H31*V1*V2^2*\[CapitalDelta]2 - 12*H12^2*V3*\[CapitalDelta]2 - 
+          24*H12*V1*V2*V3*\[CapitalDelta]2 - 24*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*\[CapitalDelta]2^2 - 
+          8*H12*H31*V2*\[CapitalDelta]2^2 - 4*H12^2*V3*\[CapitalDelta]2^2 - 
+          8*H12*V1*V2*V3*\[CapitalDelta]2^2 + 6*H12*H23*V1*\[CapitalDelta]3 - 
+          48*H12*H31*V2*\[CapitalDelta]3 + 12*H23*V1^2*V2*\[CapitalDelta]3 + 
+          12*H31*V1*V2^2*\[CapitalDelta]3 + 12*H12^2*V3*\[CapitalDelta]3 + 
+          24*H12*V1*V2*V3*\[CapitalDelta]3 + 24*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*H23*V1*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 16*H12*H31*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 8*H12^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*\[CapitalDelta]3^2 - 8*H12*H31*V2*\[CapitalDelta]3^2 - 
+          4*H12^2*V3*\[CapitalDelta]3^2 - 8*H12*V1*V2*V3*\[CapitalDelta]3^2))/
+        4 - (H12*V1*(-7*H12*H31 - 2*H23*V1^2 + 12*H31*V1*V2 + 12*H12*V1*V3 - 
+          8*V1^2*V2*V3 + 6*H31*V1*V2*\[CapitalDelta]2 - 
+          6*H12*V1*V3*\[CapitalDelta]2 + 4*H12*H31*\[CapitalDelta]2^2 - 
+          2*H23*V1^2*\[CapitalDelta]2^2 - 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+          2*H12*V1*V3*\[CapitalDelta]2^2 - 4*V1^2*V2*V3*\[CapitalDelta]2^2 - 
+          6*H31*V1*V2*\[CapitalDelta]3 + 6*H12*V1*V3*\[CapitalDelta]3 - 
+          8*H12*H31*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H31*\[CapitalDelta]3^2 - 2*H23*V1^2*\[CapitalDelta]3^2 - 
+          2*H31*V1*V2*\[CapitalDelta]3^2 - 2*H12*V1*V3*\[CapitalDelta]3^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]3^2))/2 - 
+       (4*H12*H23*H31^2*V1*V2^2 + 4*H12*H31^3*V2^3 - 4*H12*H23^2*V1^3*V2*V3 - 
+         4*H12^2*H31^2*V2^2*V3 + 3*H12*H23*H31*V1^2*V2^2*V3 + 
+         4*H23^2*V1^4*V2^2*V3 + 73*H12*H31^2*V1*V2^3*V3 - 
+         34*H23*H31*V1^3*V2^3*V3 - 38*H31^2*V1^2*V2^4*V3 + 
+         4*H12^3*H23*V1*V3^2 + 7*H12^2*H23*V1^2*V2*V3^2 - 
+         35*H12^2*H31*V1*V2^2*V3^2 + 10*H12*H23*V1^3*V2^2*V3^2 + 
+         32*H12*H31*V1^2*V2^3*V3^2 + 28*H23*V1^4*V2^3*V3^2 - 
+         86*H31*V1^3*V2^4*V3^2 + 4*H12^4*V3^3 + 13*H12^3*V1*V2*V3^3 - 
+         35*H12^2*V1^2*V2^2*V3^3 + 128*H12*V1^3*V2^3*V3^3 + 
+         40*V1^4*V2^4*V3^3 + 2*H12^2*H31^2*V2^2*V3*\[CapitalDelta]2 - 
+         24*H12*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]2 + 4*H23^2*V1^4*V2^2*V3*
+          \[CapitalDelta]2 - 20*H12*H31^2*V1*V2^3*V3*\[CapitalDelta]2 + 
+         8*H23*H31*V1^3*V2^3*V3*\[CapitalDelta]2 + 4*H31^2*V1^2*V2^4*V3*
+          \[CapitalDelta]2 + 4*H12^3*H31*V2*V3^2*\[CapitalDelta]2 - 
+         8*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 15*H12^2*H31*V1*V2^2*
+          V3^2*\[CapitalDelta]2 + 14*H12*H23*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2 - 200*H12*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2 + 
+         28*H23*V1^4*V2^3*V3^2*\[CapitalDelta]2 + 28*H31*V1^3*V2^4*V3^2*
+          \[CapitalDelta]2 - 8*H12^3*V1*V2*V3^3*\[CapitalDelta]2 + 
+         14*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 40*H12*V1^3*V2^3*V3^3*
+          \[CapitalDelta]2 + 40*V1^4*V2^4*V3^3*\[CapitalDelta]2 - 
+         18*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]2^2 + 8*H12*H23*V1^3*V2^2*
+          V3^2*\[CapitalDelta]2^2 + 16*H12*H31*V1^2*V2^3*V3^2*
+          \[CapitalDelta]2^2 + 8*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2^2 + 
+         16*H12*V1^3*V2^3*V3^3*\[CapitalDelta]2^2 - 2*H12^2*H31^2*V2^2*V3*
+          \[CapitalDelta]3 + 24*H12*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]3 - 
+         4*H23^2*V1^4*V2^2*V3*\[CapitalDelta]3 + 20*H12*H31^2*V1*V2^3*V3*
+          \[CapitalDelta]3 - 8*H23*H31*V1^3*V2^3*V3*\[CapitalDelta]3 - 
+         4*H31^2*V1^2*V2^4*V3*\[CapitalDelta]3 - 4*H12^3*H31*V2*V3^2*
+          \[CapitalDelta]3 + 8*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 
+         15*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 14*H12*H23*V1^3*V2^2*
+          V3^2*\[CapitalDelta]3 + 200*H12*H31*V1^2*V2^3*V3^2*
+          \[CapitalDelta]3 - 28*H23*V1^4*V2^3*V3^2*\[CapitalDelta]3 - 
+         28*H31*V1^3*V2^4*V3^2*\[CapitalDelta]3 + 8*H12^3*V1*V2*V3^3*
+          \[CapitalDelta]3 - 14*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]3 - 
+         40*H12*V1^3*V2^3*V3^3*\[CapitalDelta]3 - 40*V1^4*V2^4*V3^3*
+          \[CapitalDelta]3 + 36*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 16*H12*H23*V1^3*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 32*H12*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 16*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 32*H12*V1^3*V2^3*V3^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 18*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]3^2 + 
+         8*H12*H23*V1^3*V2^2*V3^2*\[CapitalDelta]3^2 + 16*H12*H31*V1^2*V2^3*
+          V3^2*\[CapitalDelta]3^2 + 8*H12^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3^2 + 16*H12*V1^3*V2^3*V3^3*\[CapitalDelta]3^2)/
+        (4*V2^2*V3^2) + 
+       (H12^2*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 
+            8*H31*V1*V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+             \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 
+            9*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 
+            6*V1^2*V2*V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+            2*H12*H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 
+            9*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            6*V1^2*V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/(2*V2) - 
+       (3*H12^2*H31*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) + (H12*(-1/2*(H31*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + 
+             H12^2*\[CapitalDelta]2 - H12^2*\[CapitalDelta]3)) - 
+          (V1*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+             3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+             6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+             6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+             6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+             6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+           4 + (9*H12*H23*V1^2 + 5*H12*H31*V1*V2 - 6*H23*V1^3*V2 + 
+            4*H31*V1^2*V2^2 + 3*H12^2*V1*V3 + 10*H12*V1^2*V2*V3 - 
+            12*V1^3*V2^2*V3 + 4*H12^2*H31*\[CapitalDelta]2 - 
+            8*H12*H23*V1^2*\[CapitalDelta]2 - 4*H12*H31*V1*V2*
+             \[CapitalDelta]2 - 8*H12^2*V1*V3*\[CapitalDelta]2 - 
+            16*H12*V1^2*V2*V3*\[CapitalDelta]2 - 4*H12^2*H31*
+             \[CapitalDelta]3 + 8*H12*H23*V1^2*\[CapitalDelta]3 + 
+            4*H12*H31*V1*V2*\[CapitalDelta]3 + 8*H12^2*V1*V3*
+             \[CapitalDelta]3 + 16*H12*V1^2*V2*V3*\[CapitalDelta]3)/4 - 
+          (H12*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+                2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+                7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+                4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 2*H31*V1*
+                 \[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 8*H31*V1*
+                V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+                \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 9*H31*V1*V2*
+                \[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 6*V1^2*V2*
+                V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 2*H12*
+                H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 9*H31*V1*
+                V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 6*V1^2*
+                V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/2))/
+        V2 - (H12*H31*(-(H23*H31*V1) - H31^2*V2 - H23*V1^2*V3 - 
+          3*H31*V1*V2*V3 - 2*V1^2*V2*V3^2 - 
+          (3*H12*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (V1*(-1/4*(H31*(-11*H12*H23*V1 - 21*H12*H31*V2 + 
+             12*H23*V1^2*V2 + 12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (H12*(7*H23*H31*V1 + 3*H31^2*V2 + 
+             H12*H31*V3 - 6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 
+             12*V1^2*V2*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+             6*H31^2*V2*\[CapitalDelta]2 + 6*H12*H31*V3*\[CapitalDelta]2 + 
+             12*H31*V1*V2*V3*\[CapitalDelta]2 - 6*H23*H31*V1*
+              \[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+             6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*
+              \[CapitalDelta]3))/4 - (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 + 
+             5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 
+             12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 
+             20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*
+              \[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V3*\[CapitalDelta]2 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 - 8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+             2*H12^2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+             2*H12*H23*H31*\[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+             2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (20*H12*H23*H31*V1 - 12*H23^2*V1^3 - 26*H12*H31^2*V2 + 
+            6*H23*H31*V1^2*V2 + 18*H31^2*V1*V2^2 + 7*H12^2*H31*V3 - 
+            20*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 60*H23*V1^3*V2*V3 + 
+            10*H12^2*V1*V3^2 - 52*H12*V1^2*V2*V3^2 - 72*V1^3*V2^2*V3^2 + 
+            16*H12*H23*H31*V1*\[CapitalDelta]2 - 4*H23^2*V1^3*
+             \[CapitalDelta]2 + 12*H12*H31^2*V2*\[CapitalDelta]2 - 
+            8*H23*H31*V1^2*V2*\[CapitalDelta]2 - 4*H31^2*V1*V2^2*
+             \[CapitalDelta]2 + 6*H12^2*H31*V3*\[CapitalDelta]2 - 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]2 + 16*H12*H31*V1*V2*V3*
+             \[CapitalDelta]2 - 16*H23*V1^3*V2*V3*\[CapitalDelta]2 - 
+            16*H31*V1^2*V2^2*V3*\[CapitalDelta]2 - 4*H12^2*V1*V3^2*
+             \[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 - 
+            16*V1^3*V2^2*V3^2*\[CapitalDelta]2 - 16*H12*H23*H31*V1*
+             \[CapitalDelta]3 + 4*H23^2*V1^3*\[CapitalDelta]3 - 
+            12*H12*H31^2*V2*\[CapitalDelta]3 + 8*H23*H31*V1^2*V2*
+             \[CapitalDelta]3 + 4*H31^2*V1*V2^2*\[CapitalDelta]3 - 
+            6*H12^2*H31*V3*\[CapitalDelta]3 + 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]3 - 16*H12*H31*V1*V2*V3*\[CapitalDelta]3 + 
+            16*H23*V1^3*V2*V3*\[CapitalDelta]3 + 16*H31*V1^2*V2^2*V3*
+             \[CapitalDelta]3 + 4*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 + 16*V1^3*V2^2*V3^2*
+             \[CapitalDelta]3)/4 - (3*H12^2*H31*V1*
+            ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/(10*V3) - 
+          (V1*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - H31^2*
+                V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 4*H31*V1*
+                V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+             (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - 
+       (H31*(-1/4*(V1*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+             12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (H12*(2*H12*H31 - H23*V1^2 - 2*H31*V1*V2 + 
+             3*H12*V1*V3 - 3*V1^2*V2*V3 - H12*H31*\[CapitalDelta]2 + 
+             H23*V1^2*\[CapitalDelta]2 + H31*V1*V2*\[CapitalDelta]2 - 
+             H12*V1*V3*\[CapitalDelta]2 + 2*V1^2*V2*V3*\[CapitalDelta]2 + 
+             H12*H31*\[CapitalDelta]3 - H23*V1^2*\[CapitalDelta]3 - 
+             H31*V1*V2*\[CapitalDelta]3 + H12*V1*V3*\[CapitalDelta]3 - 
+             2*V1^2*V2*V3*\[CapitalDelta]3))/2 - 
+          (8*H12*H23*H31*V1 - 8*H23^2*V1^3 - 16*H23*H31*V1^2*V2 - 
+            8*H31^2*V1*V2^2 - 4*H12^2*H31*V3 + 25*H12*H23*V1^2*V3 + 
+            45*H12*H31*V1*V2*V3 - 44*H23*V1^3*V2*V3 - 44*H31*V1^2*V2^2*V3 - 
+            8*H12^2*V1*V3^2 + 64*H12*V1^2*V2*V3^2 - 56*V1^3*V2^2*V3^2 + 
+            2*H12^2*H31*V3*\[CapitalDelta]2 - 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]2 - 8*H12*H31*V1*V2*V3*\[CapitalDelta]2 + 
+            2*H12^2*V1*V3^2*\[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*
+             \[CapitalDelta]2 - 2*H12^2*H31*V3*\[CapitalDelta]3 + 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]3 + 8*H12*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 2*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^2*V1^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V1*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 1, 1, 4, 5, 5] -> 
+      -(H31*(-3*H12*H31*V1 + H31*V1^2*V2 + H12*V1^2*V3)) + 
+       (2*H12*H31*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/V2^2 + (H12*V1*(H23*H31^2 - H23*H31*V1*V3 + 
+          H31^2*V2*V3 - 3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(2*V2*V3) + 
+       (2*H12*V1*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        V2^2 - (H31^2*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + 
+          H12^2*\[CapitalDelta]2 - H12^2*\[CapitalDelta]3))/(2*V2) - 
+       (V1*(3*H12*H31^2 - 2*H23*H31*V1^2 + H31^2*V1*V2 + 20*H12*H31*V1*V3 - 
+          12*H31*V1^2*V2*V3 - 12*H12*H31*V1*V3*\[CapitalDelta]2 + 
+          12*H12*H31*V1*V3*\[CapitalDelta]3))/2 - 
+       (H12*(5*H31^2*V1 - 6*H31*V1^2*V3 + 2*H31^2*V1*\[CapitalDelta]2 - 
+          4*H31*V1^2*V3*\[CapitalDelta]2 - 2*H31^2*V1*\[CapitalDelta]3 + 
+          4*H31*V1^2*V3*\[CapitalDelta]3))/2 - 
+       (H31*V1*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+          3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+          6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+          6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+          6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+          6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (2*V2) - (V1^2*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H31^2*(2*H12*V1 - 7*H12*V1*\[CapitalDelta]2 + 
+          2*V1^2*V2*\[CapitalDelta]2 + 2*H12*V1*\[CapitalDelta]2^2 + 
+          7*H12*V1*\[CapitalDelta]3 - 2*V1^2*V2*\[CapitalDelta]3 - 
+          4*H12*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H12*V1*\[CapitalDelta]3^2))/4 - 
+       (H12*H31*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2))/2 - 
+       (H12*V1*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+          12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+          4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+          12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+          8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+          4*H31*V1*V3*\[CapitalDelta]3^2))/4 - 
+       (V1^2*(-16*H23*H31*V1 - 3*H31^2*V2 + 6*H12*H31*V3 - 88*H31*V1*V2*V3 + 
+          18*H12*V1*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+          12*H31^2*V2*\[CapitalDelta]2 - 48*H12*H31*V3*\[CapitalDelta]2 + 
+          12*H23*V1^2*V3*\[CapitalDelta]2 + 24*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 12*H12*V1*V3^2*\[CapitalDelta]2 + 
+          24*V1^2*V2*V3^2*\[CapitalDelta]2 - 4*H23*H31*V1*\[CapitalDelta]2^
+            2 - 4*H31^2*V2*\[CapitalDelta]2^2 - 8*H12*H31*V3*
+           \[CapitalDelta]2^2 - 8*H31*V1*V2*V3*\[CapitalDelta]2^2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+          48*H12*H31*V3*\[CapitalDelta]3 - 12*H23*V1^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V3^2*
+           \[CapitalDelta]3 - 24*V1^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H23*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*H31^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H31*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*\[CapitalDelta]3^2 - 4*H31^2*V2*\[CapitalDelta]3^2 - 
+          8*H12*H31*V3*\[CapitalDelta]3^2 - 8*H31*V1*V2*V3*
+           \[CapitalDelta]3^2))/4 - (H31*V1*(-7*H12*H31 - 2*H23*V1^2 + 
+          12*H31*V1*V2 + 12*H12*V1*V3 - 8*V1^2*V2*V3 + 
+          6*H31*V1*V2*\[CapitalDelta]2 - 6*H12*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*\[CapitalDelta]2^2 - 2*H23*V1^2*\[CapitalDelta]2^2 - 
+          2*H31*V1*V2*\[CapitalDelta]2^2 - 2*H12*V1*V3*\[CapitalDelta]2^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]2^2 - 6*H31*V1*V2*\[CapitalDelta]3 + 
+          6*H12*V1*V3*\[CapitalDelta]3 - 8*H12*H31*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H31*\[CapitalDelta]3^2 - 2*H23*V1^2*\[CapitalDelta]3^2 - 
+          2*H31*V1*V2*\[CapitalDelta]3^2 - 2*H12*V1*V3*\[CapitalDelta]3^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]3^2))/2 - 
+       (2*H12*H23*H31^2*V1*V2 - 16*H12^2*H23*H31*V1*V3 + 
+         8*H12*H23^2*V1^3*V3 - 39*H12*H23*H31*V1^2*V2*V3 + 
+         4*H23^2*V1^4*V2*V3 - 23*H12*H31^2*V1*V2^2*V3 + 42*H23*H31*V1^3*V2^2*
+          V3 - 41*H31^2*V1^2*V2^3*V3 - 8*H12^3*H31*V3^2 + 
+         16*H12^2*H23*V1^2*V3^2 - 15*H12^2*H31*V1*V2*V3^2 + 
+         10*H12*H23*V1^3*V2*V3^2 - 62*H12*H31*V1^2*V2^2*V3^2 + 
+         28*H23*V1^4*V2^2*V3^2 + 176*H31*V1^3*V2^3*V3^2 + 8*H12^3*V1*V3^3 + 
+         6*H12^2*V1^2*V2*V3^3 - 30*H12*V1^3*V2^2*V3^3 + 40*V1^4*V2^3*V3^3 - 
+         4*H12^2*H31^2*V2*V3*\[CapitalDelta]2 + 24*H12*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]2 - 4*H23^2*V1^4*V2*V3*\[CapitalDelta]2 - 
+         13*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]2 - 14*H23*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]2 - 30*H31^2*V1^2*V2^3*V3*\[CapitalDelta]2 + 
+         20*H12^2*H31*V1*V2*V3^2*\[CapitalDelta]2 - 8*H12*H23*V1^3*V2*V3^2*
+          \[CapitalDelta]2 + 200*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+         28*H23*V1^4*V2^2*V3^2*\[CapitalDelta]2 - 40*H31*V1^3*V2^3*V3^2*
+          \[CapitalDelta]2 - 4*H12^2*V1^2*V2*V3^3*\[CapitalDelta]2 - 
+         28*H12*V1^3*V2^2*V3^3*\[CapitalDelta]2 - 40*V1^4*V2^3*V3^3*
+          \[CapitalDelta]2 - 18*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]2^2 + 
+         8*H23*H31*V1^3*V2^2*V3*\[CapitalDelta]2^2 + 8*H31^2*V1^2*V2^3*V3*
+          \[CapitalDelta]2^2 + 16*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2^2 + 
+         16*H31*V1^3*V2^3*V3^2*\[CapitalDelta]2^2 + 4*H12^2*H31^2*V2*V3*
+          \[CapitalDelta]3 - 24*H12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 + 
+         4*H23^2*V1^4*V2*V3*\[CapitalDelta]3 + 13*H12*H31^2*V1*V2^2*V3*
+          \[CapitalDelta]3 + 14*H23*H31*V1^3*V2^2*V3*\[CapitalDelta]3 + 
+         30*H31^2*V1^2*V2^3*V3*\[CapitalDelta]3 - 20*H12^2*H31*V1*V2*V3^2*
+          \[CapitalDelta]3 + 8*H12*H23*V1^3*V2*V3^2*\[CapitalDelta]3 - 
+         200*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3 + 28*H23*V1^4*V2^2*V3^2*
+          \[CapitalDelta]3 + 40*H31*V1^3*V2^3*V3^2*\[CapitalDelta]3 + 
+         4*H12^2*V1^2*V2*V3^3*\[CapitalDelta]3 + 28*H12*V1^3*V2^2*V3^3*
+          \[CapitalDelta]3 + 40*V1^4*V2^3*V3^3*\[CapitalDelta]3 + 
+         36*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         16*H23*H31*V1^3*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         16*H31^2*V1^2*V2^3*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         32*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         32*H31*V1^3*V2^3*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         18*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]3^2 + 8*H23*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]3^2 + 8*H31^2*V1^2*V2^3*V3*\[CapitalDelta]3^2 + 
+         16*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3^2 + 16*H31*V1^3*V2^3*V3^2*
+          \[CapitalDelta]3^2)/(4*V2^2*V3) - 
+       (H12*H31*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+             2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+             7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             2*H31*V1*\[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 
+            8*H31*V1*V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+             \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 
+            9*H31*V1*V2*\[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 
+            6*V1^2*V2*V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+            2*H12*H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 
+            9*H31*V1*V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 
+            6*V1^2*V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/(2*V2) - 
+       (H12*V1*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+             12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+             4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+             12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+             8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+              \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^
+               2 - 4*H31*V1*V3*\[CapitalDelta]3^2)) + 
+          (-44*H23*H31*V1 + 25*H31^2*V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 
+            208*H31*V1*V2*V3 + 48*H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 
+            24*H23*H31*V1*\[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 
+            24*H12*H31*V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 4*H31^2*V2*\[CapitalDelta]2^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]2^2 + 24*H23*H31*V1*
+             \[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+            24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]3^2)/8))/(2*V2) - 
+       (H31*(-1/2*(H31*(-2*H12^2 + H12*V1*V2 + V1^2*V2^2 + 
+             H12^2*\[CapitalDelta]2 - H12^2*\[CapitalDelta]3)) - 
+          (V1*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+             3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+             6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+             6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+             6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+             6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+           4 + (9*H12*H23*V1^2 + 5*H12*H31*V1*V2 - 6*H23*V1^3*V2 + 
+            4*H31*V1^2*V2^2 + 3*H12^2*V1*V3 + 10*H12*V1^2*V2*V3 - 
+            12*V1^3*V2^2*V3 + 4*H12^2*H31*\[CapitalDelta]2 - 
+            8*H12*H23*V1^2*\[CapitalDelta]2 - 4*H12*H31*V1*V2*
+             \[CapitalDelta]2 - 8*H12^2*V1*V3*\[CapitalDelta]2 - 
+            16*H12*V1^2*V2*V3*\[CapitalDelta]2 - 4*H12^2*H31*
+             \[CapitalDelta]3 + 8*H12*H23*V1^2*\[CapitalDelta]3 + 
+            4*H12*H31*V1*V2*\[CapitalDelta]3 + 8*H12^2*V1*V3*
+             \[CapitalDelta]3 + 16*H12*V1^2*V2*V3*\[CapitalDelta]3)/4 - 
+          (H12*(-1/2*(V2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+                2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+                7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+                4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 2*H31*V1*
+                 \[CapitalDelta]3^2)) + (4*H12*H31 - 2*H23*V1^2 + 8*H31*V1*
+                V2 - 4*H12*V1*V3 - 6*V1^2*V2*V3 + 2*H12*H31*
+                \[CapitalDelta]2 - 2*H23*V1^2*\[CapitalDelta]2 + 9*H31*V1*V2*
+                \[CapitalDelta]2 - 2*H12*V1*V3*\[CapitalDelta]2 - 6*V1^2*V2*
+                V3*\[CapitalDelta]2 + 2*H31*V1*V2*\[CapitalDelta]2^2 - 2*H12*
+                H31*\[CapitalDelta]3 + 2*H23*V1^2*\[CapitalDelta]3 - 9*H31*V1*
+                V2*\[CapitalDelta]3 + 2*H12*V1*V3*\[CapitalDelta]3 + 6*V1^2*
+                V2*V3*\[CapitalDelta]3 - 4*H31*V1*V2*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 2*H31*V1*V2*\[CapitalDelta]3^2)/2))/2))/
+        V2 - (V1*(-1/4*(H31*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 
+             2*H31*V1*V2^2 + 3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+             6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+             6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+             6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+             6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+             7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+             4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+              \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*
+              \[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*\[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (12*H12*H23*H31*V1 - 4*H23^2*V1^3 + 7*H12*H31^2*V2 - 
+            12*H23*H31*V1^2*V2 + 10*H31^2*V1*V2^2 - 26*H12^2*H31*V3 + 
+            22*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 28*H23*V1^3*V2*V3 - 
+            36*H31*V1^2*V2^2*V3 + 26*H12^2*V1*V3^2 + 32*H12*V1^2*V2*V3^2 - 
+            40*V1^3*V2^2*V3^2 - 16*H12*H23*H31*V1*\[CapitalDelta]2 + 
+            4*H23^2*V1^3*\[CapitalDelta]2 - 6*H12*H31^2*V2*\[CapitalDelta]2 + 
+            8*H23*H31*V1^2*V2*\[CapitalDelta]2 + 4*H31^2*V1*V2^2*
+             \[CapitalDelta]2 - 12*H12^2*H31*V3*\[CapitalDelta]2 + 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]2 - 16*H12*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 16*H23*V1^3*V2*V3*\[CapitalDelta]2 + 
+            16*H31*V1^2*V2^2*V3*\[CapitalDelta]2 + 4*H12^2*V1*V3^2*
+             \[CapitalDelta]2 + 16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+            16*V1^3*V2^2*V3^2*\[CapitalDelta]2 + 16*H12*H23*H31*V1*
+             \[CapitalDelta]3 - 4*H23^2*V1^3*\[CapitalDelta]3 + 
+            6*H12*H31^2*V2*\[CapitalDelta]3 - 8*H23*H31*V1^2*V2*
+             \[CapitalDelta]3 - 4*H31^2*V1*V2^2*\[CapitalDelta]3 + 
+            12*H12^2*H31*V3*\[CapitalDelta]3 - 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]3 + 16*H12*H31*V1*V2*V3*\[CapitalDelta]3 - 
+            16*H23*V1^3*V2*V3*\[CapitalDelta]3 - 16*H31*V1^2*V2^2*V3*
+             \[CapitalDelta]3 - 4*H12^2*V1*V3^2*\[CapitalDelta]3 - 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 - 16*V1^3*V2^2*V3^2*
+             \[CapitalDelta]3)/4 - (H12*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 
+                12*V1^2*V3^2 + 12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*
+                 \[CapitalDelta]2 + 4*H31^2*\[CapitalDelta]2^2 - 
+                4*H31*V1*V3*\[CapitalDelta]2^2 - 12*H31^2*\[CapitalDelta]3 + 
+                72*H31*V1*V3*\[CapitalDelta]3 - 8*H31^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + 8*H31*V1*V3*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+                4*H31*V1*V3*\[CapitalDelta]3^2)) + (-44*H23*H31*V1 + 25*H31^2*
+                V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 208*H31*V1*V2*V3 + 48*
+                H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 24*H23*H31*V1*
+                \[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 24*H12*H31*
+                V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*\[CapitalDelta]2 + 4*
+                H31^2*V2*\[CapitalDelta]2^2 - 4*H31*V1*V2*V3*\[CapitalDelta]2^
+                 2 + 24*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*
+                \[CapitalDelta]3 + 24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*
+                V1*V2*V3*\[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 4*H31*V1*
+                V2*V3*\[CapitalDelta]3^2)/8))/2))/V2, 
+     f[1, 1, 1, 5, 5, 5] -> (3*H31^2*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/V2^2 + 
+       (6*V1^2*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 + 
+       (6*H31*V1*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        V2^2 - (V1*(H31^3 - 29*H31^2*V1*V3 + 24*H31*V1^2*V3^2 - 
+          12*H31^2*V1*V3*\[CapitalDelta]2 + 12*H31^2*V1*V3*\[CapitalDelta]3))/
+        2 - (H31*(5*H31^2*V1 - 6*H31*V1^2*V3 + 2*H31^2*V1*\[CapitalDelta]2 - 
+          4*H31*V1^2*V3*\[CapitalDelta]2 - 2*H31^2*V1*\[CapitalDelta]3 + 
+          4*H31*V1^2*V3*\[CapitalDelta]3))/2 - 
+       (H31^2*(2*H31*V1 + 7*H31*V1*\[CapitalDelta]2 - 
+          2*V1^2*V3*\[CapitalDelta]2 + 2*H31*V1*\[CapitalDelta]2^2 - 
+          7*H31*V1*\[CapitalDelta]3 + 2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          2*H31*V1*\[CapitalDelta]3^2))/4 - 
+       (V1^2*(-39*H31^2*V3 + 126*H31*V1*V3^2 - 36*H31^2*V3*\[CapitalDelta]2 + 
+          24*H31*V1*V3^2*\[CapitalDelta]2 - 4*H31^2*V3*\[CapitalDelta]2^2 + 
+          36*H31^2*V3*\[CapitalDelta]3 - 24*H31*V1*V3^2*\[CapitalDelta]3 + 
+          8*H31^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H31^2*V3*\[CapitalDelta]3^2))/4 - 
+       (H31*V1*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+          12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+          4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+          12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+          8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+          4*H31*V1*V3*\[CapitalDelta]3^2))/4 - 
+       (-36*H12*H23*H31^2*V1 + 48*H23^2*H31*V1^3 - 36*H23*H31^2*V1^2*V2 - 
+         31*H31^3*V1*V2^2 - 12*H12^2*H31^2*V3 + 72*H12*H23*H31*V1^2*V3 - 
+         60*H12*H31^2*V1*V2*V3 + 168*H23*H31*V1^3*V2*V3 + 
+         141*H31^2*V1^2*V2^2*V3 + 24*H12^2*H31*V1*V3^2 + 
+         120*H12*H31*V1^2*V2*V3^2 - 42*H31*V1^3*V2^2*V3^2 - 
+         23*H31^3*V1*V2^2*\[CapitalDelta]2 + 142*H31^2*V1^2*V2^2*V3*
+          \[CapitalDelta]2 - 24*H31*V1^3*V2^2*V3^2*\[CapitalDelta]2 - 
+         6*H31^3*V1*V2^2*\[CapitalDelta]2^2 + 8*H31^2*V1^2*V2^2*V3*
+          \[CapitalDelta]2^2 + 23*H31^3*V1*V2^2*\[CapitalDelta]3 - 
+         142*H31^2*V1^2*V2^2*V3*\[CapitalDelta]3 + 24*H31*V1^3*V2^2*V3^2*
+          \[CapitalDelta]3 + 12*H31^3*V1*V2^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 16*H31^2*V1^2*V2^2*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 6*H31^3*V1*V2^2*\[CapitalDelta]3^2 + 
+         8*H31^2*V1^2*V2^2*V3*\[CapitalDelta]3^2)/(4*V2^2), 
+     f[1, 1, 2, 2, 2, 2] -> 0, f[1, 1, 2, 2, 2, 3] -> 0, 
+     f[1, 1, 2, 2, 2, 4] -> 0, f[1, 1, 2, 2, 2, 5] -> 0, 
+     f[1, 1, 2, 2, 3, 3] -> 0, f[1, 1, 2, 2, 3, 4] -> 0, 
+     f[1, 1, 2, 2, 3, 5] -> 0, f[1, 1, 2, 2, 4, 4] -> 
+      -1/16*(V1^2*V2^4) + (15*H12^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/
+        (4*V1^2) - (V1*((-3*V1*V2^4)/4 + (-16*H12*V2^3 + 3*V1*V2^4)/4))/3 + 
+       (15*H12^2*V2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (4*V1^2*V3) - (48*H12*H23*H31*V1^2*V2^2 - 48*H23^2*V1^4*V2^2 - 
+         96*H23*H31*V1^3*V2^3 - 48*H31^2*V1^2*V2^4 - 180*H12^3*H31*V2*V3 - 
+         48*H12^2*H23*V1^2*V2*V3 - 180*H12^2*H31*V1*V2^2*V3 + 
+         96*H12*H23*V1^3*V2^2*V3 + 192*H12*H31*V1^2*V2^3*V3 - 
+         192*H23*V1^4*V2^3*V3 - 192*H31*V1^3*V2^4*V3 + 180*H12^4*V3^2 + 
+         180*H12^3*V1*V2*V3^2 - 144*H12^2*V1^2*V2^2*V3^2 + 
+         256*H12*V1^3*V2^3*V3^2 - 195*V1^4*V2^4*V3^2)/(48*V1^2*V3^2) - 
+       (3*H12^2*V1*V2^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (V2^2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+          H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (V2*(-((2*H12*H23*H31*V2 - 2*H23^2*V1^2*V2 - 
+             4*H23*H31*V1*V2^2 - 2*H31^2*V2^3 - H12^2*H23*V3 + 
+             3*H12*H23*V1*V2*V3 + 5*H12*H31*V2^2*V3 - 8*H23*V1^2*V2^2*V3 - 
+             8*H31*V1*V2^3*V3 - H12^2*V2*V3^2 + 6*H12*V1*V2^2*V3^2 - 
+             8*V1^2*V2^3*V3^2)/V3) - (3*H12^2*V1*V2*
+            ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/(5*V3) - 
+          (2*V2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + H31^2*V2^2 - 
+             H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 1, 2, 2, 4, 5] -> 3*H12*H23*V1*V2 + 
+       H12*H31*V2^2 + H23*V1^2*V2^2 + H31*V1*V2^3 + 3*H12^2*V2*V3 + 
+       7*H12*V1*V2^2*V3 + 2*V1^2*V2^3*V3, f[1, 1, 2, 2, 5, 5] -> 
+      -(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 2*H12*H23*V1*V3 - 
+       H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - H31*V1*V2^2*V3 + H12^2*V3^2 + 
+       4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2, f[1, 1, 2, 3, 3, 3] -> 0, 
+     f[1, 1, 2, 3, 3, 4] -> 0, f[1, 1, 2, 3, 3, 5] -> 0, 
+     f[1, 1, 2, 3, 4, 4] -> -((2*H12*H23*H31*V2 - 2*H23^2*V1^2*V2 - 
+          4*H23*H31*V1*V2^2 - 2*H31^2*V2^3 - H12^2*H23*V3 + 
+          3*H12*H23*V1*V2*V3 + 5*H12*H31*V2^2*V3 - 8*H23*V1^2*V2^2*V3 - 
+          8*H31*V1*V2^3*V3 - H12^2*V2*V3^2 + 6*H12*V1*V2^2*V3^2 - 
+          8*V1^2*V2^3*V3^2)/V3) - (3*H12^2*V1*V2*
+         ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(5*V3) - 
+       (2*V2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + H31^2*V2^2 - 
+          H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 1, 2, 3, 4, 5] -> -2*H23^2*V1^2 - 3*H23*H31*V1*V2 - 
+       H31^2*V2^2 - 3*H12*H23*V1*V3 - 6*H12*H31*V2*V3 - 10*H23*V1^2*V2*V3 - 
+       8*H31*V1*V2^2*V3 - H12^2*V3^2 - 8*H12*V1*V2*V3^2 - 12*V1^2*V2^2*V3^2, 
+     f[1, 1, 2, 3, 5, 5] -> H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+       3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2, f[1, 1, 2, 4, 4, 4] -> 
+      (5*H12^3*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/(V1^2*V2) + 
+       (5*H12^3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (V1^2*V3) - (4*V1^2*(H12*H23*V2^2 + H12*V2^3*V3))/V3 - 
+       (H12*(23*H12^2*V2 - 4*H12*V1*V2^2 - 6*H12^2*V2*\[CapitalDelta]2 + 
+          6*H12^2*V2*\[CapitalDelta]3))/4 - 
+       (V1*(-19*H12^2*V2^2 + 12*H12*V1*V2^3 + 4*H12^2*V2^2*\[CapitalDelta]2 - 
+          4*H12^2*V2^2*\[CapitalDelta]3))/2 + 
+       (V1^2*(-19*H12*V2^3 + 4*H12*V2^3*\[CapitalDelta]2 - 
+          4*H12*V2^3*\[CapitalDelta]3))/4 - 
+       (H12*V2*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V3) - (V1*V2*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (16*H12^2*H23*H31*V1^2*V2^2 - 40*H12*H23^2*V1^4*V2^2 - 
+         56*H12*H23*H31*V1^3*V2^3 - 16*H12*H31^2*V1^2*V2^4 - 
+         20*H12^4*H31*V2*V3 - 10*H12^3*H23*V1^2*V2*V3 - 20*H12^3*H31*V1*V2^2*
+          V3 + 61*H12^2*H23*V1^3*V2^2*V3 + 71*H12^2*H31*V1^2*V2^3*V3 - 
+         250*H12*H23*V1^4*V2^3*V3 - 162*H12*H31*V1^3*V2^4*V3 + 
+         20*H12^5*V3^2 + 20*H12^4*V1*V2*V3^2 - 39*H12^3*V1^2*V2^2*V3^2 + 
+         180*H12^2*V1^3*V2^3*V3^2 - 343*H12*V1^4*V2^4*V3^2 - 
+         10*H12^2*H23*V1^3*V2^2*V3*\[CapitalDelta]2 - 6*H12^2*H31*V1^2*V2^3*
+          V3*\[CapitalDelta]2 + 4*H12*H23*V1^4*V2^3*V3*\[CapitalDelta]2 + 
+         4*H12*H31*V1^3*V2^4*V3*\[CapitalDelta]2 + 6*H12^3*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2 - 24*H12^2*V1^3*V2^3*V3^2*\[CapitalDelta]2 + 
+         12*H12*V1^4*V2^4*V3^2*\[CapitalDelta]2 + 10*H12^2*H23*V1^3*V2^2*V3*
+          \[CapitalDelta]3 + 6*H12^2*H31*V1^2*V2^3*V3*\[CapitalDelta]3 - 
+         4*H12*H23*V1^4*V2^3*V3*\[CapitalDelta]3 - 4*H12*H31*V1^3*V2^4*V3*
+          \[CapitalDelta]3 - 6*H12^3*V1^2*V2^2*V3^2*\[CapitalDelta]3 + 
+         24*H12^2*V1^3*V2^3*V3^2*\[CapitalDelta]3 - 12*H12*V1^4*V2^4*V3^2*
+          \[CapitalDelta]3)/(4*V1^2*V2*V3^2) - 
+       (3*H12^3*V1*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (2*V3^2) - (3*V1*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 
+            3*H12*H23*V1*V2*V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (4*H12*V2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+          H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (2*V1*(-2*V1*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          (2*(-2*H12*H23^2*V1*V2 - 2*H12*H23*H31*V2^2 + H12^2*H23*V2*V3 - 
+             8*H12*H23*V1*V2^2*V3 - 3*H12*H31*V2^3*V3 + H12^2*V2^2*V3^2 - 
+             7*H12*V1*V2^3*V3^2))/V3 - 
+          (H12^3*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3 - 
+       (V2*(-1/4*(H12*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+             12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (V1*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (16*H12^2*H23*H31 - 40*H12*H23^2*V1^2 - 56*H12*H23*H31*V1*V2 - 
+            16*H12*H31^2*V2^2 + 35*H12^2*H23*V1*V3 + 41*H12^2*H31*V2*V3 - 
+            218*H12*H23*V1^2*V2*V3 - 146*H12*H31*V1*V2^2*V3 - 2*H12^3*V3^2 + 
+            66*H12^2*V1*V2*V3^2 - 252*H12*V1^2*V2^2*V3^2 - 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]2 - 6*H12^2*H31*V2*V3*\[CapitalDelta]2 + 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]2 + 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]2 - 16*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]3 + 6*H12^2*H31*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]3 + 16*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^3*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (2*V3) - (3*V1*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (4*H12*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - 
+       (5*H12*(-((2*H12*H23*H31*V2 - 2*H23^2*V1^2*V2 - 4*H23*H31*V1*V2^2 - 
+             2*H31^2*V2^3 - H12^2*H23*V3 + 3*H12*H23*V1*V2*V3 + 
+             5*H12*H31*V2^2*V3 - 8*H23*V1^2*V2^2*V3 - 8*H31*V1*V2^3*V3 - 
+             H12^2*V2*V3^2 + 6*H12*V1*V2^2*V3^2 - 8*V1^2*V2^3*V3^2)/V3) - 
+          (3*H12^2*V1*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/(2*V3), f[1, 1, 2, 4, 4, 5] -> 
+      (2*H12*(3*H12*H23*V1*V2 + H12*H31*V2^2 + H23*V1^2*V2^2 + H31*V1*V2^3 + 
+          3*H12^2*V2*V3 + 7*H12*V1*V2^2*V3 + 2*V1^2*V2^3*V3))/V2 + 
+       (H12*(-2*H23^2*V1^2 - 3*H23*H31*V1*V2 - H31^2*V2^2 - 3*H12*H23*V1*V3 - 
+          6*H12*H31*V2*V3 - 10*H23*V1^2*V2*V3 - 8*H31*V1*V2^2*V3 - 
+          H12^2*V3^2 - 8*H12*V1*V2*V3^2 - 12*V1^2*V2^2*V3^2))/(2*V3) - 
+       (H31*(23*H12^2*V2 - 4*H12*V1*V2^2 - 6*H12^2*V2*\[CapitalDelta]2 + 
+          6*H12^2*V2*\[CapitalDelta]3))/4 - 
+       (H31*V2*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V3) - (H12*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 
+          2*H31*V1*V2^2 + 3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+          6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+          6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+          6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+          6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        4 - (H12*V2*(7*H23*H31*V1 + 3*H31^2*V2 + H12*H31*V3 - 6*H23*V1^2*V3 + 
+          8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 12*V1^2*V2*V3^2 + 
+          6*H23*H31*V1*\[CapitalDelta]2 + 6*H31^2*V2*\[CapitalDelta]2 + 
+          6*H12*H31*V3*\[CapitalDelta]2 + 12*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V3) - (V1*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+          6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+          36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+           \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+          6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+           \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*\[CapitalDelta]3 - 
+          12*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+       (V1*V2*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 
+          7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+          14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*\[CapitalDelta]2 - 4*H23*H31*V1*V2*\[CapitalDelta]2 - 
+          2*H31^2*V2^2*\[CapitalDelta]2 - 4*H12*H23*V1*V3*\[CapitalDelta]2 - 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 - 8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+          2*H12^2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 + 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 + 8*H23*V1^2*V2*V3*\[CapitalDelta]3 + 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 2*H12^2*V3^2*\[CapitalDelta]3 + 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V3) - (-2*H12^2*H23*H31 + 4*H12*H23^2*V1^2 - 
+         24*H12*H23*H31*V1*V2 + 4*H23^2*V1^3*V2 + 30*H12*H31^2*V2^2 - 
+         22*H23*H31*V1^2*V2^2 - 26*H31^2*V1*V2^3 + 27*H12^2*H23*V1*V3 - 
+         45*H12^2*H31*V2*V3 + 88*H12*H23*V1^2*V2*V3 - 30*H12*H31*V1*V2^2*V3 + 
+         16*H23*V1^3*V2^2*V3 - 44*H31*V1^2*V2^3*V3 + 23*H12^3*V3^2 + 
+         86*H12^2*V1*V2*V3^2 + 160*H12*V1^2*V2^2*V3^2 + 16*V1^3*V2^3*V3^2 - 
+         16*H12*H23*H31*V1*V2*\[CapitalDelta]2 + 4*H23^2*V1^3*V2*
+          \[CapitalDelta]2 - 12*H12*H31^2*V2^2*\[CapitalDelta]2 + 
+         8*H23*H31*V1^2*V2^2*\[CapitalDelta]2 + 4*H31^2*V1*V2^3*
+          \[CapitalDelta]2 + 6*H12^2*H23*V1*V3*\[CapitalDelta]2 + 
+         6*H12^2*H31*V2*V3*\[CapitalDelta]2 - 4*H12*H23*V1^2*V2*V3*
+          \[CapitalDelta]2 - 28*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+         16*H23*V1^3*V2^2*V3*\[CapitalDelta]2 + 16*H31*V1^2*V2^3*V3*
+          \[CapitalDelta]2 + 6*H12^3*V3^2*\[CapitalDelta]2 + 
+         4*H12^2*V1*V2*V3^2*\[CapitalDelta]2 - 8*H12*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2 + 16*V1^3*V2^3*V3^2*\[CapitalDelta]2 + 
+         16*H12*H23*H31*V1*V2*\[CapitalDelta]3 - 4*H23^2*V1^3*V2*
+          \[CapitalDelta]3 + 12*H12*H31^2*V2^2*\[CapitalDelta]3 - 
+         8*H23*H31*V1^2*V2^2*\[CapitalDelta]3 - 4*H31^2*V1*V2^3*
+          \[CapitalDelta]3 - 6*H12^2*H23*V1*V3*\[CapitalDelta]3 - 
+         6*H12^2*H31*V2*V3*\[CapitalDelta]3 + 4*H12*H23*V1^2*V2*V3*
+          \[CapitalDelta]3 + 28*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+         16*H23*V1^3*V2^2*V3*\[CapitalDelta]3 - 16*H31*V1^2*V2^3*V3*
+          \[CapitalDelta]3 - 6*H12^3*V3^2*\[CapitalDelta]3 - 
+         4*H12^2*V1*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1^2*V2^2*V3^2*
+          \[CapitalDelta]3 - 16*V1^3*V2^3*V3^2*\[CapitalDelta]3)/(4*V3) - 
+       (3*H12^2*H31*V1*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (V1*V2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 
+            2*H23*H31*V1*V2*V3 - H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 
+            4*H23*V1^2*V2*V3^2 - 4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 
+            4*V1^2*V2^2*V3^3) - (3*H12^2*H31*
+            ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (V2*(-1/4*(H31*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+             12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (H12*(7*H23*H31*V1 + 3*H31^2*V2 + 
+             H12*H31*V3 - 6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 
+             12*V1^2*V2*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+             6*H31^2*V2*\[CapitalDelta]2 + 6*H12*H31*V3*\[CapitalDelta]2 + 
+             12*H31*V1*V2*V3*\[CapitalDelta]2 - 6*H23*H31*V1*
+              \[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+             6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*
+              \[CapitalDelta]3))/4 - (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 + 
+             5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 
+             12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 
+             20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*
+              \[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V3*\[CapitalDelta]2 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 - 8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+             2*H12^2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+             2*H12*H23*H31*\[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+             2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (20*H12*H23*H31*V1 - 12*H23^2*V1^3 - 26*H12*H31^2*V2 + 
+            6*H23*H31*V1^2*V2 + 18*H31^2*V1*V2^2 + 7*H12^2*H31*V3 - 
+            20*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 60*H23*V1^3*V2*V3 + 
+            10*H12^2*V1*V3^2 - 52*H12*V1^2*V2*V3^2 - 72*V1^3*V2^2*V3^2 + 
+            16*H12*H23*H31*V1*\[CapitalDelta]2 - 4*H23^2*V1^3*
+             \[CapitalDelta]2 + 12*H12*H31^2*V2*\[CapitalDelta]2 - 
+            8*H23*H31*V1^2*V2*\[CapitalDelta]2 - 4*H31^2*V1*V2^2*
+             \[CapitalDelta]2 + 6*H12^2*H31*V3*\[CapitalDelta]2 - 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]2 + 16*H12*H31*V1*V2*V3*
+             \[CapitalDelta]2 - 16*H23*V1^3*V2*V3*\[CapitalDelta]2 - 
+            16*H31*V1^2*V2^2*V3*\[CapitalDelta]2 - 4*H12^2*V1*V3^2*
+             \[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 - 
+            16*V1^3*V2^2*V3^2*\[CapitalDelta]2 - 16*H12*H23*H31*V1*
+             \[CapitalDelta]3 + 4*H23^2*V1^3*\[CapitalDelta]3 - 
+            12*H12*H31^2*V2*\[CapitalDelta]3 + 8*H23*H31*V1^2*V2*
+             \[CapitalDelta]3 + 4*H31^2*V1*V2^2*\[CapitalDelta]3 - 
+            6*H12^2*H31*V3*\[CapitalDelta]3 + 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]3 - 16*H12*H31*V1*V2*V3*\[CapitalDelta]3 + 
+            16*H23*V1^3*V2*V3*\[CapitalDelta]3 + 16*H31*V1^2*V2^2*V3*
+             \[CapitalDelta]3 + 4*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 + 16*V1^3*V2^2*V3^2*
+             \[CapitalDelta]3)/4 - (3*H12^2*H31*V1*
+            ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/(10*V3) - 
+          (V1*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - H31^2*
+                V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 4*H31*V1*
+                V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+             (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - 
+       (V1*(-2*(H12*H23^2*V1 - 2*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+            2*H23*H31*V1*V2^2 + H31^2*V2^3 + H12^2*H23*V3 + 
+            3*H12*H23*V1*V2*V3 - 3*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+            4*H31*V1*V2^3*V3 + 2*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2) - 
+          (3*H12^2*H31*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*
+                V2*V3 - H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*
+                V3^2 - 4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*
+                V3^3) - (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^
+                     2 - 2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                   V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+                (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V3^2*\[CapitalDelta]3^
+                     2))/(8*V1)))/10))/V3))/V3 - 
+       (H31*(-((2*H12*H23*H31*V2 - 2*H23^2*V1^2*V2 - 4*H23*H31*V1*V2^2 - 
+             2*H31^2*V2^3 - H12^2*H23*V3 + 3*H12*H23*V1*V2*V3 + 
+             5*H12*H31*V2^2*V3 - 8*H23*V1^2*V2^2*V3 - 8*H31*V1*V2^3*V3 - 
+             H12^2*V2*V3^2 + 6*H12*V1*V2^2*V3^2 - 8*V1^2*V2^3*V3^2)/V3) - 
+          (3*H12^2*V1*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/(2*V3), f[1, 1, 2, 4, 5, 5] -> 
+      -1/4*(H31*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+          3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+          6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+          6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+          6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+          6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3)) - 
+       (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/2 + (12*H12*H23*H31*V1 - 4*H23^2*V1^3 + 
+         7*H12*H31^2*V2 - 12*H23*H31*V1^2*V2 + 10*H31^2*V1*V2^2 - 
+         26*H12^2*H31*V3 + 22*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 
+         28*H23*V1^3*V2*V3 - 36*H31*V1^2*V2^2*V3 + 26*H12^2*V1*V3^2 + 
+         32*H12*V1^2*V2*V3^2 - 40*V1^3*V2^2*V3^2 - 16*H12*H23*H31*V1*
+          \[CapitalDelta]2 + 4*H23^2*V1^3*\[CapitalDelta]2 - 
+         6*H12*H31^2*V2*\[CapitalDelta]2 + 8*H23*H31*V1^2*V2*
+          \[CapitalDelta]2 + 4*H31^2*V1*V2^2*\[CapitalDelta]2 - 
+         12*H12^2*H31*V3*\[CapitalDelta]2 + 8*H12*H23*V1^2*V3*
+          \[CapitalDelta]2 - 16*H12*H31*V1*V2*V3*\[CapitalDelta]2 + 
+         16*H23*V1^3*V2*V3*\[CapitalDelta]2 + 16*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]2 + 4*H12^2*V1*V3^2*\[CapitalDelta]2 + 
+         16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 + 16*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2 + 16*H12*H23*H31*V1*\[CapitalDelta]3 - 
+         4*H23^2*V1^3*\[CapitalDelta]3 + 6*H12*H31^2*V2*\[CapitalDelta]3 - 
+         8*H23*H31*V1^2*V2*\[CapitalDelta]3 - 4*H31^2*V1*V2^2*
+          \[CapitalDelta]3 + 12*H12^2*H31*V3*\[CapitalDelta]3 - 
+         8*H12*H23*V1^2*V3*\[CapitalDelta]3 + 16*H12*H31*V1*V2*V3*
+          \[CapitalDelta]3 - 16*H23*V1^3*V2*V3*\[CapitalDelta]3 - 
+         16*H31*V1^2*V2^2*V3*\[CapitalDelta]3 - 4*H12^2*V1*V3^2*
+          \[CapitalDelta]3 - 16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 - 
+         16*V1^3*V2^2*V3^2*\[CapitalDelta]3)/4 - 
+       (H12*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+             12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+             4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+             12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+             8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+              \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^
+               2 - 4*H31*V1*V3*\[CapitalDelta]3^2)) + 
+          (-44*H23*H31*V1 + 25*H31^2*V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 
+            208*H31*V1*V2*V3 + 48*H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 
+            24*H23*H31*V1*\[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 
+            24*H12*H31*V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 4*H31^2*V2*\[CapitalDelta]2^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]2^2 + 24*H23*H31*V1*
+             \[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+            24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]3^2)/8))/2, 
+     f[1, 1, 2, 5, 5, 5] -> (H31*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(2*V3) - 
+       (4*V1*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2 - 
+       (2*H31*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        V2 - (V1*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+          15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+           \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+          2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*\[CapitalDelta]2 + 
+          4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 2*H23*H31^2*\[CapitalDelta]3 - 
+          2*H23*H31*V1*V3*\[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+          2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+           \[CapitalDelta]3))/2 - (2*H23*H31^3*V2 + 8*H12*H23*H31^2*V3 - 
+         24*H23^2*H31*V1^2*V3 + 25*H23*H31^2*V1*V2*V3 - 
+         32*H12*H23*H31*V1*V3^2 + 27*H12*H31^2*V2*V3^2 - 
+         162*H23*H31*V1^2*V2*V3^2 + 50*H31^2*V1*V2^2*V3^2 - 
+         8*H12^2*H31*V3^3 - 106*H12*H31*V1*V2*V3^3 - 204*H31*V1^2*V2^2*V3^3 + 
+         10*H23*H31^2*V1*V2*V3*\[CapitalDelta]2 + 6*H12*H31^2*V2*V3^2*
+          \[CapitalDelta]2 - 4*H23*H31*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+         16*H31^2*V1*V2^2*V3^2*\[CapitalDelta]2 - 4*H12*H31*V1*V2*V3^3*
+          \[CapitalDelta]2 - 8*H31*V1^2*V2^2*V3^3*\[CapitalDelta]2 - 
+         10*H23*H31^2*V1*V2*V3*\[CapitalDelta]3 - 6*H12*H31^2*V2*V3^2*
+          \[CapitalDelta]3 + 4*H23*H31*V1^2*V2*V3^2*\[CapitalDelta]3 - 
+         16*H31^2*V1*V2^2*V3^2*\[CapitalDelta]3 + 4*H12*H31*V1*V2*V3^3*
+          \[CapitalDelta]3 + 8*H31*V1^2*V2^2*V3^3*\[CapitalDelta]3)/
+        (4*V2*V3) - (H31*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+             12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+             4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+             12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+             8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+              \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^
+               2 - 4*H31*V1*V3*\[CapitalDelta]3^2)) + 
+          (-44*H23*H31*V1 + 25*H31^2*V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 
+            208*H31*V1*V2*V3 + 48*H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 
+            24*H23*H31*V1*\[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 
+            24*H12*H31*V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 4*H31^2*V2*\[CapitalDelta]2^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]2^2 + 24*H23*H31*V1*
+             \[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+            24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]3^2)/8))/2, 
+     f[1, 1, 3, 3, 3, 3] -> 0, f[1, 1, 3, 3, 3, 4] -> 0, 
+     f[1, 1, 3, 3, 3, 5] -> -1/2*(H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^3)/
+         (V1^2*V2^2) - (H31*V3^2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/(2*V1^2*V2) + (2*V3^3*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1*V2^2) + 
+       (V3^2*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V1*V2) - 
+       (H12*H31^2*V2*V3^2 + 2*H23*H31*V1^2*V2*V3^2 + H31^2*V1*V2^2*V3^2 - 
+         H12^2*H31*V3^3 - 4*H12*H23*V1^2*V3^3 + 3*H12*H31*V1*V2*V3^3 - 
+         2*H23*V1^3*V2*V3^3 + 6*H31*V1^2*V2^2*V3^3 - 4*H12^2*V1*V3^4 - 
+         10*H12*V1^2*V2*V3^4 - 4*V1^3*V2^2*V3^4)/(2*V1^2*V2^2), 
+     f[1, 1, 3, 3, 4, 4] -> -(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+       H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+       4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+       (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10, 
+     f[1, 1, 3, 3, 4, 5] -> 
+      -((V3^2*(3*H12*H23*V1*V2 + H12*H31*V2^2 + H23*V1^2*V2^2 + H31*V1*V2^3 + 
+           3*H12^2*V2*V3 + 7*H12*V1*V2^2*V3 + 2*V1^2*V2^3*V3))/V2^2) - 
+       (V3*(-2*H23^2*V1^2 - 3*H23*H31*V1*V2 - H31^2*V2^2 - 3*H12*H23*V1*V3 - 
+          6*H12*H31*V2*V3 - 10*H23*V1^2*V2*V3 - 8*H31*V1*V2^2*V3 - 
+          H12^2*V3^2 - 8*H12*V1*V2*V3^2 - 12*V1^2*V2^2*V3^2))/V2 - 
+       (2*(H23^2*V1^2*V3 - H31^2*V2^2*V3 + 2*H12*H31*V2*V3^2 + 
+          4*H23*V1^2*V2*V3^2 - H12^2*V3^3 + 4*V1^2*V2^2*V3^3))/V2 - 
+       (3*H12*H31*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/5, 
+     f[1, 1, 3, 3, 5, 5] -> (-3*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^2)/
+        (4*V1^2*V2^2) - (V1^2*V3^4)/16 - 
+       (3*H31^2*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (4*V1^2*V2) + (4*H31*V3^2*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1*V2^2) + 
+       (2*H31*V3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V1*V2) + 
+       (V3^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 2*H12*H23*V1*V3 - 
+          H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - H31*V1*V2^2*V3 + H12^2*V3^2 + 
+          4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/V2^2 - 
+       (36*H12*H31^3*V2*V3 + 96*H23*H31^2*V1^2*V2*V3 + 36*H31^3*V1*V2^2*V3 - 
+         36*H12^2*H31^2*V3^2 - 240*H12*H23*H31*V1^2*V3^2 + 
+         48*H23^2*V1^4*V3^2 + 156*H12*H31^2*V1*V2*V3^2 - 
+         144*H23*H31*V1^3*V2*V3^2 + 192*H31^2*V1^2*V2^2*V3^2 - 
+         192*H12^2*H31*V1*V3^3 + 96*H12*H23*V1^3*V3^3 - 528*H12*H31*V1^2*V2*
+          V3^3 + 192*H23*V1^4*V2*V3^3 - 224*H31*V1^3*V2^2*V3^3 + 
+         48*H12^2*V1^2*V3^4 + 192*H12*V1^3*V2*V3^4 + 189*V1^4*V2^2*V3^4)/
+        (48*V1^2*V2^2) - (2*H31^2*V1*
+         ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/15 - 
+       (V1*((-3*V1*V3^4)/4 + (-16*H31*V3^3 + 3*V1*V3^4)/4 + 
+          (H31^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/2))/3, 
+     f[1, 1, 3, 4, 4, 4] -> -1/4*(H12*(-11*H12*H23*V1 - 21*H12*H31*V2 + 
+          12*H23*V1^2*V2 + 12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+          24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+          6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*\[CapitalDelta]2 - 
+          6*H12*H23*V1*\[CapitalDelta]3 - 6*H12*H31*V2*\[CapitalDelta]3 - 
+          12*H12*V1*V2*V3*\[CapitalDelta]3)) - 
+       (V1*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+       (16*H12^2*H23*H31 - 40*H12*H23^2*V1^2 - 56*H12*H23*H31*V1*V2 - 
+         16*H12*H31^2*V2^2 + 35*H12^2*H23*V1*V3 + 41*H12^2*H31*V2*V3 - 
+         218*H12*H23*V1^2*V2*V3 - 146*H12*H31*V1*V2^2*V3 - 2*H12^3*V3^2 + 
+         66*H12^2*V1*V2*V3^2 - 252*H12*V1^2*V2^2*V3^2 - 10*H12^2*H23*V1*V3*
+          \[CapitalDelta]2 - 6*H12^2*H31*V2*V3*\[CapitalDelta]2 + 
+         4*H12*H23*V1^2*V2*V3*\[CapitalDelta]2 + 4*H12*H31*V1*V2^2*V3*
+          \[CapitalDelta]2 - 16*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 
+         8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 10*H12^2*H23*V1*V3*
+          \[CapitalDelta]3 + 6*H12^2*H31*V2*V3*\[CapitalDelta]3 - 
+         4*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 4*H12*H31*V1*V2^2*V3*
+          \[CapitalDelta]3 + 16*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 
+         8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+       (3*H12^3*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(2*V3) - 
+       (3*V1*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+       (4*H12*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + H31^2*V2^2 - 
+          H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 1, 3, 4, 4, 5] -> 
+      -1/4*(H31*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+           \[CapitalDelta]3)) - (H12*(7*H23*H31*V1 + 3*H31^2*V2 + 
+          H12*H31*V3 - 6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 
+          12*V1^2*V2*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+          6*H31^2*V2*\[CapitalDelta]2 + 6*H12*H31*V3*\[CapitalDelta]2 + 
+          12*H31*V1*V2*V3*\[CapitalDelta]2 - 6*H23*H31*V1*\[CapitalDelta]3 - 
+          6*H31^2*V2*\[CapitalDelta]3 - 6*H12*H31*V3*\[CapitalDelta]3 - 
+          12*H31*V1*V2*V3*\[CapitalDelta]3))/4 - 
+       (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 
+          7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 
+          2*H12*H23*H31*\[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*\[CapitalDelta]2 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 - 2*H12*H23*H31*\[CapitalDelta]3 + 
+          2*H23^2*V1^2*\[CapitalDelta]3 + 4*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          2*H31^2*V2^2*\[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+          2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+       (20*H12*H23*H31*V1 - 12*H23^2*V1^3 - 26*H12*H31^2*V2 + 
+         6*H23*H31*V1^2*V2 + 18*H31^2*V1*V2^2 + 7*H12^2*H31*V3 - 
+         20*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 60*H23*V1^3*V2*V3 + 
+         10*H12^2*V1*V3^2 - 52*H12*V1^2*V2*V3^2 - 72*V1^3*V2^2*V3^2 + 
+         16*H12*H23*H31*V1*\[CapitalDelta]2 - 4*H23^2*V1^3*\[CapitalDelta]2 + 
+         12*H12*H31^2*V2*\[CapitalDelta]2 - 8*H23*H31*V1^2*V2*
+          \[CapitalDelta]2 - 4*H31^2*V1*V2^2*\[CapitalDelta]2 + 
+         6*H12^2*H31*V3*\[CapitalDelta]2 - 8*H12*H23*V1^2*V3*
+          \[CapitalDelta]2 + 16*H12*H31*V1*V2*V3*\[CapitalDelta]2 - 
+         16*H23*V1^3*V2*V3*\[CapitalDelta]2 - 16*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]2 - 4*H12^2*V1*V3^2*\[CapitalDelta]2 - 
+         16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 - 16*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2 - 16*H12*H23*H31*V1*\[CapitalDelta]3 + 
+         4*H23^2*V1^3*\[CapitalDelta]3 - 12*H12*H31^2*V2*\[CapitalDelta]3 + 
+         8*H23*H31*V1^2*V2*\[CapitalDelta]3 + 4*H31^2*V1*V2^2*
+          \[CapitalDelta]3 - 6*H12^2*H31*V3*\[CapitalDelta]3 + 
+         8*H12*H23*V1^2*V3*\[CapitalDelta]3 - 16*H12*H31*V1*V2*V3*
+          \[CapitalDelta]3 + 16*H23*V1^3*V2*V3*\[CapitalDelta]3 + 
+         16*H31*V1^2*V2^2*V3*\[CapitalDelta]3 + 4*H12^2*V1*V3^2*
+          \[CapitalDelta]3 + 16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 + 
+         16*V1^3*V2^2*V3^2*\[CapitalDelta]3)/4 - 
+       (3*H12^2*H31*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(10*V3) - 
+       (V1*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+            H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 
+            4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+          (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 1, 3, 4, 5, 5] -> 
+      (-2*H31*V3*(3*H12*H23*V1*V2 + H12*H31*V2^2 + H23*V1^2*V2^2 + 
+          H31*V1*V2^3 + 3*H12^2*V2*V3 + 7*H12*V1*V2^2*V3 + 2*V1^2*V2^3*V3))/
+        V2^2 - (H12*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(2*V2) - 
+       (3*H31*(-2*H23^2*V1^2 - 3*H23*H31*V1*V2 - H31^2*V2^2 - 
+          3*H12*H23*V1*V3 - 6*H12*H31*V2*V3 - 10*H23*V1^2*V2*V3 - 
+          8*H31*V1*V2^2*V3 - H12^2*V3^2 - 8*H12*V1*V2*V3^2 - 
+          12*V1^2*V2^2*V3^2))/(2*V2) + 
+       (2*V1*V3*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + H23*H31*V1*V2^2 + 
+          2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 2*H31*V1*V2^3*V3 + 
+          H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2))/V2^2 + 
+       (2*V1*(H23^2*H31*V1 + H23*H31^2*V2 - H23^2*V1^2*V3 + 
+          H23*H31*V1*V2*V3 - 2*H12*H23*V1*V3^2 - 3*H12*H31*V2*V3^2 - 
+          4*H23*V1^2*V2*V3^2 - 2*H31*V1*V2^2*V3^2 - H12^2*V3^3 - 
+          4*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3))/V2 - 
+       (H12*(23*H31^2*V3 - 4*H31*V1*V3^2 + 6*H31^2*V3*\[CapitalDelta]2 - 
+          6*H31^2*V3*\[CapitalDelta]3))/4 - 
+       (H31*V3*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 2*H31*V1*V2^2 + 
+          3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+          6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+          6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+          6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+          6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (4*V2) - (H31*(7*H23*H31*V1 + 3*H31^2*V2 + H12*H31*V3 - 
+          6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 12*V1^2*V2*V3^2 + 
+          6*H23*H31*V1*\[CapitalDelta]2 + 6*H31^2*V2*\[CapitalDelta]2 + 
+          6*H12*H31*V3*\[CapitalDelta]2 + 12*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*\[CapitalDelta]3))/
+        4 - (V1*(-2*H23*H31^2 - 21*H23*H31*V1*V3 - 16*H31^2*V2*V3 - 
+          11*H12*H31*V3^2 + 6*H23*V1^2*V3^2 - 36*H31*V1*V2*V3^2 + 
+          6*H12*V1*V3^3 + 12*V1^2*V2*V3^3 - 6*H23*H31*V1*V3*
+           \[CapitalDelta]2 - 6*H31^2*V2*V3*\[CapitalDelta]2 - 
+          6*H12*H31*V3^2*\[CapitalDelta]2 - 12*H31*V1*V2*V3^2*
+           \[CapitalDelta]2 + 6*H23*H31*V1*V3*\[CapitalDelta]3 + 
+          6*H31^2*V2*V3*\[CapitalDelta]3 + 6*H12*H31*V3^2*\[CapitalDelta]3 + 
+          12*H31*V1*V2*V3^2*\[CapitalDelta]3))/2 - 
+       (V1*V3*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - (-2*H12*H23*H31^2 + 
+         20*H23^2*H31*V1^2 + 27*H23*H31^2*V1*V2 + 7*H31^3*V2^2 - 
+         24*H12*H23*H31*V1*V3 + 4*H23^2*V1^3*V3 - 13*H12*H31^2*V2*V3 + 
+         152*H23*H31*V1^2*V2*V3 + 86*H31^2*V1*V2^2*V3 + 14*H12^2*H31*V3^2 - 
+         22*H12*H23*V1^2*V3^2 - 30*H12*H31*V1*V2*V3^2 + 16*H23*V1^3*V2*V3^2 + 
+         224*H31*V1^2*V2^2*V3^2 - 26*H12^2*V1*V3^3 - 44*H12*V1^2*V2*V3^3 + 
+         16*V1^3*V2^2*V3^3 - 6*H23*H31^2*V1*V2*\[CapitalDelta]2 - 
+         6*H31^3*V2^2*\[CapitalDelta]2 + 16*H12*H23*H31*V1*V3*
+          \[CapitalDelta]2 - 4*H23^2*V1^3*V3*\[CapitalDelta]2 - 
+         6*H12*H31^2*V2*V3*\[CapitalDelta]2 + 4*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]2 - 4*H31^2*V1*V2^2*V3*\[CapitalDelta]2 + 
+         12*H12^2*H31*V3^2*\[CapitalDelta]2 - 8*H12*H23*V1^2*V3^2*
+          \[CapitalDelta]2 + 28*H12*H31*V1*V2*V3^2*\[CapitalDelta]2 - 
+         16*H23*V1^3*V2*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2 - 4*H12^2*V1*V3^3*\[CapitalDelta]2 - 
+         16*H12*V1^2*V2*V3^3*\[CapitalDelta]2 - 16*V1^3*V2^2*V3^3*
+          \[CapitalDelta]2 + 6*H23*H31^2*V1*V2*\[CapitalDelta]3 + 
+         6*H31^3*V2^2*\[CapitalDelta]3 - 16*H12*H23*H31*V1*V3*
+          \[CapitalDelta]3 + 4*H23^2*V1^3*V3*\[CapitalDelta]3 + 
+         6*H12*H31^2*V2*V3*\[CapitalDelta]3 - 4*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]3 + 4*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 
+         12*H12^2*H31*V3^2*\[CapitalDelta]3 + 8*H12*H23*V1^2*V3^2*
+          \[CapitalDelta]3 - 28*H12*H31*V1*V2*V3^2*\[CapitalDelta]3 + 
+         16*H23*V1^3*V2*V3^2*\[CapitalDelta]3 - 8*H31*V1^2*V2^2*V3^2*
+          \[CapitalDelta]3 + 4*H12^2*V1*V3^3*\[CapitalDelta]3 + 
+         16*H12*V1^2*V2*V3^3*\[CapitalDelta]3 + 16*V1^3*V2^2*V3^3*
+          \[CapitalDelta]3)/(4*V2) - 
+       (H12*V3*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+             12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+             4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+             12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+             8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+              \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^
+               2 - 4*H31*V1*V3*\[CapitalDelta]3^2)) + 
+          (-44*H23*H31*V1 + 25*H31^2*V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 
+            208*H31*V1*V2*V3 + 48*H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 
+            24*H23*H31*V1*\[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 
+            24*H12*H31*V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 4*H31^2*V2*\[CapitalDelta]2^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]2^2 + 24*H23*H31*V1*
+             \[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+            24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]3^2)/8))/(2*V2) - 
+       (V3*(-1/4*(H31*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 
+             2*H31*V1*V2^2 + 3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+             6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+             6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+             6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+             6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+             7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+             4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+              \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*
+              \[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*\[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (12*H12*H23*H31*V1 - 4*H23^2*V1^3 + 7*H12*H31^2*V2 - 
+            12*H23*H31*V1^2*V2 + 10*H31^2*V1*V2^2 - 26*H12^2*H31*V3 + 
+            22*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 28*H23*V1^3*V2*V3 - 
+            36*H31*V1^2*V2^2*V3 + 26*H12^2*V1*V3^2 + 32*H12*V1^2*V2*V3^2 - 
+            40*V1^3*V2^2*V3^2 - 16*H12*H23*H31*V1*\[CapitalDelta]2 + 
+            4*H23^2*V1^3*\[CapitalDelta]2 - 6*H12*H31^2*V2*\[CapitalDelta]2 + 
+            8*H23*H31*V1^2*V2*\[CapitalDelta]2 + 4*H31^2*V1*V2^2*
+             \[CapitalDelta]2 - 12*H12^2*H31*V3*\[CapitalDelta]2 + 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]2 - 16*H12*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 16*H23*V1^3*V2*V3*\[CapitalDelta]2 + 
+            16*H31*V1^2*V2^2*V3*\[CapitalDelta]2 + 4*H12^2*V1*V3^2*
+             \[CapitalDelta]2 + 16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+            16*V1^3*V2^2*V3^2*\[CapitalDelta]2 + 16*H12*H23*H31*V1*
+             \[CapitalDelta]3 - 4*H23^2*V1^3*\[CapitalDelta]3 + 
+            6*H12*H31^2*V2*\[CapitalDelta]3 - 8*H23*H31*V1^2*V2*
+             \[CapitalDelta]3 - 4*H31^2*V1*V2^2*\[CapitalDelta]3 + 
+            12*H12^2*H31*V3*\[CapitalDelta]3 - 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]3 + 16*H12*H31*V1*V2*V3*\[CapitalDelta]3 - 
+            16*H23*V1^3*V2*V3*\[CapitalDelta]3 - 16*H31*V1^2*V2^2*V3*
+             \[CapitalDelta]3 - 4*H12^2*V1*V3^2*\[CapitalDelta]3 - 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 - 16*V1^3*V2^2*V3^2*
+             \[CapitalDelta]3)/4 - (H12*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 
+                12*V1^2*V3^2 + 12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*
+                 \[CapitalDelta]2 + 4*H31^2*\[CapitalDelta]2^2 - 
+                4*H31*V1*V3*\[CapitalDelta]2^2 - 12*H31^2*\[CapitalDelta]3 + 
+                72*H31*V1*V3*\[CapitalDelta]3 - 8*H31^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + 8*H31*V1*V3*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+                4*H31*V1*V3*\[CapitalDelta]3^2)) + (-44*H23*H31*V1 + 25*H31^2*
+                V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 208*H31*V1*V2*V3 + 48*
+                H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 24*H23*H31*V1*
+                \[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 24*H12*H31*
+                V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*\[CapitalDelta]2 + 4*
+                H31^2*V2*\[CapitalDelta]2^2 - 4*H31*V1*V2*V3*\[CapitalDelta]2^
+                 2 + 24*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*
+                \[CapitalDelta]3 + 24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*
+                V1*V2*V3*\[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 4*H31*V1*
+                V2*V3*\[CapitalDelta]3^2)/8))/2))/V2, 
+     f[1, 1, 3, 5, 5, 5] -> (4*H31^2*V3*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1*V2^2) + 
+       (H31*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/V2 + (2*H31^2*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/
+        (V1*V2) + (6*V1*V3*(H23^2*H31*V1 + H12*H23*H31*V3 + 
+          3*H23*H31*V1*V2*V3 + H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 + 
+       (6*H31*V3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        V2^2 - (H31*(23*H31^2*V3 - 4*H31*V1*V3^2 + 6*H31^2*V3*
+           \[CapitalDelta]2 - 6*H31^2*V3*\[CapitalDelta]3))/4 - 
+       (V1*(-19*H31^2*V3^2 + 12*H31*V1*V3^3 - 4*H31^2*V3^2*\[CapitalDelta]2 + 
+          4*H31^2*V3^2*\[CapitalDelta]3))/2 - 
+       (V1^2*(19*H31*V3^3 + 4*H31*V3^3*\[CapitalDelta]2 - 
+          4*H31*V3^3*\[CapitalDelta]3))/4 - 
+       (12*H23*H31^3*V1*V2 - 40*H12*H23*H31^2*V1*V3 + 48*H23^2*H31*V1^3*V3 + 
+         16*H12*H31^3*V2*V3 - 36*H23*H31^2*V1^2*V2*V3 + H31^3*V1*V2^2*V3 - 
+         16*H12^2*H31^2*V3^2 + 72*H12*H23*H31*V1^2*V3^2 - 
+         76*H12*H31^2*V1*V2*V3^2 + 168*H23*H31*V1^3*V2*V3^2 + 
+         2*H31^2*V1^2*V2^2*V3^2 + 24*H12^2*H31*V1*V3^3 + 
+         120*H12*H31*V1^2*V2*V3^3 + 101*H31*V1^3*V2^2*V3^3 - 
+         6*H31^3*V1*V2^2*V3*\[CapitalDelta]2 + 8*H31^2*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2 - 4*H31*V1^3*V2^2*V3^3*\[CapitalDelta]2 + 
+         6*H31^3*V1*V2^2*V3*\[CapitalDelta]3 - 8*H31^2*V1^2*V2^2*V3^2*
+          \[CapitalDelta]3 + 4*H31*V1^3*V2^2*V3^3*\[CapitalDelta]3)/
+        (4*V1*V2^2), f[1, 1, 4, 4, 4, 4] -> 
+      (-6*V1^2*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3^2 - 
+       (H12*(H12^3 - 29*H12^2*V1*V2 + 24*H12*V1^2*V2^2 + 
+          12*H12^2*V1*V2*\[CapitalDelta]2 - 12*H12^2*V1*V2*\[CapitalDelta]3))/
+        2 - V1*(-3*H12^3*V2 + 36*H12^2*V1*V2^2 + 2*H12^3*V2*
+          \[CapitalDelta]2 - 4*H12^2*V1*V2^2*\[CapitalDelta]2 - 
+         2*H12^3*V2*\[CapitalDelta]3 + 4*H12^2*V1*V2^2*\[CapitalDelta]3) - 
+       (H12^2*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        V3 - (2*V1^2*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 
+          2*H12^2*H23*V2*\[CapitalDelta]2 - 2*H12^2*V2^2*V3*
+           \[CapitalDelta]2 + 2*H12^2*H23*V2*\[CapitalDelta]3 + 
+          2*H12^2*V2^2*V3*\[CapitalDelta]3))/V3 - 
+       (4*H12*V1*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/V3 - 
+       (H12*V1*(-39*H12^2*V2 + 126*H12*V1*V2^2 + 36*H12^2*V2*
+           \[CapitalDelta]2 - 24*H12*V1*V2^2*\[CapitalDelta]2 - 
+          4*H12^2*V2*\[CapitalDelta]2^2 - 36*H12^2*V2*\[CapitalDelta]3 + 
+          24*H12*V1*V2^2*\[CapitalDelta]3 + 8*H12^2*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H12^2*V2*\[CapitalDelta]3^2))/2 - 
+       (H12^2*(17*H12^2 - 72*H12*V1*V2 + 12*V1^2*V2^2 - 
+          12*H12^2*\[CapitalDelta]2 + 72*H12*V1*V2*\[CapitalDelta]2 + 
+          4*H12^2*\[CapitalDelta]2^2 - 4*H12*V1*V2*\[CapitalDelta]2^2 + 
+          12*H12^2*\[CapitalDelta]3 - 72*H12*V1*V2*\[CapitalDelta]3 - 
+          8*H12^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H12*V1*V2*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H12^2*\[CapitalDelta]3^2 - 
+          4*H12*V1*V2*\[CapitalDelta]3^2))/8 - 
+       (V1^2*(207*H12^2*V2^2 - 64*H12^2*V2^2*\[CapitalDelta]2 + 
+          4*H12^2*V2^2*\[CapitalDelta]2^2 + 64*H12^2*V2^2*\[CapitalDelta]3 - 
+          8*H12^2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12^2*V2^2*\[CapitalDelta]3^2))/8 - 
+       (48*H12^3*H23*H31 - 288*H12^2*H23^2*V1^2 - 288*H12^2*H23*H31*V1*V2 - 
+         48*H12^2*H31^2*V2^2 + 232*H12^3*H23*V1*V3 + 248*H12^3*H31*V2*V3 - 
+         2400*H12^2*H23*V1^2*V2*V3 - 1152*H12^2*H31*V1*V2^2*V3 - 
+         37*H12^4*V3^2 + 888*H12^3*V1*V2*V3^2 - 4083*H12^2*V1^2*V2^2*V3^2 - 
+         112*H12^3*H23*V1*V3*\[CapitalDelta]2 - 48*H12^3*H31*V2*V3*
+          \[CapitalDelta]2 + 96*H12^2*H23*V1^2*V2*V3*\[CapitalDelta]2 + 
+         64*H12^2*H31*V1*V2^2*V3*\[CapitalDelta]2 + 12*H12^4*V3^2*
+          \[CapitalDelta]2 - 440*H12^3*V1*V2*V3^2*\[CapitalDelta]2 + 
+         352*H12^2*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 4*H12^4*V3^2*
+          \[CapitalDelta]2^2 + 20*H12^3*V1*V2*V3^2*\[CapitalDelta]2^2 - 
+         4*H12^2*V1^2*V2^2*V3^2*\[CapitalDelta]2^2 + 112*H12^3*H23*V1*V3*
+          \[CapitalDelta]3 + 48*H12^3*H31*V2*V3*\[CapitalDelta]3 - 
+         96*H12^2*H23*V1^2*V2*V3*\[CapitalDelta]3 - 64*H12^2*H31*V1*V2^2*V3*
+          \[CapitalDelta]3 - 12*H12^4*V3^2*\[CapitalDelta]3 + 
+         440*H12^3*V1*V2*V3^2*\[CapitalDelta]3 - 352*H12^2*V1^2*V2^2*V3^2*
+          \[CapitalDelta]3 + 8*H12^4*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         40*H12^3*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         8*H12^2*V1^2*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         4*H12^4*V3^2*\[CapitalDelta]3^2 + 20*H12^3*V1*V2*V3^2*
+          \[CapitalDelta]3^2 - 4*H12^2*V1^2*V2^2*V3^2*\[CapitalDelta]3^2)/
+        (8*V3^2) - (3*H12^4*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3^2 - 
+       (12*H12*V1*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (6*H12^2*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + H31^2*V2^2 - 
+          H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (4*V1*((-4*V1*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+             H12^2*V2^2*V3^2))/V3 - (V1*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 
+             2*H12^2*H23*V2*\[CapitalDelta]2 - 2*H12^2*V2^2*V3*
+              \[CapitalDelta]2 + 2*H12^2*H23*V2*\[CapitalDelta]3 + 
+             2*H12^2*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+             4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*
+              \[CapitalDelta]2 - 2*H12*H23*V1*V2*\[CapitalDelta]2 - 
+             2*H12*H31*V2^2*\[CapitalDelta]2 + 2*H12^2*V2*V3*
+              \[CapitalDelta]2 - 4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 
+             2*H12^2*H23*\[CapitalDelta]3 + 2*H12*H23*V1*V2*
+              \[CapitalDelta]3 + 2*H12*H31*V2^2*\[CapitalDelta]3 - 
+             2*H12^2*V2*V3*\[CapitalDelta]3 + 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]3))/2 - (-28*H12^2*H23^2*V1 - 20*H12^2*H23*H31*
+             V2 + 2*H12^3*H23*V3 - 131*H12^2*H23*V1*V2*V3 - 
+            39*H12^2*H31*V2^2*V3 + 4*H12^3*V2*V3^2 - 123*H12^2*V1*V2^2*V3^2 - 
+            2*H12^3*H23*V3*\[CapitalDelta]2 + 4*H12^2*H23*V1*V2*V3*
+             \[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3*\[CapitalDelta]2 - 
+            2*H12^3*V2*V3^2*\[CapitalDelta]2 + 6*H12^2*V1*V2^2*V3^2*
+             \[CapitalDelta]2 + 2*H12^3*H23*V3*\[CapitalDelta]3 - 
+            4*H12^2*H23*V1*V2*V3*\[CapitalDelta]3 - 2*H12^2*H31*V2^2*V3*
+             \[CapitalDelta]3 + 2*H12^3*V2*V3^2*\[CapitalDelta]3 - 
+            6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]3)/(2*V3) - 
+          (H12^4*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/(2*V3) - 
+          (5*H12*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + H12*
+                H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3 - 
+       (4*H12*(-1/4*(H12*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+             12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (V1*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (16*H12^2*H23*H31 - 40*H12*H23^2*V1^2 - 56*H12*H23*H31*V1*V2 - 
+            16*H12*H31^2*V2^2 + 35*H12^2*H23*V1*V3 + 41*H12^2*H31*V2*V3 - 
+            218*H12*H23*V1^2*V2*V3 - 146*H12*H31*V1*V2^2*V3 - 2*H12^3*V3^2 + 
+            66*H12^2*V1*V2*V3^2 - 252*H12*V1^2*V2^2*V3^2 - 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]2 - 6*H12^2*H31*V2*V3*\[CapitalDelta]2 + 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]2 + 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]2 - 16*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]3 + 6*H12^2*H31*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]3 + 16*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^3*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (2*V3) - (3*V1*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (4*H12*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 1, 4, 4, 4, 5] -> 
+      (H12^2*(3*H12*H23*V1*V2 + H12*H31*V2^2 + H23*V1^2*V2^2 + H31*V1*V2^3 + 
+          3*H12^2*V2*V3 + 7*H12*V1*V2^2*V3 + 2*V1^2*V2^3*V3))/V2^2 + 
+       (H12^2*(-2*H23^2*V1^2 - 3*H23*H31*V1*V2 - H31^2*V2^2 - 
+          3*H12*H23*V1*V3 - 6*H12*H31*V2*V3 - 10*H23*V1^2*V2*V3 - 
+          8*H31*V1*V2^2*V3 - H12^2*V3^2 - 8*H12*V1*V2*V3^2 - 
+          12*V1^2*V2^2*V3^2))/(V2*V3) + 
+       (2*V1^2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+          3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+          2*H12*V1*V2^2*V3^3))/V3^2 - 
+       (H31*(H12^3 - 29*H12^2*V1*V2 + 24*H12*V1^2*V2^2 + 
+          12*H12^2*V1*V2*\[CapitalDelta]2 - 12*H12^2*V1*V2*\[CapitalDelta]3))/
+        2 - (H12*(3*H12^2*H31 - 2*H12*H23*V1^2 + 20*H12*H31*V1*V2 + 
+          H12^2*V1*V3 - 12*H12*V1^2*V2*V3 + 12*H12*H31*V1*V2*
+           \[CapitalDelta]2 - 12*H12*H31*V1*V2*\[CapitalDelta]3))/2 - 
+       (H12*H31*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+          12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 24*V1^2*V2^2*V3 + 
+          6*H12*H23*V1*\[CapitalDelta]2 + 6*H12*H31*V2*\[CapitalDelta]2 + 
+          12*H12*V1*V2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+          6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        V3 - (V1^2*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/V3 - 
+       (H12^2*(7*H23*H31*V1 + 3*H31^2*V2 + H12*H31*V3 - 6*H23*V1^2*V3 + 
+          8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 12*V1^2*V2*V3^2 + 
+          6*H23*H31*V1*\[CapitalDelta]2 + 6*H31^2*V2*\[CapitalDelta]2 + 
+          6*H12*H31*V3*\[CapitalDelta]2 + 12*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*\[CapitalDelta]3))/
+        (2*V3) - (2*H31*V1*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+          15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+          2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*\[CapitalDelta]2 - 
+          2*H12*H31*V2^2*\[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/V3 - 
+       V1*(H12^2*H23*V1 - 5*H12^2*H31*V2 - 10*H12*H23*V1^2*V2 + 
+         26*H12*H31*V1*V2^2 + H12^3*V3 - 16*H12^2*V1*V2*V3 - 
+         20*H12*V1^2*V2^2*V3 - 2*H12^2*H23*V1*\[CapitalDelta]2 + 
+         6*H12^2*H31*V2*\[CapitalDelta]2 - 4*H12*H23*V1^2*V2*
+          \[CapitalDelta]2 - 4*H12*H31*V1*V2^2*\[CapitalDelta]2 - 
+         2*H12^3*V3*\[CapitalDelta]2 - 8*H12^2*V1*V2*V3*\[CapitalDelta]2 - 
+         8*H12*V1^2*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*H23*V1*
+          \[CapitalDelta]3 - 6*H12^2*H31*V2*\[CapitalDelta]3 + 
+         4*H12*H23*V1^2*V2*\[CapitalDelta]3 + 4*H12*H31*V1*V2^2*
+          \[CapitalDelta]3 + 2*H12^3*V3*\[CapitalDelta]3 + 
+         8*H12^2*V1*V2*V3*\[CapitalDelta]3 + 8*H12*V1^2*V2^2*V3*
+          \[CapitalDelta]3) - (2*H12*V1*(4*H12*H23*H31 - 2*H23^2*V1^2 + 
+          5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 
+          12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 
+          20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*
+           \[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*\[CapitalDelta]2 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 - 2*H12*H23*H31*\[CapitalDelta]3 + 
+          2*H23^2*V1^2*\[CapitalDelta]3 + 4*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          2*H31^2*V2^2*\[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+          2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/V3 - 
+       (H31*V1*(-39*H12^2*V2 + 126*H12*V1*V2^2 + 36*H12^2*V2*
+           \[CapitalDelta]2 - 24*H12*V1*V2^2*\[CapitalDelta]2 - 
+          4*H12^2*V2*\[CapitalDelta]2^2 - 36*H12^2*V2*\[CapitalDelta]3 + 
+          24*H12*V1*V2^2*\[CapitalDelta]3 + 8*H12^2*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H12^2*V2*\[CapitalDelta]3^2))/2 - 
+       (H12*H31*(17*H12^2 - 72*H12*V1*V2 + 12*V1^2*V2^2 - 
+          12*H12^2*\[CapitalDelta]2 + 72*H12*V1*V2*\[CapitalDelta]2 + 
+          4*H12^2*\[CapitalDelta]2^2 - 4*H12*V1*V2*\[CapitalDelta]2^2 + 
+          12*H12^2*\[CapitalDelta]3 - 72*H12*V1*V2*\[CapitalDelta]3 - 
+          8*H12^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H12*V1*V2*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H12^2*\[CapitalDelta]3^2 - 
+          4*H12*V1*V2*\[CapitalDelta]3^2))/4 - 
+       (H12*V1*(-16*H12*H23*V1 + 6*H12*H31*V2 + 18*H31*V1*V2^2 - 3*H12^2*V3 - 
+          88*H12*V1*V2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 + 
+          48*H12*H31*V2*\[CapitalDelta]2 - 12*H23*V1^2*V2*\[CapitalDelta]2 - 
+          12*H31*V1*V2^2*\[CapitalDelta]2 - 12*H12^2*V3*\[CapitalDelta]2 - 
+          24*H12*V1*V2*V3*\[CapitalDelta]2 - 24*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*\[CapitalDelta]2^2 - 
+          8*H12*H31*V2*\[CapitalDelta]2^2 - 4*H12^2*V3*\[CapitalDelta]2^2 - 
+          8*H12*V1*V2*V3*\[CapitalDelta]2^2 + 6*H12*H23*V1*\[CapitalDelta]3 - 
+          48*H12*H31*V2*\[CapitalDelta]3 + 12*H23*V1^2*V2*\[CapitalDelta]3 + 
+          12*H31*V1*V2^2*\[CapitalDelta]3 + 12*H12^2*V3*\[CapitalDelta]3 + 
+          24*H12*V1*V2*V3*\[CapitalDelta]3 + 24*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*H23*V1*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 16*H12*H31*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 8*H12^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*\[CapitalDelta]3^2 - 8*H12*H31*V2*\[CapitalDelta]3^2 - 
+          4*H12^2*V3*\[CapitalDelta]3^2 - 8*H12*V1*V2*V3*\[CapitalDelta]3^2))/
+        2 - (H12^2*(-7*H12*H31 - 2*H23*V1^2 + 12*H31*V1*V2 + 12*H12*V1*V3 - 
+          8*V1^2*V2*V3 + 6*H31*V1*V2*\[CapitalDelta]2 - 
+          6*H12*V1*V3*\[CapitalDelta]2 + 4*H12*H31*\[CapitalDelta]2^2 - 
+          2*H23*V1^2*\[CapitalDelta]2^2 - 2*H31*V1*V2*\[CapitalDelta]2^2 - 
+          2*H12*V1*V3*\[CapitalDelta]2^2 - 4*V1^2*V2*V3*\[CapitalDelta]2^2 - 
+          6*H31*V1*V2*\[CapitalDelta]3 + 6*H12*V1*V3*\[CapitalDelta]3 - 
+          8*H12*H31*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H31*\[CapitalDelta]3^2 - 2*H23*V1^2*\[CapitalDelta]3^2 - 
+          2*H31*V1*V2*\[CapitalDelta]3^2 - 2*H12*V1*V3*\[CapitalDelta]3^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]3^2))/4 - 
+       (V1^2*(-11*H12^2*H23 - 60*H12*H23*V1*V2 + 147*H12*H31*V2^2 - 
+          113*H12^2*V2*V3 - 120*H12*V1*V2^2*V3 - 4*H12^2*H23*
+           \[CapitalDelta]2 - 20*H12*H23*V1*V2*\[CapitalDelta]2 - 
+          56*H12*H31*V2^2*\[CapitalDelta]2 - 16*H12^2*V2*V3*
+           \[CapitalDelta]2 - 40*H12*V1*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]2^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]2^2 + 4*H12^2*V2*V3*\[CapitalDelta]2^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]2^2 + 4*H12^2*H23*
+           \[CapitalDelta]3 + 20*H12*H23*V1*V2*\[CapitalDelta]3 + 
+          56*H12*H31*V2^2*\[CapitalDelta]3 + 16*H12^2*V2*V3*
+           \[CapitalDelta]3 + 40*H12*V1*V2^2*V3*\[CapitalDelta]3 - 
+          8*H12*H23*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H12*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]3^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]3^2 + 4*H12^2*V2*V3*\[CapitalDelta]3^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]3^2))/4 - 
+       (8*H12^2*H23*H31^2*V2 - 24*H12*H23^2*H31*V1^2*V2 - 
+         32*H12*H23*H31^2*V1*V2^2 - 8*H12*H31^3*V2^3 - 8*H12^2*H23^2*V1^2*
+          V3 - 14*H12^2*H23*H31*V1*V2*V3 + 84*H12*H23^2*V1^3*V2*V3 + 
+         106*H12^2*H31^2*V2^2*V3 - 436*H12*H23*H31*V1^2*V2^2*V3 - 
+         320*H12*H31^2*V1*V2^3*V3 - 56*H12^3*H31*V2*V3^2 + 
+         145*H12^2*H23*V1^2*V2*V3^2 + 172*H12^2*H31*V1*V2^2*V3^2 + 
+         540*H12*H23*V1^3*V2^2*V3^2 - 1103*H12*H31*V1^2*V2^3*V3^2 + 
+         8*H12^4*V3^3 - 40*H12^3*V1*V2*V3^3 + 697*H12^2*V1^2*V2^2*V3^3 + 
+         744*H12*V1^3*V2^3*V3^3 - 68*H12^2*H23*H31*V1*V2*V3*
+          \[CapitalDelta]2 + 24*H12*H23^2*V1^3*V2*V3*\[CapitalDelta]2 - 
+         36*H12^2*H31^2*V2^2*V3*\[CapitalDelta]2 + 56*H12*H23*H31*V1^2*V2^2*
+          V3*\[CapitalDelta]2 + 32*H12*H31^2*V1*V2^3*V3*\[CapitalDelta]2 + 
+         64*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]2 - 374*H12^2*H31*V1*V2^2*
+          V3^2*\[CapitalDelta]2 + 140*H12*H23*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2 + 240*H12*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2 + 
+         54*H12^3*V1*V2*V3^3*\[CapitalDelta]2 + 160*H12^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2 + 184*H12*V1^3*V2^3*V3^3*\[CapitalDelta]2 - 
+         8*H12^3*H31*V2*V3^2*\[CapitalDelta]2^2 + 10*H12^2*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]2^2 + 30*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]2^2 - 
+         4*H12*H23*V1^3*V2^2*V3^2*\[CapitalDelta]2^2 - 4*H12*H31*V1^2*V2^3*
+          V3^2*\[CapitalDelta]2^2 + 10*H12^3*V1*V2*V3^3*\[CapitalDelta]2^2 + 
+         16*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2^2 - 8*H12*V1^3*V2^3*V3^3*
+          \[CapitalDelta]2^2 + 68*H12^2*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 
+         24*H12*H23^2*V1^3*V2*V3*\[CapitalDelta]3 + 36*H12^2*H31^2*V2^2*V3*
+          \[CapitalDelta]3 - 56*H12*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]3 - 
+         32*H12*H31^2*V1*V2^3*V3*\[CapitalDelta]3 - 64*H12^2*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]3 + 374*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+         140*H12*H23*V1^3*V2^2*V3^2*\[CapitalDelta]3 - 240*H12*H31*V1^2*V2^3*
+          V3^2*\[CapitalDelta]3 - 54*H12^3*V1*V2*V3^3*\[CapitalDelta]3 - 
+         160*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]3 - 184*H12*V1^3*V2^3*V3^3*
+          \[CapitalDelta]3 + 16*H12^3*H31*V2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 20*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 60*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 8*H12*H23*V1^3*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 8*H12*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 20*H12^3*V1*V2*V3^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 32*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 16*H12*V1^3*V2^3*V3^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 8*H12^3*H31*V2*V3^2*\[CapitalDelta]3^2 + 
+         10*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]3^2 + 30*H12^2*H31*V1*V2^2*
+          V3^2*\[CapitalDelta]3^2 - 4*H12*H23*V1^3*V2^2*V3^2*
+          \[CapitalDelta]3^2 - 4*H12*H31*V1^2*V2^3*V3^2*\[CapitalDelta]3^2 + 
+         10*H12^3*V1*V2*V3^3*\[CapitalDelta]3^2 + 16*H12^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3^2 - 8*H12*V1^3*V2^3*V3^3*\[CapitalDelta]3^2)/
+        (4*V2*V3^2) - (7*H12^3*H31*V1*
+         ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (5*V3^2) - (2*H31*V1*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 
+            3*H12*H23*V1*V2*V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (2*H12*V1*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+            H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 
+            4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+          (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (2*H12*H31*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+          H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+          (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (2*V1*((4*V1*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + 
+             H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + 
+             H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3 - 
+          (V1*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+             36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+             44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+             2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+             2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H31*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+             4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*
+              \[CapitalDelta]2 - 2*H12*H23*V1*V2*\[CapitalDelta]2 - 
+             2*H12*H31*V2^2*\[CapitalDelta]2 + 2*H12^2*V2*V3*
+              \[CapitalDelta]2 - 4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 
+             2*H12^2*H23*\[CapitalDelta]3 + 2*H12*H23*V1*V2*
+              \[CapitalDelta]3 + 2*H12*H31*V2^2*\[CapitalDelta]3 - 
+             2*H12^2*V2*V3*\[CapitalDelta]3 + 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]3))/2 - (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 + 
+             5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 
+             12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 
+             20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*
+              \[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V3*\[CapitalDelta]2 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 - 8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+             2*H12^2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+             2*H12*H23*H31*\[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+             2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+          (-4*H12*H23^2*H31*V1 - 4*H12*H23*H31^2*V2 - 14*H12^2*H23*H31*V3 + 
+            33*H12*H23^2*V1^2*V3 - 27*H12*H23*H31*V1*V2*V3 - 
+            22*H12*H31^2*V2^2*V3 + 43*H12^2*H23*V1*V3^2 - 8*H12^2*H31*V2*
+             V3^2 + 146*H12*H23*V1^2*V2*V3^2 + 6*H12*H31*V1*V2^2*V3^2 + 
+            94*H12^2*V1*V2*V3^3 + 160*H12*V1^2*V2^2*V3^3 - 4*H12^2*H23*H31*V3*
+             \[CapitalDelta]2 + 4*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+            8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 4*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]2 + 6*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+            2*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 12*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]2 + 12*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+            2*H12^3*V3^3*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]2 + 8*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+            4*H12^2*H23*H31*V3*\[CapitalDelta]3 - 4*H12*H23^2*V1^2*V3*
+             \[CapitalDelta]3 - 8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H31^2*V2^2*V3*\[CapitalDelta]3 - 6*H12^2*H23*V1*V3^2*
+             \[CapitalDelta]3 - 2*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 
+            12*H12*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 12*H12*H31*V1*V2^2*
+             V3^2*\[CapitalDelta]3 - 2*H12^3*V3^3*\[CapitalDelta]3 - 
+            8*H12^2*V1*V2*V3^3*\[CapitalDelta]3 - 8*H12*V1^2*V2^2*V3^3*
+             \[CapitalDelta]3)/(2*V3) - 
+          (H12^3*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3 - 
+          (H31*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + H12*
+                H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (3*H12*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+               H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 4*H31*
+                V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+             (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - 
+       (2*H12*(-1/4*(H31*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+             12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (H12*(7*H23*H31*V1 + 3*H31^2*V2 + 
+             H12*H31*V3 - 6*H23*V1^2*V3 + 8*H31*V1*V2*V3 + 2*H12*V1*V3^2 - 
+             12*V1^2*V2*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+             6*H31^2*V2*\[CapitalDelta]2 + 6*H12*H31*V3*\[CapitalDelta]2 + 
+             12*H31*V1*V2*V3*\[CapitalDelta]2 - 6*H23*H31*V1*
+              \[CapitalDelta]3 - 6*H31^2*V2*\[CapitalDelta]3 - 
+             6*H12*H31*V3*\[CapitalDelta]3 - 12*H31*V1*V2*V3*
+              \[CapitalDelta]3))/4 - (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 + 
+             5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 
+             12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 
+             20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*
+              \[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V3*\[CapitalDelta]2 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 - 8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+             2*H12^2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+             2*H12*H23*H31*\[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+             2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (20*H12*H23*H31*V1 - 12*H23^2*V1^3 - 26*H12*H31^2*V2 + 
+            6*H23*H31*V1^2*V2 + 18*H31^2*V1*V2^2 + 7*H12^2*H31*V3 - 
+            20*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 60*H23*V1^3*V2*V3 + 
+            10*H12^2*V1*V3^2 - 52*H12*V1^2*V2*V3^2 - 72*V1^3*V2^2*V3^2 + 
+            16*H12*H23*H31*V1*\[CapitalDelta]2 - 4*H23^2*V1^3*
+             \[CapitalDelta]2 + 12*H12*H31^2*V2*\[CapitalDelta]2 - 
+            8*H23*H31*V1^2*V2*\[CapitalDelta]2 - 4*H31^2*V1*V2^2*
+             \[CapitalDelta]2 + 6*H12^2*H31*V3*\[CapitalDelta]2 - 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]2 + 16*H12*H31*V1*V2*V3*
+             \[CapitalDelta]2 - 16*H23*V1^3*V2*V3*\[CapitalDelta]2 - 
+            16*H31*V1^2*V2^2*V3*\[CapitalDelta]2 - 4*H12^2*V1*V3^2*
+             \[CapitalDelta]2 - 16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 - 
+            16*V1^3*V2^2*V3^2*\[CapitalDelta]2 - 16*H12*H23*H31*V1*
+             \[CapitalDelta]3 + 4*H23^2*V1^3*\[CapitalDelta]3 - 
+            12*H12*H31^2*V2*\[CapitalDelta]3 + 8*H23*H31*V1^2*V2*
+             \[CapitalDelta]3 + 4*H31^2*V1*V2^2*\[CapitalDelta]3 - 
+            6*H12^2*H31*V3*\[CapitalDelta]3 + 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]3 - 16*H12*H31*V1*V2*V3*\[CapitalDelta]3 + 
+            16*H23*V1^3*V2*V3*\[CapitalDelta]3 + 16*H31*V1^2*V2^2*V3*
+             \[CapitalDelta]3 + 4*H12^2*V1*V3^2*\[CapitalDelta]3 + 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 + 16*V1^3*V2^2*V3^2*
+             \[CapitalDelta]3)/4 - (3*H12^2*H31*V1*
+            ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/(10*V3) - 
+          (V1*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - H31^2*
+                V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 4*H31*V1*
+                V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+             (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - 
+       (2*H31*(-1/4*(H12*(-11*H12*H23*V1 - 21*H12*H31*V2 + 12*H23*V1^2*V2 + 
+             12*H31*V1*V2^2 + 2*H12^2*V3 - 34*H12*V1*V2*V3 + 
+             24*V1^2*V2^2*V3 + 6*H12*H23*V1*\[CapitalDelta]2 + 
+             6*H12*H31*V2*\[CapitalDelta]2 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*\[CapitalDelta]3 - 
+             6*H12*H31*V2*\[CapitalDelta]3 - 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (V1*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (16*H12^2*H23*H31 - 40*H12*H23^2*V1^2 - 56*H12*H23*H31*V1*V2 - 
+            16*H12*H31^2*V2^2 + 35*H12^2*H23*V1*V3 + 41*H12^2*H31*V2*V3 - 
+            218*H12*H23*V1^2*V2*V3 - 146*H12*H31*V1*V2^2*V3 - 2*H12^3*V3^2 + 
+            66*H12^2*V1*V2*V3^2 - 252*H12*V1^2*V2^2*V3^2 - 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]2 - 6*H12^2*H31*V2*V3*\[CapitalDelta]2 + 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]2 + 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]2 - 16*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 10*H12^2*H23*V1*V3*
+             \[CapitalDelta]3 + 6*H12^2*H31*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 4*H12*H31*V1*V2^2*V3*
+             \[CapitalDelta]3 + 16*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3)/(4*V3) - 
+          (3*H12^3*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (2*V3) - (3*V1*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (4*H12*(-(H12*H23*H31) + H23^2*V1^2 + 2*H23*H31*V1*V2 + 
+             H31^2*V2^2 - H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 + 
+             4*H31*V1*V2^2*V3 - H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2 - 
+             (3*H12^2*V1*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 1, 4, 4, 5, 5] -> 
+      -1/2*(H31*(3*H12^2*H31 - 2*H12*H23*V1^2 + 20*H12*H31*V1*V2 + 
+          H12^2*V1*V3 - 12*H12*V1^2*V2*V3 + 12*H12*H31*V1*V2*
+           \[CapitalDelta]2 - 12*H12*H31*V1*V2*\[CapitalDelta]3)) - 
+       V1*(-14*H12*H23*H31*V1 - H12*H31^2*V2 + 6*H23*H31*V1^2*V2 + 
+         6*H31^2*V1*V2^2 - H12^2*H31*V3 + 6*H12*H23*V1^2*V3 - 
+         96*H12*H31*V1*V2*V3 + 12*H31*V1^2*V2^2*V3 + 6*H12^2*V1*V3^2 + 
+         12*H12*V1^2*V2*V3^2 + 6*H12*H31^2*V2*\[CapitalDelta]2 - 
+         6*H12^2*H31*V3*\[CapitalDelta]2 - 6*H12*H31^2*V2*\[CapitalDelta]3 + 
+         6*H12^2*H31*V3*\[CapitalDelta]3) - 
+       (H12*(3*H12*H31^2 - 2*H23*H31*V1^2 + H31^2*V1*V2 + 20*H12*H31*V1*V3 - 
+          12*H31*V1^2*V2*V3 - 12*H12*H31*V1*V3*\[CapitalDelta]2 + 
+          12*H12*H31*V1*V3*\[CapitalDelta]3))/2 - 
+       (H31^2*(17*H12^2 - 72*H12*V1*V2 + 12*V1^2*V2^2 - 
+          12*H12^2*\[CapitalDelta]2 + 72*H12*V1*V2*\[CapitalDelta]2 + 
+          4*H12^2*\[CapitalDelta]2^2 - 4*H12*V1*V2*\[CapitalDelta]2^2 + 
+          12*H12^2*\[CapitalDelta]3 - 72*H12*V1*V2*\[CapitalDelta]3 - 
+          8*H12^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H12*V1*V2*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H12^2*\[CapitalDelta]3^2 - 
+          4*H12*V1*V2*\[CapitalDelta]3^2))/8 - 
+       (H12^2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+          12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+          4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+          12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+          8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+          4*H31*V1*V3*\[CapitalDelta]3^2))/8 - 
+       (H31*V1*(-16*H12*H23*V1 + 6*H12*H31*V2 + 18*H31*V1*V2^2 - 3*H12^2*V3 - 
+          88*H12*V1*V2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 + 
+          48*H12*H31*V2*\[CapitalDelta]2 - 12*H23*V1^2*V2*\[CapitalDelta]2 - 
+          12*H31*V1*V2^2*\[CapitalDelta]2 - 12*H12^2*V3*\[CapitalDelta]2 - 
+          24*H12*V1*V2*V3*\[CapitalDelta]2 - 24*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*\[CapitalDelta]2^2 - 
+          8*H12*H31*V2*\[CapitalDelta]2^2 - 4*H12^2*V3*\[CapitalDelta]2^2 - 
+          8*H12*V1*V2*V3*\[CapitalDelta]2^2 + 6*H12*H23*V1*\[CapitalDelta]3 - 
+          48*H12*H31*V2*\[CapitalDelta]3 + 12*H23*V1^2*V2*\[CapitalDelta]3 + 
+          12*H31*V1*V2^2*\[CapitalDelta]3 + 12*H12^2*V3*\[CapitalDelta]3 + 
+          24*H12*V1*V2*V3*\[CapitalDelta]3 + 24*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*H23*V1*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 16*H12*H31*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 8*H12^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*\[CapitalDelta]3^2 - 8*H12*H31*V2*\[CapitalDelta]3^2 - 
+          4*H12^2*V3*\[CapitalDelta]3^2 - 8*H12*V1*V2*V3*\[CapitalDelta]3^2))/
+        2 - (H12*V1*(-16*H23*H31*V1 - 3*H31^2*V2 + 6*H12*H31*V3 - 
+          88*H31*V1*V2*V3 + 18*H12*V1*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+          12*H31^2*V2*\[CapitalDelta]2 - 48*H12*H31*V3*\[CapitalDelta]2 + 
+          12*H23*V1^2*V3*\[CapitalDelta]2 + 24*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 12*H12*V1*V3^2*\[CapitalDelta]2 + 
+          24*V1^2*V2*V3^2*\[CapitalDelta]2 - 4*H23*H31*V1*\[CapitalDelta]2^
+            2 - 4*H31^2*V2*\[CapitalDelta]2^2 - 8*H12*H31*V3*
+           \[CapitalDelta]2^2 - 8*H31*V1*V2*V3*\[CapitalDelta]2^2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+          48*H12*H31*V3*\[CapitalDelta]3 - 12*H23*V1^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V3^2*
+           \[CapitalDelta]3 - 24*V1^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H23*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*H31^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H31*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*\[CapitalDelta]3^2 - 4*H31^2*V2*\[CapitalDelta]3^2 - 
+          8*H12*H31*V3*\[CapitalDelta]3^2 - 8*H31*V1*V2*V3*
+           \[CapitalDelta]3^2))/2 - (H12*H31*(-7*H12*H31 - 2*H23*V1^2 + 
+          12*H31*V1*V2 + 12*H12*V1*V3 - 8*V1^2*V2*V3 + 
+          6*H31*V1*V2*\[CapitalDelta]2 - 6*H12*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*\[CapitalDelta]2^2 - 2*H23*V1^2*\[CapitalDelta]2^2 - 
+          2*H31*V1*V2*\[CapitalDelta]2^2 - 2*H12*V1*V3*\[CapitalDelta]2^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]2^2 - 6*H31*V1*V2*\[CapitalDelta]3 + 
+          6*H12*V1*V3*\[CapitalDelta]3 - 8*H12*H31*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H31*\[CapitalDelta]3^2 - 2*H23*V1^2*\[CapitalDelta]3^2 - 
+          2*H31*V1*V2*\[CapitalDelta]3^2 - 2*H12*V1*V3*\[CapitalDelta]3^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]3^2))/2 - 
+       (V1^2*(-76*H12*H23*H31 - 4*H23^2*V1^2 + 88*H23*H31*V1*V2 + 
+          119*H31^2*V2^2 + 88*H12*H23*V1*V3 - 580*H12*H31*V2*V3 - 
+          16*H23*V1^2*V2*V3 + 176*H31*V1*V2^2*V3 + 119*H12^2*V3^2 + 
+          176*H12*V1*V2*V3^2 - 16*V1^2*V2^2*V3^2 - 48*H23*H31*V1*V2*
+           \[CapitalDelta]2 - 48*H31^2*V2^2*\[CapitalDelta]2 + 
+          48*H12*H23*V1*V3*\[CapitalDelta]2 - 96*H31*V1*V2^2*V3*
+           \[CapitalDelta]2 + 48*H12^2*V3^2*\[CapitalDelta]2 + 
+          96*H12*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23^2*V1^2*
+           \[CapitalDelta]2^2 + 8*H23*H31*V1*V2*\[CapitalDelta]2^2 + 
+          4*H31^2*V2^2*\[CapitalDelta]2^2 + 8*H12*H23*V1*V3*
+           \[CapitalDelta]2^2 + 16*H12*H31*V2*V3*\[CapitalDelta]2^2 + 
+          16*H23*V1^2*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1*V2^2*V3*
+           \[CapitalDelta]2^2 + 4*H12^2*V3^2*\[CapitalDelta]2^2 + 
+          16*H12*V1*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2^2 + 48*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          48*H31^2*V2^2*\[CapitalDelta]3 - 48*H12*H23*V1*V3*
+           \[CapitalDelta]3 + 96*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          48*H12^2*V3^2*\[CapitalDelta]3 - 96*H12*V1*V2*V3^2*
+           \[CapitalDelta]3 - 8*H23^2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H23*H31*V1*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H31^2*V2^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H12*H23*V1*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*H31*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H23*V1^2*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H31*V1*V2^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H12^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*V1*V2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*V1^2*V2^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23^2*V1^2*\[CapitalDelta]3^2 + 
+          8*H23*H31*V1*V2*\[CapitalDelta]3^2 + 4*H31^2*V2^2*
+           \[CapitalDelta]3^2 + 8*H12*H23*V1*V3*\[CapitalDelta]3^2 + 
+          16*H12*H31*V2*V3*\[CapitalDelta]3^2 + 16*H23*V1^2*V2*V3*
+           \[CapitalDelta]3^2 + 16*H31*V1*V2^2*V3*\[CapitalDelta]3^2 + 
+          4*H12^2*V3^2*\[CapitalDelta]3^2 + 16*H12*V1*V2*V3^2*
+           \[CapitalDelta]3^2 + 16*V1^2*V2^2*V3^2*\[CapitalDelta]3^2))/8 + 
+       (30*H12^2*H31^2 - 356*H12*H23*H31*V1^2 - 4*H23^2*V1^4 + 
+         72*H12*H31^2*V1*V2 + 136*H23*H31*V1^3*V2 + 251*H31^2*V1^2*V2^2 + 
+         72*H12^2*H31*V1*V3 + 136*H12*H23*V1^3*V3 - 2276*H12*H31*V1^2*V2*V3 - 
+         16*H23*V1^4*V2*V3 + 272*H31*V1^3*V2^2*V3 + 251*H12^2*V1^2*V3^2 + 
+         272*H12*V1^3*V2*V3^2 - 16*V1^4*V2^2*V3^2 + 432*H12*H31^2*V1*V2*
+          \[CapitalDelta]2 - 96*H23*H31*V1^3*V2*\[CapitalDelta]2 - 
+         96*H31^2*V1^2*V2^2*\[CapitalDelta]2 - 432*H12^2*H31*V1*V3*
+          \[CapitalDelta]2 + 96*H12*H23*V1^3*V3*\[CapitalDelta]2 - 
+         192*H31*V1^3*V2^2*V3*\[CapitalDelta]2 + 96*H12^2*V1^2*V3^2*
+          \[CapitalDelta]2 + 192*H12*V1^3*V2*V3^2*\[CapitalDelta]2 + 
+         24*H12^2*H31^2*\[CapitalDelta]2^2 - 40*H12*H23*H31*V1^2*
+          \[CapitalDelta]2^2 + 4*H23^2*V1^4*\[CapitalDelta]2^2 - 
+         60*H12*H31^2*V1*V2*\[CapitalDelta]2^2 + 8*H23*H31*V1^3*V2*
+          \[CapitalDelta]2^2 + 4*H31^2*V1^2*V2^2*\[CapitalDelta]2^2 - 
+         60*H12^2*H31*V1*V3*\[CapitalDelta]2^2 + 8*H12*H23*V1^3*V3*
+          \[CapitalDelta]2^2 - 64*H12*H31*V1^2*V2*V3*\[CapitalDelta]2^2 + 
+         16*H23*V1^4*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]2^2 + 4*H12^2*V1^2*V3^2*\[CapitalDelta]2^2 + 
+         16*H12*V1^3*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^4*V2^2*V3^2*
+          \[CapitalDelta]2^2 - 432*H12*H31^2*V1*V2*\[CapitalDelta]3 + 
+         96*H23*H31*V1^3*V2*\[CapitalDelta]3 + 96*H31^2*V1^2*V2^2*
+          \[CapitalDelta]3 + 432*H12^2*H31*V1*V3*\[CapitalDelta]3 - 
+         96*H12*H23*V1^3*V3*\[CapitalDelta]3 + 192*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]3 - 96*H12^2*V1^2*V3^2*\[CapitalDelta]3 - 
+         192*H12*V1^3*V2*V3^2*\[CapitalDelta]3 - 48*H12^2*H31^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 80*H12*H23*H31*V1^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 8*H23^2*V1^4*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 120*H12*H31^2*V1*V2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 16*H23*H31*V1^3*V2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 8*H31^2*V1^2*V2^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 120*H12^2*H31*V1*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 16*H12*H23*V1^3*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 128*H12*H31*V1^2*V2*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 32*H23*V1^4*V2*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 32*H31*V1^3*V2^2*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 8*H12^2*V1^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 32*H12*V1^3*V2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 32*V1^4*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 24*H12^2*H31^2*\[CapitalDelta]3^2 - 
+         40*H12*H23*H31*V1^2*\[CapitalDelta]3^2 + 4*H23^2*V1^4*
+          \[CapitalDelta]3^2 - 60*H12*H31^2*V1*V2*\[CapitalDelta]3^2 + 
+         8*H23*H31*V1^3*V2*\[CapitalDelta]3^2 + 4*H31^2*V1^2*V2^2*
+          \[CapitalDelta]3^2 - 60*H12^2*H31*V1*V3*\[CapitalDelta]3^2 + 
+         8*H12*H23*V1^3*V3*\[CapitalDelta]3^2 - 64*H12*H31*V1^2*V2*V3*
+          \[CapitalDelta]3^2 + 16*H23*V1^4*V2*V3*\[CapitalDelta]3^2 + 
+         16*H31*V1^3*V2^2*V3*\[CapitalDelta]3^2 + 4*H12^2*V1^2*V3^2*
+          \[CapitalDelta]3^2 + 16*H12*V1^3*V2*V3^2*\[CapitalDelta]3^2 + 
+         16*V1^4*V2^2*V3^2*\[CapitalDelta]3^2)/8, f[1, 1, 4, 5, 5, 5] -> 
+      -((H31^2*(3*H12*H23*V1*V2 + H12*H31*V2^2 + H23*V1^2*V2^2 + 
+           H31*V1*V2^3 + 3*H12^2*V2*V3 + 7*H12*V1*V2^2*V3 + 2*V1^2*V2^3*V3))/
+         V2^2) - (H12*H31*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(V2*V3) + 
+       (4*H12*V1*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 + 
+       (2*H12*H31*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        V2^2 + (2*V1^2*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + 
+          H12*H23*H31*V2*V3 + 3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + 
+          H12*H31*V2^2*V3^2 + 2*H31*V1*V2^3*V3^2))/V2^2 + 
+       (4*H31*V1*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + H23*H31*V1*V2^2 + 
+          2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 2*H31*V1*V2^3*V3 + 
+          H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2))/V2^2 - 
+       (H31*(3*H12*H31^2 - 2*H23*H31*V1^2 + H31^2*V1*V2 + 20*H12*H31*V1*V3 - 
+          12*H31*V1^2*V2*V3 - 12*H12*H31*V1*V3*\[CapitalDelta]2 + 
+          12*H12*H31*V1*V3*\[CapitalDelta]3))/2 - 
+       (H12*(H31^3 - 29*H31^2*V1*V3 + 24*H31*V1^2*V3^2 - 
+          12*H31^2*V1*V3*\[CapitalDelta]2 + 12*H31^2*V1*V3*\[CapitalDelta]3))/
+        2 - (H31^2*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 
+          2*H31*V1*V2^2 + 3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+          6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+          6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+          6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+          6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*\[CapitalDelta]3))/
+        (2*V2) - (V1^2*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+          11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+          4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+           \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+          2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+          2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3))/V2 - 
+       (H12*V1*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+          15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+           \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+          2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*\[CapitalDelta]2 + 
+          4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 2*H23*H31^2*\[CapitalDelta]3 - 
+          2*H23*H31*V1*V3*\[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+          2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+           \[CapitalDelta]3))/V2 - V1*(H23*H31^2*V1 + H31^3*V2 - 
+         5*H12*H31^2*V3 - 10*H23*H31*V1^2*V3 - 16*H31^2*V1*V2*V3 + 
+         26*H12*H31*V1*V3^2 - 20*H31*V1^2*V2*V3^2 + 2*H23*H31^2*V1*
+          \[CapitalDelta]2 + 2*H31^3*V2*\[CapitalDelta]2 - 
+         6*H12*H31^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1^2*V3*
+          \[CapitalDelta]2 + 8*H31^2*V1*V2*V3*\[CapitalDelta]2 + 
+         4*H12*H31*V1*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2*V3^2*
+          \[CapitalDelta]2 - 2*H23*H31^2*V1*\[CapitalDelta]3 - 
+         2*H31^3*V2*\[CapitalDelta]3 + 6*H12*H31^2*V3*\[CapitalDelta]3 - 
+         4*H23*H31*V1^2*V3*\[CapitalDelta]3 - 8*H31^2*V1*V2*V3*
+          \[CapitalDelta]3 - 4*H12*H31*V1*V3^2*\[CapitalDelta]3 - 
+         8*H31*V1^2*V2*V3^2*\[CapitalDelta]3) - 
+       (2*H31*V1*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/V2 - (H12*V1*(-39*H31^2*V3 + 126*H31*V1*V3^2 - 
+          36*H31^2*V3*\[CapitalDelta]2 + 24*H31*V1*V3^2*\[CapitalDelta]2 - 
+          4*H31^2*V3*\[CapitalDelta]2^2 + 36*H31^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V3^2*\[CapitalDelta]3 + 8*H31^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H31^2*V3*\[CapitalDelta]3^2))/2 - 
+       (H12*H31*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+          12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+          4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+          12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+          8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+          4*H31*V1*V3*\[CapitalDelta]3^2))/4 - 
+       (H31*V1*(-16*H23*H31*V1 - 3*H31^2*V2 + 6*H12*H31*V3 - 
+          88*H31*V1*V2*V3 + 18*H12*V1*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+          12*H31^2*V2*\[CapitalDelta]2 - 48*H12*H31*V3*\[CapitalDelta]2 + 
+          12*H23*V1^2*V3*\[CapitalDelta]2 + 24*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 12*H12*V1*V3^2*\[CapitalDelta]2 + 
+          24*V1^2*V2*V3^2*\[CapitalDelta]2 - 4*H23*H31*V1*\[CapitalDelta]2^
+            2 - 4*H31^2*V2*\[CapitalDelta]2^2 - 8*H12*H31*V3*
+           \[CapitalDelta]2^2 - 8*H31*V1*V2*V3*\[CapitalDelta]2^2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+          48*H12*H31*V3*\[CapitalDelta]3 - 12*H23*V1^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V3^2*
+           \[CapitalDelta]3 - 24*V1^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H23*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*H31^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H31*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*\[CapitalDelta]3^2 - 4*H31^2*V2*\[CapitalDelta]3^2 - 
+          8*H12*H31*V3*\[CapitalDelta]3^2 - 8*H31*V1*V2*V3*
+           \[CapitalDelta]3^2))/2 - (H31^2*(-7*H12*H31 - 2*H23*V1^2 + 
+          12*H31*V1*V2 + 12*H12*V1*V3 - 8*V1^2*V2*V3 + 
+          6*H31*V1*V2*\[CapitalDelta]2 - 6*H12*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*\[CapitalDelta]2^2 - 2*H23*V1^2*\[CapitalDelta]2^2 - 
+          2*H31*V1*V2*\[CapitalDelta]2^2 - 2*H12*V1*V3*\[CapitalDelta]2^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]2^2 - 6*H31*V1*V2*\[CapitalDelta]3 + 
+          6*H12*V1*V3*\[CapitalDelta]3 - 8*H12*H31*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H31*\[CapitalDelta]3^2 - 2*H23*V1^2*\[CapitalDelta]3^2 - 
+          2*H31*V1*V2*\[CapitalDelta]3^2 - 2*H12*V1*V3*\[CapitalDelta]3^2 - 
+          4*V1^2*V2*V3*\[CapitalDelta]3^2))/4 - 
+       (V1^2*(-11*H23*H31^2 - 60*H23*H31*V1*V3 - 113*H31^2*V2*V3 + 
+          147*H12*H31*V3^2 - 120*H31*V1*V2*V3^2 + 4*H23*H31^2*
+           \[CapitalDelta]2 + 20*H23*H31*V1*V3*\[CapitalDelta]2 + 
+          16*H31^2*V2*V3*\[CapitalDelta]2 + 56*H12*H31*V3^2*
+           \[CapitalDelta]2 + 40*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]2^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]2^2 + 4*H12*H31*V3^2*\[CapitalDelta]2^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]2^2 - 4*H23*H31^2*
+           \[CapitalDelta]3 - 20*H23*H31*V1*V3*\[CapitalDelta]3 - 
+          16*H31^2*V2*V3*\[CapitalDelta]3 - 56*H12*H31*V3^2*
+           \[CapitalDelta]3 - 40*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*H23*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]3^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]3^2 + 4*H12*H31*V3^2*\[CapitalDelta]3^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (-4*H12*H23*H31^3*V2 - 8*H12^2*H23*H31^2*V3 + 24*H12*H23^2*H31*V1^2*
+          V3 - 64*H12*H23*H31^2*V1*V2*V3 + 84*H23^2*H31*V1^3*V2*V3 - 
+         40*H12*H31^3*V2^2*V3 + 177*H23*H31^2*V1^2*V2^2*V3 - 
+         40*H31^3*V1*V2^3*V3 + 32*H12^2*H23*H31*V1*V3^2 + 
+         44*H12^2*H31^2*V2*V3^2 - 112*H12*H23*H31*V1^2*V2*V3^2 + 
+         72*H12*H31^2*V1*V2^2*V3^2 + 540*H23*H31*V1^3*V2^2*V3^2 + 
+         729*H31^2*V1^2*V2^3*V3^2 + 8*H12^3*H31*V3^3 - 108*H12^2*H31*V1*V2*
+          V3^3 - 695*H12*H31*V1^2*V2^2*V3^3 + 744*H31*V1^3*V2^3*V3^3 + 
+         48*H12*H23*H31^2*V1*V2*V3*\[CapitalDelta]2 - 24*H23^2*H31*V1^3*V2*V3*
+          \[CapitalDelta]2 - 64*H23*H31^2*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+         54*H31^3*V1*V2^3*V3*\[CapitalDelta]2 + 24*H12^2*H31^2*V2*V3^2*
+          \[CapitalDelta]2 - 48*H12*H23*H31*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+         342*H12*H31^2*V1*V2^2*V3^2*\[CapitalDelta]2 - 140*H23*H31*V1^3*V2^2*
+          V3^2*\[CapitalDelta]2 - 160*H31^2*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 
+         24*H12^2*H31*V1*V2*V3^3*\[CapitalDelta]2 - 224*H12*H31*V1^2*V2^2*
+          V3^3*\[CapitalDelta]2 - 184*H31*V1^3*V2^3*V3^3*\[CapitalDelta]2 - 
+         8*H12*H31^3*V2^2*V3*\[CapitalDelta]2^2 + 10*H23*H31^2*V1^2*V2^2*V3*
+          \[CapitalDelta]2^2 + 10*H31^3*V1*V2^3*V3*\[CapitalDelta]2^2 + 
+         30*H12*H31^2*V1*V2^2*V3^2*\[CapitalDelta]2^2 - 4*H23*H31*V1^3*V2^2*
+          V3^2*\[CapitalDelta]2^2 + 16*H31^2*V1^2*V2^3*V3^2*
+          \[CapitalDelta]2^2 - 4*H12*H31*V1^2*V2^2*V3^3*\[CapitalDelta]2^2 - 
+         8*H31*V1^3*V2^3*V3^3*\[CapitalDelta]2^2 - 48*H12*H23*H31^2*V1*V2*V3*
+          \[CapitalDelta]3 + 24*H23^2*H31*V1^3*V2*V3*\[CapitalDelta]3 + 
+         64*H23*H31^2*V1^2*V2^2*V3*\[CapitalDelta]3 + 54*H31^3*V1*V2^3*V3*
+          \[CapitalDelta]3 - 24*H12^2*H31^2*V2*V3^2*\[CapitalDelta]3 + 
+         48*H12*H23*H31*V1^2*V2*V3^2*\[CapitalDelta]3 - 342*H12*H31^2*V1*V2^2*
+          V3^2*\[CapitalDelta]3 + 140*H23*H31*V1^3*V2^2*V3^2*
+          \[CapitalDelta]3 + 160*H31^2*V1^2*V2^3*V3^2*\[CapitalDelta]3 + 
+         24*H12^2*H31*V1*V2*V3^3*\[CapitalDelta]3 + 224*H12*H31*V1^2*V2^2*
+          V3^3*\[CapitalDelta]3 + 184*H31*V1^3*V2^3*V3^3*\[CapitalDelta]3 + 
+         16*H12*H31^3*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         20*H23*H31^2*V1^2*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         20*H31^3*V1*V2^3*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         60*H12*H31^2*V1*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         8*H23*H31*V1^3*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         32*H31^2*V1^2*V2^3*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         8*H12*H31*V1^2*V2^2*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         16*H31*V1^3*V2^3*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         8*H12*H31^3*V2^2*V3*\[CapitalDelta]3^2 + 10*H23*H31^2*V1^2*V2^2*V3*
+          \[CapitalDelta]3^2 + 10*H31^3*V1*V2^3*V3*\[CapitalDelta]3^2 + 
+         30*H12*H31^2*V1*V2^2*V3^2*\[CapitalDelta]3^2 - 4*H23*H31*V1^3*V2^2*
+          V3^2*\[CapitalDelta]3^2 + 16*H31^2*V1^2*V2^3*V3^2*
+          \[CapitalDelta]3^2 - 4*H12*H31*V1^2*V2^2*V3^3*\[CapitalDelta]3^2 - 
+         8*H31*V1^3*V2^3*V3^3*\[CapitalDelta]3^2)/(4*V2^2*V3) - 
+       (2*V1*(-1/2*(V1*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+             11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+             4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+              \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+             2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+             15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+              \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+             2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*
+              \[CapitalDelta]2 + 4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+             2*H23*H31^2*\[CapitalDelta]3 - 2*H23*H31*V1*V3*
+              \[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+             2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+              \[CapitalDelta]3))/2 - (H31*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+             7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+             4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+              \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*
+              \[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*\[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (2*H12*H23*H31^2 - 13*H23^2*H31*V1^2 - 23*H23*H31^2*V1*V2 + 
+            47*H12*H23*H31*V1*V3 + 8*H12*H31^2*V2*V3 - 74*H23*H31*V1^2*V2*
+             V3 - 62*H31^2*V1*V2^2*V3 + 30*H12^2*H31*V3^2 + 
+            42*H12*H31*V1*V2*V3^2 - 96*H31*V1^2*V2^2*V3^2 - 
+            4*H12*H23*H31^2*\[CapitalDelta]2 + 4*H23^2*H31*V1^2*
+             \[CapitalDelta]2 + 6*H23*H31^2*V1*V2*\[CapitalDelta]2 + 
+            2*H31^3*V2^2*\[CapitalDelta]2 + 8*H12*H23*H31*V1*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3*\[CapitalDelta]2 + 
+            12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2 + 8*H31^2*V1*V2^2*V3*
+             \[CapitalDelta]2 + 4*H12^2*H31*V3^2*\[CapitalDelta]2 + 
+            12*H12*H31*V1*V2*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2^2*V3^2*
+             \[CapitalDelta]2 + 4*H12*H23*H31^2*\[CapitalDelta]3 - 
+            4*H23^2*H31*V1^2*\[CapitalDelta]3 - 6*H23*H31^2*V1*V2*
+             \[CapitalDelta]3 - 2*H31^3*V2^2*\[CapitalDelta]3 - 
+            8*H12*H23*H31*V1*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3*
+             \[CapitalDelta]3 - 12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 - 
+            8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 4*H12^2*H31*V3^2*
+             \[CapitalDelta]3 - 12*H12*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3)/2))/V2 - 
+       (H12*H31*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+             12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+             4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+             12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+             8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+              \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^
+               2 - 4*H31*V1*V3*\[CapitalDelta]3^2)) + 
+          (-44*H23*H31*V1 + 25*H31^2*V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 
+            208*H31*V1*V2*V3 + 48*H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 
+            24*H23*H31*V1*\[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 
+            24*H12*H31*V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 4*H31^2*V2*\[CapitalDelta]2^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]2^2 + 24*H23*H31*V1*
+             \[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+            24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*V1*V2*V3*
+             \[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+             \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 
+            4*H31*V1*V2*V3*\[CapitalDelta]3^2)/8))/V2 - 
+       (2*H31*(-1/4*(H31*(7*H12*H23*V1 + H12*H31*V2 - 6*H23*V1^2*V2 + 
+             2*H31*V1*V2^2 + 3*H12^2*V3 + 8*H12*V1*V2*V3 - 12*V1^2*V2^2*V3 - 
+             6*H12*H23*V1*\[CapitalDelta]2 - 6*H12*H31*V2*\[CapitalDelta]2 - 
+             6*H12^2*V3*\[CapitalDelta]2 - 12*H12*V1*V2*V3*\[CapitalDelta]2 + 
+             6*H12*H23*V1*\[CapitalDelta]3 + 6*H12*H31*V2*\[CapitalDelta]3 + 
+             6*H12^2*V3*\[CapitalDelta]3 + 12*H12*V1*V2*V3*
+              \[CapitalDelta]3)) - (V1*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+             7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+             4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+              \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*
+              \[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*\[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (12*H12*H23*H31*V1 - 4*H23^2*V1^3 + 7*H12*H31^2*V2 - 
+            12*H23*H31*V1^2*V2 + 10*H31^2*V1*V2^2 - 26*H12^2*H31*V3 + 
+            22*H12*H23*V1^2*V3 + 22*H12*H31*V1*V2*V3 - 28*H23*V1^3*V2*V3 - 
+            36*H31*V1^2*V2^2*V3 + 26*H12^2*V1*V3^2 + 32*H12*V1^2*V2*V3^2 - 
+            40*V1^3*V2^2*V3^2 - 16*H12*H23*H31*V1*\[CapitalDelta]2 + 
+            4*H23^2*V1^3*\[CapitalDelta]2 - 6*H12*H31^2*V2*\[CapitalDelta]2 + 
+            8*H23*H31*V1^2*V2*\[CapitalDelta]2 + 4*H31^2*V1*V2^2*
+             \[CapitalDelta]2 - 12*H12^2*H31*V3*\[CapitalDelta]2 + 
+            8*H12*H23*V1^2*V3*\[CapitalDelta]2 - 16*H12*H31*V1*V2*V3*
+             \[CapitalDelta]2 + 16*H23*V1^3*V2*V3*\[CapitalDelta]2 + 
+            16*H31*V1^2*V2^2*V3*\[CapitalDelta]2 + 4*H12^2*V1*V3^2*
+             \[CapitalDelta]2 + 16*H12*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+            16*V1^3*V2^2*V3^2*\[CapitalDelta]2 + 16*H12*H23*H31*V1*
+             \[CapitalDelta]3 - 4*H23^2*V1^3*\[CapitalDelta]3 + 
+            6*H12*H31^2*V2*\[CapitalDelta]3 - 8*H23*H31*V1^2*V2*
+             \[CapitalDelta]3 - 4*H31^2*V1*V2^2*\[CapitalDelta]3 + 
+            12*H12^2*H31*V3*\[CapitalDelta]3 - 8*H12*H23*V1^2*V3*
+             \[CapitalDelta]3 + 16*H12*H31*V1*V2*V3*\[CapitalDelta]3 - 
+            16*H23*V1^3*V2*V3*\[CapitalDelta]3 - 16*H31*V1^2*V2^2*V3*
+             \[CapitalDelta]3 - 4*H12^2*V1*V3^2*\[CapitalDelta]3 - 
+            16*H12*V1^2*V2*V3^2*\[CapitalDelta]3 - 16*V1^3*V2^2*V3^2*
+             \[CapitalDelta]3)/4 - (H12*(-1/8*(V2*(17*H31^2 - 72*H31*V1*V3 + 
+                12*V1^2*V3^2 + 12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*
+                 \[CapitalDelta]2 + 4*H31^2*\[CapitalDelta]2^2 - 
+                4*H31*V1*V3*\[CapitalDelta]2^2 - 12*H31^2*\[CapitalDelta]3 + 
+                72*H31*V1*V3*\[CapitalDelta]3 - 8*H31^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + 8*H31*V1*V3*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+                4*H31*V1*V3*\[CapitalDelta]3^2)) + (-44*H23*H31*V1 + 25*H31^2*
+                V2 - 84*H12*H31*V3 + 48*H23*V1^2*V3 - 208*H31*V1*V2*V3 + 48*
+                H12*V1*V3^2 + 108*V1^2*V2*V3^2 - 24*H23*H31*V1*
+                \[CapitalDelta]2 + 12*H31^2*V2*\[CapitalDelta]2 - 24*H12*H31*
+                V3*\[CapitalDelta]2 - 120*H31*V1*V2*V3*\[CapitalDelta]2 + 4*
+                H31^2*V2*\[CapitalDelta]2^2 - 4*H31*V1*V2*V3*\[CapitalDelta]2^
+                 2 + 24*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*
+                \[CapitalDelta]3 + 24*H12*H31*V3*\[CapitalDelta]3 + 120*H31*
+                V1*V2*V3*\[CapitalDelta]3 - 8*H31^2*V2*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 8*H31*V1*V2*V3*\[CapitalDelta]2*
+                \[CapitalDelta]3 + 4*H31^2*V2*\[CapitalDelta]3^2 - 4*H31*V1*
+                V2*V3*\[CapitalDelta]3^2)/8))/2))/V2, 
+     f[1, 1, 5, 5, 5, 5] -> (6*V1^2*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + 
+          H31^2*V2^2*V3^2))/V2^2 + (24*H31*V1*(H23^2*H31*V1 + 
+          H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + H12*H31*V2*V3^2 + 
+          2*H31*V1*V2^2*V3^2))/V2^2 + (6*H31^2*(-(H12*H23*H31) + H23^2*V1^2 - 
+          H23*H31*V1*V2 + 2*H12*H23*V1*V3 - H12*H31*V2*V3 + 
+          4*H23*V1^2*V2*V3 - H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 
+          4*V1^2*V2^2*V3^2))/V2^2 - (H31*(H31^3 - 29*H31^2*V1*V3 + 
+          24*H31*V1^2*V3^2 - 12*H31^2*V1*V3*\[CapitalDelta]2 + 
+          12*H31^2*V1*V3*\[CapitalDelta]3))/2 - 
+       V1*(-3*H31^3*V3 + 36*H31^2*V1*V3^2 - 2*H31^3*V3*\[CapitalDelta]2 + 
+         4*H31^2*V1*V3^2*\[CapitalDelta]2 + 2*H31^3*V3*\[CapitalDelta]3 - 
+         4*H31^2*V1*V3^2*\[CapitalDelta]3) - 
+       (H31*V1*(-39*H31^2*V3 + 126*H31*V1*V3^2 - 36*H31^2*V3*
+           \[CapitalDelta]2 + 24*H31*V1*V3^2*\[CapitalDelta]2 - 
+          4*H31^2*V3*\[CapitalDelta]2^2 + 36*H31^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V3^2*\[CapitalDelta]3 + 8*H31^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H31^2*V3*\[CapitalDelta]3^2))/2 - 
+       (H31^2*(17*H31^2 - 72*H31*V1*V3 + 12*V1^2*V3^2 + 
+          12*H31^2*\[CapitalDelta]2 - 72*H31*V1*V3*\[CapitalDelta]2 + 
+          4*H31^2*\[CapitalDelta]2^2 - 4*H31*V1*V3*\[CapitalDelta]2^2 - 
+          12*H31^2*\[CapitalDelta]3 + 72*H31*V1*V3*\[CapitalDelta]3 - 
+          8*H31^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31*V1*V3*
+           \[CapitalDelta]2*\[CapitalDelta]3 + 4*H31^2*\[CapitalDelta]3^2 - 
+          4*H31*V1*V3*\[CapitalDelta]3^2))/8 - 
+       (V1^2*(207*H31^2*V3^2 + 64*H31^2*V3^2*\[CapitalDelta]2 + 
+          4*H31^2*V3^2*\[CapitalDelta]2^2 - 64*H31^2*V3^2*\[CapitalDelta]3 - 
+          8*H31^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31^2*V3^2*\[CapitalDelta]3^2))/8 - 
+       (-48*H12*H23*H31^3 + 288*H23^2*H31^2*V1^2 - 48*H23*H31^3*V1*V2 - 
+         21*H31^4*V2^2 + 288*H12*H23*H31^2*V1*V3 - 48*H12*H31^3*V2*V3 + 
+         864*H23*H31^2*V1^2*V2*V3 + 328*H31^3*V1*V2^2*V3 + 
+         48*H12^2*H31^2*V3^2 + 384*H12*H31^2*V1*V2*V3^2 - 
+         515*H31^2*V1^2*V2^2*V3^2 - 12*H31^4*V2^2*\[CapitalDelta]2 + 
+         280*H31^3*V1*V2^2*V3*\[CapitalDelta]2 - 192*H31^2*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2 - 4*H31^4*V2^2*\[CapitalDelta]2^2 + 
+         20*H31^3*V1*V2^2*V3*\[CapitalDelta]2^2 - 4*H31^2*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2^2 + 12*H31^4*V2^2*\[CapitalDelta]3 - 
+         280*H31^3*V1*V2^2*V3*\[CapitalDelta]3 + 192*H31^2*V1^2*V2^2*V3^2*
+          \[CapitalDelta]3 + 8*H31^4*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         40*H31^3*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         8*H31^2*V1^2*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         4*H31^4*V2^2*\[CapitalDelta]3^2 + 20*H31^3*V1*V2^2*V3*
+          \[CapitalDelta]3^2 - 4*H31^2*V1^2*V2^2*V3^2*\[CapitalDelta]3^2)/
+        (8*V2^2), f[1, 2, 2, 2, 2, 2] -> 0, f[1, 2, 2, 2, 2, 3] -> 0, 
+     f[1, 2, 2, 2, 2, 4] -> 0, f[1, 2, 2, 2, 2, 5] -> 0, 
+     f[1, 2, 2, 2, 3, 3] -> 0, f[1, 2, 2, 2, 3, 4] -> 0, 
+     f[1, 2, 2, 2, 3, 5] -> 0, f[1, 2, 2, 2, 4, 4] -> 
+      (15*H12^2*V2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/(2*V1^3) + 
+       (15*H12^2*V2^2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V1^3*V3) - (15*(-(H12^3*H31*V2^2) - H12^2*H31*V1*V2^3 + 
+          H12^4*V2*V3 + H12^3*V1*V2^2*V3))/(2*V1^3*V3), 
+     f[1, 2, 2, 2, 4, 5] -> 0, f[1, 2, 2, 2, 5, 5] -> 0, 
+     f[1, 2, 2, 3, 3, 3] -> 0, f[1, 2, 2, 3, 3, 4] -> 0, 
+     f[1, 2, 2, 3, 3, 5] -> 0, f[1, 2, 2, 3, 4, 4] -> 0, 
+     f[1, 2, 2, 3, 4, 5] -> 0, f[1, 2, 2, 3, 5, 5] -> 0, 
+     f[1, 2, 2, 4, 4, 4] -> (-9*H12*V1*V2^4)/8 + 
+       (145*H12^3*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/(6*V1^3) - 
+       (H12*((-3*V1*V2^4)/4 + (-16*H12*V2^3 + 3*V1*V2^4)/4))/3 + 
+       (145*H12^3*V2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (6*V1^3*V3) - (2*V1*V2*(H12*H23*V2^2 + H12*V2^3*V3))/V3 - 
+       (-48*H12*H23^2*V1^4*V2^2 - 48*H12*H23*H31*V1^3*V2^3 - 
+         580*H12^4*H31*V2*V3 - 580*H12^3*H31*V1*V2^2*V3 + 
+         48*H12^2*H23*V1^3*V2^2*V3 - 240*H12*H23*V1^4*V2^3*V3 - 
+         96*H12*H31*V1^3*V2^4*V3 + 580*H12^5*V3^2 + 580*H12^4*V1*V2*V3^2 + 
+         128*H12^2*V1^3*V2^3*V3^2 - 267*H12*V1^4*V2^4*V3^2)/(24*V1^3*V3^2) - 
+       (H12^3*V2^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (V2^2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 
+            3*H12*H23*V1*V2*V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (V2*(-2*V1*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          (2*(-2*H12*H23^2*V1*V2 - 2*H12*H23*H31*V2^2 + H12^2*H23*V2*V3 - 
+             8*H12*H23*V1*V2^2*V3 - 3*H12*H31*V2^3*V3 + H12^2*V2^2*V3^2 - 
+             7*H12*V1*V2^3*V3^2))/V3 - 
+          (H12^3*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3, 
+     f[1, 2, 2, 4, 4, 5] -> -1/8*(H31*V1*V2^4) - 
+       (H31*((-3*V1*V2^4)/4 + (-16*H12*V2^3 + 3*V1*V2^4)/4))/3 - 
+       (48*H12*H23^2*V1*V2 - 48*H12*H23*H31*V2^2 + 48*H12^2*H23*V2*V3 + 
+         208*H12*H23*V1*V2^2*V3 - 64*H12*H31*V2^3*V3 - 24*H23*V1^2*V2^3*V3 - 
+         27*H31*V1*V2^4*V3 + 96*H12^2*V2^2*V3^2 + 176*H12*V1*V2^3*V3^2 - 
+         48*V1^2*V2^4*V3^2)/(24*V3) - 
+       (V1*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3 - 
+       (3*H12^2*H31*V2^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (V2^2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 
+            2*H23*H31*V1*V2*V3 - H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 
+            4*H23*V1^2*V2*V3^2 - 4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 
+            4*V1^2*V2^2*V3^3) - (3*H12^2*H31*
+            ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (V2*(-2*(H12*H23^2*V1 - 2*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+            2*H23*H31*V1*V2^2 + H31^2*V2^3 + H12^2*H23*V3 + 
+            3*H12*H23*V1*V2*V3 - 3*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+            4*H31*V1*V2^3*V3 + 2*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2) - 
+          (3*H12^2*H31*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*
+                V2*V3 - H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*
+                V3^2 - 4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*
+                V3^3) - (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^
+                     2 - 2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                   V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+                (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V3^2*\[CapitalDelta]3^
+                     2))/(8*V1)))/10))/V3))/V3, f[1, 2, 2, 4, 5, 5] -> 
+      -2*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + H23*H31*V1*V2^2 + 
+        2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 2*H31*V1*V2^3*V3 + 
+        H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2), 
+     f[1, 2, 2, 5, 5, 5] -> 2*(H23^2*H31*V1 + H12*H23*H31*V3 + 
+        3*H23*H31*V1*V2*V3 + H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2), 
+     f[1, 2, 3, 3, 3, 3] -> 0, f[1, 2, 3, 3, 3, 4] -> 0, 
+     f[1, 2, 3, 3, 3, 5] -> 0, f[1, 2, 3, 3, 4, 4] -> 0, 
+     f[1, 2, 3, 3, 4, 5] -> 0, f[1, 2, 3, 3, 5, 5] -> 0, 
+     f[1, 2, 3, 4, 4, 4] -> -2*V1*(H12*H23*V2^2 + H12*V2^3*V3) - 
+       (2*(-2*H12*H23^2*V1*V2 - 2*H12*H23*H31*V2^2 + H12^2*H23*V2*V3 - 
+          8*H12*H23*V1*V2^2*V3 - 3*H12*H31*V2^3*V3 + H12^2*V2^2*V3^2 - 
+          7*H12*V1*V2^3*V3^2))/V3 - 
+       (H12^3*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(5*V3) - 
+       (2*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3, 
+     f[1, 2, 3, 4, 4, 5] -> -2*(H12*H23^2*V1 - 2*H12*H23*H31*V2 + 
+         H23^2*V1^2*V2 + 2*H23*H31*V1*V2^2 + H31^2*V2^3 + H12^2*H23*V3 + 
+         3*H12*H23*V1*V2*V3 - 3*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+         4*H31*V1*V2^3*V3 + 2*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2) - 
+       (3*H12^2*H31*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(5*V3) - 
+       (2*V2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+            H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 
+            4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+          (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 2, 3, 4, 5, 5] -> -2*(H23^2*H31*V1 + H23*H31^2*V2 - 
+        H23^2*V1^2*V3 + H23*H31*V1*V2*V3 - 2*H12*H23*V1*V3^2 - 
+        3*H12*H31*V2*V3^2 - 4*H23*V1^2*V2*V3^2 - 2*H31*V1*V2^2*V3^2 - 
+        H12^2*V3^3 - 4*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3), 
+     f[1, 2, 3, 5, 5, 5] -> (-2*H31^2*V3*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^2*V2) - 
+       (2*H31*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/V1 - (H31^2*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/
+        V1^2 - (4*V3*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2 - 
+       (4*H31*V3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1*V2) - 2*V1*(H23*H31*V3^2 + H31*V2*V3^3) - 
+       (-3*H23*H31^3*V1*V2 + 6*H12*H23*H31^2*V1*V3 - 8*H23^2*H31*V1^3*V3 - 
+         2*H12*H31^3*V2*V3 + 9*H23*H31^2*V1^2*V2*V3 - 5*H31^3*V1*V2^2*V3 + 
+         2*H12^2*H31^2*V3^2 - 12*H12*H23*H31*V1^2*V3^2 + 
+         15*H12*H31^2*V1*V2*V3^2 - 32*H23*H31*V1^3*V2*V3^2 + 
+         16*H31^2*V1^2*V2^2*V3^2 - 4*H12^2*H31*V1*V3^3 - 
+         22*H12*H31*V1^2*V2*V3^3 - 30*H31*V1^3*V2^2*V3^3)/(V1^2*V2), 
+     f[1, 2, 4, 4, 4, 4] -> (20*H12^4*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/
+        (V1^3*V2) + (20*H12^4*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/(V1^3*V3) - (11*H12*V1*(H12*H23*V2^2 + H12*V2^3*V3))/
+        V3 - (4*V1*V2*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/
+        V3^2 - (5*V1*(-2*H12*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          (2*V2*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3 + 
+          (2*(H12^2*H23^2*V2 + 4*H12^2*H23*V2^2*V3 + 3*H12^2*V2^3*V3^2))/V3))/
+        (2*V3) - (H12*(-19*H12^2*V2^2 + 12*H12*V1*V2^3 + 
+          4*H12^2*V2^2*\[CapitalDelta]2 - 4*H12^2*V2^2*\[CapitalDelta]3))/2 + 
+       (H12*V1*(-19*H12*V2^3 + 4*H12*V2^3*\[CapitalDelta]2 - 
+          4*H12*V2^3*\[CapitalDelta]3))/2 - 
+       (V1*(17*H12^2*V2^3 - 2*H12^2*V2^3*\[CapitalDelta]2 + 
+          2*H12^2*V2^3*\[CapitalDelta]3))/2 - 
+       (V1*V2*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/(2*V3) - 
+       (H12*V2*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (-28*H12^2*H23^2*V1^4*V2^2 - 20*H12^2*H23*H31*V1^3*V2^3 - 
+         40*H12^5*H31*V2*V3 - 40*H12^4*H31*V1*V2^2*V3 + 
+         14*H12^3*H23*V1^3*V2^2*V3 - 175*H12^2*H23*V1^4*V2^3*V3 - 
+         51*H12^2*H31*V1^3*V2^4*V3 + 40*H12^6*V3^2 + 40*H12^5*V1*V2*V3^2 + 
+         39*H12^3*V1^3*V2^3*V3^2 - 235*H12^2*V1^4*V2^4*V3^2 - 
+         2*H12^3*H23*V1^3*V2^2*V3*\[CapitalDelta]2 + 4*H12^2*H23*V1^4*V2^3*V3*
+          \[CapitalDelta]2 + 2*H12^2*H31*V1^3*V2^4*V3*\[CapitalDelta]2 - 
+         6*H12^3*V1^3*V2^3*V3^2*\[CapitalDelta]2 + 12*H12^2*V1^4*V2^4*V3^2*
+          \[CapitalDelta]2 + 2*H12^3*H23*V1^3*V2^2*V3*\[CapitalDelta]3 - 
+         4*H12^2*H23*V1^4*V2^3*V3*\[CapitalDelta]3 - 2*H12^2*H31*V1^3*V2^4*V3*
+          \[CapitalDelta]3 + 6*H12^3*V1^3*V2^3*V3^2*\[CapitalDelta]3 - 
+         12*H12^2*V1^4*V2^4*V3^2*\[CapitalDelta]3)/(2*V1^3*V2*V3^2) - 
+       (H12^4*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (2*V3^2) - (5*H12*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 
+            3*H12*H23*V1*V2*V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (V2*((-4*V1*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3 - 
+          (V1*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+              \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+              \[CapitalDelta]3))/2 - (H12*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (-28*H12^2*H23^2*V1 - 20*H12^2*H23*H31*V2 + 2*H12^3*H23*V3 - 
+            131*H12^2*H23*V1*V2*V3 - 39*H12^2*H31*V2^2*V3 + 4*H12^3*V2*V3^2 - 
+            123*H12^2*V1*V2^2*V3^2 - 2*H12^3*H23*V3*\[CapitalDelta]2 + 
+            4*H12^2*H23*V1*V2*V3*\[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3*
+             \[CapitalDelta]2 - 2*H12^3*V2*V3^2*\[CapitalDelta]2 + 
+            6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^3*H23*V3*
+             \[CapitalDelta]3 - 4*H12^2*H23*V1*V2*V3*\[CapitalDelta]3 - 
+            2*H12^2*H31*V2^2*V3*\[CapitalDelta]3 + 2*H12^3*V2*V3^2*
+             \[CapitalDelta]3 - 6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]3)/
+           (2*V3) - (H12^4*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (2*V3) - (5*H12*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*
+                V2*V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3 - 
+       (3*H12*(-2*V1*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          (2*(-2*H12*H23^2*V1*V2 - 2*H12*H23*H31*V2^2 + H12^2*H23*V2*V3 - 
+             8*H12*H23*V1*V2^2*V3 - 3*H12*H31*V2^3*V3 + H12^2*V2^2*V3^2 - 
+             7*H12*V1*V2^3*V3^2))/V3 - 
+          (H12^3*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3, 
+     f[1, 2, 4, 4, 4, 5] -> (5*H12^3*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/
+        (2*V1^3*V2) + (5*H12^3*H31*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/(2*V1^3*V3) - (5*H31*V1*(H12*H23*V2^2 + H12*V2^3*V3))/
+        V3 + (4*V1*V2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+          3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+          2*H12*V1*V2^2*V3^3))/V3^2 - 
+       (3*V1*(-2*H31*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          2*(H12*H23^2*V1*V2 + H12^2*H23*V2*V3 + 4*H12*H23*V1*V2^2*V3 + 
+            H12*H31*V2^3*V3 + 2*H12^2*V2^2*V3^2 + 4*H12*V1*V2^3*V3^2) + 
+          (4*V2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3))/(2*V3) - 
+       (H31*(-19*H12^2*V2^2 + 12*H12*V1*V2^3 + 4*H12^2*V2^2*
+           \[CapitalDelta]2 - 4*H12^2*V2^2*\[CapitalDelta]3))/2 + 
+       (H31*V1*(-19*H12*V2^3 + 4*H12*V2^3*\[CapitalDelta]2 - 
+          4*H12*V2^3*\[CapitalDelta]3))/2 - 
+       (V1*V2*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (H12*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+          6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+          36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+           \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+          6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+           \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*\[CapitalDelta]3 - 
+          12*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+       (H31*V2*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (V1*(H12^2*H23*V2 + 12*H12*H23*V1*V2^2 + 30*H12*H31*V2^3 + 
+          8*H12^2*V2^2*V3 + 24*H12*V1*V2^3*V3 - 4*H12*H23*V1*V2^2*
+           \[CapitalDelta]2 - 4*H12*H31*V2^3*\[CapitalDelta]2 - 
+          4*H12^2*V2^2*V3*\[CapitalDelta]2 - 8*H12*V1*V2^3*V3*
+           \[CapitalDelta]2 + 4*H12*H23*V1*V2^2*\[CapitalDelta]3 + 
+          4*H12*H31*V2^3*\[CapitalDelta]3 + 4*H12^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*V1*V2^3*V3*\[CapitalDelta]3))/2 - 
+       (H12*V2*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 
+          7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+          14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*\[CapitalDelta]2 - 4*H23*H31*V1*V2*\[CapitalDelta]2 - 
+          2*H31^2*V2^2*\[CapitalDelta]2 - 4*H12*H23*V1*V3*\[CapitalDelta]2 - 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 - 8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+          2*H12^2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 + 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 + 8*H23*V1^2*V2*V3*\[CapitalDelta]3 + 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 2*H12^2*V3^2*\[CapitalDelta]3 + 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V3) - (-4*H12*H23^2*H31*V1^4*V2^2 - 
+         4*H12*H23*H31^2*V1^3*V2^3 - 5*H12^4*H31^2*V2*V3 + 
+         8*H12^2*H23^2*V1^4*V2*V3 - 5*H12^3*H31^2*V1*V2^2*V3 - 
+         10*H12^2*H23*H31*V1^3*V2^2*V3 + 19*H12*H23^2*V1^5*V2^2*V3 - 
+         63*H12*H23*H31*V1^4*V2^3*V3 - 34*H12*H31^2*V1^3*V2^4*V3 + 
+         5*H12^5*H31*V3^2 + 5*H12^4*H31*V1*V2*V3^2 + 10*H12^3*H23*V1^3*V2*
+          V3^2 + 65*H12^2*H23*V1^4*V2^2*V3^2 + 10*H12^2*H31*V1^3*V2^3*V3^2 + 
+         76*H12*H23*V1^5*V2^3*V3^2 - 119*H12*H31*V1^4*V2^4*V3^2 + 
+         16*H12^3*V1^3*V2^2*V3^3 + 98*H12^2*V1^4*V2^3*V3^3 + 
+         76*H12*V1^5*V2^4*V3^3 - 4*H12^2*H23*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]2 + 4*H12*H23^2*V1^5*V2^2*V3*\[CapitalDelta]2 + 
+         8*H12*H23*H31*V1^4*V2^3*V3*\[CapitalDelta]2 + 4*H12*H31^2*V1^3*V2^4*
+          V3*\[CapitalDelta]2 - 8*H12^2*H31*V1^3*V2^3*V3^2*\[CapitalDelta]2 + 
+         16*H12*H23*V1^5*V2^3*V3^2*\[CapitalDelta]2 + 20*H12*H31*V1^4*V2^4*
+          V3^2*\[CapitalDelta]2 - 4*H12^3*V1^3*V2^2*V3^3*\[CapitalDelta]2 + 
+         16*H12*V1^5*V2^4*V3^3*\[CapitalDelta]2 + 4*H12^2*H23*H31*V1^3*V2^2*
+          V3*\[CapitalDelta]3 - 4*H12*H23^2*V1^5*V2^2*V3*\[CapitalDelta]3 - 
+         8*H12*H23*H31*V1^4*V2^3*V3*\[CapitalDelta]3 - 4*H12*H31^2*V1^3*V2^4*
+          V3*\[CapitalDelta]3 + 8*H12^2*H31*V1^3*V2^3*V3^2*\[CapitalDelta]3 - 
+         16*H12*H23*V1^5*V2^3*V3^2*\[CapitalDelta]3 - 20*H12*H31*V1^4*V2^4*
+          V3^2*\[CapitalDelta]3 + 4*H12^3*V1^3*V2^2*V3^3*\[CapitalDelta]3 - 
+         16*H12*V1^5*V2^4*V3^3*\[CapitalDelta]3)/(2*V1^3*V2*V3^2) - 
+       (H12^3*H31*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3^2 - 
+       (H31*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (3*H12*V2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+            H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 
+            4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+          (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (H31*(-2*V1*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          (2*(-2*H12*H23^2*V1*V2 - 2*H12*H23*H31*V2^2 + H12^2*H23*V2*V3 - 
+             8*H12*H23*V1*V2^2*V3 - 3*H12*H31*V2^3*V3 + H12^2*V2^2*V3^2 - 
+             7*H12*V1*V2^3*V3^2))/V3 - 
+          (H12^3*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*
+                V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3 - 
+       (V2*((4*V1*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3 - (V1*(-7*H12*H23^2*V1 + 
+             11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 36*H12*H23*V1*V2*V3 - 
+             4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 44*H12*V1*V2^2*V3^2 - 
+             2*H12*H23^2*V1*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]2 - 2*H12^2*H23*V3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 2*H12*H23^2*V1*
+              \[CapitalDelta]3 + 2*H12*H23*H31*V2*\[CapitalDelta]3 + 
+             2*H12^2*H23*V3*\[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*
+              \[CapitalDelta]3))/2 - (H31*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 
+             7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 
+             20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*\[CapitalDelta]2 - 4*H23*H31*V1*V2*
+              \[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+             2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+          (-4*H12*H23^2*H31*V1 - 4*H12*H23*H31^2*V2 - 14*H12^2*H23*H31*V3 + 
+            33*H12*H23^2*V1^2*V3 - 27*H12*H23*H31*V1*V2*V3 - 
+            22*H12*H31^2*V2^2*V3 + 43*H12^2*H23*V1*V3^2 - 8*H12^2*H31*V2*
+             V3^2 + 146*H12*H23*V1^2*V2*V3^2 + 6*H12*H31*V1*V2^2*V3^2 + 
+            94*H12^2*V1*V2*V3^3 + 160*H12*V1^2*V2^2*V3^3 - 4*H12^2*H23*H31*V3*
+             \[CapitalDelta]2 + 4*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+            8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 4*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]2 + 6*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+            2*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 12*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]2 + 12*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+            2*H12^3*V3^3*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]2 + 8*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+            4*H12^2*H23*H31*V3*\[CapitalDelta]3 - 4*H12*H23^2*V1^2*V3*
+             \[CapitalDelta]3 - 8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H31^2*V2^2*V3*\[CapitalDelta]3 - 6*H12^2*H23*V1*V3^2*
+             \[CapitalDelta]3 - 2*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 
+            12*H12*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 12*H12*H31*V1*V2^2*
+             V3^2*\[CapitalDelta]3 - 2*H12^3*V3^3*\[CapitalDelta]3 - 
+            8*H12^2*V1*V2*V3^3*\[CapitalDelta]3 - 8*H12*V1^2*V2^2*V3^3*
+             \[CapitalDelta]3)/(2*V3) - 
+          (H12^3*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3 - 
+          (H31*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + H12*
+                H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (3*H12*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+               H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 4*H31*
+                V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+             (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3 - (2*H12*(-2*(H12*H23^2*V1 - 2*H12*H23*H31*V2 + 
+            H23^2*V1^2*V2 + 2*H23*H31*V1*V2^2 + H31^2*V2^3 + H12^2*H23*V3 + 
+            3*H12*H23*V1*V2*V3 - 3*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+            4*H31*V1*V2^3*V3 + 2*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2) - 
+          (3*H12^2*H31*V2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (5*V3) - (2*V2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*
+                V2*V3 - H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*
+                V3^2 - 4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*
+                V3^3) - (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^
+                     2 - 2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                   V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+                (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V3^2*\[CapitalDelta]3^
+                     2))/(8*V1)))/10))/V3))/V3, f[1, 2, 4, 4, 5, 5] -> 
+      (H31^2*V1*V2^3)/16 + (H31*V1*((-3*H31*V2^4)/4 + 
+          (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 
+            24*V1*V2^4*V3)/4))/(3*V2) + 
+       (V1*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+             V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*V2^2*
+             V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 
+            288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 
+            192*V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+       (H31*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+          6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+          36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+           \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+          6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+           \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*\[CapitalDelta]3 - 
+          12*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+       (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/2 - (V1*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + 
+          H23^2*V1^2*V2 + 14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 
+          3*H12^2*H23*V3 + 2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 
+          4*H23*V1^2*V2^2*V3 + 28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 
+          8*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]2 - 2*H23^2*V1^2*V2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]2 - 2*H31^2*V2^3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 
+          2*H12^2*V2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]2 - 8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]3 + 2*H23^2*V1^2*V2*
+           \[CapitalDelta]3 + 4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 
+          2*H31^2*V2^3*\[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*
+           \[CapitalDelta]3 + 4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 
+          8*H23*V1^2*V2^2*V3*\[CapitalDelta]3 + 8*H31*V1*V2^3*V3*
+           \[CapitalDelta]3 + 2*H12^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H12*V1*V2^2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*
+           \[CapitalDelta]3))/2 + (48*H12^2*H23*H31 + 120*H12*H23^2*V1^2 - 
+         1480*H12*H23*H31*V1*V2 - 24*H23^2*V1^3*V2 - 360*H12*H31^2*V2^2 + 
+         336*H23*H31*V1^2*V2^2 + 357*H31^2*V1*V2^3 + 384*H12^2*H23*V1*V3 - 
+         96*H12^2*H31*V2*V3 - 3152*H12*H31*V1*V2^2*V3 - 96*H23*V1^3*V2^2*V3 + 
+         672*H31*V1^2*V2^3*V3 + 264*H12^3*V3^2 + 312*H12^2*V1*V2*V3^2 - 
+         480*H12*V1^2*V2^2*V3^2 - 96*V1^3*V2^3*V3^2 - 48*H12^2*H23*H31*
+          \[CapitalDelta]2 + 48*H12*H23^2*V1^2*\[CapitalDelta]2 + 
+         288*H12*H23*H31*V1*V2*\[CapitalDelta]2 - 48*H23^2*V1^3*V2*
+          \[CapitalDelta]2 + 192*H12*H31^2*V2^2*\[CapitalDelta]2 - 
+         96*H23*H31*V1^2*V2^2*\[CapitalDelta]2 - 48*H31^2*V1*V2^3*
+          \[CapitalDelta]2 + 96*H12^2*H23*V1*V3*\[CapitalDelta]2 + 
+         240*H12^2*H31*V2*V3*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3*
+          \[CapitalDelta]2 + 384*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+         192*H23*V1^3*V2^2*V3*\[CapitalDelta]2 - 192*H31*V1^2*V2^3*V3*
+          \[CapitalDelta]2 + 48*H12^3*V3^2*\[CapitalDelta]2 + 
+         144*H12^2*V1*V2*V3^2*\[CapitalDelta]2 - 192*V1^3*V2^3*V3^2*
+          \[CapitalDelta]2 + 48*H12^2*H23*H31*\[CapitalDelta]3 - 
+         48*H12*H23^2*V1^2*\[CapitalDelta]3 - 288*H12*H23*H31*V1*V2*
+          \[CapitalDelta]3 + 48*H23^2*V1^3*V2*\[CapitalDelta]3 - 
+         192*H12*H31^2*V2^2*\[CapitalDelta]3 + 96*H23*H31*V1^2*V2^2*
+          \[CapitalDelta]3 + 48*H31^2*V1*V2^3*\[CapitalDelta]3 - 
+         96*H12^2*H23*V1*V3*\[CapitalDelta]3 - 240*H12^2*H31*V2*V3*
+          \[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+         384*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 + 192*H23*V1^3*V2^2*V3*
+          \[CapitalDelta]3 + 192*H31*V1^2*V2^3*V3*\[CapitalDelta]3 - 
+         48*H12^3*V3^2*\[CapitalDelta]3 - 144*H12^2*V1*V2*V3^2*
+          \[CapitalDelta]3 + 192*V1^3*V2^3*V3^2*\[CapitalDelta]3)/48, 
+     f[1, 2, 4, 5, 5, 5] -> -1/2*(V1*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+          11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+          4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+           \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+          2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+          2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+       (H12*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+          15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+           \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+          2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*\[CapitalDelta]2 + 
+          4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 2*H23*H31^2*\[CapitalDelta]3 - 
+          2*H23*H31*V1*V3*\[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+          2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+           \[CapitalDelta]3))/2 - (H31*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+          7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+          14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+          4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+           \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 + 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 + 8*H23*V1^2*V2*V3*\[CapitalDelta]2 + 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*V3^2*\[CapitalDelta]2 + 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 + 2*H12*H23*H31*\[CapitalDelta]3 - 
+          2*H23^2*V1^2*\[CapitalDelta]3 - 4*H23*H31*V1*V2*\[CapitalDelta]3 - 
+          2*H31^2*V2^2*\[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+       (2*H12*H23*H31^2 - 13*H23^2*H31*V1^2 - 23*H23*H31^2*V1*V2 + 
+         47*H12*H23*H31*V1*V3 + 8*H12*H31^2*V2*V3 - 74*H23*H31*V1^2*V2*V3 - 
+         62*H31^2*V1*V2^2*V3 + 30*H12^2*H31*V3^2 + 42*H12*H31*V1*V2*V3^2 - 
+         96*H31*V1^2*V2^2*V3^2 - 4*H12*H23*H31^2*\[CapitalDelta]2 + 
+         4*H23^2*H31*V1^2*\[CapitalDelta]2 + 6*H23*H31^2*V1*V2*
+          \[CapitalDelta]2 + 2*H31^3*V2^2*\[CapitalDelta]2 + 
+         8*H12*H23*H31*V1*V3*\[CapitalDelta]2 + 2*H12*H31^2*V2*V3*
+          \[CapitalDelta]2 + 12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2 + 
+         8*H31^2*V1*V2^2*V3*\[CapitalDelta]2 + 4*H12^2*H31*V3^2*
+          \[CapitalDelta]2 + 12*H12*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+         8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 4*H12*H23*H31^2*
+          \[CapitalDelta]3 - 4*H23^2*H31*V1^2*\[CapitalDelta]3 - 
+         6*H23*H31^2*V1*V2*\[CapitalDelta]3 - 2*H31^3*V2^2*\[CapitalDelta]3 - 
+         8*H12*H23*H31*V1*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3*
+          \[CapitalDelta]3 - 12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 - 
+         8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 4*H12^2*H31*V3^2*
+          \[CapitalDelta]3 - 12*H12*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+         8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3)/2, f[1, 2, 5, 5, 5, 5] -> 
+      -1/2*(H31^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+           4*H31*V1*V2*V3^2))/(V1*V3) - 
+       (3*V1*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2 - 
+       (8*H31*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2 - 
+       (H31^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1*V2) - (V1*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 
+          2*H23*H31^2*V3*\[CapitalDelta]2 + 2*H31^2*V2*V3^2*
+           \[CapitalDelta]2 - 2*H23*H31^2*V3*\[CapitalDelta]3 - 
+          2*H31^2*V2*V3^2*\[CapitalDelta]3))/2 - 
+       (H31*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+          15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+           \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+          2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*\[CapitalDelta]2 + 
+          4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 2*H23*H31^2*\[CapitalDelta]3 - 
+          2*H23*H31*V1*V3*\[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+          2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+           \[CapitalDelta]3))/2 - (-(H23*H31^4*V2) + 2*H12*H23*H31^3*V3 - 
+         24*H23^2*H31^2*V1^2*V3 + 5*H23*H31^3*V1*V2*V3 - H31^4*V2^2*V3 - 
+         20*H12*H23*H31^2*V1*V3^2 + 5*H12*H31^3*V2*V3^2 - 
+         123*H23*H31^2*V1^2*V2*V3^2 + 10*H31^3*V1*V2^2*V3^2 - 
+         2*H12^2*H31^2*V3^3 - 43*H12*H31^2*V1*V2*V3^3 - 121*H31^2*V1^2*V2^2*
+          V3^3 + 2*H23*H31^3*V1*V2*V3*\[CapitalDelta]2 - 
+         4*H23*H31^2*V1^2*V2*V3^2*\[CapitalDelta]2 + 2*H31^3*V1*V2^2*V3^2*
+          \[CapitalDelta]2 - 2*H12*H31^2*V1*V2*V3^3*\[CapitalDelta]2 - 
+         6*H31^2*V1^2*V2^2*V3^3*\[CapitalDelta]2 - 2*H23*H31^3*V1*V2*V3*
+          \[CapitalDelta]3 + 4*H23*H31^2*V1^2*V2*V3^2*\[CapitalDelta]3 - 
+         2*H31^3*V1*V2^2*V3^2*\[CapitalDelta]3 + 2*H12*H31^2*V1*V2*V3^3*
+          \[CapitalDelta]3 + 6*H31^2*V1^2*V2^2*V3^3*\[CapitalDelta]3)/
+        (2*V1*V2*V3), f[1, 3, 3, 3, 3, 3] -> 
+      (-35*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^5)/(6*V1^3*V2^2) - 
+       (35*V3^4*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (6*V1^3*V2) - (35*(H12*H31*V2*V3^4 + H31*V1*V2^2*V3^4 - H12^2*V3^5 - 
+          H12*V1*V2*V3^5))/(6*V1^3*V2^2), f[1, 3, 3, 3, 3, 4] -> 0, 
+     f[1, 3, 3, 3, 3, 5] -> (-59*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^4)/
+        (3*V1^3*V2^2) - (59*H31*V3^3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/(3*V1^3*V2) - (34*V3^4*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^2*V2^2) - 
+       (17*V3^3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^2*V2) - 
+       (59*H12*H31^2*V2*V3^3 - 17*H23*H31*V1^2*V2*V3^3 + 
+         59*H31^2*V1*V2^2*V3^3 - 59*H12^2*H31*V3^4 + 34*H12*H23*V1^2*V3^4 - 
+         93*H12*H31*V1*V2*V3^4 + 17*H23*V1^3*V2*V3^4 - 51*H31*V1^2*V2^2*
+          V3^4 + 34*H12^2*V1*V3^5 + 85*H12*V1^2*V2*V3^5 + 34*V1^3*V2^2*V3^5)/
+        (3*V1^3*V2^2), f[1, 3, 3, 3, 4, 4] -> 0, f[1, 3, 3, 3, 4, 5] -> 0, 
+     f[1, 3, 3, 3, 5, 5] -> (-70*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*
+         V3^3)/(3*V1^3*V2^2) - (70*H31^2*V3^2*(-(H12*H31) - H31*V1*V2 - 
+          H12*V1*V3 - V1^2*V2*V3))/(3*V1^3*V2) - 
+       (104*H31*V3^3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^2*V2^2) - 
+       (3*V3^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(V1*V2) - 
+       (52*H31*V3^2*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^2*V2) - 
+       (6*V3^3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1*V2^2) - (70*H12*H31^3*V2*V3^2 - 61*H23*H31^2*V1^2*V2*V3^2 + 
+         70*H31^3*V1*V2^2*V3^2 - 70*H12^2*H31^2*V3^3 + 122*H12*H23*H31*V1^2*
+          V3^3 - 18*H23^2*V1^4*V3^3 - 174*H12*H31^2*V1*V2*V3^3 + 
+         79*H23*H31*V1^3*V2*V3^3 - 165*H31^2*V1^2*V2^2*V3^3 + 
+         104*H12^2*H31*V1*V3^4 - 36*H12*H23*V1^3*V3^4 + 305*H12*H31*V1^2*V2*
+          V3^4 - 72*H23*V1^4*V2*V3^4 + 158*H31*V1^3*V2^2*V3^4 - 
+         18*H12^2*V1^2*V3^5 - 72*H12*V1^3*V2*V3^5 - 72*V1^4*V2^2*V3^5)/
+        (3*V1^3*V2^2), f[1, 3, 3, 4, 4, 4] -> 
+      2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+         H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+       (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10, 
+     f[1, 3, 3, 4, 4, 5] -> 2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 
+         2*H23*H31*V1*V2*V3 - H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 
+         4*H23*V1^2*V2*V3^2 - 4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 
+         4*V1^2*V2^2*V3^3) - (3*H12^2*H31*
+         ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10, 
+     f[1, 3, 3, 4, 5, 5] -> (-5*H12*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*
+         V3^2)/(2*V1^3*V2^2) - (H12*V1*V3^4)/8 - 
+       (5*H12*H31^2*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V1^3*V2) + (2*V3^2*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + 
+          H23*H31*V1*V2^2 + 2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 
+          2*H31*V1*V2^3*V3 + H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 
+          4*V1^2*V2^3*V3^2))/V2^2 + (2*V3*(H23^2*H31*V1 + H23*H31^2*V2 - 
+          H23^2*V1^2*V3 + H23*H31*V1*V2*V3 - 2*H12*H23*V1*V3^2 - 
+          3*H12*H31*V2*V3^2 - 4*H23*V1^2*V2*V3^2 - 2*H31*V1*V2^2*V3^2 - 
+          H12^2*V3^3 - 4*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3))/V2 - 
+       (60*H12^2*H31^3*V2*V3 + 48*H23^2*H31*V1^4*V2*V3 + 
+         60*H12*H31^3*V1*V2^2*V3 + 48*H23*H31^2*V1^3*V2^2*V3 - 
+         60*H12^3*H31^2*V3^2 - 60*H12^2*H31^2*V1*V2*V3^2 - 
+         48*H12*H23*H31*V1^3*V2*V3^2 + 208*H23*H31*V1^4*V2^2*V3^2 + 
+         96*H31^2*V1^3*V2^3*V3^2 - 64*H12*H31*V1^3*V2^2*V3^3 - 
+         24*H23*V1^5*V2^2*V3^3 + 176*H31*V1^4*V2^3*V3^3 - 
+         27*H12*V1^4*V2^2*V3^4 - 48*V1^5*V2^3*V3^4)/(24*V1^3*V2^2) - 
+       (V1*((-3*H12*V3^4)/4 + (-8*H23*H31*V3^2 + 12*H23*V1*V3^3 + 
+            8*H31*V2*V3^3 + 15*H12*V3^4 + 24*V1*V2*V3^4)/4))/3 - 
+       (2*H12*H31^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/15 - 
+       (H12*((-3*V1*V3^4)/4 + (-16*H31*V3^3 + 3*V1*V3^4)/4 + 
+          (H31^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/2))/3, 
+     f[1, 3, 3, 5, 5, 5] -> (-61*H31^3*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*
+         V3^2)/(6*V1^3*V2^2) - (9*H31*V1*V3^4)/8 - 
+       (61*H31^3*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (6*V1^3*V2) - (98*H31^2*V3^2*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^2*V2^2) - 
+       (20*H31*V3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(3*V1*V2) - 
+       (49*H31^2*V3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^2*V2) + 
+       (2*V3^2*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 - 
+       (40*H31*V3^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (3*V1*V2^2) - (244*H12*H31^4*V2*V3 - 552*H23*H31^3*V1^2*V2*V3 + 
+         244*H31^4*V1*V2^2*V3 - 244*H12^2*H31^3*V3^2 + 1104*H12*H23*H31^2*
+          V1^2*V3^2 - 272*H23^2*H31*V1^4*V3^2 - 1028*H12*H31^3*V1*V2*V3^2 + 
+         872*H23*H31^2*V1^3*V2*V3^2 - 1336*H31^3*V1^2*V2^2*V3^2 + 
+         784*H12^2*H31^2*V1*V3^3 - 592*H12*H23*H31*V1^3*V3^3 + 
+         2760*H12*H31^2*V1^2*V2*V3^3 - 1136*H23*H31*V1^4*V2*V3^3 + 
+         1824*H31^2*V1^3*V2^2*V3^3 - 320*H12^2*H31*V1^2*V3^4 - 
+         1232*H12*H31*V1^3*V2*V3^4 - 1211*H31*V1^4*V2^2*V3^4)/
+        (24*V1^3*V2^2) + (H31^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/15 - 
+       (H31*((-3*V1*V3^4)/4 + (-16*H31*V3^3 + 3*V1*V3^4)/4 + 
+          (H31^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/2))/3, 
+     f[1, 3, 4, 4, 4, 4] -> (-4*V1*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+          H12^2*V2^2*V3^2))/V3 - (V1*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 
+          2*H12^2*H23*V2*\[CapitalDelta]2 - 2*H12^2*V2^2*V3*
+           \[CapitalDelta]2 + 2*H12^2*H23*V2*\[CapitalDelta]3 + 
+          2*H12^2*V2^2*V3*\[CapitalDelta]3))/2 - 
+       (H12*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+       (-28*H12^2*H23^2*V1 - 20*H12^2*H23*H31*V2 + 2*H12^3*H23*V3 - 
+         131*H12^2*H23*V1*V2*V3 - 39*H12^2*H31*V2^2*V3 + 4*H12^3*V2*V3^2 - 
+         123*H12^2*V1*V2^2*V3^2 - 2*H12^3*H23*V3*\[CapitalDelta]2 + 
+         4*H12^2*H23*V1*V2*V3*\[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3*
+          \[CapitalDelta]2 - 2*H12^3*V2*V3^2*\[CapitalDelta]2 + 
+         6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^3*H23*V3*
+          \[CapitalDelta]3 - 4*H12^2*H23*V1*V2*V3*\[CapitalDelta]3 - 
+         2*H12^2*H31*V2^2*V3*\[CapitalDelta]3 + 2*H12^3*V2*V3^2*
+          \[CapitalDelta]3 - 6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]3)/(2*V3) - 
+       (H12^4*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(2*V3) - 
+       (5*H12*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3, 
+     f[1, 3, 4, 4, 4, 5] -> (4*V1*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + 
+          H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + 
+          H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3 - 
+       (V1*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+       (H31*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+       (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 
+          7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 
+          2*H12*H23*H31*\[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*\[CapitalDelta]2 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 - 2*H12*H23*H31*\[CapitalDelta]3 + 
+          2*H23^2*V1^2*\[CapitalDelta]3 + 4*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          2*H31^2*V2^2*\[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+          2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+       (-4*H12*H23^2*H31*V1 - 4*H12*H23*H31^2*V2 - 14*H12^2*H23*H31*V3 + 
+         33*H12*H23^2*V1^2*V3 - 27*H12*H23*H31*V1*V2*V3 - 
+         22*H12*H31^2*V2^2*V3 + 43*H12^2*H23*V1*V3^2 - 8*H12^2*H31*V2*V3^2 + 
+         146*H12*H23*V1^2*V2*V3^2 + 6*H12*H31*V1*V2^2*V3^2 + 
+         94*H12^2*V1*V2*V3^3 + 160*H12*V1^2*V2^2*V3^3 - 4*H12^2*H23*H31*V3*
+          \[CapitalDelta]2 + 4*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+         8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 4*H12*H31^2*V2^2*V3*
+          \[CapitalDelta]2 + 6*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+         2*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 12*H12*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]2 + 12*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+         2*H12^3*V3^3*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^3*
+          \[CapitalDelta]2 + 8*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+         4*H12^2*H23*H31*V3*\[CapitalDelta]3 - 4*H12*H23^2*V1^2*V3*
+          \[CapitalDelta]3 - 8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 
+         4*H12*H31^2*V2^2*V3*\[CapitalDelta]3 - 6*H12^2*H23*V1*V3^2*
+          \[CapitalDelta]3 - 2*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 
+         12*H12*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 12*H12*H31*V1*V2^2*V3^2*
+          \[CapitalDelta]3 - 2*H12^3*V3^3*\[CapitalDelta]3 - 
+         8*H12^2*V1*V2*V3^3*\[CapitalDelta]3 - 8*H12*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3)/(2*V3) - 
+       (H12^3*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3 - 
+       (H31*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+       (3*H12*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+            H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 
+            4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+          (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 3, 4, 4, 5, 5] -> 
+      (-2*H12*V3*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + H23*H31*V1*V2^2 + 
+          2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 2*H31*V1*V2^3*V3 + 
+          H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2))/V2^2 - 
+       (V1*(-1/8*(H31^2*V2^3*V3) + (-48*H12*H23^2*H31 - 224*H12*H23*H31*V2*
+             V3 + 48*H23*H31*V1*V2^2*V3 + 51*H31^2*V2^3*V3 - 
+            160*H12*H31*V2^2*V3^2 + 96*H31*V1*V2^3*V3^2)/24 - 
+          (2*H31*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*
+                H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (2*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2))/(2*V2) - 
+       (H31*V3*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+          6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+          36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+           \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+          6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+           \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*\[CapitalDelta]3 - 
+          12*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V2) - 
+       (H12*(-2*H23*H31^2 - 21*H23*H31*V1*V3 - 16*H31^2*V2*V3 - 
+          11*H12*H31*V3^2 + 6*H23*V1^2*V3^2 - 36*H31*V1*V2*V3^2 + 
+          6*H12*V1*V3^3 + 12*V1^2*V2*V3^3 - 6*H23*H31*V1*V3*
+           \[CapitalDelta]2 - 6*H31^2*V2*V3*\[CapitalDelta]2 - 
+          6*H12*H31*V3^2*\[CapitalDelta]2 - 12*H31*V1*V2*V3^2*
+           \[CapitalDelta]2 + 6*H23*H31*V1*V3*\[CapitalDelta]3 + 
+          6*H31^2*V2*V3*\[CapitalDelta]3 + 6*H12*H31*V3^2*\[CapitalDelta]3 + 
+          12*H31*V1*V2*V3^2*\[CapitalDelta]3))/2 - 
+       (H12*V3*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H31*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 
+          7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 
+          4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 
+          2*H12*H23*H31*\[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*\[CapitalDelta]2 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 - 2*H12*H23*H31*\[CapitalDelta]3 + 
+          2*H23^2*V1^2*\[CapitalDelta]3 + 4*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          2*H31^2*V2^2*\[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+          2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+       (V1*V3*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+          14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+          2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+          28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+          4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+           \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+           \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+           \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+          2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/(2*V2) - 
+       (V1*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+          H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+          14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+          8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+          4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+           \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+          8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+           \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+           \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+          2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/2 - 
+       (2*H12*H23^2*H31*V1 + 2*H12*H23*H31^2*V2 - 9*H23^2*H31*V1^2*V2 - 
+         24*H23*H31^2*V1*V2^2 - 15*H31^3*V2^3 + 2*H12^2*H23*H31*V3 - 
+         9*H12*H23^2*V1^2*V3 + 130*H12*H23*H31*V1*V2*V3 + 
+         19*H12*H31^2*V2^2*V3 - 36*H23*H31*V1^2*V2^2*V3 - 
+         48*H31^2*V1*V2^3*V3 - 24*H12^2*H23*V1*V3^2 + 19*H12^2*H31*V2*V3^2 - 
+         36*H12*H23*V1^2*V2*V3^2 + 252*H12*H31*V1*V2^2*V3^2 - 
+         36*H31*V1^2*V2^3*V3^2 - 15*H12^3*V3^3 - 48*H12^2*V1*V2*V3^3 - 
+         36*H12*V1^2*V2^2*V3^3 - 2*H12*H23*H31^2*V2*\[CapitalDelta]2 + 
+         2*H23^2*H31*V1^2*V2*\[CapitalDelta]2 + 4*H23*H31^2*V1*V2^2*
+          \[CapitalDelta]2 + 2*H31^3*V2^3*\[CapitalDelta]2 + 
+         2*H12^2*H23*H31*V3*\[CapitalDelta]2 - 2*H12*H23^2*V1^2*V3*
+          \[CapitalDelta]2 + 2*H12*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+         8*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]2 + 8*H31^2*V1*V2^3*V3*
+          \[CapitalDelta]2 - 4*H12^2*H23*V1*V3^2*\[CapitalDelta]2 - 
+         2*H12^2*H31*V2*V3^2*\[CapitalDelta]2 - 8*H12*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]2 + 8*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 
+         2*H12^3*V3^3*\[CapitalDelta]2 - 8*H12^2*V1*V2*V3^3*
+          \[CapitalDelta]2 - 8*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+         2*H12*H23*H31^2*V2*\[CapitalDelta]3 - 2*H23^2*H31*V1^2*V2*
+          \[CapitalDelta]3 - 4*H23*H31^2*V1*V2^2*\[CapitalDelta]3 - 
+         2*H31^3*V2^3*\[CapitalDelta]3 - 2*H12^2*H23*H31*V3*
+          \[CapitalDelta]3 + 2*H12*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+         2*H12*H31^2*V2^2*V3*\[CapitalDelta]3 - 8*H23*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]3 - 8*H31^2*V1*V2^3*V3*\[CapitalDelta]3 + 
+         4*H12^2*H23*V1*V3^2*\[CapitalDelta]3 + 2*H12^2*H31*V2*V3^2*
+          \[CapitalDelta]3 + 8*H12*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 
+         8*H31*V1^2*V2^3*V3^2*\[CapitalDelta]3 + 2*H12^3*V3^3*
+          \[CapitalDelta]3 + 8*H12^2*V1*V2*V3^3*\[CapitalDelta]3 + 
+         8*H12*V1^2*V2^2*V3^3*\[CapitalDelta]3)/(2*V2) - 
+       (V3*((H31^2*V1*V2^3)/16 + (H31*V1*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2) + 
+          (V1*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+          (H31*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+             6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+             36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+              \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+             6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+             6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*
+              \[CapitalDelta]3 - 12*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+             5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+             20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+             20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+             2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*
+              \[CapitalDelta]2 + 2*H31^2*V2^2*\[CapitalDelta]2 + 
+             4*H12*H23*V1*V3*\[CapitalDelta]2 + 4*H12*H31*V2*V3*
+              \[CapitalDelta]2 + 8*H23*V1^2*V2*V3*\[CapitalDelta]2 + 
+             8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*V3^2*
+              \[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+             8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+              \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+          (V1*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+             14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+             2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+             28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+             4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+              \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+             2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/2 + 
+          (48*H12^2*H23*H31 + 120*H12*H23^2*V1^2 - 1480*H12*H23*H31*V1*V2 - 
+            24*H23^2*V1^3*V2 - 360*H12*H31^2*V2^2 + 336*H23*H31*V1^2*V2^2 + 
+            357*H31^2*V1*V2^3 + 384*H12^2*H23*V1*V3 - 96*H12^2*H31*V2*V3 - 
+            3152*H12*H31*V1*V2^2*V3 - 96*H23*V1^3*V2^2*V3 + 
+            672*H31*V1^2*V2^3*V3 + 264*H12^3*V3^2 + 312*H12^2*V1*V2*V3^2 - 
+            480*H12*V1^2*V2^2*V3^2 - 96*V1^3*V2^3*V3^2 - 48*H12^2*H23*H31*
+             \[CapitalDelta]2 + 48*H12*H23^2*V1^2*\[CapitalDelta]2 + 
+            288*H12*H23*H31*V1*V2*\[CapitalDelta]2 - 48*H23^2*V1^3*V2*
+             \[CapitalDelta]2 + 192*H12*H31^2*V2^2*\[CapitalDelta]2 - 
+            96*H23*H31*V1^2*V2^2*\[CapitalDelta]2 - 48*H31^2*V1*V2^3*
+             \[CapitalDelta]2 + 96*H12^2*H23*V1*V3*\[CapitalDelta]2 + 
+            240*H12^2*H31*V2*V3*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3*
+             \[CapitalDelta]2 + 384*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+            192*H23*V1^3*V2^2*V3*\[CapitalDelta]2 - 192*H31*V1^2*V2^3*V3*
+             \[CapitalDelta]2 + 48*H12^3*V3^2*\[CapitalDelta]2 + 
+            144*H12^2*V1*V2*V3^2*\[CapitalDelta]2 - 192*V1^3*V2^3*V3^2*
+             \[CapitalDelta]2 + 48*H12^2*H23*H31*\[CapitalDelta]3 - 
+            48*H12*H23^2*V1^2*\[CapitalDelta]3 - 288*H12*H23*H31*V1*V2*
+             \[CapitalDelta]3 + 48*H23^2*V1^3*V2*\[CapitalDelta]3 - 
+            192*H12*H31^2*V2^2*\[CapitalDelta]3 + 96*H23*H31*V1^2*V2^2*
+             \[CapitalDelta]3 + 48*H31^2*V1*V2^3*\[CapitalDelta]3 - 
+            96*H12^2*H23*V1*V3*\[CapitalDelta]3 - 240*H12^2*H31*V2*V3*
+             \[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+            384*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 + 192*H23*V1^3*V2^2*V3*
+             \[CapitalDelta]3 + 192*H31*V1^2*V2^3*V3*\[CapitalDelta]3 - 
+            48*H12^3*V3^2*\[CapitalDelta]3 - 144*H12^2*V1*V2*V3^2*
+             \[CapitalDelta]3 + 192*V1^3*V2^3*V3^2*\[CapitalDelta]3)/48))/
+        V2 + (3*H12^2*H31^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/(10*V3) + 
+       (H31*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+            H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 
+            4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+          (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3, f[1, 3, 4, 5, 5, 5] -> 
+      (2*H12*H31^2*V3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^2*V2^2) + 
+       (2*H12*H31*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(V1*V2) + 
+       (H12*H31^2*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V1^2*V2) + 
+       (2*H12*V3*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 + 
+       (4*H12*H31*V3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1*V2^2) + (4*V1*V3*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + 
+          H12*H23*H31*V2*V3 + 3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + 
+          H12*H31*V2^2*V3^2 + 2*H31*V1*V2^3*V3^2))/V2^2 + 
+       (6*H31*V3*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + H23*H31*V1*V2^2 + 
+          2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 2*H31*V1*V2^3*V3 + 
+          H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2))/V2^2 - 
+       (3*H12*V1*(H23*H31*V3^2 + H31*V2*V3^3))/V2 + 
+       (4*H31*(H23^2*H31*V1 + H23*H31^2*V2 - H23^2*V1^2*V3 + 
+          H23*H31*V1*V2*V3 - 2*H12*H23*V1*V3^2 - 3*H12*H31*V2*V3^2 - 
+          4*H23*V1^2*V2*V3^2 - 2*H31*V1*V2^2*V3^2 - H12^2*V3^3 - 
+          4*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3))/V2 - 
+       (3*V1*(-2*H12*(H23*H31*V3^2 + H31*V2*V3^3) + 
+          2*(H23^2*H31*V1*V3 + H23*H31^2*V2*V3 + 2*H12*H23*H31*V3^2 + 
+            2*H23*H31*V1*V2*V3^2 + H12*H31*V2*V3^3)))/(2*V2) - 
+       (V1*V3*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H12*(-19*H31^2*V3^2 + 12*H31*V1*V3^3 - 4*H31^2*V3^2*
+           \[CapitalDelta]2 + 4*H31^2*V3^2*\[CapitalDelta]3))/2 - 
+       (H12*V3*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+          15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+           \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+          2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*\[CapitalDelta]2 + 
+          4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 2*H23*H31^2*\[CapitalDelta]3 - 
+          2*H23*H31*V1*V3*\[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+          2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H31*(-2*H23*H31^2 - 21*H23*H31*V1*V3 - 16*H31^2*V2*V3 - 
+          11*H12*H31*V3^2 + 6*H23*V1^2*V3^2 - 36*H31*V1*V2*V3^2 + 
+          6*H12*V1*V3^3 + 12*V1^2*V2*V3^3 - 6*H23*H31*V1*V3*
+           \[CapitalDelta]2 - 6*H31^2*V2*V3*\[CapitalDelta]2 - 
+          6*H12*H31*V3^2*\[CapitalDelta]2 - 12*H31*V1*V2*V3^2*
+           \[CapitalDelta]2 + 6*H23*H31*V1*V3*\[CapitalDelta]3 + 
+          6*H31^2*V2*V3*\[CapitalDelta]3 + 6*H12*H31*V3^2*\[CapitalDelta]3 + 
+          12*H31*V1*V2*V3^2*\[CapitalDelta]3))/2 - 
+       (H31*V3*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H12*V1*(19*H31*V3^3 + 4*H31*V3^3*\[CapitalDelta]2 - 
+          4*H31*V3^3*\[CapitalDelta]3))/2 - 
+       (V1*(H23*H31^2*V3 + 12*H23*H31*V1*V3^2 + 8*H31^2*V2*V3^2 + 
+          30*H12*H31*V3^3 + 24*H31*V1*V2*V3^3 + 4*H23*H31*V1*V3^2*
+           \[CapitalDelta]2 + 4*H31^2*V2*V3^2*\[CapitalDelta]2 + 
+          4*H12*H31*V3^3*\[CapitalDelta]2 + 8*H31*V1*V2*V3^3*
+           \[CapitalDelta]2 - 4*H23*H31*V1*V3^2*\[CapitalDelta]3 - 
+          4*H31^2*V2*V3^2*\[CapitalDelta]3 - 4*H12*H31*V3^3*
+           \[CapitalDelta]3 - 8*H31*V1*V2*V3^3*\[CapitalDelta]3))/2 - 
+       (6*H12*H23*H31^3*V1*V2 + 8*H23^2*H31^2*V1^3*V2 + 
+         10*H23*H31^3*V1^2*V2^2 - 12*H12^2*H23*H31^2*V1*V3 + 
+         12*H12*H23^2*H31*V1^3*V3 + 4*H12^2*H31^3*V2*V3 - 
+         28*H12*H23*H31^2*V1^2*V2*V3 + 19*H23^2*H31*V1^4*V2*V3 + 
+         10*H12*H31^3*V1*V2^2*V3 + 65*H23*H31^2*V1^3*V2^2*V3 + 
+         16*H31^3*V1^2*V2^3*V3 - 4*H12^3*H31^2*V3^2 + 20*H12^2*H23*H31*V1^2*
+          V3^2 - 30*H12^2*H31^2*V1*V2*V3^2 + H12*H23*H31*V1^3*V2*V3^2 - 
+         22*H12*H31^2*V1^2*V2^2*V3^2 + 76*H23*H31*V1^4*V2^2*V3^2 + 
+         98*H31^2*V1^3*V2^3*V3^2 + 8*H12^3*H31*V1*V3^3 + 
+         10*H12^2*H31*V1^2*V2*V3^3 - 59*H12*H31*V1^3*V2^2*V3^3 + 
+         76*H31*V1^4*V2^3*V3^3 + 4*H12*H23*H31^2*V1^2*V2*V3*
+          \[CapitalDelta]2 - 4*H23^2*H31*V1^4*V2*V3*\[CapitalDelta]2 + 
+         4*H31^3*V1^2*V2^3*V3*\[CapitalDelta]2 - 8*H12*H23*H31*V1^3*V2*V3^2*
+          \[CapitalDelta]2 + 8*H12*H31^2*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+         16*H23*H31*V1^4*V2^2*V3^2*\[CapitalDelta]2 - 4*H12^2*H31*V1^2*V2*
+          V3^3*\[CapitalDelta]2 - 20*H12*H31*V1^3*V2^2*V3^3*
+          \[CapitalDelta]2 - 16*H31*V1^4*V2^3*V3^3*\[CapitalDelta]2 - 
+         4*H12*H23*H31^2*V1^2*V2*V3*\[CapitalDelta]3 + 4*H23^2*H31*V1^4*V2*V3*
+          \[CapitalDelta]3 - 4*H31^3*V1^2*V2^3*V3*\[CapitalDelta]3 + 
+         8*H12*H23*H31*V1^3*V2*V3^2*\[CapitalDelta]3 - 8*H12*H31^2*V1^2*V2^2*
+          V3^2*\[CapitalDelta]3 + 16*H23*H31*V1^4*V2^2*V3^2*
+          \[CapitalDelta]3 + 4*H12^2*H31*V1^2*V2*V3^3*\[CapitalDelta]3 + 
+         20*H12*H31*V1^3*V2^2*V3^3*\[CapitalDelta]3 + 16*H31*V1^4*V2^3*V3^3*
+          \[CapitalDelta]3)/(2*V1^2*V2^2) - 
+       (V3*(-1/2*(V1*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+             36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+             44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+             2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+              \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+             2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*
+              \[CapitalDelta]3 - 2*H12*H23*H31*V3*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+             15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+              \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+             2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*
+              \[CapitalDelta]2 + 4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+             2*H23*H31^2*\[CapitalDelta]3 - 2*H23*H31*V1*V3*
+              \[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+             2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+              \[CapitalDelta]3))/2 - (H31*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+             7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+             4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+              \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*
+              \[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*\[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (2*H12*H23*H31^2 - 13*H23^2*H31*V1^2 - 23*H23*H31^2*V1*V2 + 
+            47*H12*H23*H31*V1*V3 + 8*H12*H31^2*V2*V3 - 74*H23*H31*V1^2*V2*
+             V3 - 62*H31^2*V1*V2^2*V3 + 30*H12^2*H31*V3^2 + 
+            42*H12*H31*V1*V2*V3^2 - 96*H31*V1^2*V2^2*V3^2 - 
+            4*H12*H23*H31^2*\[CapitalDelta]2 + 4*H23^2*H31*V1^2*
+             \[CapitalDelta]2 + 6*H23*H31^2*V1*V2*\[CapitalDelta]2 + 
+            2*H31^3*V2^2*\[CapitalDelta]2 + 8*H12*H23*H31*V1*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3*\[CapitalDelta]2 + 
+            12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2 + 8*H31^2*V1*V2^2*V3*
+             \[CapitalDelta]2 + 4*H12^2*H31*V3^2*\[CapitalDelta]2 + 
+            12*H12*H31*V1*V2*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2^2*V3^2*
+             \[CapitalDelta]2 + 4*H12*H23*H31^2*\[CapitalDelta]3 - 
+            4*H23^2*H31*V1^2*\[CapitalDelta]3 - 6*H23*H31^2*V1*V2*
+             \[CapitalDelta]3 - 2*H31^3*V2^2*\[CapitalDelta]3 - 
+            8*H12*H23*H31*V1*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3*
+             \[CapitalDelta]3 - 12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 - 
+            8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 4*H12^2*H31*V3^2*
+             \[CapitalDelta]3 - 12*H12*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3)/2))/V2, 
+     f[1, 3, 5, 5, 5, 5] -> (-4*H31^3*V3*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^2*V2^2) - 
+       (H31^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(V1*V2) - 
+       (2*H31^3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V1^2*V2) + 
+       (4*V1*V3*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 + 
+       (10*H31*V3*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 - 
+       (2*H31^2*V3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1*V2^2) - (H31*(-19*H31^2*V3^2 + 12*H31*V1*V3^3 - 
+          4*H31^2*V3^2*\[CapitalDelta]2 + 4*H31^2*V3^2*\[CapitalDelta]3))/2 - 
+       (H31*V1*(19*H31*V3^3 + 4*H31*V3^3*\[CapitalDelta]2 - 
+          4*H31*V3^3*\[CapitalDelta]3))/2 - 
+       (V1*(17*H31^2*V3^3 + 2*H31^2*V3^3*\[CapitalDelta]2 - 
+          2*H31^2*V3^3*\[CapitalDelta]3))/2 - 
+       (-6*H23*H31^4*V1*V2 + 12*H12*H23*H31^3*V1*V3 + 24*H23^2*H31^2*V1^3*
+          V3 - 8*H12*H31^4*V2*V3 + 10*H23*H31^3*V1^2*V2*V3 - 
+         14*H31^4*V1*V2^2*V3 + 8*H12^2*H31^3*V3^2 + 12*H12*H23*H31^2*V1^2*
+          V3^2 + 30*H12*H31^3*V1*V2*V3^2 + 60*H23*H31^2*V1^3*V2*V3^2 + 
+         43*H31^3*V1^2*V2^2*V3^2 - 4*H12^2*H31^2*V1*V3^3 + 
+         4*H12*H31^2*V1^2*V2*V3^3 - 24*H31^2*V1^3*V2^2*V3^3 + 
+         4*H31^3*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 6*H31^2*V1^3*V2^2*V3^3*
+          \[CapitalDelta]2 - 4*H31^3*V1^2*V2^2*V3^2*\[CapitalDelta]3 + 
+         6*H31^2*V1^3*V2^2*V3^3*\[CapitalDelta]3)/(2*V1^2*V2^2), 
+     f[1, 4, 4, 4, 4, 4] -> (-20*H12*V1*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+          H12^2*V2^2*V3^2))/V3^2 + 2*V1*(-7*H12^3*V2^2 + 
+         H12^3*V2^2*\[CapitalDelta]2 - H12^3*V2^2*\[CapitalDelta]3) - 
+       H12*(-3*H12^3*V2 + 36*H12^2*V1*V2^2 + 2*H12^3*V2*\[CapitalDelta]2 - 
+         4*H12^2*V1*V2^2*\[CapitalDelta]2 - 2*H12^3*V2*\[CapitalDelta]3 + 
+         4*H12^2*V1*V2^2*\[CapitalDelta]3) - 
+       (5*H12*V1*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/V3 - 
+       (5*H12^2*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (H12^2*(-39*H12^2*V2 + 126*H12*V1*V2^2 + 36*H12^2*V2*
+           \[CapitalDelta]2 - 24*H12*V1*V2^2*\[CapitalDelta]2 - 
+          4*H12^2*V2*\[CapitalDelta]2^2 - 36*H12^2*V2*\[CapitalDelta]3 + 
+          24*H12*V1*V2^2*\[CapitalDelta]3 + 8*H12^2*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H12^2*V2*\[CapitalDelta]3^2))/4 - 
+       (H12*V1*(207*H12^2*V2^2 - 64*H12^2*V2^2*\[CapitalDelta]2 + 
+          4*H12^2*V2^2*\[CapitalDelta]2^2 + 64*H12^2*V2^2*\[CapitalDelta]3 - 
+          8*H12^2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12^2*V2^2*\[CapitalDelta]3^2))/4 - 
+       (-160*H12^3*H23^2*V1 - 80*H12^3*H23*H31*V2 + 20*H12^4*H23*V3 - 
+         1150*H12^3*H23*V1*V2*V3 - 270*H12^3*H31*V2^2*V3 + 91*H12^4*V2*V3^2 - 
+         1749*H12^3*V1*V2^2*V3^2 - 20*H12^4*H23*V3*\[CapitalDelta]2 + 
+         60*H12^3*H23*V1*V2*V3*\[CapitalDelta]2 + 20*H12^3*H31*V2^2*V3*
+          \[CapitalDelta]2 - 64*H12^4*V2*V3^2*\[CapitalDelta]2 + 
+         192*H12^3*V1*V2^2*V3^2*\[CapitalDelta]2 + 4*H12^4*V2*V3^2*
+          \[CapitalDelta]2^2 - 4*H12^3*V1*V2^2*V3^2*\[CapitalDelta]2^2 + 
+         20*H12^4*H23*V3*\[CapitalDelta]3 - 60*H12^3*H23*V1*V2*V3*
+          \[CapitalDelta]3 - 20*H12^3*H31*V2^2*V3*\[CapitalDelta]3 + 
+         64*H12^4*V2*V3^2*\[CapitalDelta]3 - 192*H12^3*V1*V2^2*V3^2*
+          \[CapitalDelta]3 - 8*H12^4*V2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 8*H12^3*V1*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 4*H12^4*V2*V3^2*\[CapitalDelta]3^2 - 
+         4*H12^3*V1*V2^2*V3^2*\[CapitalDelta]3^2)/(4*V3^2) - 
+       (5*V1*((-6*H12*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/
+           V3 - (H12*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+              \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+              \[CapitalDelta]3))/2 - (-12*H12^3*H23^2 - 44*H12^3*H23*V2*V3 - 
+            33*H12^3*V2^2*V3^2 + 2*H12^3*H23*V2*V3*\[CapitalDelta]2 + 
+            2*H12^3*V2^2*V3^2*\[CapitalDelta]2 - 2*H12^3*H23*V2*V3*
+             \[CapitalDelta]3 - 2*H12^3*V2^2*V3^2*\[CapitalDelta]3)/(2*V3)))/
+        V3 - (H12^5*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3^2 - 
+       (10*H12^2*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + 
+            H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (5*H12*((-4*V1*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/
+           V3 - (V1*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+              \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+              \[CapitalDelta]3))/2 - (H12*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (-28*H12^2*H23^2*V1 - 20*H12^2*H23*H31*V2 + 2*H12^3*H23*V3 - 
+            131*H12^2*H23*V1*V2*V3 - 39*H12^2*H31*V2^2*V3 + 4*H12^3*V2*V3^2 - 
+            123*H12^2*V1*V2^2*V3^2 - 2*H12^3*H23*V3*\[CapitalDelta]2 + 
+            4*H12^2*H23*V1*V2*V3*\[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3*
+             \[CapitalDelta]2 - 2*H12^3*V2*V3^2*\[CapitalDelta]2 + 
+            6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^3*H23*V3*
+             \[CapitalDelta]3 - 4*H12^2*H23*V1*V2*V3*\[CapitalDelta]3 - 
+            2*H12^2*H31*V2^2*V3*\[CapitalDelta]3 + 2*H12^3*V2*V3^2*
+             \[CapitalDelta]3 - 6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]3)/
+           (2*V3) - (H12^4*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+           (2*V3) - (5*H12*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*
+                V2*V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3, 
+     f[1, 4, 4, 4, 4, 5] -> (-6*H31*V1*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+          H12^2*V2^2*V3^2))/V3^2 + (12*H12*V1*(H12*H23^2*V1*V3 + 
+          H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + 
+          H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3^2 - 
+       V1*(-(H12^3*H23) - 19*H12^2*H23*V1*V2 + 38*H12^2*H31*V2^2 - 
+         22*H12^3*V2*V3 - 38*H12^2*V1*V2^2*V3 - 6*H12^2*H31*V2^2*
+          \[CapitalDelta]2 + 6*H12^2*H31*V2^2*\[CapitalDelta]3) - 
+       H31*(-3*H12^3*V2 + 36*H12^2*V1*V2^2 + 2*H12^3*V2*\[CapitalDelta]2 - 
+         4*H12^2*V1*V2^2*\[CapitalDelta]2 - 2*H12^3*V2*\[CapitalDelta]3 + 
+         4*H12^2*V1*V2^2*\[CapitalDelta]3) - 
+       (3*H12*V1*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/V3 - 
+       (3*H31*V1*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/V3 - (3*H12*H31*(-2*H12^2*H23 + 
+          27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 
+          42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/V3 - 
+       H12*(H12^2*H23*V1 - 5*H12^2*H31*V2 - 10*H12*H23*V1^2*V2 + 
+         26*H12*H31*V1*V2^2 + H12^3*V3 - 16*H12^2*V1*V2*V3 - 
+         20*H12*V1^2*V2^2*V3 - 2*H12^2*H23*V1*\[CapitalDelta]2 + 
+         6*H12^2*H31*V2*\[CapitalDelta]2 - 4*H12*H23*V1^2*V2*
+          \[CapitalDelta]2 - 4*H12*H31*V1*V2^2*\[CapitalDelta]2 - 
+         2*H12^3*V3*\[CapitalDelta]2 - 8*H12^2*V1*V2*V3*\[CapitalDelta]2 - 
+         8*H12*V1^2*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*H23*V1*
+          \[CapitalDelta]3 - 6*H12^2*H31*V2*\[CapitalDelta]3 + 
+         4*H12*H23*V1^2*V2*\[CapitalDelta]3 + 4*H12*H31*V1*V2^2*
+          \[CapitalDelta]3 + 2*H12^3*V3*\[CapitalDelta]3 + 
+         8*H12^2*V1*V2*V3*\[CapitalDelta]3 + 8*H12*V1^2*V2^2*V3*
+          \[CapitalDelta]3) - (3*H12^2*(4*H12*H23*H31 - 2*H23^2*V1^2 + 
+          5*H23*H31*V1*V2 + 7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 
+          12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 
+          20*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*
+           \[CapitalDelta]2 - 2*H23^2*V1^2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*\[CapitalDelta]2 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 - 2*H12*H23*H31*\[CapitalDelta]3 + 
+          2*H23^2*V1^2*\[CapitalDelta]3 + 4*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          2*H31^2*V2^2*\[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+          2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/(2*V3) - 
+       (H12*H31*(-39*H12^2*V2 + 126*H12*V1*V2^2 + 36*H12^2*V2*
+           \[CapitalDelta]2 - 24*H12*V1*V2^2*\[CapitalDelta]2 - 
+          4*H12^2*V2*\[CapitalDelta]2^2 - 36*H12^2*V2*\[CapitalDelta]3 + 
+          24*H12*V1*V2^2*\[CapitalDelta]3 + 8*H12^2*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H12^2*V2*\[CapitalDelta]3^2))/2 - 
+       (H31*V1*(207*H12^2*V2^2 - 64*H12^2*V2^2*\[CapitalDelta]2 + 
+          4*H12^2*V2^2*\[CapitalDelta]2^2 + 64*H12^2*V2^2*\[CapitalDelta]3 - 
+          8*H12^2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12^2*V2^2*\[CapitalDelta]3^2))/4 - 
+       (H12^2*(-16*H12*H23*V1 + 6*H12*H31*V2 + 18*H31*V1*V2^2 - 3*H12^2*V3 - 
+          88*H12*V1*V2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 + 
+          48*H12*H31*V2*\[CapitalDelta]2 - 12*H23*V1^2*V2*\[CapitalDelta]2 - 
+          12*H31*V1*V2^2*\[CapitalDelta]2 - 12*H12^2*V3*\[CapitalDelta]2 - 
+          24*H12*V1*V2*V3*\[CapitalDelta]2 - 24*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*\[CapitalDelta]2^2 - 
+          8*H12*H31*V2*\[CapitalDelta]2^2 - 4*H12^2*V3*\[CapitalDelta]2^2 - 
+          8*H12*V1*V2*V3*\[CapitalDelta]2^2 + 6*H12*H23*V1*\[CapitalDelta]3 - 
+          48*H12*H31*V2*\[CapitalDelta]3 + 12*H23*V1^2*V2*\[CapitalDelta]3 + 
+          12*H31*V1*V2^2*\[CapitalDelta]3 + 12*H12^2*V3*\[CapitalDelta]3 + 
+          24*H12*V1*V2*V3*\[CapitalDelta]3 + 24*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*H23*V1*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 16*H12*H31*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 8*H12^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*\[CapitalDelta]3^2 - 8*H12*H31*V2*\[CapitalDelta]3^2 - 
+          4*H12^2*V3*\[CapitalDelta]3^2 - 8*H12*V1*V2*V3*\[CapitalDelta]3^2))/
+        4 - (H12*V1*(-11*H12^2*H23 - 60*H12*H23*V1*V2 + 147*H12*H31*V2^2 - 
+          113*H12^2*V2*V3 - 120*H12*V1*V2^2*V3 - 4*H12^2*H23*
+           \[CapitalDelta]2 - 20*H12*H23*V1*V2*\[CapitalDelta]2 - 
+          56*H12*H31*V2^2*\[CapitalDelta]2 - 16*H12^2*V2*V3*
+           \[CapitalDelta]2 - 40*H12*V1*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]2^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]2^2 + 4*H12^2*V2*V3*\[CapitalDelta]2^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]2^2 + 4*H12^2*H23*
+           \[CapitalDelta]3 + 20*H12*H23*V1*V2*\[CapitalDelta]3 + 
+          56*H12*H31*V2^2*\[CapitalDelta]3 + 16*H12^2*V2*V3*
+           \[CapitalDelta]3 + 40*H12*V1*V2^2*V3*\[CapitalDelta]3 - 
+          8*H12*H23*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H12*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]3^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]3^2 + 4*H12^2*V2*V3*\[CapitalDelta]3^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]3^2))/2 - 
+       (-72*H12^2*H23^2*H31*V1 - 48*H12^2*H23*H31^2*V2 - 
+         24*H12^3*H23*H31*V3 + 216*H12^2*H23^2*V1^2*V3 - 
+         918*H12^2*H23*H31*V1*V2*V3 - 318*H12^2*H31^2*V2^2*V3 + 
+         344*H12^3*H23*V1*V3^2 + 80*H12^3*H31*V2*V3^2 + 1248*H12^2*H23*V1^2*
+          V2*V3^2 - 1983*H12^2*H31*V1*V2^2*V3^2 - H12^4*V3^3 + 
+         1154*H12^3*V1*V2*V3^3 + 1632*H12^2*V1^2*V2^2*V3^3 - 
+         36*H12^3*H23*H31*V3*\[CapitalDelta]2 + 36*H12^2*H23^2*V1^2*V3*
+          \[CapitalDelta]2 + 96*H12^2*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 
+         36*H12^2*H31^2*V2^2*V3*\[CapitalDelta]2 + 70*H12^3*H23*V1*V3^2*
+          \[CapitalDelta]2 - 152*H12^3*H31*V2*V3^2*\[CapitalDelta]2 + 
+         164*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 412*H12^2*H31*V1*V2^2*
+          V3^2*\[CapitalDelta]2 + 32*H12^4*V3^3*\[CapitalDelta]2 + 
+         136*H12^3*V1*V2*V3^3*\[CapitalDelta]2 + 184*H12^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2 + 4*H12^3*H23*V1*V3^2*\[CapitalDelta]2^2 + 
+         16*H12^3*H31*V2*V3^2*\[CapitalDelta]2^2 - 8*H12^2*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]2^2 - 12*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]2^2 + 
+         4*H12^4*V3^3*\[CapitalDelta]2^2 - 16*H12^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2^2 + 36*H12^3*H23*H31*V3*\[CapitalDelta]3 - 
+         36*H12^2*H23^2*V1^2*V3*\[CapitalDelta]3 - 96*H12^2*H23*H31*V1*V2*V3*
+          \[CapitalDelta]3 - 36*H12^2*H31^2*V2^2*V3*\[CapitalDelta]3 - 
+         70*H12^3*H23*V1*V3^2*\[CapitalDelta]3 + 152*H12^3*H31*V2*V3^2*
+          \[CapitalDelta]3 - 164*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 
+         412*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+         32*H12^4*V3^3*\[CapitalDelta]3 - 136*H12^3*V1*V2*V3^3*
+          \[CapitalDelta]3 - 184*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]3 - 
+         8*H12^3*H23*V1*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         32*H12^3*H31*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         16*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         24*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         8*H12^4*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         32*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H12^3*H23*V1*V3^2*\[CapitalDelta]3^2 + 16*H12^3*H31*V2*V3^2*
+          \[CapitalDelta]3^2 - 8*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]3^2 - 
+         12*H12^2*H31*V1*V2^2*V3^2*\[CapitalDelta]3^2 + 
+         4*H12^4*V3^3*\[CapitalDelta]3^2 - 16*H12^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3^2)/(4*V3^2) - 
+       (3*V1*((-2*H31*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/
+           V3 + (8*H12*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + 
+             H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + 
+             H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3 - 
+          (H12*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+             36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+             44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+             2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+             2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H31*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+              \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+              \[CapitalDelta]3))/2 - (-4*H12^2*H23^2*H31 + 27*H12^2*H23^2*V1*
+             V3 - 27*H12^2*H23*H31*V2*V3 + 32*H12^3*H23*V3^2 + 
+            100*H12^2*H23*V1*V2*V3^2 - 5*H12^2*H31*V2^2*V3^2 + 
+            50*H12^3*V2*V3^3 + 92*H12^2*V1*V2^2*V3^3 + 2*H12^2*H23^2*V1*V3*
+             \[CapitalDelta]2 + 4*H12^2*H23*H31*V2*V3*\[CapitalDelta]2 + 
+            2*H12^3*H23*V3^2*\[CapitalDelta]2 + 4*H12^2*H23*V1*V2*V3^2*
+             \[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3^2*\[CapitalDelta]2 - 
+            2*H12^2*H23^2*V1*V3*\[CapitalDelta]3 - 4*H12^2*H23*H31*V2*V3*
+             \[CapitalDelta]3 - 2*H12^3*H23*V3^2*\[CapitalDelta]3 - 
+            4*H12^2*H23*V1*V2*V3^2*\[CapitalDelta]3 - 2*H12^2*H31*V2^2*V3^2*
+             \[CapitalDelta]3)/(2*V3)))/V3 - 
+       (3*H12^4*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (2*V3^2) - (6*H12*H31*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 
+            3*H12*H23*V1*V2*V3 + H12*H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+          (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (3*H12^2*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+            H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 
+            4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+          (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/
+        V3^2 - (3*H31*((-4*V1*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+             H12^2*V2^2*V3^2))/V3 - (V1*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 
+             2*H12^2*H23*V2*\[CapitalDelta]2 - 2*H12^2*V2^2*V3*
+              \[CapitalDelta]2 + 2*H12^2*H23*V2*\[CapitalDelta]3 + 
+             2*H12^2*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+             4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*
+              \[CapitalDelta]2 - 2*H12*H23*V1*V2*\[CapitalDelta]2 - 
+             2*H12*H31*V2^2*\[CapitalDelta]2 + 2*H12^2*V2*V3*
+              \[CapitalDelta]2 - 4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 
+             2*H12^2*H23*\[CapitalDelta]3 + 2*H12*H23*V1*V2*
+              \[CapitalDelta]3 + 2*H12*H31*V2^2*\[CapitalDelta]3 - 
+             2*H12^2*V2*V3*\[CapitalDelta]3 + 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]3))/2 - (-28*H12^2*H23^2*V1 - 20*H12^2*H23*H31*
+             V2 + 2*H12^3*H23*V3 - 131*H12^2*H23*V1*V2*V3 - 
+            39*H12^2*H31*V2^2*V3 + 4*H12^3*V2*V3^2 - 123*H12^2*V1*V2^2*V3^2 - 
+            2*H12^3*H23*V3*\[CapitalDelta]2 + 4*H12^2*H23*V1*V2*V3*
+             \[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3*\[CapitalDelta]2 - 
+            2*H12^3*V2*V3^2*\[CapitalDelta]2 + 6*H12^2*V1*V2^2*V3^2*
+             \[CapitalDelta]2 + 2*H12^3*H23*V3*\[CapitalDelta]3 - 
+            4*H12^2*H23*V1*V2*V3*\[CapitalDelta]3 - 2*H12^2*H31*V2^2*V3*
+             \[CapitalDelta]3 + 2*H12^3*V2*V3^2*\[CapitalDelta]3 - 
+            6*H12^2*V1*V2^2*V3^2*\[CapitalDelta]3)/(2*V3) - 
+          (H12^4*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/(2*V3) - 
+          (5*H12*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + H12*
+                H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3))/V3 - 
+       (3*H12*((4*V1*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3 - (V1*(-7*H12*H23^2*V1 + 
+             11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 36*H12*H23*V1*V2*V3 - 
+             4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 44*H12*V1*V2^2*V3^2 - 
+             2*H12*H23^2*V1*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]2 - 2*H12^2*H23*V3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 2*H12*H23^2*V1*
+              \[CapitalDelta]3 + 2*H12*H23*H31*V2*\[CapitalDelta]3 + 
+             2*H12^2*H23*V3*\[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*
+              \[CapitalDelta]3))/2 - (H31*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 
+             7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 
+             20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*\[CapitalDelta]2 - 4*H23*H31*V1*V2*
+              \[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+             2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+          (-4*H12*H23^2*H31*V1 - 4*H12*H23*H31^2*V2 - 14*H12^2*H23*H31*V3 + 
+            33*H12*H23^2*V1^2*V3 - 27*H12*H23*H31*V1*V2*V3 - 
+            22*H12*H31^2*V2^2*V3 + 43*H12^2*H23*V1*V3^2 - 8*H12^2*H31*V2*
+             V3^2 + 146*H12*H23*V1^2*V2*V3^2 + 6*H12*H31*V1*V2^2*V3^2 + 
+            94*H12^2*V1*V2*V3^3 + 160*H12*V1^2*V2^2*V3^3 - 4*H12^2*H23*H31*V3*
+             \[CapitalDelta]2 + 4*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+            8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 4*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]2 + 6*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+            2*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 12*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]2 + 12*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+            2*H12^3*V3^3*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]2 + 8*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+            4*H12^2*H23*H31*V3*\[CapitalDelta]3 - 4*H12*H23^2*V1^2*V3*
+             \[CapitalDelta]3 - 8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H31^2*V2^2*V3*\[CapitalDelta]3 - 6*H12^2*H23*V1*V3^2*
+             \[CapitalDelta]3 - 2*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 
+            12*H12*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 12*H12*H31*V1*V2^2*
+             V3^2*\[CapitalDelta]3 - 2*H12^3*V3^3*\[CapitalDelta]3 - 
+            8*H12^2*V1*V2*V3^3*\[CapitalDelta]3 - 8*H12*V1^2*V2^2*V3^3*
+             \[CapitalDelta]3)/(2*V3) - 
+          (H12^3*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3 - 
+          (H31*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + H12*
+                H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (3*H12*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+               H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 4*H31*
+                V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+             (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 4, 4, 4, 5, 5] -> 
+      (2*H12^2*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + H23*H31*V1*V2^2 + 
+          2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 2*H31*V1*V2^3*V3 + 
+          H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2))/V2^2 + 
+       (H12*V1*(-1/8*(H31^2*V2^3*V3) + (-48*H12*H23^2*H31 - 
+            224*H12*H23*H31*V2*V3 + 48*H23*H31*V1*V2^2*V3 + 
+            51*H31^2*V2^3*V3 - 160*H12*H31*V2^2*V3^2 + 96*H31*V1*V2^3*V3^2)/
+           24 - (2*H31*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*
+                V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/
+           (3*V2) - (2*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*
+                H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*
+                H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+                V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*
+                V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2))/(2*V2*V3) - 
+       H12*(-14*H12*H23*H31*V1 - H12*H31^2*V2 + 6*H23*H31*V1^2*V2 + 
+         6*H31^2*V1*V2^2 - H12^2*H31*V3 + 6*H12*H23*V1^2*V3 - 
+         96*H12*H31*V1*V2*V3 + 12*H31*V1^2*V2^2*V3 + 6*H12^2*V1*V3^2 + 
+         12*H12*V1^2*V2*V3^2 + 6*H12*H31^2*V2*\[CapitalDelta]2 - 
+         6*H12^2*H31*V3*\[CapitalDelta]2 - 6*H12*H31^2*V2*\[CapitalDelta]3 + 
+         6*H12^2*H31*V3*\[CapitalDelta]3) - 
+       (H31*V1*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/V3 + 
+       (H12*H31*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+          6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+          36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+           \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+          6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+           \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+          6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*\[CapitalDelta]3 - 
+          12*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V2) - 
+       (H31^2*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 15*H12*H31*V2^2 - 
+          4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 2*H12^2*H23*\[CapitalDelta]2 - 
+          2*H12*H23*V1*V2*\[CapitalDelta]2 - 2*H12*H31*V2^2*
+           \[CapitalDelta]2 + 2*H12^2*V2*V3*\[CapitalDelta]2 - 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+          2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+           \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+          4*H12*V1*V2^2*V3*\[CapitalDelta]3))/(2*V3) - 
+       H31*(H12^2*H23*V1 - 5*H12^2*H31*V2 - 10*H12*H23*V1^2*V2 + 
+         26*H12*H31*V1*V2^2 + H12^3*V3 - 16*H12^2*V1*V2*V3 - 
+         20*H12*V1^2*V2^2*V3 - 2*H12^2*H23*V1*\[CapitalDelta]2 + 
+         6*H12^2*H31*V2*\[CapitalDelta]2 - 4*H12*H23*V1^2*V2*
+          \[CapitalDelta]2 - 4*H12*H31*V1*V2^2*\[CapitalDelta]2 - 
+         2*H12^3*V3*\[CapitalDelta]2 - 8*H12^2*V1*V2*V3*\[CapitalDelta]2 - 
+         8*H12*V1^2*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*H23*V1*
+          \[CapitalDelta]3 - 6*H12^2*H31*V2*\[CapitalDelta]3 + 
+         4*H12*H23*V1^2*V2*\[CapitalDelta]3 + 4*H12*H31*V1*V2^2*
+          \[CapitalDelta]3 + 2*H12^3*V3*\[CapitalDelta]3 + 
+         8*H12^2*V1*V2*V3*\[CapitalDelta]3 + 8*H12*V1^2*V2^2*V3*
+          \[CapitalDelta]3) + (H12^2*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+          7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+          14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+          4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+           \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V3*\[CapitalDelta]2 + 4*H12*H31*V2*V3*
+           \[CapitalDelta]2 + 8*H23*V1^2*V2*V3*\[CapitalDelta]2 + 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*V3^2*\[CapitalDelta]2 + 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2 + 2*H12*H23*H31*\[CapitalDelta]3 - 
+          2*H23^2*V1^2*\[CapitalDelta]3 - 4*H23*H31*V1*V2*\[CapitalDelta]3 - 
+          2*H31^2*V2^2*\[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/(2*V2) - 
+       (H12*H31*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 
+          7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+          14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*\[CapitalDelta]2 - 4*H23*H31*V1*V2*\[CapitalDelta]2 - 
+          2*H31^2*V2^2*\[CapitalDelta]2 - 4*H12*H23*V1*V3*\[CapitalDelta]2 - 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 - 8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+          2*H12^2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 + 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 + 8*H23*V1^2*V2*V3*\[CapitalDelta]3 + 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 2*H12^2*V3^2*\[CapitalDelta]3 + 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V3) - V1*(-3*H12^2*H23*H31 + 
+         H12*H23^2*V1^2 + 8*H12*H23*H31*V1*V2 + 34*H12*H31^2*V2^2 + 
+         11*H12^2*H23*V1*V3 - 66*H12^2*H31*V2*V3 + 4*H12*H23*V1^2*V2*V3 + 
+         16*H12*H31*V1*V2^2*V3 + 10*H12^3*V3^2 + 22*H12^2*V1*V2*V3^2 + 
+         4*H12*V1^2*V2^2*V3^2 + 2*H12*H23^2*V1^2*\[CapitalDelta]2 - 
+         4*H12*H23*H31*V1*V2*\[CapitalDelta]2 - 6*H12*H31^2*V2^2*
+          \[CapitalDelta]2 + 4*H12^2*H23*V1*V3*\[CapitalDelta]2 + 
+         8*H12*H23*V1^2*V2*V3*\[CapitalDelta]2 - 8*H12*H31*V1*V2^2*V3*
+          \[CapitalDelta]2 + 2*H12^3*V3^2*\[CapitalDelta]2 + 
+         8*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 8*H12*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2 - 2*H12*H23^2*V1^2*\[CapitalDelta]3 + 
+         4*H12*H23*H31*V1*V2*\[CapitalDelta]3 + 6*H12*H31^2*V2^2*
+          \[CapitalDelta]3 - 4*H12^2*H23*V1*V3*\[CapitalDelta]3 - 
+         8*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 + 8*H12*H31*V1*V2^2*V3*
+          \[CapitalDelta]3 - 2*H12^3*V3^2*\[CapitalDelta]3 - 
+         8*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 8*H12*V1^2*V2^2*V3^2*
+          \[CapitalDelta]3) + (H12*V1*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + 
+          H23^2*V1^2*V2 + 14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 
+          3*H12^2*H23*V3 + 2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 
+          4*H23*V1^2*V2^2*V3 + 28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 
+          8*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]2 - 2*H23^2*V1^2*V2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]2 - 2*H31^2*V2^3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 
+          2*H12^2*V2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]2 - 8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]3 + 2*H23^2*V1^2*V2*
+           \[CapitalDelta]3 + 4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 
+          2*H31^2*V2^3*\[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*
+           \[CapitalDelta]3 + 4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 
+          8*H23*V1^2*V2^2*V3*\[CapitalDelta]3 + 8*H31*V1*V2^3*V3*
+           \[CapitalDelta]3 + 2*H12^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H12*V1*V2^2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H12*V1*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+          H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+          14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+          8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+          4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+           \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+          8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+           \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+           \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+          2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/(2*V3) - 
+       (H31^2*(-39*H12^2*V2 + 126*H12*V1*V2^2 + 36*H12^2*V2*
+           \[CapitalDelta]2 - 24*H12*V1*V2^2*\[CapitalDelta]2 - 
+          4*H12^2*V2*\[CapitalDelta]2^2 - 36*H12^2*V2*\[CapitalDelta]3 + 
+          24*H12*V1*V2^2*\[CapitalDelta]3 + 8*H12^2*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H12^2*V2*\[CapitalDelta]3^2))/4 - 
+       (H12*H31*(-16*H12*H23*V1 + 6*H12*H31*V2 + 18*H31*V1*V2^2 - 
+          3*H12^2*V3 - 88*H12*V1*V2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 + 
+          48*H12*H31*V2*\[CapitalDelta]2 - 12*H23*V1^2*V2*\[CapitalDelta]2 - 
+          12*H31*V1*V2^2*\[CapitalDelta]2 - 12*H12^2*V3*\[CapitalDelta]2 - 
+          24*H12*V1*V2*V3*\[CapitalDelta]2 - 24*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*\[CapitalDelta]2^2 - 
+          8*H12*H31*V2*\[CapitalDelta]2^2 - 4*H12^2*V3*\[CapitalDelta]2^2 - 
+          8*H12*V1*V2*V3*\[CapitalDelta]2^2 + 6*H12*H23*V1*\[CapitalDelta]3 - 
+          48*H12*H31*V2*\[CapitalDelta]3 + 12*H23*V1^2*V2*\[CapitalDelta]3 + 
+          12*H31*V1*V2^2*\[CapitalDelta]3 + 12*H12^2*V3*\[CapitalDelta]3 + 
+          24*H12*V1*V2*V3*\[CapitalDelta]3 + 24*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*H23*V1*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 16*H12*H31*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 8*H12^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*\[CapitalDelta]3^2 - 8*H12*H31*V2*\[CapitalDelta]3^2 - 
+          4*H12^2*V3*\[CapitalDelta]3^2 - 8*H12*V1*V2*V3*\[CapitalDelta]3^2))/
+        2 - (H12^2*(-16*H23*H31*V1 - 3*H31^2*V2 + 6*H12*H31*V3 - 
+          88*H31*V1*V2*V3 + 18*H12*V1*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+          12*H31^2*V2*\[CapitalDelta]2 - 48*H12*H31*V3*\[CapitalDelta]2 + 
+          12*H23*V1^2*V3*\[CapitalDelta]2 + 24*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 12*H12*V1*V3^2*\[CapitalDelta]2 + 
+          24*V1^2*V2*V3^2*\[CapitalDelta]2 - 4*H23*H31*V1*\[CapitalDelta]2^
+            2 - 4*H31^2*V2*\[CapitalDelta]2^2 - 8*H12*H31*V3*
+           \[CapitalDelta]2^2 - 8*H31*V1*V2*V3*\[CapitalDelta]2^2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+          48*H12*H31*V3*\[CapitalDelta]3 - 12*H23*V1^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V3^2*
+           \[CapitalDelta]3 - 24*V1^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H23*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*H31^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H31*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*\[CapitalDelta]3^2 - 4*H31^2*V2*\[CapitalDelta]3^2 - 
+          8*H12*H31*V3*\[CapitalDelta]3^2 - 8*H31*V1*V2*V3*
+           \[CapitalDelta]3^2))/4 - 
+       (H31*V1*(-11*H12^2*H23 - 60*H12*H23*V1*V2 + 147*H12*H31*V2^2 - 
+          113*H12^2*V2*V3 - 120*H12*V1*V2^2*V3 - 4*H12^2*H23*
+           \[CapitalDelta]2 - 20*H12*H23*V1*V2*\[CapitalDelta]2 - 
+          56*H12*H31*V2^2*\[CapitalDelta]2 - 16*H12^2*V2*V3*
+           \[CapitalDelta]2 - 40*H12*V1*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]2^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]2^2 + 4*H12^2*V2*V3*\[CapitalDelta]2^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]2^2 + 4*H12^2*H23*
+           \[CapitalDelta]3 + 20*H12*H23*V1*V2*\[CapitalDelta]3 + 
+          56*H12*H31*V2^2*\[CapitalDelta]3 + 16*H12^2*V2*V3*
+           \[CapitalDelta]3 + 40*H12*V1*V2^2*V3*\[CapitalDelta]3 - 
+          8*H12*H23*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H12*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]3^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]3^2 + 4*H12^2*V2*V3*\[CapitalDelta]3^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]3^2))/2 - 
+       (H12*V1*(-76*H12*H23*H31 - 4*H23^2*V1^2 + 88*H23*H31*V1*V2 + 
+          119*H31^2*V2^2 + 88*H12*H23*V1*V3 - 580*H12*H31*V2*V3 - 
+          16*H23*V1^2*V2*V3 + 176*H31*V1*V2^2*V3 + 119*H12^2*V3^2 + 
+          176*H12*V1*V2*V3^2 - 16*V1^2*V2^2*V3^2 - 48*H23*H31*V1*V2*
+           \[CapitalDelta]2 - 48*H31^2*V2^2*\[CapitalDelta]2 + 
+          48*H12*H23*V1*V3*\[CapitalDelta]2 - 96*H31*V1*V2^2*V3*
+           \[CapitalDelta]2 + 48*H12^2*V3^2*\[CapitalDelta]2 + 
+          96*H12*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23^2*V1^2*
+           \[CapitalDelta]2^2 + 8*H23*H31*V1*V2*\[CapitalDelta]2^2 + 
+          4*H31^2*V2^2*\[CapitalDelta]2^2 + 8*H12*H23*V1*V3*
+           \[CapitalDelta]2^2 + 16*H12*H31*V2*V3*\[CapitalDelta]2^2 + 
+          16*H23*V1^2*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1*V2^2*V3*
+           \[CapitalDelta]2^2 + 4*H12^2*V3^2*\[CapitalDelta]2^2 + 
+          16*H12*V1*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2^2 + 48*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          48*H31^2*V2^2*\[CapitalDelta]3 - 48*H12*H23*V1*V3*
+           \[CapitalDelta]3 + 96*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          48*H12^2*V3^2*\[CapitalDelta]3 - 96*H12*V1*V2*V3^2*
+           \[CapitalDelta]3 - 8*H23^2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H23*H31*V1*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H31^2*V2^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H12*H23*V1*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*H31*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H23*V1^2*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H31*V1*V2^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H12^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*V1*V2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*V1^2*V2^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23^2*V1^2*\[CapitalDelta]3^2 + 
+          8*H23*H31*V1*V2*\[CapitalDelta]3^2 + 4*H31^2*V2^2*
+           \[CapitalDelta]3^2 + 8*H12*H23*V1*V3*\[CapitalDelta]3^2 + 
+          16*H12*H31*V2*V3*\[CapitalDelta]3^2 + 16*H23*V1^2*V2*V3*
+           \[CapitalDelta]3^2 + 16*H31*V1*V2^2*V3*\[CapitalDelta]3^2 + 
+          4*H12^2*V3^2*\[CapitalDelta]3^2 + 16*H12*V1*V2*V3^2*
+           \[CapitalDelta]3^2 + 16*V1^2*V2^2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (-4*H12^2*H23^2*H31*V1 - 12*H12^2*H23*H31^2*V2 + 34*H12*H23^2*H31*V1^2*
+          V2 - 114*H12*H23*H31^2*V1*V2^2 - 52*H12*H31^3*V2^3 - 
+         4*H12^3*H23*H31*V3 + 18*H12^2*H23^2*V1^2*V3 + 208*H12^2*H23*H31*V1*
+          V2*V3 - 12*H12*H23^2*V1^3*V2*V3 + 8*H12^2*H31^2*V2^2*V3 + 
+         264*H12*H23*H31*V1^2*V2^2*V3 - 847*H12*H31^2*V1*V2^3*V3 + 
+         48*H12^3*H23*V1*V3^2 - 8*H12^3*H31*V2*V3^2 - 168*H12^2*H23*V1^2*V2*
+          V3^2 + 1862*H12^2*H31*V1*V2^2*V3^2 - 48*H12*H23*V1^3*V2^2*V3^2 + 
+         392*H12*H31*V1^2*V2^3*V3^2 + 30*H12^4*V3^3 - 177*H12^3*V1*V2*V3^3 - 
+         408*H12^2*V1^2*V2^2*V3^3 - 48*H12*V1^3*V2^3*V3^3 - 
+         8*H12^2*H23*H31^2*V2*\[CapitalDelta]2 + 12*H12*H23^2*H31*V1^2*V2*
+          \[CapitalDelta]2 + 20*H12*H23*H31^2*V1*V2^2*\[CapitalDelta]2 + 
+         8*H12*H31^3*V2^3*\[CapitalDelta]2 - 4*H12^3*H23*H31*V3*
+          \[CapitalDelta]2 + 4*H12^2*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+         66*H12^2*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 16*H12*H23^2*V1^3*V2*V3*
+          \[CapitalDelta]2 - 172*H12^2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+         160*H12*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]2 + 
+         264*H12*H31^2*V1*V2^3*V3*\[CapitalDelta]2 + 8*H12^3*H23*V1*V3^2*
+          \[CapitalDelta]2 + 128*H12^3*H31*V2*V3^2*\[CapitalDelta]2 - 
+         76*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 128*H12^2*H31*V1*V2^2*
+          V3^2*\[CapitalDelta]2 - 64*H12*H23*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2 + 272*H12*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2 + 
+         4*H12^4*V3^3*\[CapitalDelta]2 - 60*H12^3*V1*V2*V3^3*
+          \[CapitalDelta]2 - 168*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2 - 
+         64*H12*V1^3*V2^3*V3^3*\[CapitalDelta]2 + 12*H12^2*H23*H31*V1*V2*V3*
+          \[CapitalDelta]2^2 - 4*H12*H23^2*V1^3*V2*V3*\[CapitalDelta]2^2 + 
+         24*H12^2*H31^2*V2^2*V3*\[CapitalDelta]2^2 - 16*H12*H23*H31*V1^2*V2^2*
+          V3*\[CapitalDelta]2^2 - 12*H12*H31^2*V1*V2^3*V3*
+          \[CapitalDelta]2^2 + 16*H12^3*H31*V2*V3^2*\[CapitalDelta]2^2 - 
+         8*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]2^2 - 16*H12*H23*V1^3*V2^2*
+          V3^2*\[CapitalDelta]2^2 - 32*H12*H31*V1^2*V2^3*V3^2*
+          \[CapitalDelta]2^2 - 4*H12^3*V1*V2*V3^3*\[CapitalDelta]2^2 - 
+         16*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]2^2 - 16*H12*V1^3*V2^3*V3^3*
+          \[CapitalDelta]2^2 + 8*H12^2*H23*H31^2*V2*\[CapitalDelta]3 - 
+         12*H12*H23^2*H31*V1^2*V2*\[CapitalDelta]3 - 20*H12*H23*H31^2*V1*V2^2*
+          \[CapitalDelta]3 - 8*H12*H31^3*V2^3*\[CapitalDelta]3 + 
+         4*H12^3*H23*H31*V3*\[CapitalDelta]3 - 4*H12^2*H23^2*V1^2*V3*
+          \[CapitalDelta]3 - 66*H12^2*H23*H31*V1*V2*V3*\[CapitalDelta]3 + 
+         16*H12*H23^2*V1^3*V2*V3*\[CapitalDelta]3 + 172*H12^2*H31^2*V2^2*V3*
+          \[CapitalDelta]3 - 160*H12*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]3 - 
+         264*H12*H31^2*V1*V2^3*V3*\[CapitalDelta]3 - 8*H12^3*H23*V1*V3^2*
+          \[CapitalDelta]3 - 128*H12^3*H31*V2*V3^2*\[CapitalDelta]3 + 
+         76*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 128*H12^2*H31*V1*V2^2*
+          V3^2*\[CapitalDelta]3 + 64*H12*H23*V1^3*V2^2*V3^2*
+          \[CapitalDelta]3 - 272*H12*H31*V1^2*V2^3*V3^2*\[CapitalDelta]3 - 
+         4*H12^4*V3^3*\[CapitalDelta]3 + 60*H12^3*V1*V2*V3^3*
+          \[CapitalDelta]3 + 168*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]3 + 
+         64*H12*V1^3*V2^3*V3^3*\[CapitalDelta]3 - 24*H12^2*H23*H31*V1*V2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 8*H12*H23^2*V1^3*V2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 48*H12^2*H31^2*V2^2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H12*H23*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 24*H12*H31^2*V1*V2^3*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 32*H12^3*H31*V2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 16*H12^2*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H12*H23*V1^3*V2^2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 64*H12*H31*V1^2*V2^3*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 8*H12^3*V1*V2*V3^3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H12^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H12*V1^3*V2^3*V3^3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 12*H12^2*H23*H31*V1*V2*V3*
+          \[CapitalDelta]3^2 - 4*H12*H23^2*V1^3*V2*V3*\[CapitalDelta]3^2 + 
+         24*H12^2*H31^2*V2^2*V3*\[CapitalDelta]3^2 - 16*H12*H23*H31*V1^2*V2^2*
+          V3*\[CapitalDelta]3^2 - 12*H12*H31^2*V1*V2^3*V3*
+          \[CapitalDelta]3^2 + 16*H12^3*H31*V2*V3^2*\[CapitalDelta]3^2 - 
+         8*H12^2*H23*V1^2*V2*V3^2*\[CapitalDelta]3^2 - 16*H12*H23*V1^3*V2^2*
+          V3^2*\[CapitalDelta]3^2 - 32*H12*H31*V1^2*V2^3*V3^2*
+          \[CapitalDelta]3^2 - 4*H12^3*V1*V2*V3^3*\[CapitalDelta]3^2 - 
+         16*H12^2*V1^2*V2^2*V3^3*\[CapitalDelta]3^2 - 16*H12*V1^3*V2^3*V3^3*
+          \[CapitalDelta]3^2)/(4*V2*V3) + 
+       (H12*((H31^2*V1*V2^3)/16 + (H31*V1*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2) + 
+          (V1*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+          (H31*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+             6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+             36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+              \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+             6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+             6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*
+              \[CapitalDelta]3 - 12*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+             5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+             20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+             20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+             2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*
+              \[CapitalDelta]2 + 2*H31^2*V2^2*\[CapitalDelta]2 + 
+             4*H12*H23*V1*V3*\[CapitalDelta]2 + 4*H12*H31*V2*V3*
+              \[CapitalDelta]2 + 8*H23*V1^2*V2*V3*\[CapitalDelta]2 + 
+             8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*V3^2*
+              \[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+             8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+              \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+          (V1*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+             14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+             2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+             28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+             4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+              \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+             2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/2 + 
+          (48*H12^2*H23*H31 + 120*H12*H23^2*V1^2 - 1480*H12*H23*H31*V1*V2 - 
+            24*H23^2*V1^3*V2 - 360*H12*H31^2*V2^2 + 336*H23*H31*V1^2*V2^2 + 
+            357*H31^2*V1*V2^3 + 384*H12^2*H23*V1*V3 - 96*H12^2*H31*V2*V3 - 
+            3152*H12*H31*V1*V2^2*V3 - 96*H23*V1^3*V2^2*V3 + 
+            672*H31*V1^2*V2^3*V3 + 264*H12^3*V3^2 + 312*H12^2*V1*V2*V3^2 - 
+            480*H12*V1^2*V2^2*V3^2 - 96*V1^3*V2^3*V3^2 - 48*H12^2*H23*H31*
+             \[CapitalDelta]2 + 48*H12*H23^2*V1^2*\[CapitalDelta]2 + 
+            288*H12*H23*H31*V1*V2*\[CapitalDelta]2 - 48*H23^2*V1^3*V2*
+             \[CapitalDelta]2 + 192*H12*H31^2*V2^2*\[CapitalDelta]2 - 
+            96*H23*H31*V1^2*V2^2*\[CapitalDelta]2 - 48*H31^2*V1*V2^3*
+             \[CapitalDelta]2 + 96*H12^2*H23*V1*V3*\[CapitalDelta]2 + 
+            240*H12^2*H31*V2*V3*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3*
+             \[CapitalDelta]2 + 384*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+            192*H23*V1^3*V2^2*V3*\[CapitalDelta]2 - 192*H31*V1^2*V2^3*V3*
+             \[CapitalDelta]2 + 48*H12^3*V3^2*\[CapitalDelta]2 + 
+            144*H12^2*V1*V2*V3^2*\[CapitalDelta]2 - 192*V1^3*V2^3*V3^2*
+             \[CapitalDelta]2 + 48*H12^2*H23*H31*\[CapitalDelta]3 - 
+            48*H12*H23^2*V1^2*\[CapitalDelta]3 - 288*H12*H23*H31*V1*V2*
+             \[CapitalDelta]3 + 48*H23^2*V1^3*V2*\[CapitalDelta]3 - 
+            192*H12*H31^2*V2^2*\[CapitalDelta]3 + 96*H23*H31*V1^2*V2^2*
+             \[CapitalDelta]3 + 48*H31^2*V1*V2^3*\[CapitalDelta]3 - 
+            96*H12^2*H23*V1*V3*\[CapitalDelta]3 - 240*H12^2*H31*V2*V3*
+             \[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+            384*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 + 192*H23*V1^3*V2^2*V3*
+             \[CapitalDelta]3 + 192*H31*V1^2*V2^3*V3*\[CapitalDelta]3 - 
+            48*H12^3*V3^2*\[CapitalDelta]3 - 144*H12^2*V1*V2*V3^2*
+             \[CapitalDelta]3 + 192*V1^3*V2^3*V3^2*\[CapitalDelta]3)/48))/
+        V2 - (V1*(-1/8*(H12*H31^2*V2^2*V3) - 
+          (2*H12*H31*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*
+                V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/
+           (3*V2^2) - (2*H12*V3*(-1/16*(H31^2*V2^4) + 
+             (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*
+                V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*V2^2*V3 + 32*H12*H31*
+                V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*V1*V2^4*V3 + 48*
+                H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/
+              48 - (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*
+                   V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/
+              3))/V2^2 - (H31*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 
+             12*H12^2*H23*V3 - 36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 
+             26*H12^2*V2*V3^2 - 44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*
+              \[CapitalDelta]2 - 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+             2*H12^2*H23*V3*\[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*
+              \[CapitalDelta]2 + 2*H12*H23^2*V1*\[CapitalDelta]3 + 
+             2*H12*H23*H31*V2*\[CapitalDelta]3 + 2*H12^2*H23*V3*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+             H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+             14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+             8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+             4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+             2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+             4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+              \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+             8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+              \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+             8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+             2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/2 + 
+          (216*H12*H23*H31^2*V2 - 596*H12^2*H23*H31*V3 + 108*H12*H23^2*V1^2*
+             V3 - 168*H12*H23*H31*V1*V2*V3 - 57*H12*H31^2*V2^2*V3 + 
+            360*H12^2*H23*V1*V3^2 - 880*H12^2*H31*V2*V3^2 + 
+            432*H12*H23*V1^2*V2*V3^2 - 336*H12*H31*V1*V2^2*V3^2 + 
+            252*H12^3*V3^3 + 720*H12^2*V1*V2*V3^3 + 432*H12*V1^2*V2^2*V3^3 - 
+            24*H12*H23^2*H31*V1*\[CapitalDelta]2 - 24*H12*H23*H31^2*V2*
+             \[CapitalDelta]2 - 48*H12^2*H23*H31*V3*\[CapitalDelta]2 + 
+            24*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 24*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]2 + 48*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+            48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]2 + 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+            24*H12^3*V3^3*\[CapitalDelta]2 + 96*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]2 + 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+            24*H12*H23^2*H31*V1*\[CapitalDelta]3 + 24*H12*H23*H31^2*V2*
+             \[CapitalDelta]3 + 48*H12^2*H23*H31*V3*\[CapitalDelta]3 - 
+            24*H12*H23^2*V1^2*V3*\[CapitalDelta]3 - 24*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]3 - 48*H12^2*H23*V1*V3^2*\[CapitalDelta]3 - 
+            48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]3 - 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+            24*H12^3*V3^3*\[CapitalDelta]3 - 96*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]3 - 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]3)/24))/
+        V3 - (3*H12^3*H31^2*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+             2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+             V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+          (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+              \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+        (10*V3^2) - (H12*H31*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 
+            2*H23*H31*V1*V2*V3 - H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 
+            4*H23*V1^2*V2*V3^2 - 4*H31*V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 
+            4*V1^2*V2^2*V3^3) - (3*H12^2*H31*
+            ((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                 \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                  2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V3^2*\[CapitalDelta]3^2))/(8*V1)))/10))/V3^2 - 
+       (H31*((4*V1*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3 - (V1*(-7*H12*H23^2*V1 + 
+             11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 36*H12*H23*V1*V2*V3 - 
+             4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 44*H12*V1*V2^2*V3^2 - 
+             2*H12*H23^2*V1*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]2 - 2*H12^2*H23*V3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 2*H12*H23^2*V1*
+              \[CapitalDelta]3 + 2*H12*H23*H31*V2*\[CapitalDelta]3 + 
+             2*H12^2*H23*V3*\[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*
+              \[CapitalDelta]3))/2 - (H31*(-2*H12^2*H23 + 27*H12*H23*V1*V2 + 
+             15*H12*H31*V2^2 - 4*H12^2*V2*V3 + 42*H12*V1*V2^2*V3 + 
+             2*H12^2*H23*\[CapitalDelta]2 - 2*H12*H23*V1*V2*
+              \[CapitalDelta]2 - 2*H12*H31*V2^2*\[CapitalDelta]2 + 
+             2*H12^2*V2*V3*\[CapitalDelta]2 - 4*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 2*H12^2*H23*\[CapitalDelta]3 + 
+             2*H12*H23*V1*V2*\[CapitalDelta]3 + 2*H12*H31*V2^2*
+              \[CapitalDelta]3 - 2*H12^2*V2*V3*\[CapitalDelta]3 + 
+             4*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 + 5*H23*H31*V1*V2 + 
+             7*H31^2*V2^2 - 7*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 + 4*H31*V1*V2^2*V3 - 20*H12*V1*V2*V3^2 - 
+             20*V1^2*V2^2*V3^2 + 2*H12*H23*H31*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*\[CapitalDelta]2 - 4*H23*H31*V1*V2*
+              \[CapitalDelta]2 - 2*H31^2*V2^2*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V3*\[CapitalDelta]2 - 4*H12*H31*V2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^2*V3*\[CapitalDelta]2 - 2*H12^2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 + 2*H31^2*V2^2*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^2*V3*\[CapitalDelta]3 + 
+             2*H12^2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+          (-4*H12*H23^2*H31*V1 - 4*H12*H23*H31^2*V2 - 14*H12^2*H23*H31*V3 + 
+            33*H12*H23^2*V1^2*V3 - 27*H12*H23*H31*V1*V2*V3 - 
+            22*H12*H31^2*V2^2*V3 + 43*H12^2*H23*V1*V3^2 - 8*H12^2*H31*V2*
+             V3^2 + 146*H12*H23*V1^2*V2*V3^2 + 6*H12*H31*V1*V2^2*V3^2 + 
+            94*H12^2*V1*V2*V3^3 + 160*H12*V1^2*V2^2*V3^3 - 4*H12^2*H23*H31*V3*
+             \[CapitalDelta]2 + 4*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+            8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 4*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]2 + 6*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+            2*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 12*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]2 + 12*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+            2*H12^3*V3^3*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]2 + 8*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+            4*H12^2*H23*H31*V3*\[CapitalDelta]3 - 4*H12*H23^2*V1^2*V3*
+             \[CapitalDelta]3 - 8*H12*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 
+            4*H12*H31^2*V2^2*V3*\[CapitalDelta]3 - 6*H12^2*H23*V1*V3^2*
+             \[CapitalDelta]3 - 2*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 
+            12*H12*H23*V1^2*V2*V3^2*\[CapitalDelta]3 - 12*H12*H31*V1*V2^2*
+             V3^2*\[CapitalDelta]3 - 2*H12^3*V3^3*\[CapitalDelta]3 - 
+            8*H12^2*V1*V2*V3^3*\[CapitalDelta]3 - 8*H12*V1^2*V2^2*V3^3*
+             \[CapitalDelta]3)/(2*V3) - 
+          (H12^3*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+                V1^2*\[CapitalDelta]3^2))/(8*V1^3) - 
+             (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                 \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/V3 - 
+          (H31*(2*(H12*H23^2*V1 + H12*H23*H31*V2 + 3*H12*H23*V1*V2*V3 + H12*
+                H31*V2^2*V3 + 2*H12*V1*V2^2*V3^2) - 
+             (H12^3*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 2*V1^2*
+                    \[CapitalDelta]2*\[CapitalDelta]3 + V1^2*\[CapitalDelta]3^
+                     2))/(8*V1^3) - (15*(-V3^2 + V3^2*\[CapitalDelta]2^2 - 
+                   2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + V3^2*
+                    \[CapitalDelta]3^2))/(8*V1)))/10))/V3 - 
+          (3*H12*(2*(H12*H23*H31*V3 - H23^2*V1^2*V3 - 2*H23*H31*V1*V2*V3 - 
+               H31^2*V2^2*V3 - H12*H23*V1*V3^2 - 4*H23*V1^2*V2*V3^2 - 4*H31*
+                V1*V2^2*V3^2 - 2*H12*V1*V2*V3^3 - 4*V1^2*V2^2*V3^3) - 
+             (3*H12^2*H31*((15*V3^2*(-V1^2 + V1^2*\[CapitalDelta]2^2 - 
+                   2*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 + V1^2*
+                    \[CapitalDelta]3^2))/(8*V1^3) - (15*(-V3^2 + 
+                   V3^2*\[CapitalDelta]2^2 - 2*V3^2*\[CapitalDelta]2*
+                    \[CapitalDelta]3 + V3^2*\[CapitalDelta]3^2))/(8*V1)))/
+              10))/V3))/V3, f[1, 4, 4, 5, 5, 5] -> 
+      -(H31*(-14*H12*H23*H31*V1 - H12*H31^2*V2 + 6*H23*H31*V1^2*V2 + 
+          6*H31^2*V1*V2^2 - H12^2*H31*V3 + 6*H12*H23*V1^2*V3 - 
+          96*H12*H31*V1*V2*V3 + 12*H31*V1^2*V2^2*V3 + 6*H12^2*V1*V3^2 + 
+          12*H12*V1^2*V2*V3^2 + 6*H12*H31^2*V2*\[CapitalDelta]2 - 
+          6*H12^2*H31*V3*\[CapitalDelta]2 - 6*H12*H31^2*V2*\[CapitalDelta]3 + 
+          6*H12^2*H31*V3*\[CapitalDelta]3)) - 
+       (H12*V1*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/V2 - (H31^2*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 
+          11*H12*H31*V2^2 + 6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 
+          16*H12^2*V2*V3 - 36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 
+          6*H12*H23*V1*V2*\[CapitalDelta]2 + 6*H12*H31*V2^2*
+           \[CapitalDelta]2 + 6*H12^2*V2*V3*\[CapitalDelta]2 + 
+          12*H12*V1*V2^2*V3*\[CapitalDelta]2 - 6*H12*H23*V1*V2*
+           \[CapitalDelta]3 - 6*H12*H31*V2^2*\[CapitalDelta]3 - 
+          6*H12^2*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V2^2*V3*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H12^2*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+          15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+           \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+          2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*\[CapitalDelta]2 + 
+          4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 2*H23*H31^2*\[CapitalDelta]3 - 
+          2*H23*H31*V1*V3*\[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+          2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - H12*(H23*H31^2*V1 + H31^3*V2 - 
+         5*H12*H31^2*V3 - 10*H23*H31*V1^2*V3 - 16*H31^2*V1*V2*V3 + 
+         26*H12*H31*V1*V3^2 - 20*H31*V1^2*V2*V3^2 + 2*H23*H31^2*V1*
+          \[CapitalDelta]2 + 2*H31^3*V2*\[CapitalDelta]2 - 
+         6*H12*H31^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1^2*V3*
+          \[CapitalDelta]2 + 8*H31^2*V1*V2*V3*\[CapitalDelta]2 + 
+         4*H12*H31*V1*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2*V3^2*
+          \[CapitalDelta]2 - 2*H23*H31^2*V1*\[CapitalDelta]3 - 
+         2*H31^3*V2*\[CapitalDelta]3 + 6*H12*H31^2*V3*\[CapitalDelta]3 - 
+         4*H23*H31*V1^2*V3*\[CapitalDelta]3 - 8*H31^2*V1*V2*V3*
+          \[CapitalDelta]3 - 4*H12*H31*V1*V3^2*\[CapitalDelta]3 - 
+         8*H31*V1^2*V2*V3^2*\[CapitalDelta]3) - 
+       (H12*H31*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/V2 - V1*(-3*H12*H23*H31^2 + H23^2*H31*V1^2 + 
+         11*H23*H31^2*V1*V2 + 10*H31^3*V2^2 + 8*H12*H23*H31*V1*V3 - 
+         66*H12*H31^2*V2*V3 + 4*H23*H31*V1^2*V2*V3 + 22*H31^2*V1*V2^2*V3 + 
+         34*H12^2*H31*V3^2 + 16*H12*H31*V1*V2*V3^2 + 4*H31*V1^2*V2^2*V3^2 - 
+         2*H23^2*H31*V1^2*\[CapitalDelta]2 - 4*H23*H31^2*V1*V2*
+          \[CapitalDelta]2 - 2*H31^3*V2^2*\[CapitalDelta]2 + 
+         4*H12*H23*H31*V1*V3*\[CapitalDelta]2 - 8*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]2 - 8*H31^2*V1*V2^2*V3*\[CapitalDelta]2 + 
+         6*H12^2*H31*V3^2*\[CapitalDelta]2 + 8*H12*H31*V1*V2*V3^2*
+          \[CapitalDelta]2 - 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+         2*H23^2*H31*V1^2*\[CapitalDelta]3 + 4*H23*H31^2*V1*V2*
+          \[CapitalDelta]3 + 2*H31^3*V2^2*\[CapitalDelta]3 - 
+         4*H12*H23*H31*V1*V3*\[CapitalDelta]3 + 8*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]3 + 8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 
+         6*H12^2*H31*V3^2*\[CapitalDelta]3 - 8*H12*H31*V1*V2*V3^2*
+          \[CapitalDelta]3 + 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3) - 
+       (H31*V1*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+          14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+          2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+          28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+          4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+           \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+           \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+           \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+          2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/V2 - 
+       (H12^2*(-39*H31^2*V3 + 126*H31*V1*V3^2 - 36*H31^2*V3*
+           \[CapitalDelta]2 + 24*H31*V1*V3^2*\[CapitalDelta]2 - 
+          4*H31^2*V3*\[CapitalDelta]2^2 + 36*H31^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V3^2*\[CapitalDelta]3 + 8*H31^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H31^2*V3*\[CapitalDelta]3^2))/4 - 
+       (H31^2*(-16*H12*H23*V1 + 6*H12*H31*V2 + 18*H31*V1*V2^2 - 3*H12^2*V3 - 
+          88*H12*V1*V2*V3 - 6*H12*H23*V1*\[CapitalDelta]2 + 
+          48*H12*H31*V2*\[CapitalDelta]2 - 12*H23*V1^2*V2*\[CapitalDelta]2 - 
+          12*H31*V1*V2^2*\[CapitalDelta]2 - 12*H12^2*V3*\[CapitalDelta]2 - 
+          24*H12*V1*V2*V3*\[CapitalDelta]2 - 24*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*\[CapitalDelta]2^2 - 
+          8*H12*H31*V2*\[CapitalDelta]2^2 - 4*H12^2*V3*\[CapitalDelta]2^2 - 
+          8*H12*V1*V2*V3*\[CapitalDelta]2^2 + 6*H12*H23*V1*\[CapitalDelta]3 - 
+          48*H12*H31*V2*\[CapitalDelta]3 + 12*H23*V1^2*V2*\[CapitalDelta]3 + 
+          12*H31*V1*V2^2*\[CapitalDelta]3 + 12*H12^2*V3*\[CapitalDelta]3 + 
+          24*H12*V1*V2*V3*\[CapitalDelta]3 + 24*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*H23*V1*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 16*H12*H31*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 8*H12^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*\[CapitalDelta]3^2 - 8*H12*H31*V2*\[CapitalDelta]3^2 - 
+          4*H12^2*V3*\[CapitalDelta]3^2 - 8*H12*V1*V2*V3*\[CapitalDelta]3^2))/
+        4 - (H12*H31*(-16*H23*H31*V1 - 3*H31^2*V2 + 6*H12*H31*V3 - 
+          88*H31*V1*V2*V3 + 18*H12*V1*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+          12*H31^2*V2*\[CapitalDelta]2 - 48*H12*H31*V3*\[CapitalDelta]2 + 
+          12*H23*V1^2*V3*\[CapitalDelta]2 + 24*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 12*H12*V1*V3^2*\[CapitalDelta]2 + 
+          24*V1^2*V2*V3^2*\[CapitalDelta]2 - 4*H23*H31*V1*\[CapitalDelta]2^
+            2 - 4*H31^2*V2*\[CapitalDelta]2^2 - 8*H12*H31*V3*
+           \[CapitalDelta]2^2 - 8*H31*V1*V2*V3*\[CapitalDelta]2^2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+          48*H12*H31*V3*\[CapitalDelta]3 - 12*H23*V1^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V3^2*
+           \[CapitalDelta]3 - 24*V1^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H23*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*H31^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H31*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*\[CapitalDelta]3^2 - 4*H31^2*V2*\[CapitalDelta]3^2 - 
+          8*H12*H31*V3*\[CapitalDelta]3^2 - 8*H31*V1*V2*V3*
+           \[CapitalDelta]3^2))/2 - 
+       (H12*V1*(-11*H23*H31^2 - 60*H23*H31*V1*V3 - 113*H31^2*V2*V3 + 
+          147*H12*H31*V3^2 - 120*H31*V1*V2*V3^2 + 4*H23*H31^2*
+           \[CapitalDelta]2 + 20*H23*H31*V1*V3*\[CapitalDelta]2 + 
+          16*H31^2*V2*V3*\[CapitalDelta]2 + 56*H12*H31*V3^2*
+           \[CapitalDelta]2 + 40*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]2^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]2^2 + 4*H12*H31*V3^2*\[CapitalDelta]2^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]2^2 - 4*H23*H31^2*
+           \[CapitalDelta]3 - 20*H23*H31*V1*V3*\[CapitalDelta]3 - 
+          16*H31^2*V2*V3*\[CapitalDelta]3 - 56*H12*H31*V3^2*
+           \[CapitalDelta]3 - 40*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*H23*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]3^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]3^2 + 4*H12*H31*V3^2*\[CapitalDelta]3^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]3^2))/2 - 
+       (H31*V1*(-76*H12*H23*H31 - 4*H23^2*V1^2 + 88*H23*H31*V1*V2 + 
+          119*H31^2*V2^2 + 88*H12*H23*V1*V3 - 580*H12*H31*V2*V3 - 
+          16*H23*V1^2*V2*V3 + 176*H31*V1*V2^2*V3 + 119*H12^2*V3^2 + 
+          176*H12*V1*V2*V3^2 - 16*V1^2*V2^2*V3^2 - 48*H23*H31*V1*V2*
+           \[CapitalDelta]2 - 48*H31^2*V2^2*\[CapitalDelta]2 + 
+          48*H12*H23*V1*V3*\[CapitalDelta]2 - 96*H31*V1*V2^2*V3*
+           \[CapitalDelta]2 + 48*H12^2*V3^2*\[CapitalDelta]2 + 
+          96*H12*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23^2*V1^2*
+           \[CapitalDelta]2^2 + 8*H23*H31*V1*V2*\[CapitalDelta]2^2 + 
+          4*H31^2*V2^2*\[CapitalDelta]2^2 + 8*H12*H23*V1*V3*
+           \[CapitalDelta]2^2 + 16*H12*H31*V2*V3*\[CapitalDelta]2^2 + 
+          16*H23*V1^2*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1*V2^2*V3*
+           \[CapitalDelta]2^2 + 4*H12^2*V3^2*\[CapitalDelta]2^2 + 
+          16*H12*V1*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2^2 + 48*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          48*H31^2*V2^2*\[CapitalDelta]3 - 48*H12*H23*V1*V3*
+           \[CapitalDelta]3 + 96*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          48*H12^2*V3^2*\[CapitalDelta]3 - 96*H12*V1*V2*V3^2*
+           \[CapitalDelta]3 - 8*H23^2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H23*H31*V1*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H31^2*V2^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H12*H23*V1*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*H31*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H23*V1^2*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H31*V1*V2^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H12^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*V1*V2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*V1^2*V2^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23^2*V1^2*\[CapitalDelta]3^2 + 
+          8*H23*H31*V1*V2*\[CapitalDelta]3^2 + 4*H31^2*V2^2*
+           \[CapitalDelta]3^2 + 8*H12*H23*V1*V3*\[CapitalDelta]3^2 + 
+          16*H12*H31*V2*V3*\[CapitalDelta]3^2 + 16*H23*V1^2*V2*V3*
+           \[CapitalDelta]3^2 + 16*H31*V1*V2^2*V3*\[CapitalDelta]3^2 + 
+          4*H12^2*V3^2*\[CapitalDelta]3^2 + 16*H12*V1*V2*V3^2*
+           \[CapitalDelta]3^2 + 16*V1^2*V2^2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (-8*H12^2*H23*H31^2 + 16*H12*H23^2*H31*V1^2 + 468*H12*H23*H31^2*V1*
+          V2 - 12*H23^2*H31*V1^3*V2 + 30*H12*H31^3*V2^2 - 
+         240*H23*H31^2*V1^2*V2^2 - 273*H31^3*V1*V2^3 - 162*H12^2*H23*H31*V1*
+          V3 + 46*H12^2*H31^2*V2*V3 + 192*H12*H23*H31*V1^2*V2*V3 + 
+         2366*H12*H31^2*V1*V2^2*V3 - 48*H23*H31*V1^3*V2^2*V3 - 
+         480*H31^2*V1^2*V2^3*V3 - 82*H12^3*H31*V3^2 - 943*H12^2*H31*V1*V2*
+          V3^2 + 320*H12*H31*V1^2*V2^2*V3^2 - 48*H31*V1^3*V2^3*V3^2 + 
+         12*H12^2*H23*H31^2*\[CapitalDelta]2 - 16*H12*H23^2*H31*V1^2*
+          \[CapitalDelta]2 - 66*H12*H23*H31^2*V1*V2*\[CapitalDelta]2 + 
+         16*H23^2*H31*V1^3*V2*\[CapitalDelta]2 - 124*H12*H31^3*V2^2*
+          \[CapitalDelta]2 + 92*H23*H31^2*V1^2*V2^2*\[CapitalDelta]2 + 
+         76*H31^3*V1*V2^3*\[CapitalDelta]2 - 28*H12^2*H23*H31*V1*V3*
+          \[CapitalDelta]2 + 168*H12^2*H31^2*V2*V3*\[CapitalDelta]2 - 
+         176*H12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2 - 128*H12*H31^2*V1*V2^2*
+          V3*\[CapitalDelta]2 + 64*H23*H31*V1^3*V2^2*V3*\[CapitalDelta]2 + 
+         184*H31^2*V1^2*V2^3*V3*\[CapitalDelta]2 - 12*H12^3*H31*V3^2*
+          \[CapitalDelta]2 - 280*H12^2*H31*V1*V2*V3^2*\[CapitalDelta]2 - 
+         288*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 64*H31*V1^3*V2^3*V3^2*
+          \[CapitalDelta]2 + 12*H12*H23*H31^2*V1*V2*\[CapitalDelta]2^2 - 
+         4*H23^2*H31*V1^3*V2*\[CapitalDelta]2^2 + 16*H12*H31^3*V2^2*
+          \[CapitalDelta]2^2 - 8*H23*H31^2*V1^2*V2^2*\[CapitalDelta]2^2 - 
+         4*H31^3*V1*V2^3*\[CapitalDelta]2^2 + 24*H12^2*H31^2*V2*V3*
+          \[CapitalDelta]2^2 - 16*H12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2^2 - 
+         16*H23*H31*V1^3*V2^2*V3*\[CapitalDelta]2^2 - 16*H31^2*V1^2*V2^3*V3*
+          \[CapitalDelta]2^2 - 12*H12^2*H31*V1*V2*V3^2*\[CapitalDelta]2^2 - 
+         32*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2^2 - 16*H31*V1^3*V2^3*V3^2*
+          \[CapitalDelta]2^2 - 12*H12^2*H23*H31^2*\[CapitalDelta]3 + 
+         16*H12*H23^2*H31*V1^2*\[CapitalDelta]3 + 66*H12*H23*H31^2*V1*V2*
+          \[CapitalDelta]3 - 16*H23^2*H31*V1^3*V2*\[CapitalDelta]3 + 
+         124*H12*H31^3*V2^2*\[CapitalDelta]3 - 92*H23*H31^2*V1^2*V2^2*
+          \[CapitalDelta]3 - 76*H31^3*V1*V2^3*\[CapitalDelta]3 + 
+         28*H12^2*H23*H31*V1*V3*\[CapitalDelta]3 - 168*H12^2*H31^2*V2*V3*
+          \[CapitalDelta]3 + 176*H12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 + 
+         128*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 64*H23*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]3 - 184*H31^2*V1^2*V2^3*V3*\[CapitalDelta]3 + 
+         12*H12^3*H31*V3^2*\[CapitalDelta]3 + 280*H12^2*H31*V1*V2*V3^2*
+          \[CapitalDelta]3 + 288*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3 - 
+         64*H31*V1^3*V2^3*V3^2*\[CapitalDelta]3 - 24*H12*H23*H31^2*V1*V2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 8*H23^2*H31*V1^3*V2*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 32*H12*H31^3*V2^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 16*H23*H31^2*V1^2*V2^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 8*H31^3*V1*V2^3*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 48*H12^2*H31^2*V2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H12*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H23*H31*V1^3*V2^2*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H31^2*V1^2*V2^3*V3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 24*H12^2*H31*V1*V2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 64*H12*H31*V1^2*V2^2*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 32*H31*V1^3*V2^3*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 12*H12*H23*H31^2*V1*V2*
+          \[CapitalDelta]3^2 - 4*H23^2*H31*V1^3*V2*\[CapitalDelta]3^2 + 
+         16*H12*H31^3*V2^2*\[CapitalDelta]3^2 - 8*H23*H31^2*V1^2*V2^2*
+          \[CapitalDelta]3^2 - 4*H31^3*V1*V2^3*\[CapitalDelta]3^2 + 
+         24*H12^2*H31^2*V2*V3*\[CapitalDelta]3^2 - 16*H12*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]3^2 - 16*H23*H31*V1^3*V2^2*V3*\[CapitalDelta]3^2 - 
+         16*H31^2*V1^2*V2^3*V3*\[CapitalDelta]3^2 - 12*H12^2*H31*V1*V2*V3^2*
+          \[CapitalDelta]3^2 - 32*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3^2 - 
+         16*H31*V1^3*V2^3*V3^2*\[CapitalDelta]3^2)/(4*V2) - 
+       (H12*(-1/2*(V1*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*
+              V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+             4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+              \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+             2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+             15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+              \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+             2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*
+              \[CapitalDelta]2 + 4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+             2*H23*H31^2*\[CapitalDelta]3 - 2*H23*H31*V1*V3*
+              \[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+             2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+              \[CapitalDelta]3))/2 - (H31*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+             7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+             4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+              \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*
+              \[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*\[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (2*H12*H23*H31^2 - 13*H23^2*H31*V1^2 - 23*H23*H31^2*V1*V2 + 
+            47*H12*H23*H31*V1*V3 + 8*H12*H31^2*V2*V3 - 74*H23*H31*V1^2*V2*
+             V3 - 62*H31^2*V1*V2^2*V3 + 30*H12^2*H31*V3^2 + 
+            42*H12*H31*V1*V2*V3^2 - 96*H31*V1^2*V2^2*V3^2 - 
+            4*H12*H23*H31^2*\[CapitalDelta]2 + 4*H23^2*H31*V1^2*
+             \[CapitalDelta]2 + 6*H23*H31^2*V1*V2*\[CapitalDelta]2 + 
+            2*H31^3*V2^2*\[CapitalDelta]2 + 8*H12*H23*H31*V1*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3*\[CapitalDelta]2 + 
+            12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2 + 8*H31^2*V1*V2^2*V3*
+             \[CapitalDelta]2 + 4*H12^2*H31*V3^2*\[CapitalDelta]2 + 
+            12*H12*H31*V1*V2*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2^2*V3^2*
+             \[CapitalDelta]2 + 4*H12*H23*H31^2*\[CapitalDelta]3 - 
+            4*H23^2*H31*V1^2*\[CapitalDelta]3 - 6*H23*H31^2*V1*V2*
+             \[CapitalDelta]3 - 2*H31^3*V2^2*\[CapitalDelta]3 - 
+            8*H12*H23*H31*V1*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3*
+             \[CapitalDelta]3 - 12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 - 
+            8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 4*H12^2*H31*V3^2*
+             \[CapitalDelta]3 - 12*H12*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3)/2))/V2 - 
+       (V1*(-1/16*(H31^3*V2^3) - (H31^2*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (H31*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+          (H12*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+             36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+             44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+             2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+              \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+             2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*
+              \[CapitalDelta]3 - 2*H12*H23*H31*V3*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H31*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+             14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+             2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+             28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+             4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+              \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+             2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/2 + 
+          (-1064*H12*H23*H31^2*V2 + 168*H23^2*H31*V1^2*V2 + 
+            672*H23*H31^2*V1*V2^2 + 507*H31^3*V2^3 + 432*H12^2*H23*H31*V3 - 
+            528*H12*H23*H31*V1*V2*V3 - 1792*H12*H31^2*V2^2*V3 + 
+            672*H23*H31*V1^2*V2^2*V3 + 1344*H31^2*V1*V2^3*V3 - 
+            264*H12^2*H31*V2*V3^2 - 1056*H12*H31*V1*V2^2*V3^2 + 
+            672*H31*V1^2*V2^3*V3^2 + 48*H12*H23^2*H31*V1*\[CapitalDelta]2 + 
+            96*H12*H23*H31^2*V2*\[CapitalDelta]2 - 48*H23^2*H31*V1^2*V2*
+             \[CapitalDelta]2 - 96*H23*H31^2*V1*V2^2*\[CapitalDelta]2 - 
+            48*H31^3*V2^3*\[CapitalDelta]2 + 48*H12^2*H23*H31*V3*
+             \[CapitalDelta]2 - 96*H12*H31^2*V2^2*V3*\[CapitalDelta]2 - 
+            192*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]2 - 192*H31^2*V1*V2^3*V3*
+             \[CapitalDelta]2 - 48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 - 
+            192*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 - 192*H31*V1^2*V2^3*
+             V3^2*\[CapitalDelta]2 - 48*H12*H23^2*H31*V1*\[CapitalDelta]3 - 
+            96*H12*H23*H31^2*V2*\[CapitalDelta]3 + 48*H23^2*H31*V1^2*V2*
+             \[CapitalDelta]3 + 96*H23*H31^2*V1*V2^2*\[CapitalDelta]3 + 
+            48*H31^3*V2^3*\[CapitalDelta]3 - 48*H12^2*H23*H31*V3*
+             \[CapitalDelta]3 + 96*H12*H31^2*V2^2*V3*\[CapitalDelta]3 + 
+            192*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]3 + 192*H31^2*V1*V2^3*V3*
+             \[CapitalDelta]3 + 48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 + 
+            192*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]3 + 192*H31*V1^2*V2^3*
+             V3^2*\[CapitalDelta]3)/48))/V2 - 
+       (H31*((H31^2*V1*V2^3)/16 + (H31*V1*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2) + 
+          (V1*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+          (H31*(-2*H12^2*H23 - 21*H12*H23*V1*V2 - 11*H12*H31*V2^2 + 
+             6*H23*V1^2*V2^2 + 6*H31*V1*V2^3 - 16*H12^2*V2*V3 - 
+             36*H12*V1*V2^2*V3 + 12*V1^2*V2^3*V3 + 6*H12*H23*V1*V2*
+              \[CapitalDelta]2 + 6*H12*H31*V2^2*\[CapitalDelta]2 + 
+             6*H12^2*V2*V3*\[CapitalDelta]2 + 12*H12*V1*V2^2*V3*
+              \[CapitalDelta]2 - 6*H12*H23*V1*V2*\[CapitalDelta]3 - 
+             6*H12*H31*V2^2*\[CapitalDelta]3 - 6*H12^2*V2*V3*
+              \[CapitalDelta]3 - 12*H12*V1*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+             5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+             20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+             20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+             2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*
+              \[CapitalDelta]2 + 2*H31^2*V2^2*\[CapitalDelta]2 + 
+             4*H12*H23*V1*V3*\[CapitalDelta]2 + 4*H12*H31*V2*V3*
+              \[CapitalDelta]2 + 8*H23*V1^2*V2*V3*\[CapitalDelta]2 + 
+             8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*V3^2*
+              \[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+             8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+              \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 - 
+          (V1*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+             14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+             2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+             28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+             4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+              \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+             2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/2 + 
+          (48*H12^2*H23*H31 + 120*H12*H23^2*V1^2 - 1480*H12*H23*H31*V1*V2 - 
+            24*H23^2*V1^3*V2 - 360*H12*H31^2*V2^2 + 336*H23*H31*V1^2*V2^2 + 
+            357*H31^2*V1*V2^3 + 384*H12^2*H23*V1*V3 - 96*H12^2*H31*V2*V3 - 
+            3152*H12*H31*V1*V2^2*V3 - 96*H23*V1^3*V2^2*V3 + 
+            672*H31*V1^2*V2^3*V3 + 264*H12^3*V3^2 + 312*H12^2*V1*V2*V3^2 - 
+            480*H12*V1^2*V2^2*V3^2 - 96*V1^3*V2^3*V3^2 - 48*H12^2*H23*H31*
+             \[CapitalDelta]2 + 48*H12*H23^2*V1^2*\[CapitalDelta]2 + 
+            288*H12*H23*H31*V1*V2*\[CapitalDelta]2 - 48*H23^2*V1^3*V2*
+             \[CapitalDelta]2 + 192*H12*H31^2*V2^2*\[CapitalDelta]2 - 
+            96*H23*H31*V1^2*V2^2*\[CapitalDelta]2 - 48*H31^2*V1*V2^3*
+             \[CapitalDelta]2 + 96*H12^2*H23*V1*V3*\[CapitalDelta]2 + 
+            240*H12^2*H31*V2*V3*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3*
+             \[CapitalDelta]2 + 384*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 - 
+            192*H23*V1^3*V2^2*V3*\[CapitalDelta]2 - 192*H31*V1^2*V2^3*V3*
+             \[CapitalDelta]2 + 48*H12^3*V3^2*\[CapitalDelta]2 + 
+            144*H12^2*V1*V2*V3^2*\[CapitalDelta]2 - 192*V1^3*V2^3*V3^2*
+             \[CapitalDelta]2 + 48*H12^2*H23*H31*\[CapitalDelta]3 - 
+            48*H12*H23^2*V1^2*\[CapitalDelta]3 - 288*H12*H23*H31*V1*V2*
+             \[CapitalDelta]3 + 48*H23^2*V1^3*V2*\[CapitalDelta]3 - 
+            192*H12*H31^2*V2^2*\[CapitalDelta]3 + 96*H23*H31*V1^2*V2^2*
+             \[CapitalDelta]3 + 48*H31^2*V1*V2^3*\[CapitalDelta]3 - 
+            96*H12^2*H23*V1*V3*\[CapitalDelta]3 - 240*H12^2*H31*V2*V3*
+             \[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+            384*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 + 192*H23*V1^3*V2^2*V3*
+             \[CapitalDelta]3 + 192*H31*V1^2*V2^3*V3*\[CapitalDelta]3 - 
+            48*H12^3*V3^2*\[CapitalDelta]3 - 144*H12^2*V1*V2*V3^2*
+             \[CapitalDelta]3 + 192*V1^3*V2^3*V3^2*\[CapitalDelta]3)/48))/V2, 
+     f[1, 4, 5, 5, 5, 5] -> (3*H12*H31^2*(H23*H31^2 - H23*H31*V1*V3 + 
+          H31^2*V2*V3 - 3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(2*V1*V2*V3) + 
+       (3*H12*V1*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 + 
+       (12*H12*H31*(H23^2*H31*V1 + H12*H23*H31*V3 + 3*H23*H31*V1*V2*V3 + 
+          H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 + 
+       (3*H12*H31^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1*V2^2) + (12*H31*V1*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + 
+          H12*H23*H31*V2*V3 + 3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + 
+          H12*H31*V2^2*V3^2 + 2*H31*V1*V2^3*V3^2))/V2^2 + 
+       (6*H31^2*(-(H12*H23*H31*V2) + H23^2*V1^2*V2 + H23*H31*V1*V2^2 + 
+          2*H12*H23*V1*V2*V3 + 4*H23*V1^2*V2^2*V3 + 2*H31*V1*V2^3*V3 + 
+          H12^2*V2*V3^2 + 4*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2))/V2^2 - 
+       (3*H31*V1*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/V2 - V1*(-(H23*H31^3) - 19*H23*H31^2*V1*V3 - 
+         22*H31^3*V2*V3 + 38*H12*H31^2*V3^2 - 38*H31^2*V1*V2*V3^2 + 
+         6*H12*H31^2*V3^2*\[CapitalDelta]2 - 6*H12*H31^2*V3^2*
+          \[CapitalDelta]3) - H12*(-3*H31^3*V3 + 36*H31^2*V1*V3^2 - 
+         2*H31^3*V3*\[CapitalDelta]2 + 4*H31^2*V1*V3^2*\[CapitalDelta]2 + 
+         2*H31^3*V3*\[CapitalDelta]3 - 4*H31^2*V1*V3^2*\[CapitalDelta]3) - 
+       (3*H12*V1*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+          2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (3*H12*H31*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+          15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+           \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+          2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*\[CapitalDelta]2 + 
+          4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 2*H23*H31^2*\[CapitalDelta]3 - 
+          2*H23*H31*V1*V3*\[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+          2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - H31*(H23*H31^2*V1 + H31^3*V2 - 
+         5*H12*H31^2*V3 - 10*H23*H31*V1^2*V3 - 16*H31^2*V1*V2*V3 + 
+         26*H12*H31*V1*V3^2 - 20*H31*V1^2*V2*V3^2 + 2*H23*H31^2*V1*
+          \[CapitalDelta]2 + 2*H31^3*V2*\[CapitalDelta]2 - 
+         6*H12*H31^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1^2*V3*
+          \[CapitalDelta]2 + 8*H31^2*V1*V2*V3*\[CapitalDelta]2 + 
+         4*H12*H31*V1*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2*V3^2*
+          \[CapitalDelta]2 - 2*H23*H31^2*V1*\[CapitalDelta]3 - 
+         2*H31^3*V2*\[CapitalDelta]3 + 6*H12*H31^2*V3*\[CapitalDelta]3 - 
+         4*H23*H31*V1^2*V3*\[CapitalDelta]3 - 8*H31^2*V1*V2*V3*
+          \[CapitalDelta]3 - 4*H12*H31*V1*V3^2*\[CapitalDelta]3 - 
+         8*H31*V1^2*V2*V3^2*\[CapitalDelta]3) - 
+       (3*H31^2*(4*H12*H23*H31 - 2*H23^2*V1^2 - 7*H23*H31*V1*V2 + 
+          5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 14*H23*V1^2*V2*V3 - 
+          20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 4*H12*V1*V2*V3^2 - 
+          20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*\[CapitalDelta]2 + 4*H23*H31*V1*V2*\[CapitalDelta]2 + 
+          2*H31^2*V2^2*\[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 2*H12*H23*H31*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*\[CapitalDelta]3 - 
+          4*H12*H23*V1*V3*\[CapitalDelta]3 - 4*H12*H31*V2*V3*
+           \[CapitalDelta]3 - 8*H23*V1^2*V2*V3*\[CapitalDelta]3 - 
+          8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1*V2*V3^2*\[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H12*H31*(-39*H31^2*V3 + 126*H31*V1*V3^2 - 36*H31^2*V3*
+           \[CapitalDelta]2 + 24*H31*V1*V3^2*\[CapitalDelta]2 - 
+          4*H31^2*V3*\[CapitalDelta]2^2 + 36*H31^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V3^2*\[CapitalDelta]3 + 8*H31^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H31^2*V3*\[CapitalDelta]3^2))/2 - 
+       (H31^2*(-16*H23*H31*V1 - 3*H31^2*V2 + 6*H12*H31*V3 - 88*H31*V1*V2*V3 + 
+          18*H12*V1*V3^2 + 6*H23*H31*V1*\[CapitalDelta]2 + 
+          12*H31^2*V2*\[CapitalDelta]2 - 48*H12*H31*V3*\[CapitalDelta]2 + 
+          12*H23*V1^2*V3*\[CapitalDelta]2 + 24*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 12*H12*V1*V3^2*\[CapitalDelta]2 + 
+          24*V1^2*V2*V3^2*\[CapitalDelta]2 - 4*H23*H31*V1*\[CapitalDelta]2^
+            2 - 4*H31^2*V2*\[CapitalDelta]2^2 - 8*H12*H31*V3*
+           \[CapitalDelta]2^2 - 8*H31*V1*V2*V3*\[CapitalDelta]2^2 - 
+          6*H23*H31*V1*\[CapitalDelta]3 - 12*H31^2*V2*\[CapitalDelta]3 + 
+          48*H12*H31*V3*\[CapitalDelta]3 - 12*H23*V1^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V2*V3*\[CapitalDelta]3 - 12*H12*V1*V3^2*
+           \[CapitalDelta]3 - 24*V1^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H23*H31*V1*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          8*H31^2*V2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H12*H31*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          16*H31*V1*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          4*H23*H31*V1*\[CapitalDelta]3^2 - 4*H31^2*V2*\[CapitalDelta]3^2 - 
+          8*H12*H31*V3*\[CapitalDelta]3^2 - 8*H31*V1*V2*V3*
+           \[CapitalDelta]3^2))/4 - 
+       (H12*V1*(207*H31^2*V3^2 + 64*H31^2*V3^2*\[CapitalDelta]2 + 
+          4*H31^2*V3^2*\[CapitalDelta]2^2 - 64*H31^2*V3^2*\[CapitalDelta]3 - 
+          8*H31^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31^2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (H31*V1*(-11*H23*H31^2 - 60*H23*H31*V1*V3 - 113*H31^2*V2*V3 + 
+          147*H12*H31*V3^2 - 120*H31*V1*V2*V3^2 + 4*H23*H31^2*
+           \[CapitalDelta]2 + 20*H23*H31*V1*V3*\[CapitalDelta]2 + 
+          16*H31^2*V2*V3*\[CapitalDelta]2 + 56*H12*H31*V3^2*
+           \[CapitalDelta]2 + 40*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]2^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]2^2 + 4*H12*H31*V3^2*\[CapitalDelta]2^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]2^2 - 4*H23*H31^2*
+           \[CapitalDelta]3 - 20*H23*H31*V1*V3*\[CapitalDelta]3 - 
+          16*H31^2*V2*V3*\[CapitalDelta]3 - 56*H12*H31*V3^2*
+           \[CapitalDelta]3 - 40*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*H23*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]3^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]3^2 + 4*H12*H31*V3^2*\[CapitalDelta]3^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]3^2))/2 - 
+       (6*H12*H23*H31^4*V2 - 12*H12^2*H23*H31^3*V3 + 72*H12*H23^2*H31^2*V1^2*
+          V3 - 54*H12*H23*H31^3*V1*V2*V3 + 216*H23^2*H31^2*V1^3*V2*V3 + 
+         6*H12*H31^4*V2^2*V3 + 344*H23*H31^3*V1^2*V2^2*V3 - 
+         H31^4*V1*V2^3*V3 + 72*H12^2*H23*H31^2*V1*V3^2 - 
+         30*H12^2*H31^3*V2*V3^2 - 180*H12*H23*H31^2*V1^2*V2*V3^2 + 
+         20*H12*H31^3*V1*V2^2*V3^2 + 1248*H23*H31^2*V1^3*V2^2*V3^2 + 
+         1154*H31^3*V1^2*V2^3*V3^2 + 12*H12^3*H31^2*V3^3 - 
+         60*H12^2*H31^2*V1*V2*V3^3 - 1257*H12*H31^2*V1^2*V2^2*V3^3 + 
+         1632*H31^2*V1^3*V2^3*V3^3 + 24*H12*H23*H31^3*V1*V2*V3*
+          \[CapitalDelta]2 - 36*H23^2*H31^2*V1^3*V2*V3*\[CapitalDelta]2 - 
+         70*H23*H31^3*V1^2*V2^2*V3*\[CapitalDelta]2 - 32*H31^4*V1*V2^3*V3*
+          \[CapitalDelta]2 - 72*H12*H23*H31^2*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+         140*H12*H31^3*V1*V2^2*V3^2*\[CapitalDelta]2 - 164*H23*H31^2*V1^3*
+          V2^2*V3^2*\[CapitalDelta]2 - 136*H31^3*V1^2*V2^3*V3^2*
+          \[CapitalDelta]2 - 24*H12^2*H31^2*V1*V2*V3^3*\[CapitalDelta]2 - 
+         376*H12*H31^2*V1^2*V2^2*V3^3*\[CapitalDelta]2 - 
+         184*H31^2*V1^3*V2^3*V3^3*\[CapitalDelta]2 + 4*H23*H31^3*V1^2*V2^2*V3*
+          \[CapitalDelta]2^2 + 4*H31^4*V1*V2^3*V3*\[CapitalDelta]2^2 + 
+         16*H12*H31^3*V1*V2^2*V3^2*\[CapitalDelta]2^2 - 8*H23*H31^2*V1^3*V2^2*
+          V3^2*\[CapitalDelta]2^2 - 12*H12*H31^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2^2 - 16*H31^2*V1^3*V2^3*V3^3*\[CapitalDelta]2^2 - 
+         24*H12*H23*H31^3*V1*V2*V3*\[CapitalDelta]3 + 36*H23^2*H31^2*V1^3*V2*
+          V3*\[CapitalDelta]3 + 70*H23*H31^3*V1^2*V2^2*V3*\[CapitalDelta]3 + 
+         32*H31^4*V1*V2^3*V3*\[CapitalDelta]3 + 72*H12*H23*H31^2*V1^2*V2*V3^2*
+          \[CapitalDelta]3 - 140*H12*H31^3*V1*V2^2*V3^2*\[CapitalDelta]3 + 
+         164*H23*H31^2*V1^3*V2^2*V3^2*\[CapitalDelta]3 + 
+         136*H31^3*V1^2*V2^3*V3^2*\[CapitalDelta]3 + 24*H12^2*H31^2*V1*V2*
+          V3^3*\[CapitalDelta]3 + 376*H12*H31^2*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3 + 184*H31^2*V1^3*V2^3*V3^3*\[CapitalDelta]3 - 
+         8*H23*H31^3*V1^2*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         8*H31^4*V1*V2^3*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         32*H12*H31^3*V1*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         16*H23*H31^2*V1^3*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         24*H12*H31^2*V1^2*V2^2*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         32*H31^2*V1^3*V2^3*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H23*H31^3*V1^2*V2^2*V3*\[CapitalDelta]3^2 + 4*H31^4*V1*V2^3*V3*
+          \[CapitalDelta]3^2 + 16*H12*H31^3*V1*V2^2*V3^2*\[CapitalDelta]3^2 - 
+         8*H23*H31^2*V1^3*V2^2*V3^2*\[CapitalDelta]3^2 - 
+         12*H12*H31^2*V1^2*V2^2*V3^3*\[CapitalDelta]3^2 - 
+         16*H31^2*V1^3*V2^3*V3^3*\[CapitalDelta]3^2)/(4*V1*V2^2*V3) - 
+       (3*V1*(-1/2*(H31*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+             11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+             4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+              \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+             2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+              \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+             2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+              \[CapitalDelta]3))/2 + (-11*H23^2*H31^2*V1 - 16*H23*H31^3*V2 + 
+            35*H12*H23*H31^2*V3 - 52*H23*H31^2*V1*V2*V3 - 34*H31^3*V2^2*V3 + 
+            17*H12*H31^2*V2*V3^2 - 60*H31^2*V1*V2^2*V3^2 + 2*H23^2*H31^2*V1*
+             \[CapitalDelta]2 + 2*H23*H31^3*V2*\[CapitalDelta]2 + 
+            4*H12*H23*H31^2*V3*\[CapitalDelta]2 + 4*H23*H31^2*V1*V2*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+            2*H23^2*H31^2*V1*\[CapitalDelta]3 - 2*H23*H31^3*V2*
+             \[CapitalDelta]3 - 4*H12*H23*H31^2*V3*\[CapitalDelta]3 - 
+            4*H23*H31^2*V1*V2*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3^2*
+             \[CapitalDelta]3)/2))/V2 - 
+       (3*H31*(-1/2*(V1*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+             11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+             4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+              \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+             2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(-2*H23*H31^2 + 27*H23*H31*V1*V3 - 4*H31^2*V2*V3 + 
+             15*H12*H31*V3^2 + 42*H31*V1*V2*V3^2 - 2*H23*H31^2*
+              \[CapitalDelta]2 + 2*H23*H31*V1*V3*\[CapitalDelta]2 - 
+             2*H31^2*V2*V3*\[CapitalDelta]2 + 2*H12*H31*V3^2*
+              \[CapitalDelta]2 + 4*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+             2*H23*H31^2*\[CapitalDelta]3 - 2*H23*H31*V1*V3*
+              \[CapitalDelta]3 + 2*H31^2*V2*V3*\[CapitalDelta]3 - 
+             2*H12*H31*V3^2*\[CapitalDelta]3 - 4*H31*V1*V2*V3^2*
+              \[CapitalDelta]3))/2 - (H31*(4*H12*H23*H31 - 2*H23^2*V1^2 - 
+             7*H23*H31*V1*V2 + 5*H12*H23*V1*V3 + 12*H12*H31*V2*V3 - 
+             14*H23*V1^2*V2*V3 - 20*H31*V1*V2^2*V3 + 7*H12^2*V3^2 + 
+             4*H12*V1*V2*V3^2 - 20*V1^2*V2^2*V3^2 - 2*H12*H23*H31*
+              \[CapitalDelta]2 + 2*H23^2*V1^2*\[CapitalDelta]2 + 
+             4*H23*H31*V1*V2*\[CapitalDelta]2 + 2*H31^2*V2^2*
+              \[CapitalDelta]2 + 4*H12*H23*V1*V3*\[CapitalDelta]2 + 
+             4*H12*H31*V2*V3*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]2 + 8*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*V3^2*\[CapitalDelta]2 + 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]2 + 8*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*\[CapitalDelta]3 - 2*H23^2*V1^2*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*\[CapitalDelta]3 - 2*H31^2*V2^2*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+             2*H12^2*V3^2*\[CapitalDelta]3 - 8*H12*V1*V2*V3^2*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^2*\[CapitalDelta]3))/2 + 
+          (2*H12*H23*H31^2 - 13*H23^2*H31*V1^2 - 23*H23*H31^2*V1*V2 + 
+            47*H12*H23*H31*V1*V3 + 8*H12*H31^2*V2*V3 - 74*H23*H31*V1^2*V2*
+             V3 - 62*H31^2*V1*V2^2*V3 + 30*H12^2*H31*V3^2 + 
+            42*H12*H31*V1*V2*V3^2 - 96*H31*V1^2*V2^2*V3^2 - 
+            4*H12*H23*H31^2*\[CapitalDelta]2 + 4*H23^2*H31*V1^2*
+             \[CapitalDelta]2 + 6*H23*H31^2*V1*V2*\[CapitalDelta]2 + 
+            2*H31^3*V2^2*\[CapitalDelta]2 + 8*H12*H23*H31*V1*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3*\[CapitalDelta]2 + 
+            12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2 + 8*H31^2*V1*V2^2*V3*
+             \[CapitalDelta]2 + 4*H12^2*H31*V3^2*\[CapitalDelta]2 + 
+            12*H12*H31*V1*V2*V3^2*\[CapitalDelta]2 + 8*H31*V1^2*V2^2*V3^2*
+             \[CapitalDelta]2 + 4*H12*H23*H31^2*\[CapitalDelta]3 - 
+            4*H23^2*H31*V1^2*\[CapitalDelta]3 - 6*H23*H31^2*V1*V2*
+             \[CapitalDelta]3 - 2*H31^3*V2^2*\[CapitalDelta]3 - 
+            8*H12*H23*H31*V1*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3*
+             \[CapitalDelta]3 - 12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3 - 
+            8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 4*H12^2*H31*V3^2*
+             \[CapitalDelta]3 - 12*H12*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+            8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3)/2))/V2, 
+     f[1, 5, 5, 5, 5, 5] -> (20*H31*V1*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + 
+          H31^2*V2^2*V3^2))/V2^2 + (20*H31^2*(H23^2*H31*V1 + H12*H23*H31*V3 + 
+          3*H23*H31*V1*V2*V3 + H12*H31*V2*V3^2 + 2*H31*V1*V2^2*V3^2))/V2^2 - 
+       2*V1*(7*H31^3*V3^2 + H31^3*V3^2*\[CapitalDelta]2 - 
+         H31^3*V3^2*\[CapitalDelta]3) - H31*(-3*H31^3*V3 + 36*H31^2*V1*V3^2 - 
+         2*H31^3*V3*\[CapitalDelta]2 + 4*H31^2*V1*V3^2*\[CapitalDelta]2 + 
+         2*H31^3*V3*\[CapitalDelta]3 - 4*H31^2*V1*V3^2*\[CapitalDelta]3) - 
+       (H31^2*(-39*H31^2*V3 + 126*H31*V1*V3^2 - 36*H31^2*V3*
+           \[CapitalDelta]2 + 24*H31*V1*V3^2*\[CapitalDelta]2 - 
+          4*H31^2*V3*\[CapitalDelta]2^2 + 36*H31^2*V3*\[CapitalDelta]3 - 
+          24*H31*V1*V3^2*\[CapitalDelta]3 + 8*H31^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 4*H31^2*V3*\[CapitalDelta]3^2))/4 - 
+       (H31*V1*(207*H31^2*V3^2 + 64*H31^2*V3^2*\[CapitalDelta]2 + 
+          4*H31^2*V3^2*\[CapitalDelta]2^2 - 64*H31^2*V3^2*\[CapitalDelta]3 - 
+          8*H31^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31^2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (160*H23^2*H31^3*V1 + 80*H12*H23*H31^3*V3 + 400*H23*H31^3*V1*V2*V3 + 
+         51*H31^4*V2^2*V3 + 80*H12*H31^3*V2*V3^2 - 309*H31^3*V1*V2^2*V3^2 + 
+         44*H31^4*V2^2*V3*\[CapitalDelta]2 - 112*H31^3*V1*V2^2*V3^2*
+          \[CapitalDelta]2 + 4*H31^4*V2^2*V3*\[CapitalDelta]2^2 - 
+         4*H31^3*V1*V2^2*V3^2*\[CapitalDelta]2^2 - 44*H31^4*V2^2*V3*
+          \[CapitalDelta]3 + 112*H31^3*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+         8*H31^4*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         8*H31^3*V1*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H31^4*V2^2*V3*\[CapitalDelta]3^2 - 4*H31^3*V1*V2^2*V3^2*
+          \[CapitalDelta]3^2)/(4*V2^2), f[2, 2, 2, 2, 2, 2] -> 0, 
+     f[2, 2, 2, 2, 2, 3] -> 0, f[2, 2, 2, 2, 2, 4] -> 0, 
+     f[2, 2, 2, 2, 2, 5] -> 0, f[2, 2, 2, 2, 3, 3] -> 
+      (-5*V2^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^2)/(4*V1^4) - 
+       (5*V2^3*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (4*V1^4) + (5*(-(H12*H31*V2^3*V3) - H31*V1*V2^4*V3 + 
+          H12^2*V2^2*V3^2 + H12*V1*V2^3*V3^2))/(4*V1^4), 
+     f[2, 2, 2, 2, 3, 4] -> 0, f[2, 2, 2, 2, 3, 5] -> 0, 
+     f[2, 2, 2, 2, 4, 4] -> 0, f[2, 2, 2, 2, 4, 5] -> 0, 
+     f[2, 2, 2, 2, 5, 5] -> 0, f[2, 2, 2, 3, 3, 3] -> 0, 
+     f[2, 2, 2, 3, 3, 4] -> 0, f[2, 2, 2, 3, 3, 5] -> 0, 
+     f[2, 2, 2, 3, 4, 4] -> 0, f[2, 2, 2, 3, 4, 5] -> 0, 
+     f[2, 2, 2, 3, 5, 5] -> 0, f[2, 2, 2, 4, 4, 4] -> 0, 
+     f[2, 2, 2, 4, 4, 5] -> 0, f[2, 2, 2, 4, 5, 5] -> 0, 
+     f[2, 2, 2, 5, 5, 5] -> 0, f[2, 2, 3, 3, 3, 3] -> 
+      (5*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^4)/(4*V1^4) + 
+       (5*V2*V3^3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (4*V1^4) - (5*(-(H12*H31*V2*V3^3) - H31*V1*V2^2*V3^3 + H12^2*V3^4 + 
+          H12*V1*V2*V3^4))/(4*V1^4), f[2, 2, 3, 3, 3, 4] -> 0, 
+     f[2, 2, 3, 3, 3, 5] -> (10*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^3)/
+        (3*V1^4) + (10*H31*V2*V3^2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/(3*V1^4) - (10*V3^3*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^3) - 
+       (5*V2*V3^2*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^3) - 
+       (5*(-2*H12*H31^2*V2*V3^2 - H23*H31*V1^2*V2*V3^2 - 
+          2*H31^2*V1*V2^2*V3^2 + 2*H12^2*H31*V3^3 + 2*H12*H23*V1^2*V3^3 + 
+          H23*V1^3*V2*V3^3 - 3*H31*V1^2*V2^2*V3^3 + 2*H12^2*V1*V3^4 + 
+          5*H12*V1^2*V2*V3^4 + 2*V1^3*V2^2*V3^4))/(3*V1^4), 
+     f[2, 2, 3, 3, 4, 4] -> 0, f[2, 2, 3, 3, 4, 5] -> 0, 
+     f[2, 2, 3, 3, 5, 5] -> (2*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^2)/
+        V1^4 + (2*H31^2*V2*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/V1^4 - (4*H31*V3^2*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/V1^3 - 
+       (V2*V3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/V1^2 - (2*H31*V2*V3*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/
+        V1^3 - (2*V3^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        V1^2 - (-2*H12*H31^3*V2*V3 - 3*H23*H31^2*V1^2*V2*V3 - 
+         2*H31^3*V1*V2^2*V3 + 2*H12^2*H31^2*V3^2 + 6*H12*H23*H31*V1^2*V3^2 - 
+         2*H23^2*V1^4*V3^2 - 2*H12*H31^2*V1*V2*V3^2 + 5*H23*H31*V1^3*V2*
+          V3^2 - 7*H31^2*V1^2*V2^2*V3^2 + 4*H12^2*H31*V1*V3^3 - 
+         4*H12*H23*V1^3*V3^3 + 15*H12*H31*V1^2*V2*V3^3 - 8*H23*V1^4*V2*V3^3 + 
+         10*H31*V1^3*V2^2*V3^3 - 2*H12^2*V1^2*V3^4 - 8*H12*V1^3*V2*V3^4 - 
+         8*V1^4*V2^2*V3^4)/V1^4, f[2, 2, 3, 4, 4, 4] -> 0, 
+     f[2, 2, 3, 4, 4, 5] -> 0, f[2, 2, 3, 4, 5, 5] -> 0, 
+     f[2, 2, 3, 5, 5, 5] -> 0, f[2, 2, 4, 4, 4, 4] -> H12^2*V2^4, 
+     f[2, 2, 4, 4, 4, 5] -> (-9*H12*H31*V2^4)/8 + 
+       (25*H12^3*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/(6*V1^4) + 
+       (25*H12^3*H31*V2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (6*V1^4*V3) - (2*H31*V2*(H12*H23*V2^2 + H12*V2^3*V3))/V3 - 
+       (-100*H12^4*H31^2*V2 - 100*H12^3*H31^2*V1*V2^2 - 48*H12*H23*H31*V1^4*
+          V2^3 + 100*H12^5*H31*V3 + 100*H12^4*H31*V1*V2*V3 + 
+         16*H12^2*H23*V1^4*V2^2*V3 - 24*H12*H23*V1^5*V2^3*V3 - 
+         99*H12*H31*V1^4*V2^4*V3 - 16*H12^2*V1^4*V2^3*V3^2 - 
+         48*H12*V1^5*V2^4*V3^2)/(24*V1^4*V3) + 
+       (2*V2^2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+          3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+          2*H12*V1*V2^2*V3^3))/V3^2 - 
+       (H12*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3 - 
+       (V2*(-2*H31*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          2*(H12*H23^2*V1*V2 + H12^2*H23*V2*V3 + 4*H12*H23*V1*V2^2*V3 + 
+            H12*H31*V2^3*V3 + 2*H12^2*V2^2*V3^2 + 4*H12*V1*V2^3*V3^2) + 
+          (4*V2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3))/V3, f[2, 2, 4, 4, 5, 5] -> 
+      -1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*V2^2 + 
+         144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*V2^2*V3 + 
+         32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*V1*V2^4*V3 + 
+         48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+       (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3, 
+     f[2, 2, 4, 5, 5, 5] -> -2*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + 
+        H12*H23*H31*V2*V3 + 3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + 
+        H12*H31*V2^2*V3^2 + 2*H31*V1*V2^3*V3^2), f[2, 2, 5, 5, 5, 5] -> 
+      H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2, 
+     f[2, 3, 3, 3, 3, 3] -> (7*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^5)/
+        (V1^4*V2) + (7*V3^4*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/V1^4 - (7*(-(H12*H31*V2*V3^4) - H31*V1*V2^2*V3^4 + 
+          H12^2*V3^5 + H12*V1*V2*V3^5))/(V1^4*V2), f[2, 3, 3, 3, 3, 4] -> 
+      (-5*H12*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^4)/(2*V1^4*V2) - 
+       (5*H12*V3^3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V1^4) - (5*(H12^2*H31*V2*V3^3 + H12*H31*V1*V2^2*V3^3 - 
+          H12^3*V3^4 - H12^2*V1*V2*V3^4))/(2*V1^4*V2), 
+     f[2, 3, 3, 3, 3, 5] -> (55*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^4)/
+        (3*V1^4*V2) + (55*H31*V3^3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/(3*V1^4) + (50*V3^4*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^3*V2) + 
+       (25*V3^3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^3) + 
+       (5*(11*H12*H31^2*V2*V3^3 - 5*H23*H31*V1^2*V2*V3^3 + 
+          11*H31^2*V1*V2^2*V3^3 - 11*H12^2*H31*V3^4 + 10*H12*H23*V1^2*V3^4 - 
+          21*H12*H31*V1*V2*V3^4 + 5*H23*V1^3*V2*V3^4 - 15*H31*V1^2*V2^2*
+           V3^4 + 10*H12^2*V1*V3^5 + 25*H12*V1^2*V2*V3^5 + 
+          10*V1^3*V2^2*V3^5))/(3*V1^4*V2), f[2, 3, 3, 3, 4, 4] -> 0, 
+     f[2, 3, 3, 3, 4, 5] -> (-14*H12*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*
+         V3^3)/(3*V1^4*V2) - (14*H12*H31*V3^2*(-(H12*H31) - H31*V1*V2 - 
+          H12*V1*V3 - V1^2*V2*V3))/(3*V1^4) - 
+       (4*H12*V3^3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/(3*V1^3*V2) - 
+       (2*H12*V3^2*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^3) - 
+       (2*(7*H12^2*H31^2*V2*V3^2 - H12*H23*H31*V1^2*V2*V3^2 + 
+          7*H12*H31^2*V1*V2^2*V3^2 - 7*H12^3*H31*V3^3 + 2*H12^2*H23*V1^2*
+           V3^3 - 9*H12^2*H31*V1*V2*V3^3 + H12*H23*V1^3*V2*V3^3 - 
+          3*H12*H31*V1^2*V2^2*V3^3 + 2*H12^3*V1*V3^4 + 5*H12^2*V1^2*V2*V3^4 + 
+          2*H12*V1^3*V2^2*V3^4))/(3*V1^4*V2), f[2, 3, 3, 3, 5, 5] -> 
+      (46*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^3)/(3*V1^4*V2) + 
+       (46*H31^2*V3^2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (3*V1^4) + (128*H31*V3^3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^3*V2) + 
+       (4*V3^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/V1^2 + (64*H31*V3^2*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/
+        (3*V1^3) + (8*V3^3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2) - (2*(-23*H12*H31^3*V2*V3^2 + 38*H23*H31^2*V1^2*V2*V3^2 - 
+          23*H31^3*V1*V2^2*V3^2 + 23*H12^2*H31^2*V3^3 - 76*H12*H23*H31*V1^2*
+           V3^3 + 12*H23^2*V1^4*V3^3 + 87*H12*H31^2*V1*V2*V3^3 - 
+          50*H23*H31*V1^3*V2*V3^3 + 102*H31^2*V1^2*V2^2*V3^3 - 
+          64*H12^2*H31*V1*V3^4 + 24*H12*H23*V1^3*V3^4 - 190*H12*H31*V1^2*V2*
+           V3^4 + 48*H23*V1^4*V2*V3^4 - 100*H31*V1^3*V2^2*V3^4 + 
+          12*H12^2*V1^2*V3^5 + 48*H12*V1^3*V2*V3^5 + 48*V1^4*V2^2*V3^5))/
+        (3*V1^4*V2), f[2, 3, 3, 4, 4, 4] -> 0, f[2, 3, 3, 4, 4, 5] -> 0, 
+     f[2, 3, 3, 4, 5, 5] -> 0, f[2, 3, 3, 5, 5, 5] -> 
+      (4*H31^3*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^2)/(V1^4*V2) + 
+       (4*H31^3*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/V1^4 + 
+       (32*H31^2*V3^2*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^3*V2) + 
+       (8*H31*V3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/V1^2 + (16*H31^2*V3*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/
+        V1^3 + (16*H31*V3^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2) - (4*(-(H12*H31^4*V2*V3) + 6*H23*H31^3*V1^2*V2*V3 - 
+          H31^4*V1*V2^2*V3 + H12^2*H31^3*V3^2 - 12*H12*H23*H31^2*V1^2*V3^2 + 
+          4*H23^2*H31*V1^4*V3^2 + 9*H12*H31^3*V1*V2*V3^2 - 
+          10*H23*H31^2*V1^3*V2*V3^2 + 14*H31^3*V1^2*V2^2*V3^2 - 
+          8*H12^2*H31^2*V1*V3^3 + 8*H12*H23*H31*V1^3*V3^3 - 
+          30*H12*H31^2*V1^2*V2*V3^3 + 16*H23*H31*V1^4*V2*V3^3 - 
+          20*H31^2*V1^3*V2^2*V3^3 + 4*H12^2*H31*V1^2*V3^4 + 
+          16*H12*H31*V1^3*V2*V3^4 + 16*H31*V1^4*V2^2*V3^4))/(V1^4*V2), 
+     f[2, 3, 4, 4, 4, 4] -> -2*H12*(H12*H23*V2^2 + H12*V2^3*V3) - 
+       (2*V2*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3 + 
+       (2*(H12^2*H23^2*V2 + 4*H12^2*H23*V2^2*V3 + 3*H12^2*V2^3*V3^2))/V3, 
+     f[2, 3, 4, 4, 4, 5] -> -2*H31*(H12*H23*V2^2 + H12*V2^3*V3) - 
+       2*(H12*H23^2*V1*V2 + H12^2*H23*V2*V3 + 4*H12*H23*V1*V2^2*V3 + 
+         H12*H31*V2^3*V3 + 2*H12^2*V2^2*V3^2 + 4*H12*V1*V2^3*V3^2) + 
+       (4*V2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+          3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+          2*H12*V1*V2^2*V3^3))/V3, f[2, 3, 4, 4, 5, 5] -> 
+      -1/8*(H31^2*V2^3*V3) + (-48*H12*H23^2*H31 - 224*H12*H23*H31*V2*V3 + 
+         48*H23*H31*V1*V2^2*V3 + 51*H31^2*V2^3*V3 - 160*H12*H31*V2^2*V3^2 + 
+         96*H31*V1*V2^3*V3^2)/24 - (2*H31*V3*((-3*H31*V2^4)/4 + 
+          (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 
+            24*V1*V2^4*V3)/4))/(3*V2) - 
+       (2*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2, 
+     f[2, 3, 4, 5, 5, 5] -> -2*H12*(H23*H31*V3^2 + H31*V2*V3^3) + 
+       2*(H23^2*H31*V1*V3 + H23*H31^2*V2*V3 + 2*H12*H23*H31*V3^2 + 
+         2*H23*H31*V1*V2*V3^2 + H12*H31*V2*V3^3), f[2, 3, 5, 5, 5, 5] -> 
+      (4*H31^3*V3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 3*H12*V1*V2*V3 - 
+          2*V1^2*V2^2*V3))/(V1^3*V2) + 
+       (3*H31^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/V1^2 + (2*H31^3*(H23*H31*V1 + 2*H12*H31*V3 + 
+          H23*V1^2*V3 + 3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/
+        V1^3 - (2*V3*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/
+        V2 + (6*H31^2*V3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2) - 2*H31*(H23*H31*V3^2 + H31*V2*V3^3) - 
+       (5*H23*H31^4*V1*V2 - 10*H12*H23*H31^3*V1*V3 + 4*H23^2*H31^2*V1^3*V3 + 
+         4*H12*H31^4*V2*V3 - 11*H23*H31^3*V1^2*V2*V3 + 9*H31^4*V1*V2^2*V3 - 
+         4*H12^2*H31^3*V3^2 + 12*H12*H23*H31^2*V1^2*V3^2 - 
+         25*H12*H31^3*V1*V2*V3^2 + 16*H23*H31^2*V1^3*V2*V3^2 - 
+         22*H31^3*V1^2*V2^2*V3^2 + 6*H12^2*H31^2*V1*V3^3 + 
+         24*H12*H31^2*V1^2*V2*V3^3 + 18*H31^2*V1^3*V2^2*V3^3)/(V1^3*V2), 
+     f[2, 4, 4, 4, 4, 4] -> 
+      (H12^2*(-19*H12*V2^3 + 4*H12*V2^3*\[CapitalDelta]2 - 
+          4*H12*V2^3*\[CapitalDelta]3))/4 - 
+       (H12*(17*H12^2*V2^3 - 2*H12^2*V2^3*\[CapitalDelta]2 + 
+          2*H12^2*V2^3*\[CapitalDelta]3))/2 + 
+       (61*H12^3*V2^3 - 8*H12^3*V2^3*\[CapitalDelta]2 + 
+         8*H12^3*V2^3*\[CapitalDelta]3)/4, f[2, 4, 4, 4, 4, 5] -> 
+      (15*H12^4*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2))/(2*V1^4*V2) + 
+       (15*H12^4*H31*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V1^4*V3) - (8*H12*H31*(H12*H23*V2^2 + H12*V2^3*V3))/V3 - 
+       (2*H31*V2*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3^2 + 
+       (8*H12*V2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+          3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+          2*H12*V1*V2^2*V3^3))/V3^2 - 
+       (3*H31*(-2*H12*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          (2*V2*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3 + 
+          (2*(H12^2*H23^2*V2 + 4*H12^2*H23*V2^2*V3 + 3*H12^2*V2^3*V3^2))/V3))/
+        (2*V3) - (5*H12*(-2*H31*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          2*(H12*H23^2*V1*V2 + H12^2*H23*V2*V3 + 4*H12*H23*V1*V2^2*V3 + 
+            H12*H31*V2^3*V3 + 2*H12^2*V2^2*V3^2 + 4*H12*V1*V2^3*V3^2) + 
+          (4*V2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3))/(2*V3) + 
+       (H12*H31*(-19*H12*V2^3 + 4*H12*V2^3*\[CapitalDelta]2 - 
+          4*H12*V2^3*\[CapitalDelta]3))/2 - 
+       (H31*(17*H12^2*V2^3 - 2*H12^2*V2^3*\[CapitalDelta]2 + 
+          2*H12^2*V2^3*\[CapitalDelta]3))/2 - 
+       (H12*V2*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (H31*V2*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/(2*V3) - 
+       (H12*(H12^2*H23*V2 + 12*H12*H23*V1*V2^2 + 30*H12*H31*V2^3 + 
+          8*H12^2*V2^2*V3 + 24*H12*V1*V2^3*V3 - 4*H12*H23*V1*V2^2*
+           \[CapitalDelta]2 - 4*H12*H31*V2^3*\[CapitalDelta]2 - 
+          4*H12^2*V2^2*V3*\[CapitalDelta]2 - 8*H12*V1*V2^3*V3*
+           \[CapitalDelta]2 + 4*H12*H23*V1*V2^2*\[CapitalDelta]3 + 
+          4*H12*H31*V2^3*\[CapitalDelta]3 + 4*H12^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*V1*V2^3*V3*\[CapitalDelta]3))/2 - 
+       (-4*H12^2*H23^2*H31*V1^4*V2^2 - 15*H12^5*H31^2*V2*V3 - 
+         15*H12^4*H31^2*V1*V2^2*V3 + 17*H12^2*H23^2*V1^5*V2^2*V3 - 
+         59*H12^2*H23*H31*V1^4*V2^3*V3 + 15*H12^6*H31*V3^2 + 
+         15*H12^5*H31*V1*V2*V3^2 + 21*H12^3*H23*V1^4*V2^2*V3^2 + 
+         68*H12^2*H23*V1^5*V2^3*V3^2 - 105*H12^2*H31*V1^4*V2^4*V3^2 + 
+         42*H12^3*V1^4*V2^3*V3^3 + 68*H12^2*V1^5*V2^4*V3^3 + 
+         2*H12^2*H23^2*V1^5*V2^2*V3*\[CapitalDelta]2 + 4*H12^2*H23*H31*V1^4*
+          V2^3*V3*\[CapitalDelta]2 + 2*H12^3*H23*V1^4*V2^2*V3^2*
+          \[CapitalDelta]2 + 8*H12^2*H23*V1^5*V2^3*V3^2*\[CapitalDelta]2 + 
+         12*H12^2*H31*V1^4*V2^4*V3^2*\[CapitalDelta]2 + 
+         4*H12^3*V1^4*V2^3*V3^3*\[CapitalDelta]2 + 8*H12^2*V1^5*V2^4*V3^3*
+          \[CapitalDelta]2 - 2*H12^2*H23^2*V1^5*V2^2*V3*\[CapitalDelta]3 - 
+         4*H12^2*H23*H31*V1^4*V2^3*V3*\[CapitalDelta]3 - 
+         2*H12^3*H23*V1^4*V2^2*V3^2*\[CapitalDelta]3 - 8*H12^2*H23*V1^5*V2^3*
+          V3^2*\[CapitalDelta]3 - 12*H12^2*H31*V1^4*V2^4*V3^2*
+          \[CapitalDelta]3 - 4*H12^3*V1^4*V2^3*V3^3*\[CapitalDelta]3 - 
+         8*H12^2*V1^5*V2^4*V3^3*\[CapitalDelta]3)/(2*V1^4*V2*V3^2) - 
+       (V2*((-2*H31*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3 + 
+          (8*H12*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3 - (H12*(-7*H12*H23^2*V1 + 
+             11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 36*H12*H23*V1*V2*V3 - 
+             4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 44*H12*V1*V2^2*V3^2 - 
+             2*H12*H23^2*V1*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]2 - 2*H12^2*H23*V3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 2*H12*H23^2*V1*
+              \[CapitalDelta]3 + 2*H12*H23*H31*V2*\[CapitalDelta]3 + 
+             2*H12^2*H23*V3*\[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*
+              \[CapitalDelta]3))/2 - (H31*(16*H12^2*H23*V2 + 
+             17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*\[CapitalDelta]2 - 
+             2*H12^2*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*H23*V2*
+              \[CapitalDelta]3 + 2*H12^2*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (-4*H12^2*H23^2*H31 + 27*H12^2*H23^2*V1*V3 - 27*H12^2*H23*H31*V2*
+             V3 + 32*H12^3*H23*V3^2 + 100*H12^2*H23*V1*V2*V3^2 - 
+            5*H12^2*H31*V2^2*V3^2 + 50*H12^3*V2*V3^3 + 92*H12^2*V1*V2^2*
+             V3^3 + 2*H12^2*H23^2*V1*V3*\[CapitalDelta]2 + 4*H12^2*H23*H31*V2*
+             V3*\[CapitalDelta]2 + 2*H12^3*H23*V3^2*\[CapitalDelta]2 + 
+            4*H12^2*H23*V1*V2*V3^2*\[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3^2*
+             \[CapitalDelta]2 - 2*H12^2*H23^2*V1*V3*\[CapitalDelta]3 - 
+            4*H12^2*H23*H31*V2*V3*\[CapitalDelta]3 - 2*H12^3*H23*V3^2*
+             \[CapitalDelta]3 - 4*H12^2*H23*V1*V2*V3^2*\[CapitalDelta]3 - 
+            2*H12^2*H31*V2^2*V3^2*\[CapitalDelta]3)/(2*V3)))/V3, 
+     f[2, 4, 4, 4, 5, 5] -> (H12*H31^2*V2^3)/8 - 
+       (H31^2*(H12*H23*V2^2 + H12*V2^3*V3))/V3 + 
+       (2*H12*H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+       (H31*(-2*H31*(H12*H23*V2^2 + H12*V2^3*V3) - 
+          2*(H12*H23^2*V1*V2 + H12^2*H23*V2*V3 + 4*H12*H23*V1*V2^2*V3 + 
+            H12*H31*V2^3*V3 + 2*H12^2*V2^2*V3^2 + 4*H12*V1*V2^3*V3^2) + 
+          (4*V2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+             3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+             2*H12*V1*V2^2*V3^3))/V3))/(2*V3) + 
+       (2*H12*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2 + 
+       (H12*(-1/8*(H31^2*V2^3*V3) + (-48*H12*H23^2*H31 - 224*H12*H23*H31*V2*
+             V3 + 48*H23*H31*V1*V2^2*V3 + 51*H31^2*V2^3*V3 - 
+            160*H12*H31*V2^2*V3^2 + 96*H31*V1*V2^3*V3^2)/24 - 
+          (2*H31*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*
+                H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (2*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2))/(2*V3) + 
+       (H31^2*(-19*H12*V2^3 + 4*H12*V2^3*\[CapitalDelta]2 - 
+          4*H12*V2^3*\[CapitalDelta]3))/4 - 
+       (H31*V2*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/(2*V3) - 
+       (H31*(H12^2*H23*V2 + 12*H12*H23*V1*V2^2 + 30*H12*H31*V2^3 + 
+          8*H12^2*V2^2*V3 + 24*H12*V1*V2^3*V3 - 4*H12*H23*V1*V2^2*
+           \[CapitalDelta]2 - 4*H12*H31*V2^3*\[CapitalDelta]2 - 
+          4*H12^2*V2^2*V3*\[CapitalDelta]2 - 8*H12*V1*V2^3*V3*
+           \[CapitalDelta]2 + 4*H12*H23*V1*V2^2*\[CapitalDelta]3 + 
+          4*H12*H31*V2^3*\[CapitalDelta]3 + 4*H12^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H12*V1*V2^3*V3*\[CapitalDelta]3))/2 - 
+       (-24*H12^2*H23^2*H31 - 24*H12*H23^2*H31*V1*V2 - 264*H12*H23*H31^2*
+          V2^2 - 36*H12^2*H23^2*V1*V3 + 532*H12^2*H23*H31*V2*V3 - 
+         48*H12*H23*H31*V1*V2^2*V3 - 567*H12*H31^2*V2^3*V3 - 
+         36*H12^3*H23*V3^2 - 144*H12^2*H23*V1*V2*V3^2 + 1256*H12^2*H31*V2^2*
+          V3^2 - 72*H12^3*V2*V3^3 - 144*H12^2*V1*V2^2*V3^3 + 
+         24*H12*H23^2*H31*V1*V2*\[CapitalDelta]2 + 24*H12*H23*H31^2*V2^2*
+          \[CapitalDelta]2 + 24*H12^2*H23*H31*V2*V3*\[CapitalDelta]2 + 
+         96*H12*H23*H31*V1*V2^2*V3*\[CapitalDelta]2 + 72*H12*H31^2*V2^3*V3*
+          \[CapitalDelta]2 + 48*H12^2*H31*V2^2*V3^2*\[CapitalDelta]2 + 
+         96*H12*H31*V1*V2^3*V3^2*\[CapitalDelta]2 - 24*H12*H23^2*H31*V1*V2*
+          \[CapitalDelta]3 - 24*H12*H23*H31^2*V2^2*\[CapitalDelta]3 - 
+         24*H12^2*H23*H31*V2*V3*\[CapitalDelta]3 - 96*H12*H23*H31*V1*V2^2*V3*
+          \[CapitalDelta]3 - 72*H12*H31^2*V2^3*V3*\[CapitalDelta]3 - 
+         48*H12^2*H31*V2^2*V3^2*\[CapitalDelta]3 - 96*H12*H31*V1*V2^3*V3^2*
+          \[CapitalDelta]3)/(24*V3) - 
+       (H12*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+          14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+          2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+          28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+          4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+           \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+           \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+           \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+          2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/2 - 
+       (H12*V2*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+          H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+          14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+          8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+          4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+           \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+          8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+           \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+           \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+          2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/(2*V3) - 
+       (V2*(-1/8*(H12*H31^2*V2^2*V3) - (2*H12*H31*V3*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2^2) - 
+          (2*H12*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*
+                V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*
+                V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*
+                H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 
+               192*V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2^2 - 
+          (H31*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+             36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+             44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+             2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+             2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+             H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+             14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+             8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+             4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+             2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+             4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+              \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+             8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+              \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+             8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+             2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/2 + 
+          (216*H12*H23*H31^2*V2 - 596*H12^2*H23*H31*V3 + 108*H12*H23^2*V1^2*
+             V3 - 168*H12*H23*H31*V1*V2*V3 - 57*H12*H31^2*V2^2*V3 + 
+            360*H12^2*H23*V1*V3^2 - 880*H12^2*H31*V2*V3^2 + 
+            432*H12*H23*V1^2*V2*V3^2 - 336*H12*H31*V1*V2^2*V3^2 + 
+            252*H12^3*V3^3 + 720*H12^2*V1*V2*V3^3 + 432*H12*V1^2*V2^2*V3^3 - 
+            24*H12*H23^2*H31*V1*\[CapitalDelta]2 - 24*H12*H23*H31^2*V2*
+             \[CapitalDelta]2 - 48*H12^2*H23*H31*V3*\[CapitalDelta]2 + 
+            24*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 24*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]2 + 48*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+            48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]2 + 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+            24*H12^3*V3^3*\[CapitalDelta]2 + 96*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]2 + 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+            24*H12*H23^2*H31*V1*\[CapitalDelta]3 + 24*H12*H23*H31^2*V2*
+             \[CapitalDelta]3 + 48*H12^2*H23*H31*V3*\[CapitalDelta]3 - 
+            24*H12*H23^2*V1^2*V3*\[CapitalDelta]3 - 24*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]3 - 48*H12^2*H23*V1*V3^2*\[CapitalDelta]3 - 
+            48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]3 - 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+            24*H12^3*V3^3*\[CapitalDelta]3 - 96*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]3 - 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]3)/24))/
+        V3, f[2, 4, 4, 5, 5, 5] -> -1/16*(H31^3*V2^3) - 
+       (H31^2*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+       (H31*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+       (H12*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/2 - (H31*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + 
+          H23^2*V1^2*V2 + 14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 
+          3*H12^2*H23*V3 + 2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 
+          4*H23*V1^2*V2^2*V3 + 28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 
+          8*H12*V1*V2^2*V3^2 + 4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]2 - 2*H23^2*V1^2*V2*\[CapitalDelta]2 - 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]2 - 2*H31^2*V2^3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]2 - 8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 
+          2*H12^2*V2*V3^2*\[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]2 - 8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]3 + 2*H23^2*V1^2*V2*
+           \[CapitalDelta]3 + 4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 
+          2*H31^2*V2^3*\[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*
+           \[CapitalDelta]3 + 4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 
+          8*H23*V1^2*V2^2*V3*\[CapitalDelta]3 + 8*H31*V1*V2^3*V3*
+           \[CapitalDelta]3 + 2*H12^2*V2*V3^2*\[CapitalDelta]3 + 
+          8*H12*V1*V2^2*V3^2*\[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*
+           \[CapitalDelta]3))/2 + (-1064*H12*H23*H31^2*V2 + 
+         168*H23^2*H31*V1^2*V2 + 672*H23*H31^2*V1*V2^2 + 507*H31^3*V2^3 + 
+         432*H12^2*H23*H31*V3 - 528*H12*H23*H31*V1*V2*V3 - 
+         1792*H12*H31^2*V2^2*V3 + 672*H23*H31*V1^2*V2^2*V3 + 
+         1344*H31^2*V1*V2^3*V3 - 264*H12^2*H31*V2*V3^2 - 
+         1056*H12*H31*V1*V2^2*V3^2 + 672*H31*V1^2*V2^3*V3^2 + 
+         48*H12*H23^2*H31*V1*\[CapitalDelta]2 + 96*H12*H23*H31^2*V2*
+          \[CapitalDelta]2 - 48*H23^2*H31*V1^2*V2*\[CapitalDelta]2 - 
+         96*H23*H31^2*V1*V2^2*\[CapitalDelta]2 - 48*H31^3*V2^3*
+          \[CapitalDelta]2 + 48*H12^2*H23*H31*V3*\[CapitalDelta]2 - 
+         96*H12*H31^2*V2^2*V3*\[CapitalDelta]2 - 192*H23*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]2 - 192*H31^2*V1*V2^3*V3*\[CapitalDelta]2 - 
+         48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 - 192*H12*H31*V1*V2^2*V3^2*
+          \[CapitalDelta]2 - 192*H31*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 
+         48*H12*H23^2*H31*V1*\[CapitalDelta]3 - 96*H12*H23*H31^2*V2*
+          \[CapitalDelta]3 + 48*H23^2*H31*V1^2*V2*\[CapitalDelta]3 + 
+         96*H23*H31^2*V1*V2^2*\[CapitalDelta]3 + 48*H31^3*V2^3*
+          \[CapitalDelta]3 - 48*H12^2*H23*H31*V3*\[CapitalDelta]3 + 
+         96*H12*H31^2*V2^2*V3*\[CapitalDelta]3 + 192*H23*H31*V1^2*V2^2*V3*
+          \[CapitalDelta]3 + 192*H31^2*V1*V2^3*V3*\[CapitalDelta]3 + 
+         48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 + 192*H12*H31*V1*V2^2*V3^2*
+          \[CapitalDelta]3 + 192*H31*V1^2*V2^3*V3^2*\[CapitalDelta]3)/48, 
+     f[2, 4, 5, 5, 5, 5] -> -1/2*(H31*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+          11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+          4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+           \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+          2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+          2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+       (H12*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+          2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+           \[CapitalDelta]3))/2 + (-11*H23^2*H31^2*V1 - 16*H23*H31^3*V2 + 
+         35*H12*H23*H31^2*V3 - 52*H23*H31^2*V1*V2*V3 - 34*H31^3*V2^2*V3 + 
+         17*H12*H31^2*V2*V3^2 - 60*H31^2*V1*V2^2*V3^2 + 
+         2*H23^2*H31^2*V1*\[CapitalDelta]2 + 2*H23*H31^3*V2*
+          \[CapitalDelta]2 + 4*H12*H23*H31^2*V3*\[CapitalDelta]2 + 
+         4*H23*H31^2*V1*V2*V3*\[CapitalDelta]2 + 2*H12*H31^2*V2*V3^2*
+          \[CapitalDelta]2 - 2*H23^2*H31^2*V1*\[CapitalDelta]3 - 
+         2*H23*H31^3*V2*\[CapitalDelta]3 - 4*H12*H23*H31^2*V3*
+          \[CapitalDelta]3 - 4*H23*H31^2*V1*V2*V3*\[CapitalDelta]3 - 
+         2*H12*H31^2*V2*V3^2*\[CapitalDelta]3)/2, f[2, 5, 5, 5, 5, 5] -> 
+      (H31^3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(2*V1^2*V3) - 
+       (5*H31*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2 + 
+       (H31^3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2) - (H31*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 
+          2*H23*H31^2*V3*\[CapitalDelta]2 + 2*H31^2*V2*V3^2*
+           \[CapitalDelta]2 - 2*H23*H31^2*V3*\[CapitalDelta]3 - 
+          2*H31^2*V2*V3^2*\[CapitalDelta]3))/2 - 
+       (H23*H31^5*V2 - 2*H12*H23*H31^4*V3 - 8*H23^2*H31^3*V1^2*V3 - 
+         3*H23*H31^4*V1*V2*V3 + H31^5*V2^2*V3 + 4*H12*H23*H31^3*V1*V3^2 - 
+         5*H12*H31^4*V2*V3^2 - 32*H23*H31^3*V1^2*V2*V3^2 - 
+         6*H31^4*V1*V2^2*V3^2 + 2*H12^2*H31^3*V3^3 + 8*H12*H31^3*V1*V2*V3^3 - 
+         23*H31^3*V1^2*V2^2*V3^3 - 2*H23*H31^3*V1^2*V2*V3^2*
+          \[CapitalDelta]2 - 2*H31^3*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+         2*H23*H31^3*V1^2*V2*V3^2*\[CapitalDelta]3 + 2*H31^3*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3)/(2*V1^2*V2*V3), f[3, 3, 3, 3, 3, 3] -> 
+      (-11*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^6)/(2*V1^4*V2^2) - 
+       (11*V3^5*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V1^4*V2) - (11*(H12*H31*V2*V3^5 + H31*V1*V2^2*V3^5 - H12^2*V3^6 - 
+          H12*V1*V2*V3^6))/(2*V1^4*V2^2), f[3, 3, 3, 3, 3, 4] -> 
+      (7*H12*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^5)/(6*V1^4*V2^2) + 
+       (7*H12*V3^4*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (6*V1^4*V2) + (7*(H12^2*H31*V2*V3^4 + H12*H31*V1*V2^2*V3^4 - 
+          H12^3*V3^5 - H12^2*V1*V2*V3^5))/(6*V1^4*V2^2), 
+     f[3, 3, 3, 3, 3, 5] -> (-26*H31*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^5)/
+        (V1^4*V2^2) - (26*H31*V3^4*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - 
+          V1^2*V2*V3))/(V1^4*V2) - (31*V3^5*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^3*V2^2) - 
+       (31*V3^4*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(6*V1^3*V2) - 
+       (156*H12*H31^2*V2*V3^4 - 31*H23*H31*V1^2*V2*V3^4 + 
+         156*H31^2*V1*V2^2*V3^4 - 156*H12^2*H31*V3^5 + 62*H12*H23*V1^2*V3^5 - 
+         218*H12*H31*V1*V2*V3^5 + 31*H23*V1^3*V2*V3^5 - 
+         93*H31*V1^2*V2^2*V3^5 + 62*H12^2*V1*V3^6 + 155*H12*V1^2*V2*V3^6 + 
+         62*V1^3*V2^2*V3^6)/(6*V1^4*V2^2), f[3, 3, 3, 3, 4, 4] -> 0, 
+     f[3, 3, 3, 3, 4, 5] -> 0, f[3, 3, 3, 3, 5, 5] -> 
+      (-187*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^4)/(4*V1^4*V2^2) - 
+       (187*H31^2*V3^3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (4*V1^4*V2) - (48*H31*V3^4*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^3*V2^2) - 
+       (5*V3^3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(2*V1^2*V2) - 
+       (24*H31*V3^3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V1^3*V2) - 
+       (5*V3^4*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2^2) - (187*H12*H31^3*V2*V3^3 - 106*H23*H31^2*V1^2*V2*V3^3 + 
+         187*H31^3*V1*V2^2*V3^3 - 187*H12^2*H31^2*V3^4 + 
+         212*H12*H23*H31*V1^2*V3^4 - 20*H23^2*V1^4*V3^4 - 
+         379*H12*H31^2*V1*V2*V3^4 + 126*H23*H31*V1^3*V2*V3^4 - 
+         298*H31^2*V1^2*V2^2*V3^4 + 192*H12^2*H31*V1*V3^5 - 
+         40*H12*H23*V1^3*V3^5 + 530*H12*H31*V1^2*V2*V3^5 - 
+         80*H23*V1^4*V2*V3^5 + 252*H31*V1^3*V2^2*V3^5 - 20*H12^2*V1^2*V3^6 - 
+         80*H12*V1^3*V2*V3^6 - 80*V1^4*V2^2*V3^6)/(4*V1^4*V2^2), 
+     f[3, 3, 3, 4, 4, 4] -> 0, f[3, 3, 3, 4, 4, 5] -> 0, 
+     f[3, 3, 3, 4, 5, 5] -> (-20*H12*H31^2*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*
+         V3^3)/(3*V1^4*V2^2) - (20*H12*H31^2*V3^2*(-(H12*H31) - H31*V1*V2 - 
+          H12*V1*V3 - V1^2*V2*V3))/(3*V1^4*V2) - 
+       (28*H12*H31*V3^3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^3*V2^2) - 
+       (H12*V3^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(V1^2*V2) - 
+       (14*H12*H31*V3^2*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^3*V2) - 
+       (2*H12*V3^3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2^2) - (20*H12^2*H31^3*V2*V3^2 - 17*H12*H23*H31^2*V1^2*V2*
+          V3^2 + 20*H12*H31^3*V1*V2^2*V3^2 - 20*H12^3*H31^2*V3^3 + 
+         34*H12^2*H23*H31*V1^2*V3^3 - 6*H12*H23^2*V1^4*V3^3 - 
+         48*H12^2*H31^2*V1*V2*V3^3 + 23*H12*H23*H31*V1^3*V2*V3^3 - 
+         45*H12*H31^2*V1^2*V2^2*V3^3 + 28*H12^3*H31*V1*V3^4 - 
+         12*H12^2*H23*V1^3*V3^4 + 85*H12^2*H31*V1^2*V2*V3^4 - 
+         24*H12*H23*V1^4*V2*V3^4 + 46*H12*H31*V1^3*V2^2*V3^4 - 
+         6*H12^3*V1^2*V3^5 - 24*H12^2*V1^3*V2*V3^5 - 24*H12*V1^4*V2^2*V3^5)/
+        (3*V1^4*V2^2), f[3, 3, 3, 5, 5, 5] -> 
+      (-77*H31^3*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*V3^3)/(2*V1^4*V2^2) - 
+       (77*H31^3*V3^2*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (2*V1^4*V2) - (82*H31^2*V3^3*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^3*V2^2) - 
+       (11*H31*V3^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(V1^2*V2) - 
+       (41*H31^2*V3^2*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V1^3*V2) - 
+       (22*H31*V3^3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2^2) - (77*H12*H31^4*V2*V3^2 - 104*H23*H31^3*V1^2*V2*V3^2 + 
+         77*H31^4*V1*V2^2*V3^2 - 77*H12^2*H31^3*V3^3 + 208*H12*H23*H31^2*V1^2*
+          V3^3 - 44*H23^2*H31*V1^4*V3^3 - 241*H12*H31^3*V1*V2*V3^3 + 
+         148*H23*H31^2*V1^3*V2*V3^3 - 268*H31^3*V1^2*V2^2*V3^3 + 
+         164*H12^2*H31^2*V1*V3^4 - 88*H12*H23*H31*V1^3*V3^4 + 
+         520*H12*H31^2*V1^2*V2*V3^4 - 176*H23*H31*V1^4*V2*V3^4 + 
+         296*H31^2*V1^3*V2^2*V3^4 - 44*H12^2*H31*V1^2*V3^5 - 
+         176*H12*H31*V1^3*V2*V3^5 - 176*H31*V1^4*V2^2*V3^5)/(2*V1^4*V2^2), 
+     f[3, 3, 4, 4, 4, 4] -> H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+       H12^2*V2^2*V3^2, f[3, 3, 4, 4, 4, 5] -> 
+      -2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 
+        3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 
+        2*H12*V1*V2^2*V3^3), f[3, 3, 4, 4, 5, 5] -> -1/16*(H31^2*V2^2*V3^2) - 
+       (H12^2*V3^4)/16 - (96*H12*H23^2*H31*V3 + 448*H12*H23*H31*V2*V3^2 - 
+         48*H23*H31*V1*V2^2*V3^2 - 51*H31^2*V2^3*V3^2 - 
+         48*H12*H23*V1*V2*V3^3 + 320*H12*H31*V2^2*V3^3 - 
+         96*H31*V1*V2^3*V3^3 - 51*H12^2*V2*V3^4 - 96*H12*V1*V2^2*V3^4)/
+        (48*V2) - (H31*V3^2*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 
+            12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/
+        (3*V2^2) - (H12*((-3*H12*V3^4)/4 + (-8*H23*H31*V3^2 + 
+            12*H23*V1*V3^3 + 8*H31*V2*V3^3 + 15*H12*V3^4 + 24*V1*V2*V3^4)/4))/
+        3 - (V3^2*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2^2 - 
+       (V3*(-1/8*(H31^2*V2^3*V3) + (-48*H12*H23^2*H31 - 224*H12*H23*H31*V2*
+             V3 + 48*H23*H31*V1*V2^2*V3 + 51*H31^2*V2^3*V3 - 
+            160*H12*H31*V2^2*V3^2 + 96*H31*V1*V2^3*V3^2)/24 - 
+          (2*H31*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*
+                H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (2*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2))/V2, 
+     f[3, 3, 4, 5, 5, 5] -> (-49*H12*H31^3*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*
+         V3^2)/(6*V1^4*V2^2) - (9*H12*H31*V3^4)/8 - 
+       (49*H12*H31^3*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (6*V1^4*V2) - (56*H12*H31^2*V3^2*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^3*V2^2) - 
+       (14*H12*H31*V3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(3*V1^2*V2) - 
+       (28*H12*H31^2*V3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^3*V2) - 
+       (28*H12*H31*V3^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (3*V1^2*V2^2) + (2*V3^2*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + 
+          H12*H23*H31*V2*V3 + 3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + 
+          H12*H31*V2^2*V3^2 + 2*H31*V1*V2^3*V3^2))/V2^2 - 
+       (2*H12*V3*(H23*H31*V3^2 + H31*V2*V3^3))/V2 - 
+       (196*H12^2*H31^4*V2*V3 - 336*H12*H23*H31^3*V1^2*V2*V3 + 
+         196*H12*H31^4*V1*V2^2*V3 - 196*H12^3*H31^3*V3^2 + 
+         672*H12^2*H23*H31^2*V1^2*V3^2 - 224*H12*H23^2*H31*V1^4*V3^2 - 
+         644*H12^2*H31^3*V1*V2*V3^2 + 560*H12*H23*H31^2*V1^3*V2*V3^2 - 
+         784*H12*H31^3*V1^2*V2^2*V3^2 + 16*H23*H31^2*V1^4*V2^2*V3^2 + 
+         448*H12^3*H31^2*V1*V3^3 - 448*H12^2*H23*H31*V1^3*V3^3 + 
+         1680*H12^2*H31^2*V1^2*V2*V3^3 - 944*H12*H23*H31*V1^4*V2*V3^3 + 
+         1120*H12*H31^2*V1^3*V2^2*V3^3 - 24*H23*H31*V1^5*V2^2*V3^3 - 
+         16*H31^2*V1^4*V2^3*V3^3 - 224*H12^3*H31*V1^2*V3^4 - 
+         896*H12^2*H31*V1^3*V2*V3^4 - 995*H12*H31*V1^4*V2^2*V3^4 - 
+         48*H31*V1^5*V2^3*V3^4)/(24*V1^4*V2^2) - 
+       (V3*(-2*H12*(H23*H31*V3^2 + H31*V2*V3^3) + 
+          2*(H23^2*H31*V1*V3 + H23*H31^2*V2*V3 + 2*H12*H23*H31*V3^2 + 
+            2*H23*H31*V1*V2*V3^2 + H12*H31*V2*V3^3)))/V2 - 
+       (H31*((-3*H12*V3^4)/4 + (-8*H23*H31*V3^2 + 12*H23*V1*V3^3 + 
+            8*H31*V2*V3^3 + 15*H12*V3^4 + 24*V1*V2*V3^4)/4))/3, 
+     f[3, 3, 5, 5, 5, 5] -> (-38*H31^4*(H12^2 + 2*H12*V1*V2 + V1^2*V2^2)*
+         V3^2)/(3*V1^4*V2^2) - (17*H31^2*V3^4)/16 - 
+       (38*H31^4*V3*(-(H12*H31) - H31*V1*V2 - H12*V1*V3 - V1^2*V2*V3))/
+        (3*V1^4*V2) - (176*H31^3*V3^2*(-(H12*H23*V1) - H23*V1^2*V2 - 
+          H12^2*V3 - 3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(3*V1^3*V2^2) - 
+       (50*H31^2*V3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(3*V1^2*V2) - 
+       (88*H31^3*V3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(3*V1^3*V2) + 
+       (V3^2*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 - 
+       (100*H31^2*V3^2*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (3*V1^2*V2^2) - (608*H12*H31^5*V2*V3 - 2208*H23*H31^4*V1^2*V2*V3 + 
+         608*H31^5*V1*V2^2*V3 - 608*H12^2*H31^4*V3^2 + 4416*H12*H23*H31^3*
+          V1^2*V3^2 - 1552*H23^2*H31^2*V1^4*V3^2 - 3424*H12*H31^4*V1*V2*
+          V3^2 + 3808*H23*H31^3*V1^3*V2*V3^2 - 5024*H31^4*V1^2*V2^2*V3^2 + 
+         2816*H12^2*H31^3*V1*V3^3 - 3200*H12*H23*H31^2*V1^3*V3^3 + 
+         11040*H12*H31^3*V1^2*V2*V3^3 - 6304*H23*H31^2*V1^4*V2*V3^3 + 
+         7616*H31^3*V1^3*V2^2*V3^3 - 1600*H12^2*H31^2*V1^2*V3^4 - 
+         6400*H12*H31^2*V1^3*V2*V3^4 - 6451*H31^2*V1^4*V2^2*V3^4)/
+        (48*V1^4*V2^2), f[3, 4, 4, 4, 4, 4] -> 
+      (-6*H12*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/V3 - 
+       (H12*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/2 - (-12*H12^3*H23^2 - 44*H12^3*H23*V2*V3 - 
+         33*H12^3*V2^2*V3^2 + 2*H12^3*H23*V2*V3*\[CapitalDelta]2 + 
+         2*H12^3*V2^2*V3^2*\[CapitalDelta]2 - 2*H12^3*H23*V2*V3*
+          \[CapitalDelta]3 - 2*H12^3*V2^2*V3^2*\[CapitalDelta]3)/(2*V3), 
+     f[3, 4, 4, 4, 4, 5] -> (-2*H31*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+          H12^2*V2^2*V3^2))/V3 + (8*H12*(H12*H23^2*V1*V3 + 
+          H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + 
+          H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3 - 
+       (H12*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+       (H31*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/2 - (-4*H12^2*H23^2*H31 + 
+         27*H12^2*H23^2*V1*V3 - 27*H12^2*H23*H31*V2*V3 + 32*H12^3*H23*V3^2 + 
+         100*H12^2*H23*V1*V2*V3^2 - 5*H12^2*H31*V2^2*V3^2 + 
+         50*H12^3*V2*V3^3 + 92*H12^2*V1*V2^2*V3^3 + 2*H12^2*H23^2*V1*V3*
+          \[CapitalDelta]2 + 4*H12^2*H23*H31*V2*V3*\[CapitalDelta]2 + 
+         2*H12^3*H23*V3^2*\[CapitalDelta]2 + 4*H12^2*H23*V1*V2*V3^2*
+          \[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3^2*\[CapitalDelta]2 - 
+         2*H12^2*H23^2*V1*V3*\[CapitalDelta]3 - 4*H12^2*H23*H31*V2*V3*
+          \[CapitalDelta]3 - 2*H12^3*H23*V3^2*\[CapitalDelta]3 - 
+         4*H12^2*H23*V1*V2*V3^2*\[CapitalDelta]3 - 2*H12^2*H31*V2^2*V3^2*
+          \[CapitalDelta]3)/(2*V3), f[3, 4, 4, 4, 5, 5] -> 
+      -1/8*(H12*H31^2*V2^2*V3) - (2*H12*H31*V3*((-3*H31*V2^4)/4 + 
+          (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*V3 + 
+            24*V1*V2^4*V3)/4))/(3*V2^2) - 
+       (2*H12*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2^2 - 
+       (H31*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+       (H12*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+          H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+          14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+          8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+          4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+           \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+          8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+           \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+           \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+          2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/2 + 
+       (216*H12*H23*H31^2*V2 - 596*H12^2*H23*H31*V3 + 108*H12*H23^2*V1^2*V3 - 
+         168*H12*H23*H31*V1*V2*V3 - 57*H12*H31^2*V2^2*V3 + 
+         360*H12^2*H23*V1*V3^2 - 880*H12^2*H31*V2*V3^2 + 
+         432*H12*H23*V1^2*V2*V3^2 - 336*H12*H31*V1*V2^2*V3^2 + 
+         252*H12^3*V3^3 + 720*H12^2*V1*V2*V3^3 + 432*H12*V1^2*V2^2*V3^3 - 
+         24*H12*H23^2*H31*V1*\[CapitalDelta]2 - 24*H12*H23*H31^2*V2*
+          \[CapitalDelta]2 - 48*H12^2*H23*H31*V3*\[CapitalDelta]2 + 
+         24*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 24*H12*H31^2*V2^2*V3*
+          \[CapitalDelta]2 + 48*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+         48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]2 + 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+         24*H12^3*V3^3*\[CapitalDelta]2 + 96*H12^2*V1*V2*V3^3*
+          \[CapitalDelta]2 + 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+         24*H12*H23^2*H31*V1*\[CapitalDelta]3 + 24*H12*H23*H31^2*V2*
+          \[CapitalDelta]3 + 48*H12^2*H23*H31*V3*\[CapitalDelta]3 - 
+         24*H12*H23^2*V1^2*V3*\[CapitalDelta]3 - 24*H12*H31^2*V2^2*V3*
+          \[CapitalDelta]3 - 48*H12^2*H23*V1*V3^2*\[CapitalDelta]3 - 
+         48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3^2*
+          \[CapitalDelta]3 - 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+         24*H12^3*V3^3*\[CapitalDelta]3 - 96*H12^2*V1*V2*V3^3*
+          \[CapitalDelta]3 - 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]3)/24, 
+     f[3, 4, 4, 5, 5, 5] -> -1/8*(H31^3*V2^2*V3) - 
+       (H12^2*(H23*H31*V3^2 + H31*V2*V3^3))/V2 - 
+       (2*H31^2*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2^2) - 
+       (H12*(-2*H12*(H23*H31*V3^2 + H31*V2*V3^3) + 
+          2*(H23^2*H31*V1*V3 + H23*H31^2*V2*V3 + 2*H12*H23*H31*V3^2 + 
+            2*H23*H31*V1*V2*V3^2 + H12*H31*V2*V3^3)))/(2*V2) - 
+       (2*H31*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2^2 - 
+       (3*H31*(-1/8*(H31^2*V2^3*V3) + (-48*H12*H23^2*H31 - 224*H12*H23*H31*V2*
+             V3 + 48*H23*H31*V1*V2^2*V3 + 51*H31^2*V2^3*V3 - 
+            160*H12*H31*V2^2*V3^2 + 96*H31*V1*V2^3*V3^2)/24 - 
+          (2*H31*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*
+                H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (2*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2))/(2*V2) - 
+       (H12*V3*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H31*V3*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+          14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+          2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+          28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+          4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+           \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+           \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+           \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+          2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/(2*V2) - 
+       (H12^2*(19*H31*V3^3 + 4*H31*V3^3*\[CapitalDelta]2 - 
+          4*H31*V3^3*\[CapitalDelta]3))/4 - 
+       (H12*(H23*H31^2*V3 + 12*H23*H31*V1*V3^2 + 8*H31^2*V2*V3^2 + 
+          30*H12*H31*V3^3 + 24*H31*V1*V2*V3^3 + 4*H23*H31*V1*V3^2*
+           \[CapitalDelta]2 + 4*H31^2*V2*V3^2*\[CapitalDelta]2 + 
+          4*H12*H31*V3^3*\[CapitalDelta]2 + 8*H31*V1*V2*V3^3*
+           \[CapitalDelta]2 - 4*H23*H31*V1*V3^2*\[CapitalDelta]3 - 
+          4*H31^2*V2*V3^2*\[CapitalDelta]3 - 4*H12*H31*V3^3*
+           \[CapitalDelta]3 - 8*H31*V1*V2*V3^3*\[CapitalDelta]3))/2 - 
+       (72*H12*H23^2*H31^2 - 36*H23^2*H31^2*V1*V2 - 36*H23*H31^3*V2^2 - 
+         24*H12*H23^2*H31*V1*V3 + 980*H12*H23*H31^2*V2*V3 - 
+         192*H23*H31^2*V1*V2^2*V3 - 123*H31^3*V2^3*V3 - 
+         264*H12^2*H23*H31*V3^2 - 96*H12*H23*H31*V1*V2*V3^2 + 
+         1576*H12*H31^2*V2^2*V3^2 - 240*H31^2*V1*V2^3*V3^2 - 
+         618*H12^2*H31*V2*V3^3 - 96*H12*H31*V1*V2^2*V3^3 - 
+         24*H12*H23^2*H31*V1*V3*\[CapitalDelta]2 - 24*H12*H23*H31^2*V2*V3*
+          \[CapitalDelta]2 - 24*H12^2*H23*H31*V3^2*\[CapitalDelta]2 - 
+         96*H12*H23*H31*V1*V2*V3^2*\[CapitalDelta]2 - 48*H12*H31^2*V2^2*V3^2*
+          \[CapitalDelta]2 - 72*H12^2*H31*V2*V3^3*\[CapitalDelta]2 - 
+         96*H12*H31*V1*V2^2*V3^3*\[CapitalDelta]2 + 24*H12*H23^2*H31*V1*V3*
+          \[CapitalDelta]3 + 24*H12*H23*H31^2*V2*V3*\[CapitalDelta]3 + 
+         24*H12^2*H23*H31*V3^2*\[CapitalDelta]3 + 96*H12*H23*H31*V1*V2*V3^2*
+          \[CapitalDelta]3 + 48*H12*H31^2*V2^2*V3^2*\[CapitalDelta]3 + 
+         72*H12^2*H31*V2*V3^3*\[CapitalDelta]3 + 96*H12*H31*V1*V2^2*V3^3*
+          \[CapitalDelta]3)/(24*V2) - (H31*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 
+          19*H12*H23*H31*V3 + H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 
+          5*H31^2*V2^2*V3 + 14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 
+          4*H23*V1^2*V2*V3^2 - 8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 
+          28*H12*V1*V2*V3^3 + 4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 2*H23^2*V1^2*V3*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V2*V3*\[CapitalDelta]2 + 2*H31^2*V2^2*V3*
+           \[CapitalDelta]2 + 4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 
+          4*H12*H31*V2*V3^2*\[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*
+           \[CapitalDelta]2 + 8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+          2*H12^2*V3^3*\[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+           \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+          2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/2 - 
+       (V3*(-1/16*(H31^3*V2^3) - (H31^2*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (H31*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+          (H12*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+             36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+             44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+             2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+              \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+             2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*
+              \[CapitalDelta]3 - 2*H12*H23*H31*V3*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H31*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+             14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+             2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+             28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+             4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+              \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+             2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/2 + 
+          (-1064*H12*H23*H31^2*V2 + 168*H23^2*H31*V1^2*V2 + 
+            672*H23*H31^2*V1*V2^2 + 507*H31^3*V2^3 + 432*H12^2*H23*H31*V3 - 
+            528*H12*H23*H31*V1*V2*V3 - 1792*H12*H31^2*V2^2*V3 + 
+            672*H23*H31*V1^2*V2^2*V3 + 1344*H31^2*V1*V2^3*V3 - 
+            264*H12^2*H31*V2*V3^2 - 1056*H12*H31*V1*V2^2*V3^2 + 
+            672*H31*V1^2*V2^3*V3^2 + 48*H12*H23^2*H31*V1*\[CapitalDelta]2 + 
+            96*H12*H23*H31^2*V2*\[CapitalDelta]2 - 48*H23^2*H31*V1^2*V2*
+             \[CapitalDelta]2 - 96*H23*H31^2*V1*V2^2*\[CapitalDelta]2 - 
+            48*H31^3*V2^3*\[CapitalDelta]2 + 48*H12^2*H23*H31*V3*
+             \[CapitalDelta]2 - 96*H12*H31^2*V2^2*V3*\[CapitalDelta]2 - 
+            192*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]2 - 192*H31^2*V1*V2^3*V3*
+             \[CapitalDelta]2 - 48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 - 
+            192*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 - 192*H31*V1^2*V2^3*
+             V3^2*\[CapitalDelta]2 - 48*H12*H23^2*H31*V1*\[CapitalDelta]3 - 
+            96*H12*H23*H31^2*V2*\[CapitalDelta]3 + 48*H23^2*H31*V1^2*V2*
+             \[CapitalDelta]3 + 96*H23*H31^2*V1*V2^2*\[CapitalDelta]3 + 
+            48*H31^3*V2^3*\[CapitalDelta]3 - 48*H12^2*H23*H31*V3*
+             \[CapitalDelta]3 + 96*H12*H31^2*V2^2*V3*\[CapitalDelta]3 + 
+            192*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]3 + 192*H31^2*V1*V2^3*V3*
+             \[CapitalDelta]3 + 48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 + 
+            192*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]3 + 192*H31*V1^2*V2^3*
+             V3^2*\[CapitalDelta]3)/48))/V2, f[3, 4, 5, 5, 5, 5] -> 
+      (-6*H12*H31^3*V3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^3*V2^2) - 
+       (9*H12*H31^2*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(2*V1^2*V2) - 
+       (3*H12*H31^3*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 
+          3*H31*V1*V2*V3 + H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(V1^3*V2) + 
+       (H12*V3*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 - 
+       (9*H12*H31^2*V3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2^2) + (8*H31*V3*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + 
+          H12*H23*H31*V2*V3 + 3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + 
+          H12*H31*V2^2*V3^2 + 2*H31*V1*V2^3*V3^2))/V2^2 - 
+       (5*H12*H31*(H23*H31*V3^2 + H31*V2*V3^3))/V2 - 
+       (5*H31*(-2*H12*(H23*H31*V3^2 + H31*V2*V3^3) + 
+          2*(H23^2*H31*V1*V3 + H23*H31^2*V2*V3 + 2*H12*H23*H31*V3^2 + 
+            2*H23*H31*V1*V2*V3^2 + H12*H31*V2*V3^3)))/(2*V2) - 
+       (H31*V3*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H12*V3*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+          2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+           \[CapitalDelta]3))/(2*V2) - 
+       (H12*H31*(19*H31*V3^3 + 4*H31*V3^3*\[CapitalDelta]2 - 
+          4*H31*V3^3*\[CapitalDelta]3))/2 - 
+       (H12*(17*H31^2*V3^3 + 2*H31^2*V3^3*\[CapitalDelta]2 - 
+          2*H31^2*V3^3*\[CapitalDelta]3))/2 - 
+       (H31*(H23*H31^2*V3 + 12*H23*H31*V1*V3^2 + 8*H31^2*V2*V3^2 + 
+          30*H12*H31*V3^3 + 24*H31*V1*V2*V3^3 + 4*H23*H31*V1*V3^2*
+           \[CapitalDelta]2 + 4*H31^2*V2*V3^2*\[CapitalDelta]2 + 
+          4*H12*H31*V3^3*\[CapitalDelta]2 + 8*H31*V1*V2*V3^3*
+           \[CapitalDelta]2 - 4*H23*H31*V1*V3^2*\[CapitalDelta]3 - 
+          4*H31^2*V2*V3^2*\[CapitalDelta]3 - 4*H12*H31*V3^3*
+           \[CapitalDelta]3 - 8*H31*V1*V2*V3^3*\[CapitalDelta]3))/2 - 
+       (-15*H12*H23*H31^4*V1*V2 + 30*H12^2*H23*H31^3*V1*V3 - 
+         16*H12*H23^2*H31^2*V1^3*V3 - 12*H12^2*H31^4*V2*V3 + 
+         33*H12*H23*H31^3*V1^2*V2*V3 + 17*H23^2*H31^2*V1^4*V2*V3 - 
+         27*H12*H31^4*V1*V2^2*V3 + 21*H23*H31^3*V1^3*V2^2*V3 + 
+         12*H12^3*H31^3*V3^2 - 36*H12^2*H23*H31^2*V1^2*V3^2 + 
+         75*H12^2*H31^3*V1*V2*V3^2 - 107*H12*H23*H31^2*V1^3*V2*V3^2 + 
+         66*H12*H31^3*V1^2*V2^2*V3^2 + 68*H23*H31^2*V1^4*V2^2*V3^2 + 
+         42*H31^3*V1^3*V2^3*V3^2 - 18*H12^3*H31^2*V1*V3^3 - 
+         72*H12^2*H31^2*V1^2*V2*V3^3 - 159*H12*H31^2*V1^3*V2^2*V3^3 + 
+         68*H31^2*V1^4*V2^3*V3^3 - 2*H23^2*H31^2*V1^4*V2*V3*
+          \[CapitalDelta]2 - 2*H23*H31^3*V1^3*V2^2*V3*\[CapitalDelta]2 - 
+         4*H12*H23*H31^2*V1^3*V2*V3^2*\[CapitalDelta]2 - 
+         8*H23*H31^2*V1^4*V2^2*V3^2*\[CapitalDelta]2 - 4*H31^3*V1^3*V2^3*V3^2*
+          \[CapitalDelta]2 - 12*H12*H31^2*V1^3*V2^2*V3^3*\[CapitalDelta]2 - 
+         8*H31^2*V1^4*V2^3*V3^3*\[CapitalDelta]2 + 2*H23^2*H31^2*V1^4*V2*V3*
+          \[CapitalDelta]3 + 2*H23*H31^3*V1^3*V2^2*V3*\[CapitalDelta]3 + 
+         4*H12*H23*H31^2*V1^3*V2*V3^2*\[CapitalDelta]3 + 
+         8*H23*H31^2*V1^4*V2^2*V3^2*\[CapitalDelta]3 + 4*H31^3*V1^3*V2^3*V3^2*
+          \[CapitalDelta]3 + 12*H12*H31^2*V1^3*V2^2*V3^3*\[CapitalDelta]3 + 
+         8*H31^2*V1^4*V2^3*V3^3*\[CapitalDelta]3)/(2*V1^3*V2^2) - 
+       (V3*(-1/2*(H31*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*
+              V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+             4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+              \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+             2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+              \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+             2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+              \[CapitalDelta]3))/2 + (-11*H23^2*H31^2*V1 - 16*H23*H31^3*V2 + 
+            35*H12*H23*H31^2*V3 - 52*H23*H31^2*V1*V2*V3 - 34*H31^3*V2^2*V3 + 
+            17*H12*H31^2*V2*V3^2 - 60*H31^2*V1*V2^2*V3^2 + 2*H23^2*H31^2*V1*
+             \[CapitalDelta]2 + 2*H23*H31^3*V2*\[CapitalDelta]2 + 
+            4*H12*H23*H31^2*V3*\[CapitalDelta]2 + 4*H23*H31^2*V1*V2*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+            2*H23^2*H31^2*V1*\[CapitalDelta]3 - 2*H23*H31^3*V2*
+             \[CapitalDelta]3 - 4*H12*H23*H31^2*V3*\[CapitalDelta]3 - 
+            4*H23*H31^2*V1*V2*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3^2*
+             \[CapitalDelta]3)/2))/V2, f[3, 5, 5, 5, 5, 5] -> 
+      (-11*H31^4*V3*(-(H12*H23*V1) - H23*V1^2*V2 - H12^2*V3 - 
+          3*H12*V1*V2*V3 - 2*V1^2*V2^2*V3))/(V1^3*V2^2) - 
+       (9*H31^3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(V1^2*V2) - 
+       (11*H31^4*(H23*H31*V1 + 2*H12*H31*V3 + H23*V1^2*V3 + 3*H31*V1*V2*V3 + 
+          H12*V1*V3^2 + 2*V1^2*V2*V3^2))/(2*V1^3*V2) + 
+       (6*H31*V3*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 - 
+       (18*H31^3*V3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2^2) - (H31^2*(19*H31*V3^3 + 4*H31*V3^3*\[CapitalDelta]2 - 
+          4*H31*V3^3*\[CapitalDelta]3))/4 - 
+       (H31*(17*H31^2*V3^3 + 2*H31^2*V3^3*\[CapitalDelta]2 - 
+          2*H31^2*V3^3*\[CapitalDelta]3))/2 - 
+       (-58*H23*H31^5*V1*V2 + 116*H12*H23*H31^4*V1*V3 - 48*H23^2*H31^3*V1^3*
+          V3 - 44*H12*H31^5*V2*V3 + 130*H23*H31^4*V1^2*V2*V3 - 
+         102*H31^5*V1*V2^2*V3 + 44*H12^2*H31^4*V3^2 - 144*H12*H23*H31^3*V1^2*
+          V3^2 + 290*H12*H31^4*V1*V2*V3^2 - 240*H23*H31^3*V1^3*V2*V3^2 + 
+         260*H31^4*V1^2*V2^2*V3^2 - 72*H12^2*H31^3*V1*V3^3 - 
+         288*H12*H31^3*V1^2*V2*V3^3 - 325*H31^3*V1^3*V2^2*V3^3 - 
+         8*H31^3*V1^3*V2^2*V3^3*\[CapitalDelta]2 + 8*H31^3*V1^3*V2^2*V3^3*
+          \[CapitalDelta]3)/(4*V1^3*V2^2), f[4, 4, 4, 4, 4, 4] -> 
+      2*H12*(-7*H12^3*V2^2 + H12^3*V2^2*\[CapitalDelta]2 - 
+         H12^3*V2^2*\[CapitalDelta]3) - 
+       (H12^2*(207*H12^2*V2^2 - 64*H12^2*V2^2*\[CapitalDelta]2 + 
+          4*H12^2*V2^2*\[CapitalDelta]2^2 + 64*H12^2*V2^2*\[CapitalDelta]3 - 
+          8*H12^2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12^2*V2^2*\[CapitalDelta]3^2))/8 + 
+       (327*H12^4*V2^2 - 80*H12^4*V2^2*\[CapitalDelta]2 + 
+         4*H12^4*V2^2*\[CapitalDelta]2^2 + 80*H12^4*V2^2*\[CapitalDelta]3 - 
+         8*H12^4*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         4*H12^4*V2^2*\[CapitalDelta]3^2)/8, f[4, 4, 4, 4, 4, 5] -> 
+      (-12*H12*H31*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/
+        V3^2 + (12*H12^2*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + 
+          H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + 
+          H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3^2 + 
+       2*H31*(-7*H12^3*V2^2 + H12^3*V2^2*\[CapitalDelta]2 - 
+         H12^3*V2^2*\[CapitalDelta]3) - H12*(-(H12^3*H23) - 
+         19*H12^2*H23*V1*V2 + 38*H12^2*H31*V2^2 - 22*H12^3*V2*V3 - 
+         38*H12^2*V1*V2^2*V3 - 6*H12^2*H31*V2^2*\[CapitalDelta]2 + 
+         6*H12^2*H31*V2^2*\[CapitalDelta]3) - 
+       (2*H12^2*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/V3 - 
+       (4*H12*H31*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/V3 - (H12*H31*(207*H12^2*V2^2 - 
+          64*H12^2*V2^2*\[CapitalDelta]2 + 4*H12^2*V2^2*\[CapitalDelta]2^2 + 
+          64*H12^2*V2^2*\[CapitalDelta]3 - 8*H12^2*V2^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H12^2*V2^2*\[CapitalDelta]3^2))/4 - 
+       (H12^2*(-11*H12^2*H23 - 60*H12*H23*V1*V2 + 147*H12*H31*V2^2 - 
+          113*H12^2*V2*V3 - 120*H12*V1*V2^2*V3 - 4*H12^2*H23*
+           \[CapitalDelta]2 - 20*H12*H23*V1*V2*\[CapitalDelta]2 - 
+          56*H12*H31*V2^2*\[CapitalDelta]2 - 16*H12^2*V2*V3*
+           \[CapitalDelta]2 - 40*H12*V1*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]2^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]2^2 + 4*H12^2*V2*V3*\[CapitalDelta]2^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]2^2 + 4*H12^2*H23*
+           \[CapitalDelta]3 + 20*H12*H23*V1*V2*\[CapitalDelta]3 + 
+          56*H12*H31*V2^2*\[CapitalDelta]3 + 16*H12^2*V2*V3*
+           \[CapitalDelta]3 + 40*H12*V1*V2^2*V3*\[CapitalDelta]3 - 
+          8*H12*H23*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H12*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]3^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]3^2 + 4*H12^2*V2*V3*\[CapitalDelta]3^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]3^2))/4 - 
+       (-48*H12^3*H23^2*H31 + 136*H12^3*H23^2*V1*V3 - 488*H12^3*H23*H31*V2*
+          V3 + 191*H12^4*H23*V3^2 + 704*H12^3*H23*V1*V2*V3^2 - 
+         882*H12^3*H31*V2^2*V3^2 + 529*H12^4*V2*V3^3 + 864*H12^3*V1*V2^2*
+          V3^3 + 16*H12^3*H23^2*V1*V3*\[CapitalDelta]2 + 
+         48*H12^3*H23*H31*V2*V3*\[CapitalDelta]2 + 20*H12^4*H23*V3^2*
+          \[CapitalDelta]2 + 52*H12^3*H23*V1*V2*V3^2*\[CapitalDelta]2 + 
+         184*H12^3*H31*V2^2*V3^2*\[CapitalDelta]2 + 16*H12^4*V2*V3^3*
+          \[CapitalDelta]2 + 40*H12^3*V1*V2^2*V3^3*\[CapitalDelta]2 - 
+         4*H12^3*H23*V1*V2*V3^2*\[CapitalDelta]2^2 - 8*H12^3*H31*V2^2*V3^2*
+          \[CapitalDelta]2^2 - 4*H12^4*V2*V3^3*\[CapitalDelta]2^2 - 
+         8*H12^3*V1*V2^2*V3^3*\[CapitalDelta]2^2 - 16*H12^3*H23^2*V1*V3*
+          \[CapitalDelta]3 - 48*H12^3*H23*H31*V2*V3*\[CapitalDelta]3 - 
+         20*H12^4*H23*V3^2*\[CapitalDelta]3 - 52*H12^3*H23*V1*V2*V3^2*
+          \[CapitalDelta]3 - 184*H12^3*H31*V2^2*V3^2*\[CapitalDelta]3 - 
+         16*H12^4*V2*V3^3*\[CapitalDelta]3 - 40*H12^3*V1*V2^2*V3^3*
+          \[CapitalDelta]3 + 8*H12^3*H23*V1*V2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 16*H12^3*H31*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 8*H12^4*V2*V3^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 16*H12^3*V1*V2^2*V3^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 4*H12^3*H23*V1*V2*V3^2*\[CapitalDelta]3^2 - 
+         8*H12^3*H31*V2^2*V3^2*\[CapitalDelta]3^2 - 4*H12^4*V2*V3^3*
+          \[CapitalDelta]3^2 - 8*H12^3*V1*V2^2*V3^3*\[CapitalDelta]3^2)/
+        (4*V3^2) - (4*H31*((-6*H12*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+             H12^2*V2^2*V3^2))/V3 - (H12*(16*H12^2*H23*V2 + 
+             17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*\[CapitalDelta]2 - 
+             2*H12^2*V2^2*V3*\[CapitalDelta]2 + 2*H12^2*H23*V2*
+              \[CapitalDelta]3 + 2*H12^2*V2^2*V3*\[CapitalDelta]3))/2 - 
+          (-12*H12^3*H23^2 - 44*H12^3*H23*V2*V3 - 33*H12^3*V2^2*V3^2 + 
+            2*H12^3*H23*V2*V3*\[CapitalDelta]2 + 2*H12^3*V2^2*V3^2*
+             \[CapitalDelta]2 - 2*H12^3*H23*V2*V3*\[CapitalDelta]3 - 
+            2*H12^3*V2^2*V3^2*\[CapitalDelta]3)/(2*V3)))/V3 - 
+       (4*H12*((-2*H31*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/
+           V3 + (8*H12*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + 
+             H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + 
+             H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3 - 
+          (H12*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+             36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+             44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+             2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+             2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H31*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+              \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+              \[CapitalDelta]3))/2 - (-4*H12^2*H23^2*H31 + 27*H12^2*H23^2*V1*
+             V3 - 27*H12^2*H23*H31*V2*V3 + 32*H12^3*H23*V3^2 + 
+            100*H12^2*H23*V1*V2*V3^2 - 5*H12^2*H31*V2^2*V3^2 + 
+            50*H12^3*V2*V3^3 + 92*H12^2*V1*V2^2*V3^3 + 2*H12^2*H23^2*V1*V3*
+             \[CapitalDelta]2 + 4*H12^2*H23*H31*V2*V3*\[CapitalDelta]2 + 
+            2*H12^3*H23*V3^2*\[CapitalDelta]2 + 4*H12^2*H23*V1*V2*V3^2*
+             \[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3^2*\[CapitalDelta]2 - 
+            2*H12^2*H23^2*V1*V3*\[CapitalDelta]3 - 4*H12^2*H23*H31*V2*V3*
+             \[CapitalDelta]3 - 2*H12^3*H23*V3^2*\[CapitalDelta]3 - 
+            4*H12^2*H23*V1*V2*V3^2*\[CapitalDelta]3 - 2*H12^2*H31*V2^2*V3^2*
+             \[CapitalDelta]3)/(2*V3)))/V3, f[4, 4, 4, 4, 5, 5] -> 
+      (H12^2*H31^2*V2^2)/16 - (H31^2*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + 
+          H12^2*V2^2*V3^2))/V3^2 + (4*H12*H31*(H12*H23^2*V1*V3 + 
+          H12*H23*H31*V2*V3 + H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + 
+          H12*H31*V2^2*V3^2 + H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3^2 + 
+       (H12^2*H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2^2) + 
+       (H12^2*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2^2 + 
+       (H12^2*(-1/8*(H31^2*V2^3*V3) + (-48*H12*H23^2*H31 - 224*H12*H23*H31*V2*
+             V3 + 48*H23*H31*V1*V2^2*V3 + 51*H31^2*V2^3*V3 - 
+            160*H12*H31*V2^2*V3^2 + 96*H31*V1*V2^3*V3^2)/24 - 
+          (2*H31*V3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*
+                H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (2*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2))/(V2*V3) - 
+       H31*(-(H12^3*H23) - 19*H12^2*H23*V1*V2 + 38*H12^2*H31*V2^2 - 
+         22*H12^3*V2*V3 - 38*H12^2*V1*V2^2*V3 - 6*H12^2*H31*V2^2*
+          \[CapitalDelta]2 + 6*H12^2*H31*V2^2*\[CapitalDelta]3) - 
+       (2*H12*H31*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+          36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+          44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+          2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+           \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+          2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/V3 - 
+       (H31^2*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+           \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+          2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+           \[CapitalDelta]3))/V3 - H12*(-3*H12^2*H23*H31 + H12*H23^2*V1^2 + 
+         8*H12*H23*H31*V1*V2 + 34*H12*H31^2*V2^2 + 11*H12^2*H23*V1*V3 - 
+         66*H12^2*H31*V2*V3 + 4*H12*H23*V1^2*V2*V3 + 16*H12*H31*V1*V2^2*V3 + 
+         10*H12^3*V3^2 + 22*H12^2*V1*V2*V3^2 + 4*H12*V1^2*V2^2*V3^2 + 
+         2*H12*H23^2*V1^2*\[CapitalDelta]2 - 4*H12*H23*H31*V1*V2*
+          \[CapitalDelta]2 - 6*H12*H31^2*V2^2*\[CapitalDelta]2 + 
+         4*H12^2*H23*V1*V3*\[CapitalDelta]2 + 8*H12*H23*V1^2*V2*V3*
+          \[CapitalDelta]2 - 8*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 + 
+         2*H12^3*V3^2*\[CapitalDelta]2 + 8*H12^2*V1*V2*V3^2*
+          \[CapitalDelta]2 + 8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 
+         2*H12*H23^2*V1^2*\[CapitalDelta]3 + 4*H12*H23*H31*V1*V2*
+          \[CapitalDelta]3 + 6*H12*H31^2*V2^2*\[CapitalDelta]3 - 
+         4*H12^2*H23*V1*V3*\[CapitalDelta]3 - 8*H12*H23*V1^2*V2*V3*
+          \[CapitalDelta]3 + 8*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+         2*H12^3*V3^2*\[CapitalDelta]3 - 8*H12^2*V1*V2*V3^2*
+          \[CapitalDelta]3 - 8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3) - 
+       (H12^2*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+          H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+          14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+          8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+          4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+          2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+           \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+          8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+           \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+          4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+           \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+          4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+           \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+          2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*\[CapitalDelta]3 - 
+          8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/V3 - 
+       (H31^2*(207*H12^2*V2^2 - 64*H12^2*V2^2*\[CapitalDelta]2 + 
+          4*H12^2*V2^2*\[CapitalDelta]2^2 + 64*H12^2*V2^2*\[CapitalDelta]3 - 
+          8*H12^2*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12^2*V2^2*\[CapitalDelta]3^2))/8 - 
+       (H12*H31*(-11*H12^2*H23 - 60*H12*H23*V1*V2 + 147*H12*H31*V2^2 - 
+          113*H12^2*V2*V3 - 120*H12*V1*V2^2*V3 - 4*H12^2*H23*
+           \[CapitalDelta]2 - 20*H12*H23*V1*V2*\[CapitalDelta]2 - 
+          56*H12*H31*V2^2*\[CapitalDelta]2 - 16*H12^2*V2*V3*
+           \[CapitalDelta]2 - 40*H12*V1*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]2^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]2^2 + 4*H12^2*V2*V3*\[CapitalDelta]2^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]2^2 + 4*H12^2*H23*
+           \[CapitalDelta]3 + 20*H12*H23*V1*V2*\[CapitalDelta]3 + 
+          56*H12*H31*V2^2*\[CapitalDelta]3 + 16*H12^2*V2*V3*
+           \[CapitalDelta]3 + 40*H12*V1*V2^2*V3*\[CapitalDelta]3 - 
+          8*H12*H23*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H12*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]3^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]3^2 + 4*H12^2*V2*V3*\[CapitalDelta]3^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]3^2))/2 - 
+       (H12^2*(-76*H12*H23*H31 - 4*H23^2*V1^2 + 88*H23*H31*V1*V2 + 
+          119*H31^2*V2^2 + 88*H12*H23*V1*V3 - 580*H12*H31*V2*V3 - 
+          16*H23*V1^2*V2*V3 + 176*H31*V1*V2^2*V3 + 119*H12^2*V3^2 + 
+          176*H12*V1*V2*V3^2 - 16*V1^2*V2^2*V3^2 - 48*H23*H31*V1*V2*
+           \[CapitalDelta]2 - 48*H31^2*V2^2*\[CapitalDelta]2 + 
+          48*H12*H23*V1*V3*\[CapitalDelta]2 - 96*H31*V1*V2^2*V3*
+           \[CapitalDelta]2 + 48*H12^2*V3^2*\[CapitalDelta]2 + 
+          96*H12*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23^2*V1^2*
+           \[CapitalDelta]2^2 + 8*H23*H31*V1*V2*\[CapitalDelta]2^2 + 
+          4*H31^2*V2^2*\[CapitalDelta]2^2 + 8*H12*H23*V1*V3*
+           \[CapitalDelta]2^2 + 16*H12*H31*V2*V3*\[CapitalDelta]2^2 + 
+          16*H23*V1^2*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1*V2^2*V3*
+           \[CapitalDelta]2^2 + 4*H12^2*V3^2*\[CapitalDelta]2^2 + 
+          16*H12*V1*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2^2 + 48*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          48*H31^2*V2^2*\[CapitalDelta]3 - 48*H12*H23*V1*V3*
+           \[CapitalDelta]3 + 96*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          48*H12^2*V3^2*\[CapitalDelta]3 - 96*H12*V1*V2*V3^2*
+           \[CapitalDelta]3 - 8*H23^2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H23*H31*V1*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H31^2*V2^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H12*H23*V1*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*H31*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H23*V1^2*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H31*V1*V2^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H12^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*V1*V2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*V1^2*V2^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23^2*V1^2*\[CapitalDelta]3^2 + 
+          8*H23*H31*V1*V2*\[CapitalDelta]3^2 + 4*H31^2*V2^2*
+           \[CapitalDelta]3^2 + 8*H12*H23*V1*V3*\[CapitalDelta]3^2 + 
+          16*H12*H31*V2*V3*\[CapitalDelta]3^2 + 16*H23*V1^2*V2*V3*
+           \[CapitalDelta]3^2 + 16*H31*V1*V2^2*V3*\[CapitalDelta]3^2 + 
+          4*H12^2*V3^2*\[CapitalDelta]3^2 + 16*H12*V1*V2*V3^2*
+           \[CapitalDelta]3^2 + 16*V1^2*V2^2*V3^2*\[CapitalDelta]3^2))/8 - 
+       (-48*H12^2*H23^2*H31^2*V2 - 96*H12^3*H23^2*H31*V3 + 
+         720*H12^2*H23^2*H31*V1*V2*V3 - 2448*H12^2*H23*H31^2*V2^2*V3 + 
+         3424*H12^3*H23*H31*V2*V3^2 - 360*H12^2*H23^2*V1^2*V2*V3^2 + 
+         5808*H12^2*H23*H31*V1*V2^2*V3^2 - 9273*H12^2*H31^2*V2^3*V3^2 - 
+         2304*H12^3*H23*V1*V2*V3^3 + 15920*H12^3*H31*V2^2*V3^3 - 
+         1440*H12^2*H23*V1^2*V2^2*V3^3 + 8736*H12^2*H31*V1*V2^3*V3^3 - 
+         2106*H12^4*V2*V3^4 - 4608*H12^3*V1*V2^2*V3^4 - 1440*H12^2*V1^2*V2^3*
+          V3^4 + 192*H12^2*H23^2*H31*V1*V2*V3*\[CapitalDelta]2 + 
+         288*H12^2*H23*H31^2*V2^2*V3*\[CapitalDelta]2 + 384*H12^3*H23*H31*V2*
+          V3^2*\[CapitalDelta]2 - 192*H12^2*H23^2*V1^2*V2*V3^2*
+          \[CapitalDelta]2 + 1152*H12^2*H23*H31*V1*V2^2*V3^2*
+          \[CapitalDelta]2 + 2592*H12^2*H31^2*V2^3*V3^2*\[CapitalDelta]2 - 
+         672*H12^3*H23*V1*V2*V3^3*\[CapitalDelta]2 + 192*H12^3*H31*V2^2*V3^3*
+          \[CapitalDelta]2 - 768*H12^2*H23*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+         1536*H12^2*H31*V1*V2^3*V3^3*\[CapitalDelta]2 - 
+         480*H12^4*V2*V3^4*\[CapitalDelta]2 - 1344*H12^3*V1*V2^2*V3^4*
+          \[CapitalDelta]2 - 768*H12^2*V1^2*V2^3*V3^4*\[CapitalDelta]2 - 
+         24*H12^2*H23^2*V1^2*V2*V3^2*\[CapitalDelta]2^2 - 
+         144*H12^2*H23*H31*V1*V2^2*V3^2*\[CapitalDelta]2^2 - 
+         144*H12^2*H31^2*V2^3*V3^2*\[CapitalDelta]2^2 - 48*H12^3*H23*V1*V2*
+          V3^3*\[CapitalDelta]2^2 - 192*H12^3*H31*V2^2*V3^3*
+          \[CapitalDelta]2^2 - 96*H12^2*H23*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2^2 - 288*H12^2*H31*V1*V2^3*V3^3*
+          \[CapitalDelta]2^2 - 24*H12^4*V2*V3^4*\[CapitalDelta]2^2 - 
+         96*H12^3*V1*V2^2*V3^4*\[CapitalDelta]2^2 - 96*H12^2*V1^2*V2^3*V3^4*
+          \[CapitalDelta]2^2 - 192*H12^2*H23^2*H31*V1*V2*V3*
+          \[CapitalDelta]3 - 288*H12^2*H23*H31^2*V2^2*V3*\[CapitalDelta]3 - 
+         384*H12^3*H23*H31*V2*V3^2*\[CapitalDelta]3 + 192*H12^2*H23^2*V1^2*V2*
+          V3^2*\[CapitalDelta]3 - 1152*H12^2*H23*H31*V1*V2^2*V3^2*
+          \[CapitalDelta]3 - 2592*H12^2*H31^2*V2^3*V3^2*\[CapitalDelta]3 + 
+         672*H12^3*H23*V1*V2*V3^3*\[CapitalDelta]3 - 192*H12^3*H31*V2^2*V3^3*
+          \[CapitalDelta]3 + 768*H12^2*H23*V1^2*V2^2*V3^3*\[CapitalDelta]3 - 
+         1536*H12^2*H31*V1*V2^3*V3^3*\[CapitalDelta]3 + 
+         480*H12^4*V2*V3^4*\[CapitalDelta]3 + 1344*H12^3*V1*V2^2*V3^4*
+          \[CapitalDelta]3 + 768*H12^2*V1^2*V2^3*V3^4*\[CapitalDelta]3 + 
+         48*H12^2*H23^2*V1^2*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         288*H12^2*H23*H31*V1*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         288*H12^2*H31^2*V2^3*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         96*H12^3*H23*V1*V2*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         384*H12^3*H31*V2^2*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         192*H12^2*H23*V1^2*V2^2*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         576*H12^2*H31*V1*V2^3*V3^3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         48*H12^4*V2*V3^4*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         192*H12^3*V1*V2^2*V3^4*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         192*H12^2*V1^2*V2^3*V3^4*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         24*H12^2*H23^2*V1^2*V2*V3^2*\[CapitalDelta]3^2 - 
+         144*H12^2*H23*H31*V1*V2^2*V3^2*\[CapitalDelta]3^2 - 
+         144*H12^2*H31^2*V2^3*V3^2*\[CapitalDelta]3^2 - 48*H12^3*H23*V1*V2*
+          V3^3*\[CapitalDelta]3^2 - 192*H12^3*H31*V2^2*V3^3*
+          \[CapitalDelta]3^2 - 96*H12^2*H23*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3^2 - 288*H12^2*H31*V1*V2^3*V3^3*
+          \[CapitalDelta]3^2 - 24*H12^4*V2*V3^4*\[CapitalDelta]3^2 - 
+         96*H12^3*V1*V2^2*V3^4*\[CapitalDelta]3^2 - 96*H12^2*V1^2*V2^3*V3^4*
+          \[CapitalDelta]3^2)/(48*V2*V3^2) - 
+       (2*H31*((-2*H31*(H12^2*H23^2 + 2*H12^2*H23*V2*V3 + H12^2*V2^2*V3^2))/
+           V3 + (8*H12*(H12*H23^2*V1*V3 + H12*H23*H31*V2*V3 + 
+             H12^2*H23*V3^2 + 3*H12*H23*V1*V2*V3^2 + H12*H31*V2^2*V3^2 + 
+             H12^2*V2*V3^3 + 2*H12*V1*V2^2*V3^3))/V3 - 
+          (H12*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+             36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+             44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+             2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+             2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H31*(16*H12^2*H23*V2 + 17*H12^2*V2^2*V3 - 2*H12^2*H23*V2*
+              \[CapitalDelta]2 - 2*H12^2*V2^2*V3*\[CapitalDelta]2 + 
+             2*H12^2*H23*V2*\[CapitalDelta]3 + 2*H12^2*V2^2*V3*
+              \[CapitalDelta]3))/2 - (-4*H12^2*H23^2*H31 + 27*H12^2*H23^2*V1*
+             V3 - 27*H12^2*H23*H31*V2*V3 + 32*H12^3*H23*V3^2 + 
+            100*H12^2*H23*V1*V2*V3^2 - 5*H12^2*H31*V2^2*V3^2 + 
+            50*H12^3*V2*V3^3 + 92*H12^2*V1*V2^2*V3^3 + 2*H12^2*H23^2*V1*V3*
+             \[CapitalDelta]2 + 4*H12^2*H23*H31*V2*V3*\[CapitalDelta]2 + 
+            2*H12^3*H23*V3^2*\[CapitalDelta]2 + 4*H12^2*H23*V1*V2*V3^2*
+             \[CapitalDelta]2 + 2*H12^2*H31*V2^2*V3^2*\[CapitalDelta]2 - 
+            2*H12^2*H23^2*V1*V3*\[CapitalDelta]3 - 4*H12^2*H23*H31*V2*V3*
+             \[CapitalDelta]3 - 2*H12^3*H23*V3^2*\[CapitalDelta]3 - 
+            4*H12^2*H23*V1*V2*V3^2*\[CapitalDelta]3 - 2*H12^2*H31*V2^2*V3^2*
+             \[CapitalDelta]3)/(2*V3)))/V3 - 
+       (2*H12*(-1/8*(H12*H31^2*V2^2*V3) - (2*H12*H31*V3*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2^2) - 
+          (2*H12*V3*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*
+                V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*
+                V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*
+                H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 
+               192*V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2^2 - 
+          (H31*(-7*H12*H23^2*V1 + 11*H12*H23*H31*V2 - 12*H12^2*H23*V3 - 
+             36*H12*H23*V1*V2*V3 - 4*H12*H31*V2^2*V3 - 26*H12^2*V2*V3^2 - 
+             44*H12*V1*V2^2*V3^2 - 2*H12*H23^2*V1*\[CapitalDelta]2 - 
+             2*H12*H23*H31*V2*\[CapitalDelta]2 - 2*H12^2*H23*V3*
+              \[CapitalDelta]2 - 4*H12*H23*V1*V2*V3*\[CapitalDelta]2 + 
+             2*H12*H23^2*V1*\[CapitalDelta]3 + 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H12^2*H23*V3*\[CapitalDelta]3 + 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H12*(3*H23^2*H31*V1 + 3*H23*H31^2*V2 - 19*H12*H23*H31*V3 + 
+             H23^2*V1^2*V3 + 2*H23*H31*V1*V2*V3 - 5*H31^2*V2^2*V3 + 
+             14*H12*H23*V1*V3^2 - 34*H12*H31*V2*V3^2 + 4*H23*V1^2*V2*V3^2 - 
+             8*H31*V1*V2^2*V3^2 + 13*H12^2*V3^3 + 28*H12*V1*V2*V3^3 + 
+             4*V1^2*V2^2*V3^3 - 2*H12*H23*H31*V3*\[CapitalDelta]2 + 
+             2*H23^2*V1^2*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 + 2*H31^2*V2^2*V3*\[CapitalDelta]2 + 
+             4*H12*H23*V1*V3^2*\[CapitalDelta]2 + 4*H12*H31*V2*V3^2*
+              \[CapitalDelta]2 + 8*H23*V1^2*V2*V3^2*\[CapitalDelta]2 + 
+             8*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 2*H12^2*V3^3*
+              \[CapitalDelta]2 + 8*H12*V1*V2*V3^3*\[CapitalDelta]2 + 
+             8*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 2*H23^2*V1^2*V3*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*V3*\[CapitalDelta]3 - 2*H31^2*V2^2*V3*
+              \[CapitalDelta]3 - 4*H12*H23*V1*V3^2*\[CapitalDelta]3 - 
+             4*H12*H31*V2*V3^2*\[CapitalDelta]3 - 8*H23*V1^2*V2*V3^2*
+              \[CapitalDelta]3 - 8*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+             2*H12^2*V3^3*\[CapitalDelta]3 - 8*H12*V1*V2*V3^3*
+              \[CapitalDelta]3 - 8*V1^2*V2^2*V3^3*\[CapitalDelta]3))/2 + 
+          (216*H12*H23*H31^2*V2 - 596*H12^2*H23*H31*V3 + 108*H12*H23^2*V1^2*
+             V3 - 168*H12*H23*H31*V1*V2*V3 - 57*H12*H31^2*V2^2*V3 + 
+            360*H12^2*H23*V1*V3^2 - 880*H12^2*H31*V2*V3^2 + 
+            432*H12*H23*V1^2*V2*V3^2 - 336*H12*H31*V1*V2^2*V3^2 + 
+            252*H12^3*V3^3 + 720*H12^2*V1*V2*V3^3 + 432*H12*V1^2*V2^2*V3^3 - 
+            24*H12*H23^2*H31*V1*\[CapitalDelta]2 - 24*H12*H23*H31^2*V2*
+             \[CapitalDelta]2 - 48*H12^2*H23*H31*V3*\[CapitalDelta]2 + 
+            24*H12*H23^2*V1^2*V3*\[CapitalDelta]2 + 24*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]2 + 48*H12^2*H23*V1*V3^2*\[CapitalDelta]2 + 
+            48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 + 96*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]2 + 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 + 
+            24*H12^3*V3^3*\[CapitalDelta]2 + 96*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]2 + 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]2 + 
+            24*H12*H23^2*H31*V1*\[CapitalDelta]3 + 24*H12*H23*H31^2*V2*
+             \[CapitalDelta]3 + 48*H12^2*H23*H31*V3*\[CapitalDelta]3 - 
+            24*H12*H23^2*V1^2*V3*\[CapitalDelta]3 - 24*H12*H31^2*V2^2*V3*
+             \[CapitalDelta]3 - 48*H12^2*H23*V1*V3^2*\[CapitalDelta]3 - 
+            48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 - 96*H12*H23*V1^2*V2*V3^2*
+             \[CapitalDelta]3 - 96*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]3 - 
+            24*H12^3*V3^3*\[CapitalDelta]3 - 96*H12^2*V1*V2*V3^3*
+             \[CapitalDelta]3 - 96*H12*V1^2*V2^2*V3^3*\[CapitalDelta]3)/24))/
+        V3, f[4, 4, 4, 5, 5, 5] -> 
+      -(H31*(-3*H12^2*H23*H31 + H12*H23^2*V1^2 + 8*H12*H23*H31*V1*V2 + 
+          34*H12*H31^2*V2^2 + 11*H12^2*H23*V1*V3 - 66*H12^2*H31*V2*V3 + 
+          4*H12*H23*V1^2*V2*V3 + 16*H12*H31*V1*V2^2*V3 + 10*H12^3*V3^2 + 
+          22*H12^2*V1*V2*V3^2 + 4*H12*V1^2*V2^2*V3^2 + 2*H12*H23^2*V1^2*
+           \[CapitalDelta]2 - 4*H12*H23*H31*V1*V2*\[CapitalDelta]2 - 
+          6*H12*H31^2*V2^2*\[CapitalDelta]2 + 4*H12^2*H23*V1*V3*
+           \[CapitalDelta]2 + 8*H12*H23*V1^2*V2*V3*\[CapitalDelta]2 - 
+          8*H12*H31*V1*V2^2*V3*\[CapitalDelta]2 + 2*H12^3*V3^2*
+           \[CapitalDelta]2 + 8*H12^2*V1*V2*V3^2*\[CapitalDelta]2 + 
+          8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]2 - 2*H12*H23^2*V1^2*
+           \[CapitalDelta]3 + 4*H12*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          6*H12*H31^2*V2^2*\[CapitalDelta]3 - 4*H12^2*H23*V1*V3*
+           \[CapitalDelta]3 - 8*H12*H23*V1^2*V2*V3*\[CapitalDelta]3 + 
+          8*H12*H31*V1*V2^2*V3*\[CapitalDelta]3 - 2*H12^3*V3^2*
+           \[CapitalDelta]3 - 8*H12^2*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*H12*V1^2*V2^2*V3^2*\[CapitalDelta]3)) - 
+       H12*(-3*H12*H23*H31^2 + H23^2*H31*V1^2 + 11*H23*H31^2*V1*V2 + 
+         10*H31^3*V2^2 + 8*H12*H23*H31*V1*V3 - 66*H12*H31^2*V2*V3 + 
+         4*H23*H31*V1^2*V2*V3 + 22*H31^2*V1*V2^2*V3 + 34*H12^2*H31*V3^2 + 
+         16*H12*H31*V1*V2*V3^2 + 4*H31*V1^2*V2^2*V3^2 - 
+         2*H23^2*H31*V1^2*\[CapitalDelta]2 - 4*H23*H31^2*V1*V2*
+          \[CapitalDelta]2 - 2*H31^3*V2^2*\[CapitalDelta]2 + 
+         4*H12*H23*H31*V1*V3*\[CapitalDelta]2 - 8*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]2 - 8*H31^2*V1*V2^2*V3*\[CapitalDelta]2 + 
+         6*H12^2*H31*V3^2*\[CapitalDelta]2 + 8*H12*H31*V1*V2*V3^2*
+          \[CapitalDelta]2 - 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+         2*H23^2*H31*V1^2*\[CapitalDelta]3 + 4*H23*H31^2*V1*V2*
+          \[CapitalDelta]3 + 2*H31^3*V2^2*\[CapitalDelta]3 - 
+         4*H12*H23*H31*V1*V3*\[CapitalDelta]3 + 8*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]3 + 8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 
+         6*H12^2*H31*V3^2*\[CapitalDelta]3 - 8*H12*H31*V1*V2*V3^2*
+          \[CapitalDelta]3 + 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3) - 
+       (H31^2*(-11*H12^2*H23 - 60*H12*H23*V1*V2 + 147*H12*H31*V2^2 - 
+          113*H12^2*V2*V3 - 120*H12*V1*V2^2*V3 - 4*H12^2*H23*
+           \[CapitalDelta]2 - 20*H12*H23*V1*V2*\[CapitalDelta]2 - 
+          56*H12*H31*V2^2*\[CapitalDelta]2 - 16*H12^2*V2*V3*
+           \[CapitalDelta]2 - 40*H12*V1*V2^2*V3*\[CapitalDelta]2 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]2^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]2^2 + 4*H12^2*V2*V3*\[CapitalDelta]2^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]2^2 + 4*H12^2*H23*
+           \[CapitalDelta]3 + 20*H12*H23*V1*V2*\[CapitalDelta]3 + 
+          56*H12*H31*V2^2*\[CapitalDelta]3 + 16*H12^2*V2*V3*
+           \[CapitalDelta]3 + 40*H12*V1*V2^2*V3*\[CapitalDelta]3 - 
+          8*H12*H23*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H12*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H12*H23*V1*V2*\[CapitalDelta]3^2 + 4*H12*H31*V2^2*
+           \[CapitalDelta]3^2 + 4*H12^2*V2*V3*\[CapitalDelta]3^2 + 
+          8*H12*V1*V2^2*V3*\[CapitalDelta]3^2))/4 - 
+       (H12^2*(-11*H23*H31^2 - 60*H23*H31*V1*V3 - 113*H31^2*V2*V3 + 
+          147*H12*H31*V3^2 - 120*H31*V1*V2*V3^2 + 4*H23*H31^2*
+           \[CapitalDelta]2 + 20*H23*H31*V1*V3*\[CapitalDelta]2 + 
+          16*H31^2*V2*V3*\[CapitalDelta]2 + 56*H12*H31*V3^2*
+           \[CapitalDelta]2 + 40*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]2^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]2^2 + 4*H12*H31*V3^2*\[CapitalDelta]2^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]2^2 - 4*H23*H31^2*
+           \[CapitalDelta]3 - 20*H23*H31*V1*V3*\[CapitalDelta]3 - 
+          16*H31^2*V2*V3*\[CapitalDelta]3 - 56*H12*H31*V3^2*
+           \[CapitalDelta]3 - 40*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*H23*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]3^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]3^2 + 4*H12*H31*V3^2*\[CapitalDelta]3^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (H12*H31*(-76*H12*H23*H31 - 4*H23^2*V1^2 + 88*H23*H31*V1*V2 + 
+          119*H31^2*V2^2 + 88*H12*H23*V1*V3 - 580*H12*H31*V2*V3 - 
+          16*H23*V1^2*V2*V3 + 176*H31*V1*V2^2*V3 + 119*H12^2*V3^2 + 
+          176*H12*V1*V2*V3^2 - 16*V1^2*V2^2*V3^2 - 48*H23*H31*V1*V2*
+           \[CapitalDelta]2 - 48*H31^2*V2^2*\[CapitalDelta]2 + 
+          48*H12*H23*V1*V3*\[CapitalDelta]2 - 96*H31*V1*V2^2*V3*
+           \[CapitalDelta]2 + 48*H12^2*V3^2*\[CapitalDelta]2 + 
+          96*H12*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23^2*V1^2*
+           \[CapitalDelta]2^2 + 8*H23*H31*V1*V2*\[CapitalDelta]2^2 + 
+          4*H31^2*V2^2*\[CapitalDelta]2^2 + 8*H12*H23*V1*V3*
+           \[CapitalDelta]2^2 + 16*H12*H31*V2*V3*\[CapitalDelta]2^2 + 
+          16*H23*V1^2*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1*V2^2*V3*
+           \[CapitalDelta]2^2 + 4*H12^2*V3^2*\[CapitalDelta]2^2 + 
+          16*H12*V1*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2^2 + 48*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          48*H31^2*V2^2*\[CapitalDelta]3 - 48*H12*H23*V1*V3*
+           \[CapitalDelta]3 + 96*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          48*H12^2*V3^2*\[CapitalDelta]3 - 96*H12*V1*V2*V3^2*
+           \[CapitalDelta]3 - 8*H23^2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H23*H31*V1*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H31^2*V2^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H12*H23*V1*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*H31*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H23*V1^2*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H31*V1*V2^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H12^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*V1*V2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*V1^2*V2^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23^2*V1^2*\[CapitalDelta]3^2 + 
+          8*H23*H31*V1*V2*\[CapitalDelta]3^2 + 4*H31^2*V2^2*
+           \[CapitalDelta]3^2 + 8*H12*H23*V1*V3*\[CapitalDelta]3^2 + 
+          16*H12*H31*V2*V3*\[CapitalDelta]3^2 + 16*H23*V1^2*V2*V3*
+           \[CapitalDelta]3^2 + 16*H31*V1*V2^2*V3*\[CapitalDelta]3^2 + 
+          4*H12^2*V3^2*\[CapitalDelta]3^2 + 16*H12*V1*V2*V3^2*
+           \[CapitalDelta]3^2 + 16*V1^2*V2^2*V3^2*\[CapitalDelta]3^2))/4 + 
+       (-61*H12^2*H23*H31^2 - 2*H12*H23^2*H31*V1^2 + 56*H12*H23*H31^2*V1*V2 + 
+         229*H12*H31^3*V2^2 + 56*H12^2*H23*H31*V1*V3 - 691*H12^2*H31^2*V2*
+          V3 - 8*H12*H23*H31*V1^2*V2*V3 + 112*H12*H31^2*V1*V2^2*V3 + 
+         229*H12^3*H31*V3^2 + 112*H12^2*H31*V1*V2*V3^2 - 
+         8*H12*H31*V1^2*V2^2*V3^2 - 50*H12*H23*H31^2*V1*V2*\[CapitalDelta]2 - 
+         68*H12*H31^3*V2^2*\[CapitalDelta]2 + 50*H12^2*H23*H31*V1*V3*
+          \[CapitalDelta]2 - 100*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]2 + 
+         68*H12^3*H31*V3^2*\[CapitalDelta]2 + 100*H12^2*H31*V1*V2*V3^2*
+          \[CapitalDelta]2 + 2*H12*H23^2*H31*V1^2*\[CapitalDelta]2^2 + 
+         6*H12*H23*H31^2*V1*V2*\[CapitalDelta]2^2 + 4*H12*H31^3*V2^2*
+          \[CapitalDelta]2^2 + 6*H12^2*H23*H31*V1*V3*\[CapitalDelta]2^2 + 
+         12*H12^2*H31^2*V2*V3*\[CapitalDelta]2^2 + 8*H12*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]2^2 + 12*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]2^2 + 
+         4*H12^3*H31*V3^2*\[CapitalDelta]2^2 + 12*H12^2*H31*V1*V2*V3^2*
+          \[CapitalDelta]2^2 + 8*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2^2 + 
+         50*H12*H23*H31^2*V1*V2*\[CapitalDelta]3 + 68*H12*H31^3*V2^2*
+          \[CapitalDelta]3 - 50*H12^2*H23*H31*V1*V3*\[CapitalDelta]3 + 
+         100*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 68*H12^3*H31*V3^2*
+          \[CapitalDelta]3 - 100*H12^2*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+         4*H12*H23^2*H31*V1^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         12*H12*H23*H31^2*V1*V2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         8*H12*H31^3*V2^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         12*H12^2*H23*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         24*H12^2*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         16*H12*H23*H31*V1^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         24*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         8*H12^3*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         24*H12^2*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+         16*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+         2*H12*H23^2*H31*V1^2*\[CapitalDelta]3^2 + 6*H12*H23*H31^2*V1*V2*
+          \[CapitalDelta]3^2 + 4*H12*H31^3*V2^2*\[CapitalDelta]3^2 + 
+         6*H12^2*H23*H31*V1*V3*\[CapitalDelta]3^2 + 12*H12^2*H31^2*V2*V3*
+          \[CapitalDelta]3^2 + 8*H12*H23*H31*V1^2*V2*V3*\[CapitalDelta]3^2 + 
+         12*H12*H31^2*V1*V2^2*V3*\[CapitalDelta]3^2 + 4*H12^3*H31*V3^2*
+          \[CapitalDelta]3^2 + 12*H12^2*H31*V1*V2*V3^2*\[CapitalDelta]3^2 + 
+         8*H12*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3^2)/2, 
+     f[4, 4, 5, 5, 5, 5] -> -1/16*(H31^4*V2^2) - 
+       (H12^2*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 + 
+       (4*H12*H31*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + H12*H23*H31*V2*V3 + 
+          3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + H12*H31*V2^2*V3^2 + 
+          2*H31*V1*V2^3*V3^2))/V2^2 - 
+       (H31^3*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 
+            15*H31*V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/(3*V2^2) - 
+       (H31^2*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 
+            48*H23^2*V1^2*V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 
+            96*H12*H23*V1*V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*
+             V3 + 288*H31*V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 
+            192*H12*V1*V2^3*V3^2 + 192*V1^2*V2^4*V3^2)/48 - 
+          (H31*((-3*H31*V2^4)/4 + (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*
+                V2^4 + 8*H12*V2^3*V3 + 24*V1*V2^4*V3)/4))/3))/V2^2 - 
+       (2*H12*H31*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/V2 - H12*(-(H23*H31^3) - 19*H23*H31^2*V1*V3 - 
+         22*H31^3*V2*V3 + 38*H12*H31^2*V3^2 - 38*H31^2*V1*V2*V3^2 + 
+         6*H12*H31^2*V3^2*\[CapitalDelta]2 - 6*H12*H31^2*V3^2*
+          \[CapitalDelta]3) - (H12^2*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 
+          2*H23*H31^2*V3*\[CapitalDelta]2 + 2*H31^2*V2*V3^2*
+           \[CapitalDelta]2 - 2*H23*H31^2*V3*\[CapitalDelta]3 - 
+          2*H31^2*V2*V3^2*\[CapitalDelta]3))/V2 - 
+       H31*(-3*H12*H23*H31^2 + H23^2*H31*V1^2 + 11*H23*H31^2*V1*V2 + 
+         10*H31^3*V2^2 + 8*H12*H23*H31*V1*V3 - 66*H12*H31^2*V2*V3 + 
+         4*H23*H31*V1^2*V2*V3 + 22*H31^2*V1*V2^2*V3 + 34*H12^2*H31*V3^2 + 
+         16*H12*H31*V1*V2*V3^2 + 4*H31*V1^2*V2^2*V3^2 - 
+         2*H23^2*H31*V1^2*\[CapitalDelta]2 - 4*H23*H31^2*V1*V2*
+          \[CapitalDelta]2 - 2*H31^3*V2^2*\[CapitalDelta]2 + 
+         4*H12*H23*H31*V1*V3*\[CapitalDelta]2 - 8*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]2 - 8*H31^2*V1*V2^2*V3*\[CapitalDelta]2 + 
+         6*H12^2*H31*V3^2*\[CapitalDelta]2 + 8*H12*H31*V1*V2*V3^2*
+          \[CapitalDelta]2 - 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]2 + 
+         2*H23^2*H31*V1^2*\[CapitalDelta]3 + 4*H23*H31^2*V1*V2*
+          \[CapitalDelta]3 + 2*H31^3*V2^2*\[CapitalDelta]3 - 
+         4*H12*H23*H31*V1*V3*\[CapitalDelta]3 + 8*H23*H31*V1^2*V2*V3*
+          \[CapitalDelta]3 + 8*H31^2*V1*V2^2*V3*\[CapitalDelta]3 - 
+         6*H12^2*H31*V3^2*\[CapitalDelta]3 - 8*H12*H31*V1*V2*V3^2*
+          \[CapitalDelta]3 + 8*H31*V1^2*V2^2*V3^2*\[CapitalDelta]3) - 
+       (H31^2*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+          14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+          2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+          28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+          4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+          2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+           \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+          4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+           \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+          8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+           \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+          8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+           \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+           \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+          4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+           \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+          2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+           \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/V2 - 
+       (H12^2*(207*H31^2*V3^2 + 64*H31^2*V3^2*\[CapitalDelta]2 + 
+          4*H31^2*V3^2*\[CapitalDelta]2^2 - 64*H31^2*V3^2*\[CapitalDelta]3 - 
+          8*H31^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31^2*V3^2*\[CapitalDelta]3^2))/8 - 
+       (H12*H31*(-11*H23*H31^2 - 60*H23*H31*V1*V3 - 113*H31^2*V2*V3 + 
+          147*H12*H31*V3^2 - 120*H31*V1*V2*V3^2 + 4*H23*H31^2*
+           \[CapitalDelta]2 + 20*H23*H31*V1*V3*\[CapitalDelta]2 + 
+          16*H31^2*V2*V3*\[CapitalDelta]2 + 56*H12*H31*V3^2*
+           \[CapitalDelta]2 + 40*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]2^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]2^2 + 4*H12*H31*V3^2*\[CapitalDelta]2^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]2^2 - 4*H23*H31^2*
+           \[CapitalDelta]3 - 20*H23*H31*V1*V3*\[CapitalDelta]3 - 
+          16*H31^2*V2*V3*\[CapitalDelta]3 - 56*H12*H31*V3^2*
+           \[CapitalDelta]3 - 40*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*H23*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]3^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]3^2 + 4*H12*H31*V3^2*\[CapitalDelta]3^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]3^2))/2 - 
+       (H31^2*(-76*H12*H23*H31 - 4*H23^2*V1^2 + 88*H23*H31*V1*V2 + 
+          119*H31^2*V2^2 + 88*H12*H23*V1*V3 - 580*H12*H31*V2*V3 - 
+          16*H23*V1^2*V2*V3 + 176*H31*V1*V2^2*V3 + 119*H12^2*V3^2 + 
+          176*H12*V1*V2*V3^2 - 16*V1^2*V2^2*V3^2 - 48*H23*H31*V1*V2*
+           \[CapitalDelta]2 - 48*H31^2*V2^2*\[CapitalDelta]2 + 
+          48*H12*H23*V1*V3*\[CapitalDelta]2 - 96*H31*V1*V2^2*V3*
+           \[CapitalDelta]2 + 48*H12^2*V3^2*\[CapitalDelta]2 + 
+          96*H12*V1*V2*V3^2*\[CapitalDelta]2 + 4*H23^2*V1^2*
+           \[CapitalDelta]2^2 + 8*H23*H31*V1*V2*\[CapitalDelta]2^2 + 
+          4*H31^2*V2^2*\[CapitalDelta]2^2 + 8*H12*H23*V1*V3*
+           \[CapitalDelta]2^2 + 16*H12*H31*V2*V3*\[CapitalDelta]2^2 + 
+          16*H23*V1^2*V2*V3*\[CapitalDelta]2^2 + 16*H31*V1*V2^2*V3*
+           \[CapitalDelta]2^2 + 4*H12^2*V3^2*\[CapitalDelta]2^2 + 
+          16*H12*V1*V2*V3^2*\[CapitalDelta]2^2 + 16*V1^2*V2^2*V3^2*
+           \[CapitalDelta]2^2 + 48*H23*H31*V1*V2*\[CapitalDelta]3 + 
+          48*H31^2*V2^2*\[CapitalDelta]3 - 48*H12*H23*V1*V3*
+           \[CapitalDelta]3 + 96*H31*V1*V2^2*V3*\[CapitalDelta]3 - 
+          48*H12^2*V3^2*\[CapitalDelta]3 - 96*H12*V1*V2*V3^2*
+           \[CapitalDelta]3 - 8*H23^2*V1^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H23*H31*V1*V2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H31^2*V2^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 16*H12*H23*V1*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*H31*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H23*V1^2*V2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H31*V1*V2^2*V3*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 8*H12^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*H12*V1*V2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 - 32*V1^2*V2^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H23^2*V1^2*\[CapitalDelta]3^2 + 
+          8*H23*H31*V1*V2*\[CapitalDelta]3^2 + 4*H31^2*V2^2*
+           \[CapitalDelta]3^2 + 8*H12*H23*V1*V3*\[CapitalDelta]3^2 + 
+          16*H12*H31*V2*V3*\[CapitalDelta]3^2 + 16*H23*V1^2*V2*V3*
+           \[CapitalDelta]3^2 + 16*H31*V1*V2^2*V3*\[CapitalDelta]3^2 + 
+          4*H12^2*V3^2*\[CapitalDelta]3^2 + 16*H12*V1*V2*V3^2*
+           \[CapitalDelta]3^2 + 16*V1^2*V2^2*V3^2*\[CapitalDelta]3^2))/8 - 
+       (-48*H12^2*H23^2*H31^2 + 720*H12*H23^2*H31^2*V1*V2 + 
+         3872*H12*H23*H31^3*V2^2 - 360*H23^2*H31^2*V1^2*V2^2 - 
+         2352*H23*H31^3*V1*V2^3 - 2157*H31^4*V2^4 - 2448*H12^2*H23*H31^2*V2*
+          V3 + 5760*H12*H23*H31^2*V1*V2^2*V3 + 16240*H12*H31^3*V2^3*V3 - 
+         1440*H23*H31^2*V1^2*V2^3*V3 - 4704*H31^3*V1*V2^4*V3 - 
+         9324*H12^2*H31^2*V2^2*V3^2 + 8640*H12*H31^2*V1*V2^3*V3^2 - 
+         1440*H31^2*V1^2*V2^4*V3^2 - 192*H12*H23^2*H31^2*V1*V2*
+          \[CapitalDelta]2 - 384*H12*H23*H31^3*V2^2*\[CapitalDelta]2 + 
+         192*H23^2*H31^2*V1^2*V2^2*\[CapitalDelta]2 + 672*H23*H31^3*V1*V2^3*
+          \[CapitalDelta]2 + 480*H31^4*V2^4*\[CapitalDelta]2 - 
+         288*H12^2*H23*H31^2*V2*V3*\[CapitalDelta]2 - 1152*H12*H23*H31^2*V1*
+          V2^2*V3*\[CapitalDelta]2 - 192*H12*H31^3*V2^3*V3*\[CapitalDelta]2 + 
+         768*H23*H31^2*V1^2*V2^3*V3*\[CapitalDelta]2 + 1344*H31^3*V1*V2^4*V3*
+          \[CapitalDelta]2 - 2592*H12^2*H31^2*V2^2*V3^2*\[CapitalDelta]2 - 
+         1536*H12*H31^2*V1*V2^3*V3^2*\[CapitalDelta]2 + 768*H31^2*V1^2*V2^4*
+          V3^2*\[CapitalDelta]2 - 24*H23^2*H31^2*V1^2*V2^2*
+          \[CapitalDelta]2^2 - 48*H23*H31^3*V1*V2^3*\[CapitalDelta]2^2 - 
+         24*H31^4*V2^4*\[CapitalDelta]2^2 - 144*H12*H23*H31^2*V1*V2^2*V3*
+          \[CapitalDelta]2^2 - 192*H12*H31^3*V2^3*V3*\[CapitalDelta]2^2 - 
+         96*H23*H31^2*V1^2*V2^3*V3*\[CapitalDelta]2^2 - 96*H31^3*V1*V2^4*V3*
+          \[CapitalDelta]2^2 - 144*H12^2*H31^2*V2^2*V3^2*\[CapitalDelta]2^2 - 
+         288*H12*H31^2*V1*V2^3*V3^2*\[CapitalDelta]2^2 - 
+         96*H31^2*V1^2*V2^4*V3^2*\[CapitalDelta]2^2 + 192*H12*H23^2*H31^2*V1*
+          V2*\[CapitalDelta]3 + 384*H12*H23*H31^3*V2^2*\[CapitalDelta]3 - 
+         192*H23^2*H31^2*V1^2*V2^2*\[CapitalDelta]3 - 672*H23*H31^3*V1*V2^3*
+          \[CapitalDelta]3 - 480*H31^4*V2^4*\[CapitalDelta]3 + 
+         288*H12^2*H23*H31^2*V2*V3*\[CapitalDelta]3 + 1152*H12*H23*H31^2*V1*
+          V2^2*V3*\[CapitalDelta]3 + 192*H12*H31^3*V2^3*V3*\[CapitalDelta]3 - 
+         768*H23*H31^2*V1^2*V2^3*V3*\[CapitalDelta]3 - 1344*H31^3*V1*V2^4*V3*
+          \[CapitalDelta]3 + 2592*H12^2*H31^2*V2^2*V3^2*\[CapitalDelta]3 + 
+         1536*H12*H31^2*V1*V2^3*V3^2*\[CapitalDelta]3 - 768*H31^2*V1^2*V2^4*
+          V3^2*\[CapitalDelta]3 + 48*H23^2*H31^2*V1^2*V2^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 96*H23*H31^3*V1*V2^3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 48*H31^4*V2^4*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 288*H12*H23*H31^2*V1*V2^2*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 384*H12*H31^3*V2^3*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 192*H23*H31^2*V1^2*V2^3*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 192*H31^3*V1*V2^4*V3*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 288*H12^2*H31^2*V2^2*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 576*H12*H31^2*V1*V2^3*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 + 192*H31^2*V1^2*V2^4*V3^2*\[CapitalDelta]2*
+          \[CapitalDelta]3 - 24*H23^2*H31^2*V1^2*V2^2*\[CapitalDelta]3^2 - 
+         48*H23*H31^3*V1*V2^3*\[CapitalDelta]3^2 - 24*H31^4*V2^4*
+          \[CapitalDelta]3^2 - 144*H12*H23*H31^2*V1*V2^2*V3*
+          \[CapitalDelta]3^2 - 192*H12*H31^3*V2^3*V3*\[CapitalDelta]3^2 - 
+         96*H23*H31^2*V1^2*V2^3*V3*\[CapitalDelta]3^2 - 96*H31^3*V1*V2^4*V3*
+          \[CapitalDelta]3^2 - 144*H12^2*H31^2*V2^2*V3^2*\[CapitalDelta]3^2 - 
+         288*H12*H31^2*V1*V2^3*V3^2*\[CapitalDelta]3^2 - 
+         96*H31^2*V1^2*V2^4*V3^2*\[CapitalDelta]3^2)/(48*V2^2) - 
+       (2*H12*(-1/2*(H31*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+             11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+             4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+              \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+             2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+              \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+             2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+              \[CapitalDelta]3))/2 + (-11*H23^2*H31^2*V1 - 16*H23*H31^3*V2 + 
+            35*H12*H23*H31^2*V3 - 52*H23*H31^2*V1*V2*V3 - 34*H31^3*V2^2*V3 + 
+            17*H12*H31^2*V2*V3^2 - 60*H31^2*V1*V2^2*V3^2 + 2*H23^2*H31^2*V1*
+             \[CapitalDelta]2 + 2*H23*H31^3*V2*\[CapitalDelta]2 + 
+            4*H12*H23*H31^2*V3*\[CapitalDelta]2 + 4*H23*H31^2*V1*V2*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+            2*H23^2*H31^2*V1*\[CapitalDelta]3 - 2*H23*H31^3*V2*
+             \[CapitalDelta]3 - 4*H12*H23*H31^2*V3*\[CapitalDelta]3 - 
+            4*H23*H31^2*V1*V2*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3^2*
+             \[CapitalDelta]3)/2))/V2 - 
+       (2*H31*(-1/16*(H31^3*V2^3) - (H31^2*((-3*H31*V2^4)/4 + 
+             (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                V3 + 24*V1*V2^4*V3)/4))/(3*V2) - 
+          (H31*(-1/16*(H31^2*V2^4) + (-128*H12*H23*H31*V2^2 + 48*H23^2*V1^2*
+                V2^2 + 144*H23*H31*V1*V2^3 + 99*H31^2*V2^4 + 96*H12*H23*V1*
+                V2^2*V3 + 32*H12*H31*V2^3*V3 + 192*H23*V1^2*V2^3*V3 + 288*H31*
+                V1*V2^4*V3 + 48*H12^2*V2^2*V3^2 + 192*H12*V1*V2^3*V3^2 + 192*
+                V1^2*V2^4*V3^2)/48 - (H31*((-3*H31*V2^4)/4 + 
+                (-8*H12*H23*V2^2 + 12*H23*V1*V2^3 + 15*H31*V2^4 + 8*H12*V2^3*
+                   V3 + 24*V1*V2^4*V3)/4))/3))/V2 - 
+          (H12*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+             36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+             44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+             2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+              \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+             2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*
+              \[CapitalDelta]3 - 2*H12*H23*H31*V3*\[CapitalDelta]3 - 
+             4*H23*H31*V1*V2*V3*\[CapitalDelta]3))/2 - 
+          (H31*(3*H12*H23^2*V1 - 19*H12*H23*H31*V2 + H23^2*V1^2*V2 + 
+             14*H23*H31*V1*V2^2 + 13*H31^2*V2^3 + 3*H12^2*H23*V3 + 
+             2*H12*H23*V1*V2*V3 - 34*H12*H31*V2^2*V3 + 4*H23*V1^2*V2^2*V3 + 
+             28*H31*V1*V2^3*V3 - 5*H12^2*V2*V3^2 - 8*H12*V1*V2^2*V3^2 + 
+             4*V1^2*V2^3*V3^2 + 2*H12*H23*H31*V2*\[CapitalDelta]2 - 
+             2*H23^2*V1^2*V2*\[CapitalDelta]2 - 4*H23*H31*V1*V2^2*
+              \[CapitalDelta]2 - 2*H31^2*V2^3*\[CapitalDelta]2 - 
+             4*H12*H23*V1*V2*V3*\[CapitalDelta]2 - 4*H12*H31*V2^2*V3*
+              \[CapitalDelta]2 - 8*H23*V1^2*V2^2*V3*\[CapitalDelta]2 - 
+             8*H31*V1*V2^3*V3*\[CapitalDelta]2 - 2*H12^2*V2*V3^2*
+              \[CapitalDelta]2 - 8*H12*V1*V2^2*V3^2*\[CapitalDelta]2 - 
+             8*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 2*H12*H23*H31*V2*
+              \[CapitalDelta]3 + 2*H23^2*V1^2*V2*\[CapitalDelta]3 + 
+             4*H23*H31*V1*V2^2*\[CapitalDelta]3 + 2*H31^2*V2^3*
+              \[CapitalDelta]3 + 4*H12*H23*V1*V2*V3*\[CapitalDelta]3 + 
+             4*H12*H31*V2^2*V3*\[CapitalDelta]3 + 8*H23*V1^2*V2^2*V3*
+              \[CapitalDelta]3 + 8*H31*V1*V2^3*V3*\[CapitalDelta]3 + 
+             2*H12^2*V2*V3^2*\[CapitalDelta]3 + 8*H12*V1*V2^2*V3^2*
+              \[CapitalDelta]3 + 8*V1^2*V2^3*V3^2*\[CapitalDelta]3))/2 + 
+          (-1064*H12*H23*H31^2*V2 + 168*H23^2*H31*V1^2*V2 + 
+            672*H23*H31^2*V1*V2^2 + 507*H31^3*V2^3 + 432*H12^2*H23*H31*V3 - 
+            528*H12*H23*H31*V1*V2*V3 - 1792*H12*H31^2*V2^2*V3 + 
+            672*H23*H31*V1^2*V2^2*V3 + 1344*H31^2*V1*V2^3*V3 - 
+            264*H12^2*H31*V2*V3^2 - 1056*H12*H31*V1*V2^2*V3^2 + 
+            672*H31*V1^2*V2^3*V3^2 + 48*H12*H23^2*H31*V1*\[CapitalDelta]2 + 
+            96*H12*H23*H31^2*V2*\[CapitalDelta]2 - 48*H23^2*H31*V1^2*V2*
+             \[CapitalDelta]2 - 96*H23*H31^2*V1*V2^2*\[CapitalDelta]2 - 
+            48*H31^3*V2^3*\[CapitalDelta]2 + 48*H12^2*H23*H31*V3*
+             \[CapitalDelta]2 - 96*H12*H31^2*V2^2*V3*\[CapitalDelta]2 - 
+            192*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]2 - 192*H31^2*V1*V2^3*V3*
+             \[CapitalDelta]2 - 48*H12^2*H31*V2*V3^2*\[CapitalDelta]2 - 
+            192*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]2 - 192*H31*V1^2*V2^3*
+             V3^2*\[CapitalDelta]2 - 48*H12*H23^2*H31*V1*\[CapitalDelta]3 - 
+            96*H12*H23*H31^2*V2*\[CapitalDelta]3 + 48*H23^2*H31*V1^2*V2*
+             \[CapitalDelta]3 + 96*H23*H31^2*V1*V2^2*\[CapitalDelta]3 + 
+            48*H31^3*V2^3*\[CapitalDelta]3 - 48*H12^2*H23*H31*V3*
+             \[CapitalDelta]3 + 96*H12*H31^2*V2^2*V3*\[CapitalDelta]3 + 
+            192*H23*H31*V1^2*V2^2*V3*\[CapitalDelta]3 + 192*H31^2*V1*V2^3*V3*
+             \[CapitalDelta]3 + 48*H12^2*H31*V2*V3^2*\[CapitalDelta]3 + 
+            192*H12*H31*V1*V2^2*V3^2*\[CapitalDelta]3 + 192*H31*V1^2*V2^3*
+             V3^2*\[CapitalDelta]3)/48))/V2, f[4, 5, 5, 5, 5, 5] -> 
+      (-2*H12*H31^3*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 
+          3*H12*H31*V3^2 - 4*H31*V1*V2*V3^2))/(V1^2*V2*V3) + 
+       (8*H12*H31*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 - 
+       (4*H12*H31^3*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2^2) + (12*H31^2*(H23^2*H31*V1*V2 + H23*H31^2*V2^2 + 
+          H12*H23*H31*V2*V3 + 3*H23*H31*V1*V2^2*V3 + H31^2*V2^3*V3 + 
+          H12*H31*V2^2*V3^2 + 2*H31*V1*V2^3*V3^2))/V2^2 - 
+       (2*H31^2*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 11*H12*H23*H31*V3 - 
+          36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 4*H12*H31*V2*V3^2 - 
+          44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*\[CapitalDelta]2 + 
+          2*H23*H31^2*V2*\[CapitalDelta]2 + 2*H12*H23*H31*V3*
+           \[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*\[CapitalDelta]2 - 
+          2*H23^2*H31*V1*\[CapitalDelta]3 - 2*H23*H31^2*V2*\[CapitalDelta]3 - 
+          2*H12*H23*H31*V3*\[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*
+           \[CapitalDelta]3))/V2 - H31*(-(H23*H31^3) - 19*H23*H31^2*V1*V3 - 
+         22*H31^3*V2*V3 + 38*H12*H31^2*V3^2 - 38*H31^2*V1*V2*V3^2 + 
+         6*H12*H31^2*V3^2*\[CapitalDelta]2 - 6*H12*H31^2*V3^2*
+          \[CapitalDelta]3) - 2*H12*(7*H31^3*V3^2 + 
+         H31^3*V3^2*\[CapitalDelta]2 - H31^3*V3^2*\[CapitalDelta]3) - 
+       (2*H12*H31*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+           \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+          2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+           \[CapitalDelta]3))/V2 - (H12*H31*(207*H31^2*V3^2 + 
+          64*H31^2*V3^2*\[CapitalDelta]2 + 4*H31^2*V3^2*\[CapitalDelta]2^2 - 
+          64*H31^2*V3^2*\[CapitalDelta]3 - 8*H31^2*V3^2*\[CapitalDelta]2*
+           \[CapitalDelta]3 + 4*H31^2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (H31^2*(-11*H23*H31^2 - 60*H23*H31*V1*V3 - 113*H31^2*V2*V3 + 
+          147*H12*H31*V3^2 - 120*H31*V1*V2*V3^2 + 4*H23*H31^2*
+           \[CapitalDelta]2 + 20*H23*H31*V1*V3*\[CapitalDelta]2 + 
+          16*H31^2*V2*V3*\[CapitalDelta]2 + 56*H12*H31*V3^2*
+           \[CapitalDelta]2 + 40*H31*V1*V2*V3^2*\[CapitalDelta]2 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]2^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]2^2 + 4*H12*H31*V3^2*\[CapitalDelta]2^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]2^2 - 4*H23*H31^2*
+           \[CapitalDelta]3 - 20*H23*H31*V1*V3*\[CapitalDelta]3 - 
+          16*H31^2*V2*V3*\[CapitalDelta]3 - 56*H12*H31*V3^2*
+           \[CapitalDelta]3 - 40*H31*V1*V2*V3^2*\[CapitalDelta]3 - 
+          8*H23*H31*V1*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H31^2*V2*V3*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          8*H12*H31*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 - 
+          16*H31*V1*V2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H23*H31*V1*V3*\[CapitalDelta]3^2 + 4*H31^2*V2*V3*
+           \[CapitalDelta]3^2 + 4*H12*H31*V3^2*\[CapitalDelta]3^2 + 
+          8*H31*V1*V2*V3^2*\[CapitalDelta]3^2))/4 - 
+       (-8*H12*H23*H31^5*V2 + 16*H12^2*H23*H31^4*V3 + 16*H12*H23^2*H31^3*V1^2*
+          V3 + 24*H12*H23*H31^4*V1*V2*V3 + 136*H23^2*H31^3*V1^3*V2*V3 - 
+         8*H12*H31^5*V2^2*V3 + 191*H23*H31^4*V1^2*V2^2*V3 - 
+         32*H12^2*H23*H31^3*V1*V3^2 + 40*H12^2*H31^4*V2*V3^2 - 
+         232*H12*H23*H31^3*V1^2*V2*V3^2 + 48*H12*H31^4*V1*V2^2*V3^2 + 
+         704*H23*H31^3*V1^3*V2^2*V3^2 + 529*H31^4*V1^2*V2^3*V3^2 - 
+         16*H12^3*H31^3*V3^3 - 64*H12^2*H31^3*V1*V2*V3^3 - 
+         698*H12*H31^3*V1^2*V2^2*V3^3 + 864*H31^3*V1^3*V2^3*V3^3 - 
+         16*H23^2*H31^3*V1^3*V2*V3*\[CapitalDelta]2 - 20*H23*H31^4*V1^2*V2^2*
+          V3*\[CapitalDelta]2 - 32*H12*H23*H31^3*V1^2*V2*V3^2*
+          \[CapitalDelta]2 - 52*H23*H31^3*V1^3*V2^2*V3^2*\[CapitalDelta]2 - 
+         16*H31^4*V1^2*V2^3*V3^2*\[CapitalDelta]2 - 168*H12*H31^3*V1^2*V2^2*
+          V3^3*\[CapitalDelta]2 - 40*H31^3*V1^3*V2^3*V3^3*\[CapitalDelta]2 - 
+         4*H23*H31^3*V1^3*V2^2*V3^2*\[CapitalDelta]2^2 - 
+         4*H31^4*V1^2*V2^3*V3^2*\[CapitalDelta]2^2 - 8*H12*H31^3*V1^2*V2^2*
+          V3^3*\[CapitalDelta]2^2 - 8*H31^3*V1^3*V2^3*V3^3*
+          \[CapitalDelta]2^2 + 16*H23^2*H31^3*V1^3*V2*V3*\[CapitalDelta]3 + 
+         20*H23*H31^4*V1^2*V2^2*V3*\[CapitalDelta]3 + 32*H12*H23*H31^3*V1^2*
+          V2*V3^2*\[CapitalDelta]3 + 52*H23*H31^3*V1^3*V2^2*V3^2*
+          \[CapitalDelta]3 + 16*H31^4*V1^2*V2^3*V3^2*\[CapitalDelta]3 + 
+         168*H12*H31^3*V1^2*V2^2*V3^3*\[CapitalDelta]3 + 
+         40*H31^3*V1^3*V2^3*V3^3*\[CapitalDelta]3 + 8*H23*H31^3*V1^3*V2^2*
+          V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 8*H31^4*V1^2*V2^3*V3^2*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 16*H12*H31^3*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2*\[CapitalDelta]3 + 16*H31^3*V1^3*V2^3*V3^3*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 4*H23*H31^3*V1^3*V2^2*V3^2*
+          \[CapitalDelta]3^2 - 4*H31^4*V1^2*V2^3*V3^2*\[CapitalDelta]3^2 - 
+         8*H12*H31^3*V1^2*V2^2*V3^3*\[CapitalDelta]3^2 - 
+         8*H31^3*V1^3*V2^3*V3^3*\[CapitalDelta]3^2)/(4*V1^2*V2^2*V3) - 
+       (4*H31*(-1/2*(H31*(-7*H23^2*H31*V1 - 12*H23*H31^2*V2 + 
+             11*H12*H23*H31*V3 - 36*H23*H31*V1*V2*V3 - 26*H31^2*V2^2*V3 - 
+             4*H12*H31*V2*V3^2 - 44*H31*V1*V2^2*V3^2 + 2*H23^2*H31*V1*
+              \[CapitalDelta]2 + 2*H23*H31^2*V2*\[CapitalDelta]2 + 
+             2*H12*H23*H31*V3*\[CapitalDelta]2 + 4*H23*H31*V1*V2*V3*
+              \[CapitalDelta]2 - 2*H23^2*H31*V1*\[CapitalDelta]3 - 
+             2*H23*H31^2*V2*\[CapitalDelta]3 - 2*H12*H23*H31*V3*
+              \[CapitalDelta]3 - 4*H23*H31*V1*V2*V3*\[CapitalDelta]3)) - 
+          (H12*(16*H23*H31^2*V3 + 17*H31^2*V2*V3^2 + 2*H23*H31^2*V3*
+              \[CapitalDelta]2 + 2*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+             2*H23*H31^2*V3*\[CapitalDelta]3 - 2*H31^2*V2*V3^2*
+              \[CapitalDelta]3))/2 + (-11*H23^2*H31^2*V1 - 16*H23*H31^3*V2 + 
+            35*H12*H23*H31^2*V3 - 52*H23*H31^2*V1*V2*V3 - 34*H31^3*V2^2*V3 + 
+            17*H12*H31^2*V2*V3^2 - 60*H31^2*V1*V2^2*V3^2 + 2*H23^2*H31^2*V1*
+             \[CapitalDelta]2 + 2*H23*H31^3*V2*\[CapitalDelta]2 + 
+            4*H12*H23*H31^2*V3*\[CapitalDelta]2 + 4*H23*H31^2*V1*V2*V3*
+             \[CapitalDelta]2 + 2*H12*H31^2*V2*V3^2*\[CapitalDelta]2 - 
+            2*H23^2*H31^2*V1*\[CapitalDelta]3 - 2*H23*H31^3*V2*
+             \[CapitalDelta]3 - 4*H12*H23*H31^2*V3*\[CapitalDelta]3 - 
+            4*H23*H31^2*V1*V2*V3*\[CapitalDelta]3 - 2*H12*H31^2*V2*V3^2*
+             \[CapitalDelta]3)/2))/V2, f[5, 5, 5, 5, 5, 5] -> 
+      (-5*H31^4*(H23*H31^2 - H23*H31*V1*V3 + H31^2*V2*V3 - 3*H12*H31*V3^2 - 
+          4*H31*V1*V2*V3^2))/(2*V1^2*V2*V3) + 
+       (15*H31^2*(H23^2*H31^2 + 2*H23*H31^2*V2*V3 + H31^2*V2^2*V3^2))/V2^2 - 
+       (5*H31^4*(-(H12*H23*H31) + H23^2*V1^2 - H23*H31*V1*V2 + 
+          2*H12*H23*V1*V3 - H12*H31*V2*V3 + 4*H23*V1^2*V2*V3 - 
+          H31*V1*V2^2*V3 + H12^2*V3^2 + 4*H12*V1*V2*V3^2 + 4*V1^2*V2^2*V3^2))/
+        (V1^2*V2^2) - 2*H31*(7*H31^3*V3^2 + H31^3*V3^2*\[CapitalDelta]2 - 
+         H31^3*V3^2*\[CapitalDelta]3) - 
+       (H31^2*(207*H31^2*V3^2 + 64*H31^2*V3^2*\[CapitalDelta]2 + 
+          4*H31^2*V3^2*\[CapitalDelta]2^2 - 64*H31^2*V3^2*\[CapitalDelta]3 - 
+          8*H31^2*V3^2*\[CapitalDelta]2*\[CapitalDelta]3 + 
+          4*H31^2*V3^2*\[CapitalDelta]3^2))/8 - 
+       (-20*H23*H31^6*V2 + 40*H12*H23*H31^5*V3 + 80*H23^2*H31^4*V1^2*V3 + 
+         60*H23*H31^5*V1*V2*V3 - 20*H31^6*V2^2*V3 - 80*H12*H23*H31^4*V1*
+          V3^2 + 100*H12*H31^5*V2*V3^2 + 80*H23*H31^4*V1^2*V2*V3^2 + 
+         120*H31^5*V1*V2^2*V3^2 - 40*H12^2*H31^4*V3^3 - 160*H12*H31^4*V1*V2*
+          V3^3 - 367*H31^4*V1^2*V2^2*V3^3 - 80*H31^4*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2 - 4*H31^4*V1^2*V2^2*V3^3*\[CapitalDelta]2^2 + 
+         80*H31^4*V1^2*V2^2*V3^3*\[CapitalDelta]3 + 8*H31^4*V1^2*V2^2*V3^3*
+          \[CapitalDelta]2*\[CapitalDelta]3 - 4*H31^4*V1^2*V2^2*V3^3*
+          \[CapitalDelta]3^2)/(8*V1^2*V2^2*V3)}
